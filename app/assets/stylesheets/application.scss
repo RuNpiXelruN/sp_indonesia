@@ -14,3 +14,20 @@
  *= require_self
  */
  @import "materialize";
+
+.icon_section {
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.icon-block-1, .icon-block-2 {
+    border-right: 1px solid #e6e6e6;
+}
+.content1-quote {
+    text-transform: uppercase;
+    color: #888888;
+}
+.icon-block h5 {
+    color: #888888;
+}
+
