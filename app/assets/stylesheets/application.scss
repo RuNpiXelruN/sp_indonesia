@@ -14,20 +14,135 @@
  *= require_self
  */
  @import "materialize";
+ 
+.parallax-container {
+      height: 1200px;
+    }
+ 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #e6e6e6;
+    margin: 0;
+    padding: 0;   
+}
 
 .icon_section {
-    border-top: 1px solid #e6e6e6;
-    border-bottom: 1px solid #e6e6e6;
+    padding: 80px 0;
 }
 
-.icon-block-1, .icon-block-2 {
-    border-right: 1px solid #e6e6e6;
-}
 .content1-quote {
     text-transform: uppercase;
     color: #888888;
+    
+    h2 {
+        padding: 50px 0;
+    }
 }
 .icon-block h5 {
     color: #888888;
+}
+.gifvideo {
+    width: 100%;
+}
+.quote-section {
+    color: #f7a73f;
+    text-transform: uppercase;
+    
+    h2 {
+        padding: 100px 0;
+    }
+}
+
+.blurb_on-image {
+    position: relative;
+}
+
+.blurb_on-image img {
+    height: 100%;
+    width: 100%;
+}
+    
+.blurb_on-image p {
+    color: white;
+    position: absolute;
+    left: 10%;
+    bottom: 5%;
+    width: 60%;
+}
+.blurb_on-image .blurb-gif_logo {
+    position: absolute;
+    width: 12%;
+    height: auto;
+    right: 5%;
+    bottom: 7%;
+}
+
+.ipad-div {
+    padding-top: 100px;
+}
+
+.ipad-section-content {
+    padding-top: 50%;
+}
+.gif-row {
+    max-width:100%;
+    margin-bottom: 0;
+}
+.section-orange-bg {
+    text-transform: uppercase;
+    background: #ff9c1a;
+    color: white;
+
+    h2 {
+    margin-top: 0;
+    }
+    a p {
+        margin-bottom:0;
+    }
+}
+.section-branded-selfies {
+    text-transform: uppercase;
+    color: white;
+    background-image: url('/assets/Live Feed Graphic.png');
+    padding: 100px 0;
+}
+footer {
+    background: #222222;
+    color: #666666;
+    margin: 0 0 20px 0;
+    padding: 20px 0;
+}
+
+.section-orange-bg {
+    padding: 100px 0 80px 0;
+    
+    
+    h2 {
+        margin-bottom: 60px;
+    }
+
+    
+    a {
+    background: 0;
+    border: 3px solid white;
+    color: white; 
+    }
+}
+
+
+.section-branded-selfies {
+    
+
+    h2 {
+        margin-bottom: 60px;
+    }
+
+    a {
+    background: 0;
+    border: 3px solid white;
+    color: white; 
+    }
 }
 
