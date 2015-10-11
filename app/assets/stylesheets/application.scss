@@ -15,6 +15,18 @@
  */
  @import "materialize";
  
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+
+ 
 .parallax-container {
       height: 1200px;
     }
@@ -83,9 +95,9 @@ hr {
     padding-top: 100px;
 }
 
-.ipad-section-content {
-    padding-top: 50%;
-}
+// // .ipad-section-content {
+// //     padding-top: 50%;
+// }
 .gif-row {
     max-width:100%;
     margin-bottom: 0;
@@ -178,6 +190,36 @@ footer {
         margin: initial;
     }
 }
+
+
+@media #{$small-and-down} {
+    
+    .ipad-section-content {
+        display: none;
+        text-align: center;
+        font-weight: lighter;
+    }
+    .ipad-section-content-small {
+        display:block;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+
+@media #{$medium-and-up} {
+
+    .ipad-section-content {
+        display: block
+    }
+    
+    .ipad-section-content-small {
+        display :none;    
+    }
+}
+
+
+
 
 
 
