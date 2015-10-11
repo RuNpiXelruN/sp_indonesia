@@ -146,3 +146,40 @@ footer {
     }
 }
 
+
+
+// ----------------------------------------
+//           MEDIA QUERIES
+// ----------------------------------------    
+
+@media #{$small-and-down} {
+    
+    .icon-block-1 {
+        transform: scale(1);
+        margin:initial;
+    
+    }
+}
+
+@media #{$medium-and-up} {
+    
+    .icon-block-1, .icon-block-2, .icon-block-3 {
+        transform: scale(1.5);
+        margin-top: 50px;
+        margin-bottom: 150px;
+    }
+
+}
+
+@media #{$large-and-up} {
+    
+    .icon-block-1, .icon-block-2, .icon-block-3 {
+        transform: scale(1);
+        margin: initial;
+    }
+}
+
+
+
+
+
