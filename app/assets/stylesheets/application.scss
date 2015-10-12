@@ -13,23 +13,17 @@
  *= require_tree .
  *= require_self
  */
- @import "materialize";
+@import "materialize";
  
-.clearfix:before,
-.clearfix:after {
-  content: "";
-  display: table;
-}
-
-.clearfix:after {
-  clear: both;
-}
 
 
- 
 .parallax-container {
-      height: 1200px;
+    
     }
+    
+.parallax img {
+    width: 100%
+}
  
 hr {
     display: block;
@@ -67,29 +61,7 @@ hr {
     }
 }
 
-.blurb_on-image {
-    position: relative;
-}
-
-.blurb_on-image img {
-    height: 100%;
-    width: 100%;
-}
-    
-.blurb_on-image p {
-    color: white;
-    position: absolute;
-    left: 10%;
-    bottom: 5%;
-    width: 60%;
-}
-.blurb_on-image .blurb-gif_logo {
-    position: absolute;
-    width: 12%;
-    height: auto;
-    right: 5%;
-    bottom: 7%;
-}
+// BLURB ON IMAGE CSS HERE <----------------------------------
 
 .ipad-div {
     padding-top: 100px;
@@ -219,7 +191,106 @@ footer {
 }
 
 
+@media #{$small-and-down} {
+    .blurb-on-image {
+        display: none;
+    }
+    
+    .blurb-on-image-small {
+        display: block;
+        
+    }
+}
+@media #{$medium-and-up} {
+    .blurb-on-image {
+        display: block;
+    }
+    
+    .blurb-on-image-small, .blurb-below-image {
+        display: none; 
+    }
+}
 
+// ************************** BLURB ON IMAGE RE-SCALING SECTION ******************************************
+
+
+@media screen and (min-width: 901px) and (max-width: 1060px) {
+    .blurb-on-image p {
+        font-size: 1.5em;
+    }  
+}
+@media screen and (min-width: 711px) and (max-width: 900px) {
+    .blurb-on-image p {
+        font-size: 1.2em;
+    }  
+}
+@media screen and (min-width: 581px) and (max-width: 710px) {
+    .blurb-on-image p {
+        font-size: 1em;
+    }  
+}
+
+// *******************************************************************************************************
+
+
+.blurb-on-image-small {
+    position: relative;
+    
+    img {
+        width: 100%;
+    }
+    .blurb-gif-logo {
+        position: absolute;
+        width: 12%;
+        height: auto;
+        right: 5%;
+        bottom: 7%;
+    }
+}
+
+
+.blurb-on-image {
+    position: relative;
+    
+    img {
+        width: 100%;   
+    }
+    p {
+        color: white;
+        position: absolute;
+        left: 10%;
+        bottom: 5%;
+        width: 60%;
+    }
+    .blurb-gif-logo {
+        position: absolute;
+        width: 12%;
+        height: auto;
+        right: 5%;
+        bottom: 7%;
+    }
+}
+
+
+.blurb-below-image {
+
+    p {
+        margin-top: 100px;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    strong {
+        font-size: 1.6em;
+        text-transform: uppercase;
+    }
+    .gif-quote-under-image {
+        line-height: 2;
+    }
+}
+
+.blurb-below-image-row {
+    margin-bottom: 0;
+}
 
 
 
