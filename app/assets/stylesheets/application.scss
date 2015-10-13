@@ -22,6 +22,7 @@
     }
     
 .parallax img {
+    height: auto;
     width: 100%
 }
  
@@ -30,20 +31,24 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #e6e6e6;
-    margin: 0;
-    padding: 0;   
+    margin: 0;   
 }
 
 .icon_section {
+    position: relative;
+    z-index: -2;
     padding: 80px 0;
+    background: #fff;
 }
 
 .content1-quote {
     text-transform: uppercase;
     color: #888888;
+    padding: 50px;
     
     h2 {
         padding: 50px 0;
+        margin-top: 0;
     }
 }
 .icon-block h5 {
@@ -286,10 +291,75 @@ footer {
     .gif-quote-under-image {
         line-height: 2;
     }
+    
 }
 
 .blurb-below-image-row {
     margin-bottom: 0;
+}
+
+
+
+
+.box {
+    width:70%;
+    padding:20px;
+    background:#fff;
+    margin:20px auto 60px;
+    border-radius:2px;
+}
+.box {
+    background:#eee;
+    margin:0;
+    padding:60px 20px;
+    text-align:center;
+    -webkit-box-shadow:0 0px 4px rgba(0, 0, 0, 0.2);
+            box-shadow:0 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.css3-shadow{
+    background: #fff;
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+}
+/*==================================================
+ * Drop shadow effect with box-shadow
+ * ===============================================*/
+.css3-shadow:after{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 40px rgba(0,0,0,0.8);
+    box-shadow:0 0 40px rgba(0,0,0,0.8);
+    bottom:0px;
+    left:10%;
+    right:10%;
+    width:80%;
+    height:50%;
+    -moz-border-radius:100%;
+    border-radius:100%;
+}
+
+.round-shadow {
+    background: #fff;
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+}
+.round-shadow:after {
+    content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 40px rgba(0,0,0,0.8);
+    box-shadow:0 0 40px rgba(0,0,0,0.8);
+    bottom:0px;
+    left:10%;
+    right:10%;
+    width:80%;
+    height:50%;
+    -moz-border-radius:100%;
+    border-radius:100%;
 }
 
 
