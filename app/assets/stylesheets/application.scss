@@ -14,12 +14,15 @@
  *= require_self
  */
 @import "materialize";
- 
 
+// nav {
+//     opacity: 0.5;
+//     background: black;
+// }
 
-.parallax-container {
-    
-    }
+// .parallax-container {  
+//     margin-top: -65px;
+// }
     
 .parallax img {
     height: auto;
@@ -146,7 +149,14 @@ footer {
     .icon-block-1 {
         transform: scale(1);
         margin:initial;
-    
+    }
+    nav {
+        opacity: 0.5;
+        background: black;
+    }
+
+    .parallax-container {  
+        margin-top: -65px;
     }
 }
 
@@ -157,6 +167,14 @@ footer {
         margin-top: 50px;
         margin-bottom: 150px;
     }
+    nav {
+        opacity: 0.5;
+        background: black;
+    }
+
+    .parallax-container {  
+        margin-top: -65px;
+    }
 
 }
 
@@ -165,6 +183,14 @@ footer {
     .icon-block-1, .icon-block-2, .icon-block-3 {
         transform: scale(1);
         margin: initial;
+    }
+    .nav-wrapper {
+        opacity: 0.5;
+        background: black;
+    }
+
+    .parallax-container {  
+        margin-top: -65px;
     }
 }
 
