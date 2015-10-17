@@ -15,6 +15,8 @@ group :production do
   gem 'rails_12factor'
 end
 
+gem 'compass-rails'
+
 
 gem 'materialize-sass'
 # Use SCSS for stylesheets
