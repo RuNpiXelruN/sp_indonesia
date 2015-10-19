@@ -167,20 +167,47 @@
 
 
 
+             <!-------------------------------------------->
+             <!--         ipad with gif section  -->
+             <!-------------------------------------------->
+
+
+<div id="wrapper">
+  
+  <!-- iPad -->
+  <div class="ipad-front">
+    <div class="ipad-front-camera"><span></span></div>
+    <div class="ipad-front-display"><img src="<%= asset_path('ipad-gif.gif')%>"></div>
+    <div class="ipad-front-home-button"><span></span></div>
+  </div>
+  <!-- /iPad -->
+  
+</div>
+
 <div class="container">
-    <div class="row">
-        <div class="gif-sprite">
+    <div class="row ipad-div">
+        
+        <img  class="col s12 m7 l8" src="<%= asset_path('ipadTransparent.png') %>">
+        
+        <div class="col s12 m5 l4 ipad-section-content" style="height:50%">
+            <ul class="staggered-test">
+                <li style="opacity:0">
+                    <p class="flow-text"><strong>BRANDING</strong></br></br>The photos are branded for increased exposure.</p>
+                </li>
+                <li style="opacity:0">
+                    <p class="flow-text"><strong>LIVE GALLERY</strong></br></br>A live image gallery is updated instantly after every photo is taken for rapid sharing.</p>
+                </li>
+                <li style="opacity:0">
+                    <p class="flow-text">Visit <strong>GIFGIF.GLOBAL</strong></p>
+                </li>
+            </ul>
         </div>
-    </div>
-</div>
-
-<div class="hi">
-</div>
 
 
-<div>
-    <img src="<%= asset_path('ipad-gif.gif') %>">
-</div>
+
+
+
+
 
 
 
@@ -190,5 +217,8 @@
         <p>© COPYRIGHT 2014 SOCIAL PLAYGROUND.</p>
     </div>
 </footer>
+
+<div class="hi">
+</div>
 
 
