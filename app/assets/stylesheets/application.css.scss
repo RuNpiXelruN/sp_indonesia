@@ -15,20 +15,88 @@
  */
 @import "materialize";
 
-// nav {
-//     opacity: 0.5;
-//     background: black;
+@import "font";
+
+
+
+
+
+            // ----------------------------------------
+            //           Nav and Parallax Image Section
+            // ----------------------------------------
+
+img {
+    max-width: 100%;
+}
+
+nav {
+    height: 112px;
+    line-height: 23px;
+    background: rgba(10, 10, 10, 0.5);
+    
+    .nav-container {
+        width: 100%;
+    }
+    
+    #brand-logo {
+        transform: scale(0.8);
+        margin-top: 7px;
+    }
+    
+    ul li {
+        margin-top: 27px;
+        margin-left: 29px;
+    }
+    
+    ul li a {
+        text-transform: uppercase;
+       border: 4px solid rgba(255, 255, 255, 0);
+       margin: 0px;
+       padding: 14px 25px;
+       display: inline-block;
+       
+       &:hover {
+            border: 4px solid rgba(255, 255, 255, 1);
+       }
+    }
+}
+.hero-image-container {
+    position: relative;
+    overflow: hidden;
+    background: url("/assets/Gif-Background-Final-compressor.png") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 675px;
+    width: 100%;
+
+
+    #gif-foreground-hero {
+        position: absolute;
+        top: -9999px;
+        bottom: -9999px;
+        left: -9999px;
+        right: -9999px;
+        margin: auto;
+        transform: scale(0.5);
+        padding-top: 36px;
+    }
+}
+
+
+    
+// .parallax img {
+//     height: auto;
+//     width: max-width;
 // }
 
-// .parallax-container {  
-//     margin-top: -65px;
-// }
-    
-.parallax img {
-    height: auto;
-    width: 100%
-}
+
  
+            // ----------------------------------------
+            //           Horiz Line Section
+            // ----------------------------------------
+
 hr {
     display: block;
     height: 1px;
@@ -36,6 +104,10 @@ hr {
     border-top: 1px solid #e6e6e6;
     margin: 0;   
 }
+
+            // ----------------------------------------
+            //           Icon Section
+            // ----------------------------------------
 
 .icon_section {
     position: relative;
@@ -57,9 +129,20 @@ hr {
 .icon-block h5 {
     color: #888888;
 }
+
+            // ----------------------------------------
+            //           Video Section
+            // ----------------------------------------
+
+
 .gifvideo {
     width: 100%;
 }
+
+            // ----------------------------------------
+            //           Quote Section
+            // ----------------------------------------
+
 .quote-section {
     color: #f7a73f;
     text-transform: uppercase;
@@ -69,7 +152,70 @@ hr {
     }
 }
 
-// BLURB ON IMAGE CSS HERE <----------------------------------
+            // ----------------------------------------
+            //           Blurb on image Section
+            // ----------------------------------------
+
+.blurb-on-image-small {
+    position: relative;
+    
+    img {
+        width: 100%;
+    }
+    .blurb-gif-logo {
+        position: absolute;
+        width: 12%;
+        height: auto;
+        right: 5%;
+        bottom: 7%;
+    }
+}
+
+.blurb-on-image {
+    position: relative;
+    
+    img {
+        width: 100%;   
+    }
+    p {
+        color: white;
+        position: absolute;
+        left: 10%;
+        bottom: 5%;
+        width: 60%;
+    }
+    .blurb-gif-logo {
+        position: absolute;
+        width: 12%;
+        height: auto;
+        right: 5%;
+        bottom: 7%;
+    }
+}
+
+.blurb-below-image {
+
+    p {
+        margin-top: 100px;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    strong {
+        font-size: 1.6em;
+        text-transform: uppercase;
+    }
+    .gif-quote-under-image {
+        line-height: 2;
+    }
+}
+
+.blurb-below-image-row {
+    margin-bottom: 0;
+}
+
+            // ----------------------------------------
+            //           iPad Section
+            // ----------------------------------------
 
 .ipad-div {
     padding-top: 100px;
@@ -78,10 +224,20 @@ hr {
 // // .ipad-section-content {
 // //     padding-top: 50%;
 // }
+
+            // ----------------------------------------
+            //           Gif Row section
+            // ----------------------------------------
+
 .gif-row {
     max-width:100%;
     margin-bottom: 0;
 }
+
+            // ----------------------------------------
+            //           Orange Quote Section
+            // ----------------------------------------
+
 .section-orange-bg {
     text-transform: uppercase;
     background: #ff9c1a;
@@ -93,18 +249,6 @@ hr {
     a p {
         margin-bottom:0;
     }
-}
-.section-branded-selfies {
-    text-transform: uppercase;
-    color: white;
-    background-image: url('/assets/Live Feed Graphic.png');
-    padding: 100px 0;
-}
-footer {
-    background: #222222;
-    color: #666666;
-    margin: 0 0 20px 0;
-    padding: 20px 0;
 }
 
 .section-orange-bg {
@@ -124,19 +268,42 @@ footer {
 }
 
 
-.section-branded-selfies {
-    
+            // ----------------------------------------
+            //      Check out branded selfies section
+            // ----------------------------------------
 
+
+.section-branded-selfies {
+    text-transform: uppercase;
+    color: white;
+    background-image: url('/assets/Live Feed Graphic.png');
+    padding: 100px 0;
+    
     h2 {
         margin-bottom: 60px;
     }
-
+    
     a {
-    background: 0;
-    border: 3px solid white;
-    color: white; 
+        background: 0;
+        border: 3px solid white;
+        color: white; 
     }
 }
+
+
+            // ----------------------------------------
+            //           Footer Section
+            // ----------------------------------------
+
+footer {
+    background: #222222;
+    color: #666666;
+    margin: 0 0 20px 0;
+    padding: 20px 0;
+}
+
+
+
 
 
 
@@ -150,14 +317,6 @@ footer {
         transform: scale(1);
         margin:initial;
     }
-    nav {
-        opacity: 0.5;
-        background: black;
-    }
-
-    .parallax-container {  
-        margin-top: -65px;
-    }
 }
 
 @media #{$medium-and-up} {
@@ -167,30 +326,14 @@ footer {
         margin-top: 50px;
         margin-bottom: 150px;
     }
-    nav {
-        opacity: 0.5;
-        background: black;
-    }
-
-    .parallax-container {  
-        margin-top: -65px;
-    }
-
 }
+
 
 @media #{$large-and-up} {
     
     .icon-block-1, .icon-block-2, .icon-block-3 {
         transform: scale(1);
         margin: initial;
-    }
-    nav {
-        opacity: 0.5;
-        background: black;
-    }
-
-    .parallax-container {  
-        margin-top: -65px;
     }
 }
 
@@ -264,65 +407,7 @@ footer {
 // *******************************************************************************************************
 
 
-.blurb-on-image-small {
-    position: relative;
-    
-    img {
-        width: 100%;
-    }
-    .blurb-gif-logo {
-        position: absolute;
-        width: 12%;
-        height: auto;
-        right: 5%;
-        bottom: 7%;
-    }
-}
 
-
-.blurb-on-image {
-    position: relative;
-    
-    img {
-        width: 100%;   
-    }
-    p {
-        color: white;
-        position: absolute;
-        left: 10%;
-        bottom: 5%;
-        width: 60%;
-    }
-    .blurb-gif-logo {
-        position: absolute;
-        width: 12%;
-        height: auto;
-        right: 5%;
-        bottom: 7%;
-    }
-}
-
-
-.blurb-below-image {
-
-    p {
-        margin-top: 100px;
-        text-align: center;
-        font-size: 1.5em;
-    }
-    strong {
-        font-size: 1.6em;
-        text-transform: uppercase;
-    }
-    .gif-quote-under-image {
-        line-height: 2;
-    }
-    
-}
-
-.blurb-below-image-row {
-    margin-bottom: 0;
-}
 
 
 

@@ -15,7 +15,7 @@ group :production do
   gem 'rails_12factor'
 end
 
-gem 'compass-rails'
+gem 'compass-rails', github: 'Compass/compass-rails', branch: '2-0-stable'
 
 
 gem 'materialize-sass'

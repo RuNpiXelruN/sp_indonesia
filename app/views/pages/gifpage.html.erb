@@ -1,7 +1,15 @@
-
-<div class="parallax-container">
-     <div class="parallax"><img src="<%= asset_path( 'Gif-Hero-Background.png' ) %>"></div>
+<div class="hero-image-container group">
+    <%= render 'layouts/navigation' %>
+    <img id="gif-foreground-hero" src="<%= asset_path( 'GIF Foreground FInal.png') %>" class="responsive-img">
 </div>
+
+
+
+<!--<div class="parallax-container">-->
+<!--    <%= render 'layouts/navigation' %>-->
+<!--    <img src="<%= asset_path('GIF Foreground FInal.png')%>">-->
+<!--     <div class="parallax"><img src="<%= asset_path( 'Gif Background Final.png') %>" class="responsive-img"></div>-->
+<!--</div>-->
 
 <div class="round-shadow">
     <div class="container">
@@ -63,14 +71,12 @@
 </div>    
 </div>
 
-<!--<div class="box css3-shadow">-->
-<!--    <h4>Example 1</h4>-->
-<!--</div>-->
+
 
 
 
 <div class="blurb-on-image">
-    <img src="<%= asset_path('Gif party image') %>">
+    <img src="<%= asset_path('gifPartyImage.png') %>">
     <p class="flow-text"><strong>Take your event to the next level</strong></br></br>GIFGIF takes a series of still images and turns them into an animated GIF, ready to share to Facebook, Twitter or Instagram.</p>
     <img class="blurb-gif-logo" src="<%= asset_path( 'GifGif_Logo_Master_Light.png' ) %>">
 </div>
@@ -78,7 +84,7 @@
     
     <!-- ********** SMALL SCREEN ********** -->
 <div class="blurb-on-image-small">
-    <img src="<%= asset_path('Gif party image') %>">
+    <img src="<%= asset_path('gifPartyImage.png') %>">
     <img class="blurb-gif-logo" src="<%= asset_path( 'GifGif_Logo_Master_Light.png' ) %>">
 </div>
 <div class="container">
@@ -89,27 +95,27 @@
     </div>
 </div>
 
-
-
-
-<!--<div class="container">-->
-<!--    <div class="row ipad-div">-->
+<div class="container">
+    <div class="row ipad-div">
         
-<!--        <img  class="col s12 m7 l8" src="<%= asset_path('ipadTransparent.png') %>">-->
+        <img  class="col s12 m7 l8" src="<%= asset_path('ipadTransparent.png') %>">
         
-<!--        <div class="col s12 m5 l4 ipad-section-content" style="height:50%">-->
-<!--            <ul class="staggered-test">-->
-<!--                <li style="opacity:0">-->
-<!--                    <p class="flow-text"><strong>BRANDING</strong></br></br>The photos are branded for increased exposure.</p>-->
-<!--                </li>-->
-<!--                <li style="opacity:0">-->
-<!--                    <p class="flow-text"><strong>LIVE GALLERY</strong></br></br>A live image gallery is updated instantly after every photo is taken for rapid sharing.</p>-->
-<!--                </li>-->
-<!--                <li style="opacity:0">-->
-<!--                    <p class="flow-text">Visit <strong>GIFGIF.GLOBAL</strong></p>-->
-<!--                </li>-->
-<!--            </ul>-->
-<!--        </div>-->
+        <div class="col s12 m5 l4 ipad-section-content" style="height:50%">
+            <ul class="staggered-test">
+                <li style="opacity:0">
+                    <p class="flow-text"><strong>BRANDING</strong></br></br>The photos are branded for increased exposure.</p>
+                </li>
+                <li style="opacity:0">
+                    <p class="flow-text"><strong>LIVE GALLERY</strong></br></br>A live image gallery is updated instantly after every photo is taken for rapid sharing.</p>
+                </li>
+                <li style="opacity:0">
+                    <p class="flow-text">Visit <strong>GIFGIF.GLOBAL</strong></p>
+                </li>
+            </ul>
+        </div>
+
+
+
         
                                         <!--  **********  small screen  ********** -->
         <div class="container">
