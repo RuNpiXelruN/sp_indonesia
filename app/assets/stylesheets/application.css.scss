@@ -229,9 +229,15 @@ hr {
             //           Gif Row section
             // ----------------------------------------
 
-.gif-row {
-    max-width:100%;
-    margin-bottom: 0;
+.gif-strip {
+    margin-top: 107px;
+    margin-bottom: -5px;
+
+    img {
+        padding: 0;
+        margin: -2px;
+        width: 20%;
+    }
 }
 
             // ----------------------------------------
