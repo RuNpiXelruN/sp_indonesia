@@ -282,11 +282,19 @@ hr {
 .section-branded-selfies {
     text-transform: uppercase;
     color: white;
-    background-image: url('/assets/Live Feed Graphic.png');
+    background: url('/assets/Branded Selfie CTA Graphic.png') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     padding: 100px 0;
     
+    
+
     h2 {
         margin-bottom: 60px;
+        width: 70%;
+        margin-left: 15%;
     }
     
     a {
