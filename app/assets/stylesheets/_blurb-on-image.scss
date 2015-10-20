@@ -1,0 +1,60 @@
+            // ----------------------------------------
+            //           Blurb on image Section
+            // ----------------------------------------
+
+.blurb-on-image-small {
+    position: relative;
+    
+    img {
+        width: 100%;
+    }
+    .blurb-gif-logo {
+        position: absolute;
+        width: 12%;
+        height: auto;
+        right: 5%;
+        bottom: 7%;
+    }
+}
+
+.blurb-on-image {
+    position: relative;
+    
+    img {
+        width: 100%;   
+    }
+    p {
+        color: white;
+        position: absolute;
+        left: 10%;
+        bottom: 5%;
+        width: 60%;
+    }
+    .blurb-gif-logo {
+        position: absolute;
+        width: 12%;
+        height: auto;
+        right: 5%;
+        bottom: 7%;
+    }
+}
+
+.blurb-below-image {
+
+    p {
+        margin-top: 100px;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    strong {
+        font-size: 1.6em;
+        text-transform: uppercase;
+    }
+    .gif-quote-under-image {
+        line-height: 2;
+    }
+}
+
+.blurb-below-image-row {
+    margin-bottom: 0;
+}
