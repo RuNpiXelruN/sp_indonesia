@@ -67,6 +67,28 @@
 }
 
 
+.selfie-blurb-on-image {
+    position: relative;
+    overflow: hidden;
+    
+    img {
+        width: 100%;
+    }
+    
+    .selfie-blurb-text {
+        position: absolute;
+        width: 70%;
+        top: 25%;
+        left: 15%;
+        color: #fff;
+    }
+    
+    h2 {
+        text-transform: uppercase;
+    }
+}
+
+
 
  
 
