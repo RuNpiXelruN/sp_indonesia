@@ -60,6 +60,7 @@
     background-color: #a0d1b8;
     color: white;
     padding: 100px 0;
+    text-transform: uppercase;
     
     h2 {
         margin: 0;
@@ -138,6 +139,32 @@
     }
 }
 
+
+.section-grey-bg {
+    background-color: #bfbfbf;
+    color: white;
+    padding: 100px 0;
+    text-transform: uppercase;
+    
+    h2 {
+        margin: 0;
+    }
+}
+
+
+
+.selfie-strip {
+    margin-top: 0px;
+    margin-bottom: -5px;
+    overflow: hidden;
+    width: 101%;
+
+    img {
+        padding: 0;
+        margin: -2px;
+        width: 20%;
+    }
+}
 
 
 
