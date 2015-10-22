@@ -4,4 +4,7 @@ class PagesController < ApplicationController
     
     def selfies
     end
+    
+    def testnav
+    end
 end

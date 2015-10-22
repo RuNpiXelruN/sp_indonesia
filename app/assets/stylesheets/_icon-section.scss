@@ -2,6 +2,11 @@
             //           Icon Section
             // ----------------------------------------
 
+
+
+
+
+
 .icon_section {
     position: relative;
     z-index: -2;
@@ -13,6 +18,7 @@
     text-transform: uppercase;
     color: #888888;
     padding: 50px;
+    background: #fff;
     
     h2 {
         padding: 50px 0;
@@ -21,4 +27,27 @@
 }
 .icon-block h5 {
     color: #888888;
+}
+
+
+// -----------------------------------
+// -----Seflie icon section for shadow
+// -----------------------------------
+
+
+.selfie-round-shadow {
+    z-index: 1;
+    border-top: 2px solid rgba(211,211,211,0.8);
+    
+    .white-fill-for-selfie {
+        background: #fff;
+    
+        .selfie-icon-container {
+            width: 85%;
+        
+            .selfie-icon-section {
+                z-index: 1;
+            }
+        }
+    }
 }

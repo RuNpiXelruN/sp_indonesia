@@ -16,7 +16,6 @@
 @import "materialize";
 
 @import "font";
-@import "nav";
 @import "base";
 @import "icon-section";
 @import "video-section";
@@ -28,32 +27,18 @@
 @import "footer";
 @import "quote-section";
 
+@import "navbest";
+
+
+
+
+
+
+
+
 
  
-.selfies-hero-image-container {
-    position: relative;
-    overflow: hidden;
-    background: url("/assets/selfie-hero-img.png") no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 840px;
-    width: 100%;
 
-
-    #selfie-foreground-hero {
-        position: absolute;
-        top: -9999px;
-        bottom: -9999px;
-        left: -9999px;
-        right: -9999px;
-        margin: auto;
-        transform: scale(0.7);
-        padding-top: 398px;
-        padding-right: 144px;
-    }
-}
 
 
 .section-teal-bg {
@@ -61,6 +46,7 @@
     color: white;
     padding: 100px 0;
     text-transform: uppercase;
+    z-index: -1;
     
     h2 {
         margin: 0;
