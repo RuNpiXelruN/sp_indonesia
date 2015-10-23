@@ -501,6 +501,7 @@ body {
     #small-wrapper {
         width: 331px;
         margin: 115px auto;
+        margin-bottom: 70px;
     }
     
     .small-ipad-front {
@@ -570,6 +571,40 @@ body {
         background-color: #000;
         border:1px solid #444;
         border-radius: 2px;
+    }
+}
+
+
+.container.small-ipad-gif-text-container {
+    width: 100%;
+    
+    .container {
+        width: 100%;
+        
+        .ipad-section-content-small {
+            margin-bottom: -14px;
+            
+            .staggered-test-small li {
+                border-bottom: 2px solid rgba(200,200,200,0.8);
+            }
+    
+            .staggered-test-small li:nth-child(1) p {
+                margin-bottom: 33px;
+            }
+    
+            .staggered-test-small li:nth-child(2) p {
+                margin-top: 50px;
+                margin-bottom: 32px;
+            }
+    
+            .staggered-test-small li:nth-child(3) {
+                border-bottom: none;
+            }
+
+            .staggered-test-small p {
+                color: #888;
+            }
+        }
     }
 }
 
