@@ -462,5 +462,120 @@ body {
         margin-top: 65px;
         line-height: initial;
         color: #888888;
+        
+        .blurb-under-header {
+            line-height: 1.6;
+        }
+        .gif-quote-under-image {
+            line-height: 1.8;
+        }
     }
 }
+
+
+            // ----------------------------------------
+            //          ipad with gifs section
+            // ----------------------------------------
+
+
+
+
+
+.staggered-test {
+    position: absolute;
+    left: 60%;
+    top: 27%;
+    
+    li p {
+        color: #888888;
+        font-family: 'gotham_bookregular';
+        
+    }
+}
+
+
+
+.small-ipad-container {
+    position: relative;
+    
+    #small-wrapper {
+        width: 331px;
+        margin: 115px auto;
+    }
+    
+    .small-ipad-front {
+        // position: relative;
+        // width: 450px;
+        // height: 600px;
+        background-color: #000;  
+        border-radius: 10px;
+        border: 2px solid #888;
+        padding: 40px;
+        box-shadow: 1px 2px 0px #111;
+        height: 373.33px;
+        left: 9em;
+        position: relative;
+        top: 50%;
+        width: 280px;
+        margin: -100px 0 0 -100px;
+        
+   }
+
+    .small-ipad-front-camera {
+        width: 8px;
+        height: 8px;
+        background-color: #222;
+        border-radius: 50px;
+        position: absolute;
+        top: 16px;
+        left: 134px;
+    }
+
+    .small-ipad-front-camera span {
+        display: block;
+        width: 4px;
+        height: 4px;
+        background-color: #111;
+        border-radius: 50px;
+        position: absolute;
+        top: 2px;
+        left: 2px;
+    }
+
+    .small-ipad-front-display {
+        width: 108%;
+        height: 100%;
+        margin-top: 2px;
+        margin-left: -8px;
+    }
+
+    .small-ipad-front-home-button {
+        width: 18px;
+        height: 18px;
+        background-color: #000;
+        border:1px solid #111;
+        border-radius: 50px;
+        position: absolute;
+        bottom: 12px;
+        left: 129px;
+        box-shadow: 1px 1px 2px #666;
+    }
+
+    .small-ipad-front-home-button span {
+        width: 9px;
+        height: 9px;
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        background-color: #000;
+        border:1px solid #444;
+        border-radius: 2px;
+    }
+}
+
+
+
+
+/* iPad */
+
+/* /iPad */
