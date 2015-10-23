@@ -231,6 +231,11 @@ body {
         text-align: center;
         font-size: 1.5em;
     }
+    .blurb-under-header {
+        text-transform: uppercase;
+        color: #9fd1b8;
+    }
+    
     strong {
         font-size: 1.6em;
         text-transform: uppercase;
@@ -451,5 +456,11 @@ body {
     .quote-section .gif-new-concept-quote {
         font-size: 1.5em;
         padding: 55px 0;
+    }
+    
+    .blurb-below-image .small-blurb-p  {
+        margin-top: 65px;
+        line-height: initial;
+        color: #888888;
     }
 }
