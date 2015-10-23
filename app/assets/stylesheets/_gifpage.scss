@@ -247,6 +247,7 @@ body {
 
 .blurb-below-image-row {
     margin-bottom: 0;
+    padding-bottom: 20px;
 }
 
             // ----------------------------------------
@@ -361,33 +362,25 @@ body {
             //           Orange Quote Section
             // ----------------------------------------
 
-.section-orange-bg {
+.orange-quote-section {
     text-transform: uppercase;
-    background: #ff9c1a;
+    background: #f7a73f;
     color: white;
-
-    h2 {
-    margin-top: 0;
-    }
-    a p {
-        margin-bottom:0;
-    }
-}
-
-.section-orange-bg {
-    padding: 100px 0 80px 0;
-    
+    padding: 58px 0;
     
     h2 {
-        margin-bottom: 60px;
+        font-size: 2em;
+    }
+    
+    p {
+        color: #fff;
+        border: 3px solid #fff;
+        display: inline-block;
+        padding: 8px 15px;
+        margin-top: 29px;
+        margin-bottom: 0;
     }
 
-    
-    a {
-    background: 0;
-    border: 3px solid white;
-    color: white; 
-    }
 }
 
             // ----------------------------------------
@@ -395,30 +388,7 @@ body {
             // ----------------------------------------
 
 
-.section-branded-selfies {
-    text-transform: uppercase;
-    color: white;
-    background: url('/assets/Branded Selfie CTA Graphic.png') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding: 100px 0;
-    
-    
 
-    h2 {
-        margin-bottom: 60px;
-        width: 70%;
-        margin-left: 15%;
-    }
-    
-    a {
-        background: 0;
-        border: 3px solid white;
-        color: white; 
-    }
-}
 
 
 @media screen and (max-width: 420px) {
@@ -470,7 +440,32 @@ body {
             line-height: 1.8;
         }
     }
+
+
+// ipad section media queries -----------------v
+    
+    
+    .ipad-container {
+        display: none;
+    }
+    
+    .small-ipad-container {
+        display: block;
+    }
+    
+    
+    
+    .gif-strip {
+        display: none;
+    }
+    
+    .small-gif-strip {
+        display: block;
+    }
 }
+
+
+
 
 
             // ----------------------------------------
@@ -610,7 +605,50 @@ body {
 
 
 
+.small-gif-strip {
+    margin-top: 62px;
+    margin-bottom: -6px;
+}
 
-/* iPad */
 
-/* /iPad */
+.small-gif-strip img {
+    width: 33.33333%;
+    margin: 0 -2px;
+}
+
+.small-gif-strip img:first-child {
+    margin-left: 1px;
+}
+
+
+.section-orange-bg h2 {
+    font-size: 2em;
+}
+
+
+
+
+.branded-selfies-section {
+    
+    text-transform: uppercase;
+    color: #fff;
+    background: url('/assets/Branded Selfie CTA Graphic.png') no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 42px 2px;
+    
+    h2 {
+        font-size: 2em;
+    }
+    
+    p {
+        color: #fff;
+        border: 3px solid #fff;
+        display: inline-block;
+        padding: 8px 15px;
+        margin-top: 29px;
+    }
+}
