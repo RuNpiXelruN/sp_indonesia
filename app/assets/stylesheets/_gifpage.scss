@@ -125,7 +125,7 @@ body {
 
 
 
-.icon_section {
+.gif-icon-section {
     position: relative;
     z-index: -2;
     padding: 80px 0;
@@ -416,3 +416,40 @@ body {
 }
 
 
+@media screen and (max-width: 420px) {
+    .round-shadow .container {
+        
+        .content1-quote {
+            padding: 50px 0;
+        
+            .gif-text {
+                font-size: 2em;
+            }
+        }
+    }
+    
+    .gif-icon-section {
+        padding: 36px 0;
+        
+        .icon-block-1, .icon-block-2 {
+            border-bottom: 2px solid rgba(200,200,200,0.8);
+        }
+        
+        .col.s12.m12.l4.icon-block-1, .col.s12.m12.l4.icon-block-2 {
+            padding-bottom: 40px;
+        }
+        
+        .col.s12.m12.l4.icon-block-2 {
+            padding-top: 32px;
+        }
+        
+        .col.s12.m12.l4.icon-block-3 {
+            padding-top: 39px;
+        }
+    }
+    
+    .quote-section .gif-new-concept-quote {
+        font-size: 1.5em;
+        padding: 55px 0;
+    }
+}
