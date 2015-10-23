@@ -1,0 +1,418 @@
+@font-face {
+    font-family: 'gotham_bookregular';
+    src: url('copyfonts.com_gotham-book-webfont.eot');
+    src: url('copyfonts.com_gotham-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('copyfonts.com_gotham-book-webfont.woff2') format('woff2'),
+         url('copyfonts.com_gotham-book-webfont.woff') format('woff'),
+         url('copyfonts.com_gotham-book-webfont.ttf') format('truetype'),
+         url('copyfonts.com_gotham-book-webfont.svg#gotham_bookregular') format('svg');
+    
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham_boldregular';
+    src: url('copyfonts.com_gotham-bold-webfont.eot');
+    src: url('copyfonts.com_gotham-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('copyfonts.com_gotham-bold-webfont.woff2') format('woff2'),
+         url('copyfonts.com_gotham-bold-webfont.woff') format('woff'),
+         url('copyfonts.com_gotham-bold-webfont.ttf') format('truetype'),
+         url('copyfonts.com_gotham-bold-webfont.svg#gotham_boldregular') format('svg');
+    
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: 'gotham_boldregular';
+}
+
+
+// --------------------------------------
+// navbar styles for gif and selfies page
+// --------------------------------------
+
+.navcontainer {
+    width: 100%;
+    height: 112px;
+    background-color: rgba(10,10,10,0.5);
+    
+    .nav-elements {
+        position: relative;
+        width: 100%;
+        
+        img, .nav-list {
+            position: absolute;
+        }
+        
+        img {
+            transform: scale(0.8);
+            top: -5px;
+            left: 7%;
+        }
+        
+        .nav-list {
+            left: 32%;
+            font-size: 1.1em;
+            margin-top: 15px;
+            text-transform: uppercase;
+            z-index: 2;
+            
+            
+            ul {
+                padding: 0;
+                list-style: none;
+                
+                li {
+                    display: inline-block;
+                    margin-left: 29px;
+                    padding: 3px 15px;
+                    border: 4px solid rgba(255,255,255,0);
+                    
+                    &:hover {
+                        border: 4px solid rgba(255,255,255,1);
+                        font-weight: 400;
+                    }
+                    
+                    a {
+                        color: #fff;
+                        font-family: 'gotham_boldregular';
+                    }
+                }
+            }
+        }
+    }
+}
+
+// --------------------------------------
+// styles for gif hero/nav section
+// --------------------------------------
+
+
+.hero-image-container {
+    position: relative;
+    overflow: hidden;
+    background: image-url("Gif-Background-Final-compressor.png") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 675px;
+    width: 100%;
+
+
+    #gif-foreground-hero {
+        position: absolute;
+        top: -9999px;
+        bottom: -9999px;
+        left: -9999px;
+        right: -9999px;
+        margin: auto;
+        transform: scale(0.5);
+        padding-top: 36px;
+    }
+}
+
+            // ----------------------------------------
+            //           Icon Section
+            // ----------------------------------------
+
+
+
+.icon_section {
+    position: relative;
+    z-index: -2;
+    padding: 80px 0;
+    background: #fff;
+}
+
+.content1-quote {
+    text-transform: uppercase;
+    color: #888888;
+    padding: 50px;
+    background: #fff;
+    
+    h2 {
+        padding: 50px 0;
+        margin-top: 0;
+        font-family: 'gotham_boldregular' !important;
+    }
+}
+.icon-block h5 {
+    color: #888888;
+    font-family: 'gotham_bookregular';
+}
+
+
+// -----------------------------------
+// -----Seflie icon section for shadow
+// -----------------------------------
+
+
+.selfie-round-shadow {
+    z-index: 1;
+    border-top: 2px solid rgba(211,211,211,0.8);
+    
+    .white-fill-for-selfie {
+        background: #fff;
+    
+        .selfie-icon-container {
+            width: 85%;
+        
+            .selfie-icon-section {
+                z-index: 1;
+                font-family: 'gotham_bookregular';
+            }
+        }
+    }
+}
+
+           // ----------------------------------------
+            //           Video Section
+            // ----------------------------------------
+
+
+.gifvideo {
+    width: 100%;
+}
+
+            // ----------------------------------------
+            //           Blurb on image Section
+            // ----------------------------------------
+
+.blurb-on-image-small {
+    position: relative;
+    
+    img {
+        width: 100%;
+    }
+    .blurb-gif-logo {
+        position: absolute;
+        width: 12%;
+        height: auto;
+        right: 5%;
+        bottom: 7%;
+    }
+}
+
+.blurb-on-image {
+    position: relative;
+    
+    img {
+        width: 100%;   
+    }
+    p {
+        font-family: 'gotham_bookregular';
+        color: white;
+        position: absolute;
+        left: 10%;
+        bottom: 5%;
+        width: 60%;
+    }
+    .blurb-gif-logo {
+        position: absolute;
+        width: 12%;
+        height: auto;
+        right: 5%;
+        bottom: 7%;
+    }
+}
+
+.blurb-below-image {
+
+    p {
+        margin-top: 100px;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    strong {
+        font-size: 1.6em;
+        text-transform: uppercase;
+    }
+    .gif-quote-under-image {
+        line-height: 2;
+    }
+}
+
+.blurb-below-image-row {
+    margin-bottom: 0;
+}
+
+            // ----------------------------------------
+            //          ipad with gifs section
+            // ----------------------------------------
+
+
+
+.ipad-container {
+    position: relative;
+}
+
+.staggered-test {
+    position: absolute;
+    left: 60%;
+    top: 27%;
+    
+    li p {
+        color: #888888;
+        font-family: 'gotham_bookregular';
+        
+    }
+}
+
+
+
+
+#wrapper {
+  width: 450px;
+  margin: 115px auto;
+}
+
+/* iPad */
+.ipad-front {
+  position: relative;
+  width: 450px;
+  height: 600px;
+  background-color: #000;  
+  border-radius: 10px;
+  border: 2px solid #888;
+  padding: 40px;
+  box-shadow: 1px 2px 0px #111;
+}
+
+.ipad-front-camera {
+  width: 8px;
+  height: 8px;
+  background-color: #222;
+  border-radius: 50px;
+  position: absolute;
+  top: 21px;
+  left: 219px;
+}
+
+.ipad-front-camera span {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: #111;
+  border-radius: 50px;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+.ipad-front-display {
+  width: 100%;
+  height: 100%;
+  margin-top: 11px;
+}
+
+.ipad-front-home-button {
+  width: 22px;
+  height: 22px;
+  background-color: #000;
+  border:1px solid #111;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 17px;
+  left: 211px;
+  box-shadow: 1px 1px 2px #666;
+}
+
+.ipad-front-home-button span {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: #000;
+  border:1px solid #444;
+  border-radius: 2px;
+}
+/* /iPad */
+
+            // ----------------------------------------
+            //           Gif Row section
+            // ----------------------------------------
+
+.gif-strip {
+    margin-top: 64px;
+    margin-bottom: -5px;
+
+    img {
+        padding: 0;
+        margin: -2px;
+        width: 20%;
+    }
+}
+
+            // ----------------------------------------
+            //           Orange Quote Section
+            // ----------------------------------------
+
+.section-orange-bg {
+    text-transform: uppercase;
+    background: #ff9c1a;
+    color: white;
+
+    h2 {
+    margin-top: 0;
+    }
+    a p {
+        margin-bottom:0;
+    }
+}
+
+.section-orange-bg {
+    padding: 100px 0 80px 0;
+    
+    
+    h2 {
+        margin-bottom: 60px;
+    }
+
+    
+    a {
+    background: 0;
+    border: 3px solid white;
+    color: white; 
+    }
+}
+
+            // ----------------------------------------
+            //      Check out branded selfies section
+            // ----------------------------------------
+
+
+.section-branded-selfies {
+    text-transform: uppercase;
+    color: white;
+    background: url('/assets/Branded Selfie CTA Graphic.png') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 100px 0;
+    
+    
+
+    h2 {
+        margin-bottom: 60px;
+        width: 70%;
+        margin-left: 15%;
+    }
+    
+    a {
+        background: 0;
+        border: 3px solid white;
+        color: white; 
+    }
+}
+
+
