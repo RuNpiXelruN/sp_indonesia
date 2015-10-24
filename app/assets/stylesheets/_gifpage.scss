@@ -369,7 +369,8 @@ body {
     padding: 58px 0;
     
     h2 {
-        font-size: 2em;
+        font-size: 1.8em;
+        line-height: 1.1;
     }
     
     p {
@@ -600,6 +601,13 @@ body {
             .staggered-test-small p {
                 color: #888;
             }
+            .staggered-test-small .gifgif-global a {
+                color: #888;
+                
+                &:hover {
+                    color: #9fd1b8;
+                }
+            }
         }
     }
 }
@@ -645,7 +653,8 @@ body {
     padding: 42px 2px;
     
     h2 {
-        font-size: 2em;
+        font-size: 1.8em;
+        line-height: 1.1;
     }
     
     p {
