@@ -29,9 +29,16 @@
 
 }
 
+html {
+    height: 4100px;
+}
+
 body {
     font-family: 'gotham_boldregular';
-    height: 5152px;
+    height: 100%;
+    margin: 0 0 0 0px;
+    padding: 0;
+    width: 100%;
     
     // .hero-image-container {
     //     height: 18.76941%;
@@ -408,7 +415,7 @@ body {
     
     .hero-image-container {
         width: 100%;
-        height: 11.1%;
+        height: 13.8%;
     }
     
     .quote-section-1 .container {
@@ -602,7 +609,14 @@ body {
         }
     }
     footer {
-        padding: 3%;
+        padding: 0;
+        margin: 0;
+        
+        p {
+            margin: 0;
+            font-size: 9px;
+            padding: 24px;
+        }
     }
 }
 
