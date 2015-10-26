@@ -238,9 +238,7 @@ body {
 .blurb-below-image {
 
     p {
-        margin-top: 100px;
         text-align: center;
-        font-size: 1.5em;
     }
     .blurb-under-header {
         text-transform: uppercase;
@@ -416,60 +414,143 @@ body {
                 padding: 16% 0;
                 margin-top: 0;
                 margin-bottom: 0;
-                font-size: 3.3em;
+                font-size: 7.5vw;
             }
         }
-    }
-    .icon-block-1, .icon-block-2 {
-        border-bottom: 1px solid rgba(200,200,200,0.8);
     }
     
     .gif-icon-section {
         padding: 4% 0 9% 0;
-    }
-    .icon-block-1 {
-        margin-top: 8%;
-        margin-bottom: 0;
-    
-        .icon-block {
-            padding-bottom: 12%;
-            
-            img {
-                transform: scale(1.3);
-            }
-            h5 {
-                font-size: 2em;
-                margin-top: 8%;
-            }
-        }
-    }
-    .icon-block-2 {
-        margin-top: 12%;
         
-        .icon-block {
-            padding-bottom: 12%;
-            
-            img {
-                transform: scale(1.3);
-            }
+        .icon-block-1, .icon-block-2 {
+            border-bottom: 1px solid rgba(200,200,200,0.8);
+        }
+        
+        .icon-block-1, .icon-block-2, .icon-block-3 {
             
             h5 {
                 font-size: 2em;
-                margin-top: 8%;
+                margin-top: 8%;         
+            }
+            img {
+                transform: scale(1.3);
             }
         }
-    }
-    
-    .icon-block-3 {
-        margin-top: 12%;
         
-        img {
-            transform: scale(1.3);
-        }
-        
-        h5 {
-            font-size: 2em;
+        .icon-block-1 {
             margin-top: 8%;
+            margin-bottom: 0;
+    
+            .icon-block {
+                padding-bottom: 12%;
+            }
+        }
+    
+        .icon-block-2 {
+            margin-top: 12%;
+        
+            .icon-block {
+                padding-bottom: 12%;
+            }
+        }
+    
+        .icon-block-3 {
+            margin-top: 12%;
+        }
+    }
+    
+    .quote2-section {
+        margin-top: -1%;
+        
+        .container {
+            width: 95%;
+            
+            h2 {
+                text-transform: uppercase;
+                margin: 15% 0;
+                color: #fa9c25;
+                font-size: 8vw;
+            }
+        }
+    }
+    
+    .blurb-on-image {
+        display: none;
+    }
+    .blurb-on-image-small {
+        display: block;
+    }
+    .blurb-container {
+        width: 90%;
+        
+        .small-blurb-p {
+            margin-top: 21%;
+            
+            .blurb-under-header {
+                font-size: 6vw;
+            }
+            .gif-quote-under-image {
+                font-size: 4vw;
+            }
+        }
+    }
+    
+    .ipad-container {
+        display: none;
+    }
+    .small-ipad-container {
+        display: block;
+        margin-top: 36%;
+        
+        #small-wrapper {
+            transform: scale(1.2);
+        }
+    }
+    
+    .ipad-container {
+        display: none;
+    }
+    
+    .small-ipad-gif-text-container {
+        display: block;
+        width: 90%;
+        
+        .ipad-section-content-small {
+            margin-bottom: 5%;
+            margin-top: 12%;
+            
+            .staggered-test-small {
+                text-align: center;
+            
+                li:first-child {
+                    padding-bottom: 3%;
+                }
+                
+                .live-gallery {
+                    margin-top: 9%;
+                    margin-bottom: 7%;
+                }
+                
+                .li-header-ipad {
+                    font-size: 5vw;
+                }
+                .li-body-ipad {
+                    font-size: 3.5vw;
+                }
+                .gifgif-global {
+                    font-size: 4vw;
+                    margin-top: 6%;
+                    margin-bottom: 11%;
+                    
+                    a {
+                        color: #888;
+                        
+                        &:hover {
+                        color: #9fd1b8;
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -678,10 +759,10 @@ body {
                 margin-bottom: 33px;
             }
     
-            .staggered-test-small li:nth-child(2) p {
-                margin-top: 50px;
-                margin-bottom: 32px;
-            }
+            // .staggered-test-small li:nth-child(2) p {
+            //     margin-top: 50px;
+            //     margin-bottom: 32px;
+            // }
     
             .staggered-test-small li:nth-child(3) {
                 border-bottom: none;

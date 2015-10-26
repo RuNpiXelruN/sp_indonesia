@@ -128,16 +128,16 @@
     }
 }
 
-@media #{$medium-and-up} {
+// @media #{$medium-and-up} {
 
-    .ipad-section-content {
-        display: block
-    }
+//     .ipad-section-content {
+//         display: block
+//     }
     
-    .ipad-section-content-small {
-        display :none;    
-    }
-}
+//     .ipad-section-content-small {
+//         display :none;    
+//     }
+// }
 
 
 @media #{$small-and-down} {
@@ -150,15 +150,15 @@
         
     }
 }
-@media #{$medium-and-up} {
-    .blurb-on-image {
-        display: block;
-    }
+// @media #{$medium-and-up} {
+//     .blurb-on-image {
+//         display: block;
+//     }
     
-    .blurb-on-image-small, .blurb-below-image {
-        display: none; 
-    }
-}
+//     .blurb-on-image-small, .blurb-below-image {
+//         display: none; 
+//     }
+// }
 
 // ************************** BLURB ON IMAGE RE-SCALING SECTION ******************************************
 
