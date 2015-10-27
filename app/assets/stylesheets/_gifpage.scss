@@ -427,15 +427,12 @@ body {
     .quote-section-1 .container {
         width: 95%;
     
-        .content1-quote-gif {
-            
-            
-            h2 {
-                padding: 24% 0;
-                margin-top: 0;
-                margin-bottom: 0;
-                font-size: 7.5vw;
-            }
+        .content1-quote-gif h2 {
+
+            padding: 24% 0;
+            margin-top: 0;
+            margin-bottom: 0;
+            font-size: 7.5vw;
         }
     }
     
@@ -764,6 +761,19 @@ body {
     }
     footer {
         margin: -1px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .hero-image-container {
+        height: 23%;
+        
+        #gif-foreground-hero {
+            transform: scale(0.8);
+        }
+    }
+    .quote-section-1 .container .content1-quote-gif h2 {
+        padding: 11% 0;
+        font-size: 3.5vw;
     }
 }
 
