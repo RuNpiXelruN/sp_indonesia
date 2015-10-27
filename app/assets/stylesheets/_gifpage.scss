@@ -257,9 +257,9 @@ body {
         font-size: 1.6em;
         text-transform: uppercase;
     }
-    .gif-quote-under-image {
-        line-height: 2;
-    }
+    // .gif-quote-under-image {
+    //     line-height: 2;
+    // }
 }
 
 .blurb-below-image-row {
@@ -512,6 +512,7 @@ body {
         }
         
         .gif-quote-under-image {
+            line-height: 2;
             font-size: 5vw;
             padding: 2% 4%;
             margin-bottom: 17%;
@@ -596,7 +597,7 @@ body {
         h2 {
             font-size: 6.5vw;
         }
-        a  p {
+        .book-now-button {
             margin-top: 5%;
             transform: scale(0.9);
             
@@ -625,6 +626,147 @@ body {
         }
     }
 }
+@media screen and (min-width: 360px) {
+    .hero-image-container {
+        height: 15.5%;
+    }
+}
+
+
+@media screen and (min-width: 375px) {
+    .hero-image-container {
+        height: 15.3%;
+    }
+}
+@media screen and (min-width: 414px) {
+    .hero-image-container {
+        height: 17.9%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero-image-container {
+        height: 24.9%;
+        
+        #gif-foreground-hero {
+            padding-right: 3%;
+        }
+    }
+    .quote-section-1 .container {
+    
+        .content1-quote-gif h2 {
+            padding: 19% 0;
+            font-size: 7.1vw;
+        }
+    }
+    .gif-icon-section {
+        padding: 4% 0 4% 0;
+        
+        .icon-block-1, .icon-block-2, .icon-block-3 {
+            
+            h5 {
+                font-size: 6vw;
+                margin-top: 9%;         
+            }
+            img {
+                transform: scale(1.5);
+            }
+        }
+        .icon-block-1 {
+            .icon-block {
+                padding-bottom: 6%;
+            }
+        }
+        .icon-block-2 {
+            margin-top: 8%;
+        
+            .icon-block {
+                padding-bottom: 6%;
+            }
+        }
+        .icon-block-3 {
+            margin-top: 8%;
+        }
+    }
+    .quote2-section .container h2 {
+        margin: 13% 0;
+    }
+    .blurb-container {
+    
+        .small-blurb-p {
+            margin-top: 15%;
+        }
+        .gif-quote-under-image {
+            font-size: 5vw;
+            line-height: 1.5;
+            padding: 2% 4%;
+            margin-bottom: 7%;
+        }
+    }
+    .small-ipad-container {
+        margin-top: 27%;
+        
+        #small-wrapper {
+            transform: scale(1.4);
+        }
+    }
+    .small-ipad-gif-text-container .ipad-section-content-small {
+        margin-top: 20%;
+        
+        .staggered-test-small {
+        
+            .branding {
+                margin-bottom: 3%;
+            
+                .li-header-ipad {
+                    font-size: 5vw;
+                }
+                .li-body-ipad {
+                    font-size: 4.5vw;
+                }
+            }
+            .live-gallery {
+                margin-top: 8%;
+                margin-bottom: 6%;
+                
+                .li-header-ipad {
+                    font-size: 5vw;
+                }
+                .li-body-ipad {
+                    font-size: 4.5vw;
+                }
+            }
+            .gifgif-global {
+                font-size: 5vw;
+                margin-top: 4%;
+                margin-bottom: 14%;
+            }
+        }
+    }
+    .orange-quote-section {
+        
+        padding: 8% 0 10% 0;
+    
+        .book-now-button {
+            transform: scale(1.5);
+        }
+    }
+    .branded-selfies-section {
+        padding: 8% 2%;
+        
+        h2 {
+            font-size: 6vw;
+        }
+        
+        a p {
+            transform: scale(1.5);
+        }
+    }
+    footer {
+        margin: -1px;
+    }
+}
+
 
 
 
@@ -892,10 +1034,10 @@ body {
     background-size: cover;
     padding: 42px 2px;
     
-    h2 {
-        font-size: 1.8em;
-        line-height: 1.1;
-    }
+    // h2 {
+    //     font-size: 1.8em;
+    //     line-height: 1.1;
+    // }
     
     p {
         color: #fff;
