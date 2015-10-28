@@ -416,16 +416,32 @@ body {
 
 //--------------------------------------------------------------------------------------------------------------------------------
 
+@media screen and (min-width: 0px) and (orientation: landscape) {
+    .hero-image-container #gif-foreground-hero {
+        padding-right: 2%;
+        height: 79vh;
+    }
+}
+@media screen and (min-width: 0px) and (orientation: portrait) {
+    .hero-image-container #gif-foreground-hero {
+        padding-right: 2%;
+        height: 101vw;
+    }
+}
+
+
+
+
 @media screen and (min-width: 250px) {
     
     .hero-image-container {
         width: 100%;
         height: 99vh;
         
-        #gif-foreground-hero {
-            padding-right: 2%;
-            height: 79vh;
-        }
+        // #gif-foreground-hero {
+        //     padding-right: 2%;
+        //     height: 79vh;
+        // }
     }
     
     .quote-section-1 .container {
