@@ -994,6 +994,19 @@ body {
     }
 }
 
+@media screen and (min-height: 800px) and (orientation: landscape) {
+    .ipad-container .ipad-text-large {
+        margin-top: 12%;
+    }
+}
+
+@media screen and (min-height: 900px) and (orientation: landscape) {
+    .ipad-container .ipad-text-large {
+        margin-top: 5%;
+        padding-left: 11%;
+    }
+}
+
 
 @media screen and (min-height: 1080px) and (orientation: landscape) {
     .ipad-container {
