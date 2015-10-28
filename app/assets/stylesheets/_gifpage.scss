@@ -52,6 +52,10 @@ body {
     // // }
 }
 
+.container {
+    max-width: 100%;
+}
+
 
 // --------------------------------------
 // navbar styles for gif and selfies page
@@ -122,7 +126,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 18.76941%;
+    // height: 18.76941%;
     width: 100%;
 
 
@@ -133,7 +137,7 @@ body {
         left: -9999px;
         right: -9999px;
         margin: auto;
-        transform: scale(0.5);
+        // transform: scale(0.5);
         padding-top: 36px;
     }
 }
@@ -416,11 +420,11 @@ body {
     
     .hero-image-container {
         width: 100%;
-        height: 13.8%;
+        height: 99vh;
         
         #gif-foreground-hero {
             padding-right: 2%;
-            transform: scale(1.2);
+            height: 79vh;
         }
     }
     
@@ -623,27 +627,27 @@ body {
         }
     }
 }
-@media screen and (min-width: 360px) {
-    .hero-image-container {
-        height: 15.5%;
-    }
-}
+// @media screen and (min-width: 360px) {
+//     .hero-image-container {
+//         height: 15.5%;
+//     }
+// }
 
 
-@media screen and (min-width: 375px) {
-    .hero-image-container {
-        height: 15.3%;
-    }
-}
-@media screen and (min-width: 414px) {
-    .hero-image-container {
-        height: 17.9%;
-    }
-}
+// @media screen and (min-width: 375px) {
+//     .hero-image-container {
+//         height: 15.3%;
+//     }
+// }
+// @media screen and (min-width: 414px) {
+//     .hero-image-container {
+//         height: 17.9%;
+//     }
+// }
 
 @media screen and (min-width: 768px) {
     .hero-image-container {
-        height: 24.9%;
+        // height: 24.9%;
         
         #gif-foreground-hero {
             padding-right: 3%;
@@ -765,10 +769,10 @@ body {
 }
 @media screen and (min-width: 1280px) {
     .hero-image-container {
-        height: 23%;
+        // height: 19.4%;
         
         #gif-foreground-hero {
-            transform: scale(0.8);
+            // transform: scale(0.6);
         }
     }
     .quote-section-1 .container .content1-quote-gif h2 {
@@ -863,7 +867,7 @@ body {
             width: 59%;
         }
         .ipad-text-large {
-            font-size: 1.7em;
+            font-size: 3.3vh;
             margin-top: 12%;
             margin-bottom: 0%;
             padding-left: 9%;
@@ -941,6 +945,95 @@ body {
         }
     }
 }
+
+// @media screen and (min-width: 1400px) {
+//     .hero-image-container {
+//         height: 21.2%;
+//     }
+// }
+
+
+@media screen and (min-width: 1440px) {
+    .ipad-container .ipad-text-large {
+        margin-top: 6%;
+    }
+}
+
+@media screen and (min-width: 1580px) {
+    .ipad-container {
+        width: 70%;
+        margin: 0 15%;
+        margin-top: 10%;
+        margin-bottom: 9%;
+        
+        .ipad-text-large {
+            padding-left: 14%;
+        }
+    }
+}
+
+@media screen and (min-height: 768px) and (orientation: landscape) {
+    .ipad-container .ipad-text-large {
+        margin-top: 16%;
+    }
+}
+
+
+@media screen and (min-height: 1080px) and (orientation: landscape) {
+    .ipad-container {
+        position: relative;
+        width: 100%;
+        margin: 0 0;
+        margin-top: 10%;
+        margin-bottom: 9%;
+        height: 77vh;
+        
+        #wrapper {
+            position: absolute;
+            top: 10%;
+            left: 14%;
+            transform: scale(1.3);
+        }
+        .ipad-text-large {
+            position: absolute;
+            width: 59%;
+            left: 33%;
+            top: -14%;
+        }
+    }
+    .gif-icon-section {
+        
+        .icon-block img {
+        transform: scale(1.8);
+        }
+        
+        .row {
+            
+            .icon-block-1 h5 {
+                margin-top: 16%;
+            }
+            .icon-block-2 h5 {
+                margin-top: 17%;
+            }
+            .icon-block-3 h5 {
+                margin-top: 15%;
+            }
+        }
+    }
+}
+
+
+
+// @media screen and (min-width: 1600px) {
+//     .hero-image-container {
+//         height: 24.3%;
+//     }
+// }
+// @media screen and (min-height: 900px) {
+//     .hero-image-container {
+//         height: 21.7%;
+//     }
+// }
 
 
 
