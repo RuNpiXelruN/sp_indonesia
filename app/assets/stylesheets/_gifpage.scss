@@ -798,8 +798,8 @@ body {
             }
             .icon-block-1 {
                 margin-top: 0%;
-                padding-top: 5%;
-                padding-bottom: 3%;
+                padding-top: 10%;
+                padding-bottom: 8%;
                 
                 .icon-block {
                     padding-bottom: 0%;
@@ -811,8 +811,8 @@ body {
             }
             .icon-block-2 {
                 margin-top: 0%;
-                padding-top: 5.5%;
-                padding-bottom: 1.2%;
+                padding-top: 10.5%;
+                padding-bottom: 6.2%;
                 
                 h5 {
                     margin-top: 12%;
@@ -820,8 +820,8 @@ body {
             }
             .icon-block-3 {
                 margin-top: 0%;
-                padding-top: 6.5%;
-                padding-bottom: 2.9%;
+                padding-top: 11.5%;
+                padding-bottom: 7.9%;
                 
                 h5 {
                     margin-top: 12%;
@@ -867,6 +867,77 @@ body {
             margin-top: 12%;
             margin-bottom: 0%;
             padding-left: 9%;
+            color: #888;
+            
+            .branding, .live-gallery {
+                color: #000;
+                transition: color .3s ease;
+                &:hover {
+                    color: #9fd1b8;
+                }
+            }
+            a {
+                color: #000;
+                transition: color .3s ease;
+                &:hover {
+                    color: #9fd1b8;
+                }
+            }
+        }
+    }
+    .small-gif-strip {
+        display: none;
+    }
+    .gif-strip {
+        display: block;
+        width: 100%;
+        
+        img {
+            margin-right: -3px;
+            overflow-x: hidden;
+            margin-left: -2px;
+            transform: scaleX(1.03);
+        }
+    }
+    .orange-quote-section {
+        padding: 6% 0 8% 0;
+        
+        h2 {
+            font-size: 3.5vw;
+        }
+        
+        a p {
+            transition: color .3s ease;
+            transition: color .3s ease;
+            &:hover {
+                color: #f7a73f;
+                background: #fff;
+            }
+        }
+        
+    }
+    .branded-selfies-section {
+        padding: 6% 2% 7%;
+        
+        h2 {
+            font-size: 3.5vw;
+        }
+        
+        a p {
+            transition: color .3s ease;
+            transition: background .3s ease;
+    
+            &:hover {
+                color: #000;
+                background: #fff;
+            }
+        }
+    }
+    footer {
+        padding: 2%;
+        
+        p {
+            font-size: 1vw;
         }
     }
 }
@@ -1136,7 +1207,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding: 42px 2px;
+    // padding: 42px 2px;
     
     // h2 {
     //     font-size: 1.8em;
