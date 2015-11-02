@@ -26,7 +26,10 @@
     
     font-weight: normal;
     font-style: normal;
+}
 
+html {
+    height: 100%;
 }
 
 
@@ -107,17 +110,17 @@ body {
 .selfies-hero-image-container {
     position: relative;
     overflow: hidden;
-    background: url("/assets/selfie-hero-img-compressor.png") no-repeat;
+    background: url("/assets/selfie-hero-img.png") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     // height: 840px;
-    width: 100%;
+    width: 101%;
 
 
     #selfie-foreground-hero {
-        position: absolute;
+        // position: absolute;
 //         top: -9999px;
 //         bottom: -9999px;
 //         left: -9999px;
@@ -361,10 +364,21 @@ body {
     .selfies-hero-image-container {
         height: 99vh;
         
-        #selfie-foreground-hero {
-            height: 90vw;
-            top: 33%;
-            right: 13%;
+        .nav-selfie-image {
+            position:relative;
+            height: 80%;
+            transform-origin: 50% 100%;
+        
+            #selfie-foreground-hero {
+                height: 92vw;
+                bottom: 2%;
+                right: 9%;
+                position: absolute;
+                -webkit-transform: scale(1);
+                -ms-transform: scale(1);
+                transform: scale(1.05);
+                max-height: 85vh;
+            }
         }
     }
     .content1-quote-selfie {
@@ -441,10 +455,17 @@ body {
         }
     }
     .selfie-blurb-on-image {
+        display: none;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .small-selfie-blurb-on-image {
+        display: block;
         position: relative;
         overflow: hidden;
         
-        .selfie-blurb-text {
+        .small-selfie-blurb-text {
             position: absolute;
             width: 90%;
             top: 0%;
@@ -458,18 +479,18 @@ body {
                 position: absolute;
                 width: 90%;
                 left: 5%;
-                top: 3%;
+                top: 12%;
                 margin-top: 5%;
                 color: #f5f5f5;
             }
             
             p {
                 font-family: 'gotham_bookregular';
-                font-size: 3vw;
+                font-size: 4vw;
                 position: absolute;
                 width: 70%;
                 left: 15%;
-                top: 32%;
+                top: 38%;
             }
         }
     }
@@ -481,18 +502,18 @@ body {
         width: 100%;
         
         .small-selfie-img-box img {
-            height: 105vw;
-            margin-left: 7.5%;
+            height: 95vw;
+            margin-left: 11.5%;
             margin-top: 7%;
         }
         
         .small-selfie-text-box {
             width: 100%;
             text-align: center;
-            margin-top: 8%;
+            margin-top: 10%;
             
             ul li {
-                padding: 0 5%;
+                padding: 0 12%;
             }
             
             .selfie-text {
@@ -527,7 +548,7 @@ body {
         h2 {
             margin-left: 5%;
             width: 90%;
-            font-size: 7vw;
+            font-size: 6.5vw;
         }
     }
     
@@ -539,7 +560,7 @@ body {
         display: block;
         width: 100%;
         overflow: hidden;
-        height: 2.65%;
+        height: 19.3%;
         
         img {
             width: 34.2vw;
@@ -555,7 +576,7 @@ body {
         width: 100%;
         
         h2 {
-            font-size: 7vw;
+            font-size: 6vw;
             width: 90%;
             margin: 0 5% 5% 5%;
         }
@@ -565,7 +586,32 @@ body {
             color: #fff;
             border: 4px solid #fff;
             padding: 3%;
-            font-size: 4vw;
+            font-size: 3vw;
+        }
+    }
+    
+    .livefeedcta-bg {
+        text-transform: uppercase;
+        color: #fff;
+        padding: 14% 0;
+        background: url("/assets/Gif CTA image FINAL.png") no-repeat;
+        background-size: cover;
+        width: 100%;
+        
+        h2 {
+            margin: 0;
+            padding-bottom: 7%;
+            font-size: 6vw;
+            width: 90%;
+            margin-left: 5%;
+        }
+        
+        .gif-enquire-button {
+            text-decoration: none;
+            color: #fff;
+            border: 4px solid #fff;
+            padding: 3%;
+            font-size: 3vw;
         }
     }
 }
