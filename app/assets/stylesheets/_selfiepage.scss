@@ -619,7 +619,7 @@ body {
 }
 
 
-@media screen and (min-width: 800px) and (orientation: portrait) {
+@media screen and (min-width: 768px) and (orientation: portrait) {
     
     .selfie-round-shadow .white-fill-for-selfie .selfie-icon-container {
         width: 70%;
@@ -684,6 +684,7 @@ body {
         margin-left: 0%;
         z-index: -1;
         margin-bottom: -1%;
+        height: initial;
         
         img {
             width: 33.33333%;
@@ -702,5 +703,96 @@ body {
     
     .livefeedcta-bg h2 {
         padding-bottom: 10%;
+    }
+}
+
+
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+
+    
+    .selfies-hero-image-container {
+    
+        height: 99vh;
+        
+        .nav-selfie-image {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0%;
+            -webkit-transform-origin: 50% 100%;
+            -ms-transform-origin: 50% 100%;
+            transform-origin: 0% 100%;
+        
+        
+            #selfie-foreground-hero {
+                height: 85vw;
+                bottom: 0%;
+                right: 22%;
+                left: 11%;
+                position: absolute;
+                -webkit-transform: scale(1);
+                -ms-transform: scale(1);
+                transform: scale(1);
+                max-height: 85vh;
+                width: 68vw;
+            }
+        }
+    }
+    
+    .content1-quote-selfie h2 {
+        padding: 9% 15%;
+        font-size: 4vw;
+    }
+    
+    .selfie-round-shadow .white-fill-for-selfie .selfie-icon-container {
+        
+        width: 100%;
+        
+        .selfie-icon-section {
+        
+            .row {
+                height: 39vh;
+                margin-bottom: 0;
+                
+                .icon-block-1, .icon-block-2, .icon-block-3 {
+                    height: 100%;
+                    
+                    .icon-block {
+                        transform: scale(0.9);
+                        
+                        h5 {
+                            padding-bottom: 6%;
+                            margin-top: 10%;
+                        }
+                        
+                        p.light {
+                            margin: 0;
+                        }
+                    }
+                }
+                
+                .icon-block-1 {
+                    border-right: 2px solid rgba(200,200,200,0.3);
+                }
+                    
+                .icon-block-2 {
+                    border-right: 2px solid rgba(200,200,200,0.3);
+                }
+                
+                .icon-block-2 {
+                    
+                    h2 {
+                        margin-top: 11%;
+                    }
+                }
+                
+                .icon-block-3 {
+                    
+                    h2 {
+                        margin-top: 13%;
+                    }
+                }
+            }
+        }
     }
 }
