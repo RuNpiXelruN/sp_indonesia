@@ -795,4 +795,22 @@ body {
             }
         }
     }
+    
+    .section-teal-bg {
+        display: none;
+    }
+    
+    .large-section-teal-bg {
+        background-color: #a0d1b8;
+        color: white;
+        padding: 13% 0;
+        text-transform: uppercase;
+        z-index: -1;
+    
+        h2 {
+            margin: 0;
+            font-family: 'gotham_boldregular';
+            font-size: 3.4vw;
+        }
+    }
 }
