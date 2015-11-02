@@ -365,8 +365,10 @@ body {
         height: 99vh;
         
         .nav-selfie-image {
-            position:relative;
-            height: 80%;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0%;
             transform-origin: 50% 100%;
         
             #selfie-foreground-hero {
@@ -384,8 +386,8 @@ body {
     .content1-quote-selfie {
         h2 {
             margin: 0;
-            font-size: 6vw;
-            padding: 18% 0;
+            font-size: 5.5vw;
+            padding: 18% 4%;
         }
     }
     .selfie-round-shadow {
