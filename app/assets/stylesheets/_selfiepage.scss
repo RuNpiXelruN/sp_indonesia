@@ -1298,7 +1298,7 @@ body {
     }
     .selfie-round-shadow {
         
-        height: 39.2vh;
+        height: 29vw;
         
         .white-fill-for-selfie .selfie-icon-container {
         
@@ -1307,7 +1307,7 @@ body {
             .selfie-icon-section {
             
                 .row {
-                    height: 39vh;
+                    height: 29vw;
                     margin-bottom: 0;
                     
                     .icon-block-1, .icon-block-2, .icon-block-3 {
@@ -1317,8 +1317,9 @@ body {
                             transform: scale(0.9);
                             
                             h5 {
+                                font-size: 2.5vw;
                                 padding-bottom: 6%;
-                                margin-top: 10%;
+                                margin-top: 3vw;
                             }
                             
                             p.light {
@@ -1331,7 +1332,10 @@ body {
                         border-right: 2px solid rgba(200,200,200,0.3);
                         
                         h2 {
-                            margin-top: 9%;
+                            margin-top: 3.5vw;
+                        }
+                        img {
+                            height: 10vw;
                         }
                     }
                         
@@ -1339,14 +1343,20 @@ body {
                         border-right: 2px solid rgba(200,200,200,0.3);
                         
                         h2 {
-                            margin-top: 11%;
+                            margin-top: 3vw;
+                        }
+                        img {
+                            height: 10vw;
                         }
                     }
                     
                     .icon-block-3 {
                         
                         h2 {
-                            margin-top: 13%;
+                            margin-top: 4vw;
+                        }
+                        img {
+                            height: 9vw;
                         }
                     }
                 }
