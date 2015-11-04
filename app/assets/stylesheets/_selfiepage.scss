@@ -360,7 +360,7 @@ body {
 //                        MEDIA QUERIES
 //--------------------------------------------------------------
 
-@media screen and (min-width: 0) and (orientation: portrait) {
+@media screen and (min-width: 5px) and (orientation: portrait) {
     .selfies-hero-image-container {
         height: 99vh;
         
@@ -372,15 +372,21 @@ body {
             transform-origin: 50% 100%;
         
             #selfie-foreground-hero {
-                height: 92vw;
+                height: 85vw;
                 bottom: 0%;
-                right: 9%;
+                left: -1%;
                 position: absolute;
                 -webkit-transform: scale(1);
                 -ms-transform: scale(1);
                 transform: scale(1.05);
-                max-height: 85vh;
             }
+        }
+    }
+    .content1-quote-selfie {
+        h2 {
+            margin: 0;
+            font-size: 5.5vw;
+            padding: 18% 4%;
         }
     }
     .content1-quote-selfie {
@@ -448,7 +454,11 @@ body {
             }
         }
     }
+    .large-section-teal-bg {
+        display: none;
+    }
     .section-teal-bg {
+        display: block;
         padding: 25% 0;
         
         h2 {
@@ -461,7 +471,6 @@ body {
         position: relative;
         overflow: hidden;
     }
-    
     .small-selfie-blurb-on-image {
         display: block;
         position: relative;
@@ -553,11 +562,9 @@ body {
             font-size: 6.5vw;
         }
     }
-    
     .selfie-strip {
         display: none;
     }
-    
     .small-selfie-strip {
         display: block;
         width: 100%;
@@ -569,7 +576,6 @@ body {
             margin: 0 -1%;
         }
     }
-    
     .maincta-teal-bg {
         background-color: #a0d1b8;
         color: white;
@@ -591,7 +597,6 @@ body {
             font-size: 3vw;
         }
     }
-    
     .livefeedcta-bg {
         text-transform: uppercase;
         color: #fff;
@@ -617,6 +622,544 @@ body {
         }
     }
 }
+@media screen and (min-width: 5px) and (max-width: 767px) and (orientation: landscape) {
+    .selfies-hero-image-container {
+        height: 99vh;
+        
+        .nav-selfie-image {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0%;
+            transform-origin: 50% 100%;
+        
+            #selfie-foreground-hero {
+                height: 49vw;
+                bottom: 0%;
+                left: 20%;
+                position: absolute;
+                -webkit-transform: scale(1);
+                -ms-transform: scale(1);
+                transform: scale(1.05);
+            }
+        }
+    }
+    .content1-quote-selfie {
+        h2 {
+            margin: 0;
+            font-size: 4.5vw;
+            padding: 13% 4%;
+        }
+    }
+    .selfie-round-shadow {
+        width: 100%;
+        
+        .white-fill-for-selfie {
+            
+            .selfie-icon-container {
+                width: 100%;
+                margin: 0;
+            
+                .row {
+                    margin-left: -6%;
+                    margin-right: -6%;
+                    margin-bottom: 0;
+                    
+                    .icon-block-1, .icon-block-2 {
+                        border-bottom: 1px solid rgba(200,200,200,.4);
+                    }
+                    
+                    .icon-block {
+                        transform: scale(0.7);
+                        
+                        p.light {
+                            margin: 0;
+                        }
+                    }
+                    
+                    .icon-block-1 {
+                        
+                        h2 {
+                            margin-top: -3%;
+                        }
+                        img {
+                            height: 30vw;
+                            margin-top: 6%;
+                        }
+                        h5 {
+                            font-size: 6vw;
+                            margin-top: 11%;
+                            margin-bottom: 1%;
+                        }
+                    }
+                    
+                    .icon-block-2 {
+                        
+                        h2 {
+                            margin-top: -3%;
+                        }
+                        
+                        img {
+                            height: 29vw;
+                            margin-top: 6%;
+                        }
+                        h5 {
+                            font-size: 6vw;
+                            margin-top: 11%;
+                            margin-bottom: -1%;
+                        }
+                    }
+                    .icon-block-3 {
+                        padding-bottom: 1%;
+                        
+                        h2 {
+                            margin-top: -3%;
+                        }
+                        
+                        img {
+                            height: 26vw;
+                            margin-top: 6%;
+                        }
+                        h5 {
+                            font-size: 6vw;
+                            margin-top: 11%;
+                            margin-bottom: 0%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .large-section-teal-bg {
+        display: none;
+    }
+    .section-teal-bg {
+        display: block;
+        padding: 14% 0;
+        
+        h2 {
+            font-size: 5vw;
+            padding: 0;
+        }
+    }
+    .selfie-blurb-on-image {
+        display: none;
+        position: relative;
+        overflow: hidden;
+    }
+    .small-selfie-blurb-on-image {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        
+        .small-selfie-blurb-text {
+            position: absolute;
+            width: 90%;
+            top: 0%;
+            left: 5%;
+            color: #fff;
+            height: 97%;
+            
+            h2 {
+                text-transform: uppercase;
+                font-size: 4.5vw;
+                position: absolute;
+                width: 90%;
+                left: 5%;
+                top: 12%;
+                margin-top: 5%;
+                color: #f5f5f5;
+            }
+            
+            p {
+                font-family: 'gotham_bookregular';
+                font-size: 3.5vw;
+                position: absolute;
+                width: 70%;
+                left: 15%;
+                top: 43%;
+            }
+        }
+    }
+    .selfie-ipad-container {
+        display: none;
+    }
+    .small-selfie-text-container {
+        display: block;
+        width: 100%;
+        
+        .small-selfie-img-box img {
+            height: 65vw;
+            margin-left: 23.5%;
+            margin-top: 7%;
+        }
+        
+        .small-selfie-text-box {
+            width: 100%;
+            text-align: center;
+            margin-top: 8%;
+            
+            ul li {
+                padding: 0 12%;
+            }
+            
+            .selfie-text {
+                font-family: 'gotham_bookregular';
+                
+                li .selfie-text-header {
+                    font-size: 5vw;
+                
+                    &:hover {
+                        color: #9FD1B8;
+                    }
+                }
+                li p {
+                    margin-bottom: 11%;
+                }
+                li .last-selfie-text-block {
+                    margin-bottom: 2%;
+                }
+            }
+            
+            .brand-values, .social-reach {
+                border-bottom: 1px solid rgba(200,200,200,0.4);
+            }
+        }
+    }
+    .section-grey-bg {
+        background-color: #bfbfbf;
+        color: white;
+        padding: 11% 0;
+        text-transform: uppercase;
+        
+        h2 {
+            margin-left: 5%;
+            width: 90%;
+            font-size: 4vw;
+        }
+    }
+    .selfie-strip {
+        display: none;
+    }
+    .small-selfie-strip {
+        display: block;
+        width: 100%;
+        overflow: hidden;
+        height: 51.3%;
+        
+        img {
+            width: 34.5vw;
+            margin: 0 -1%;
+        }
+    }
+    .maincta-teal-bg {
+        background-color: #a0d1b8;
+        color: white;
+        padding: 11% 0 14% 0;
+        text-transform: uppercase;
+        width: 100%;
+        
+        h2 {
+            font-size: 5vw;
+            width: 90%;
+            margin: 0 5% 5% 5%;
+        }
+        
+        .book-now-button {
+            text-decoration: none;
+            color: #fff;
+            border: 4px solid #fff;
+            padding: 3%;
+            font-size: 2vw;
+        }
+    }
+    .livefeedcta-bg {
+        text-transform: uppercase;
+        color: #fff;
+        padding: 12% 0 14% 0;
+        background: url("/assets/Gif CTA image FINAL.png") no-repeat;
+        background-size: cover;
+        width: 100%;
+        
+        h2 {
+            margin: 0;
+            padding-bottom: 7%;
+            font-size: 5vw;
+            width: 90%;
+            margin-left: 5%;
+        }
+        
+        .gif-enquire-button {
+            text-decoration: none;
+            color: #fff;
+            border: 4px solid #fff;
+            padding: 3%;
+            font-size: 2vw;
+        }
+    }
+}
+
+
+@media screen and (min-width: 5px) and (max-width: 767px) {
+    // .selfies-hero-image-container {
+    //     height: 99vh;
+        
+    //     .nav-selfie-image {
+    //         position: absolute;
+    //         height: 100%;
+    //         width: 100%;
+    //         top: 0%;
+    //         transform-origin: 50% 100%;
+        
+    //         #selfie-foreground-hero {
+    //             // height: 49vw;
+    //             bottom: 0%;
+    //             // left: 20%;
+    //             position: absolute;
+    //             -webkit-transform: scale(1);
+    //             -ms-transform: scale(1);
+    //             transform: scale(1.05);
+    //         }
+    //     }
+    // }
+    // .content1-quote-selfie {
+    //     h2 {
+    //         margin: 0;
+    //         font-size: 5.5vw;
+    //         padding: 18% 4%;
+    //     }
+    // }
+    // .selfie-round-shadow {
+    //     width: 100%;
+        
+    //     .white-fill-for-selfie {
+            
+    //         .selfie-icon-container {
+    //             width: 90%;
+    //             margin: 0 5%;
+            
+    //             .row {
+    //                 margin-left: -6%;
+    //                 margin-right: -6%;
+    //                 margin-bottom: 0;
+                    
+    //                 .icon-block-1, .icon-block-2 {
+    //                     border-bottom: 1px solid rgba(200,200,200,.4);
+    //                 }
+                    
+    //                 .icon-block-1 {
+    //                     img {
+    //                         height: 30vw;
+    //                         margin-top: 6%;
+    //                     }
+    //                     h5 {
+    //                         font-size: 6vw;
+    //                         margin-top: 11%;
+    //                         margin-bottom: 13%;
+    //                     }
+    //                 }
+                    
+    //                 .icon-block-2 {
+    //                     img {
+    //                         height: 29vw;
+    //                         margin-top: 6%;
+    //                     }
+    //                     h5 {
+    //                         font-size: 6vw;
+    //                         margin-top: 11%;
+    //                         margin-bottom: 13%;
+    //                     }
+    //                 }
+    //                 .icon-block-3 {
+    //                     padding-bottom: 1%;
+                        
+    //                     img {
+    //                         height: 26vw;
+    //                         margin-top: 6%;
+    //                     }
+    //                     h5 {
+    //                         font-size: 6vw;
+    //                         margin-top: 11%;
+    //                         margin-bottom: 13%;
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+    
+    // .large-section-teal-bg {
+    //     display: none;
+    // }
+    
+    // .section-teal-bg {
+    //     display: block;
+    //     padding: 25% 0;
+        
+    //     h2 {
+    //         font-size: 6vw;
+    //         padding: 0;
+    //     }
+    // }
+    // .selfie-blurb-on-image {
+    //     display: none;
+    //     position: relative;
+    //     overflow: hidden;
+    // }
+    
+    // .small-selfie-blurb-on-image {
+    //     display: block;
+    //     position: relative;
+    //     overflow: hidden;
+        
+    //     .small-selfie-blurb-text {
+    //         position: absolute;
+    //         width: 90%;
+    //         top: 0%;
+    //         left: 5%;
+    //         color: #fff;
+    //         height: 97%;
+            
+    //         h2 {
+    //             text-transform: uppercase;
+    //             font-size: 5vw;
+    //             position: absolute;
+    //             width: 90%;
+    //             left: 5%;
+    //             top: 12%;
+    //             margin-top: 5%;
+    //             color: #f5f5f5;
+    //         }
+            
+    //         p {
+    //             font-family: 'gotham_bookregular';
+    //             font-size: 4vw;
+    //             position: absolute;
+    //             width: 70%;
+    //             left: 15%;
+    //             top: 38%;
+    //         }
+    //     }
+    // }
+    // .selfie-ipad-container {
+    //     display: none;
+    // }
+    // .small-selfie-text-container {
+    //     display: block;
+    //     width: 100%;
+        
+    //     .small-selfie-img-box img {
+    //         height: 95vw;
+    //         margin-left: 11.5%;
+    //         margin-top: 7%;
+    //     }
+        
+    //     .small-selfie-text-box {
+    //         width: 100%;
+    //         text-align: center;
+    //         margin-top: 10%;
+            
+    //         ul li {
+    //             padding: 0 12%;
+    //         }
+            
+    //         .selfie-text {
+    //             font-family: 'gotham_bookregular';
+                
+    //             li .selfie-text-header {
+    //                 font-size: 5vw;
+                
+    //                 &:hover {
+    //                     color: #9FD1B8;
+    //                 }
+    //             }
+    //             li p {
+    //                 margin-bottom: 14%;
+    //             }
+    //             li .last-selfie-text-block {
+    //                 margin-bottom: 2%;
+    //             }
+    //         }
+            
+    //         .brand-values, .social-reach {
+    //             border-bottom: 1px solid rgba(200,200,200,0.4);
+    //         }
+    //     }
+    // }
+    // .section-grey-bg {
+    //     background-color: #bfbfbf;
+    //     color: white;
+    //     padding: 12% 0;
+    //     text-transform: uppercase;
+        
+    //     h2 {
+    //         margin-left: 5%;
+    //         width: 90%;
+    //         font-size: 6.5vw;
+    //     }
+    // }
+    // .selfie-strip {
+    //     display: none;
+    // }
+    // .small-selfie-strip {
+    //     display: block;
+    //     width: 100%;
+    //     overflow: hidden;
+    //     height: 19.3%;
+        
+    //     img {
+    //         width: 34.2vw;
+    //         margin: 0 -1%;
+    //     }
+    // }
+    
+    // .maincta-teal-bg {
+    //     background-color: #a0d1b8;
+    //     color: white;
+    //     padding: 14% 0 18% 0;
+    //     text-transform: uppercase;
+    //     width: 100%;
+        
+    //     h2 {
+    //         font-size: 6vw;
+    //         width: 90%;
+    //         margin: 0 5% 5% 5%;
+    //     }
+        
+    //     .book-now-button {
+    //         text-decoration: none;
+    //         color: #fff;
+    //         border: 4px solid #fff;
+    //         padding: 3%;
+    //         font-size: 3vw;
+    //     }
+    // }
+    
+    // .livefeedcta-bg {
+    //     text-transform: uppercase;
+    //     color: #fff;
+    //     padding: 14% 0;
+    //     background: url("/assets/Gif CTA image FINAL.png") no-repeat;
+    //     background-size: cover;
+    //     width: 100%;
+        
+    //     h2 {
+    //         margin: 0;
+    //         padding-bottom: 7%;
+    //         font-size: 6vw;
+    //         width: 90%;
+    //         margin-left: 5%;
+    //     }
+        
+    //     .gif-enquire-button {
+    //         text-decoration: none;
+    //         color: #fff;
+    //         border: 4px solid #fff;
+    //         padding: 3%;
+    //         font-size: 3vw;
+    //     }
+    // }
+}
 
 
 @media screen and (min-width: 768px) and (orientation: portrait) {
@@ -638,6 +1181,13 @@ body {
             }
             
         }
+    }
+    .large-section-teal-bg.center {
+        display: none;
+    }
+    
+    .section-teal-bg {
+        display: block;
     }
     
     .small-selfie-blurb-on-image .small-selfie-blurb-text p {
@@ -707,6 +1257,8 @@ body {
 }
 
 
+
+
 @media screen and (min-width: 1024px) and (orientation: landscape) {
 
     
@@ -738,69 +1290,72 @@ body {
             }
         }
     }
-    
     .content1-quote-selfie h2 {
         padding: 9% 15%;
         font-size: 4vw;
     }
-    
-    .selfie-round-shadow .white-fill-for-selfie .selfie-icon-container {
+    .selfie-round-shadow {
         
-        width: 100%;
+        height: 39.2vh;
         
-        .selfie-icon-section {
+        .white-fill-for-selfie .selfie-icon-container {
         
-            .row {
-                height: 39vh;
-                margin-bottom: 0;
-                
-                .icon-block-1, .icon-block-2, .icon-block-3 {
-                    height: 100%;
+            width: 100%;
+        
+            .selfie-icon-section {
+            
+                .row {
+                    height: 39vh;
+                    margin-bottom: 0;
                     
-                    .icon-block {
-                        transform: scale(0.9);
+                    .icon-block-1, .icon-block-2, .icon-block-3 {
+                        height: 100%;
                         
-                        h5 {
-                            padding-bottom: 6%;
-                            margin-top: 10%;
-                        }
-                        
-                        p.light {
-                            margin: 0;
+                        .icon-block {
+                            transform: scale(0.9);
+                            
+                            h5 {
+                                padding-bottom: 6%;
+                                margin-top: 10%;
+                            }
+                            
+                            p.light {
+                                margin: 0;
+                            }
                         }
                     }
-                }
-                
-                .icon-block-1 {
-                    border-right: 2px solid rgba(200,200,200,0.3);
-                }
                     
-                .icon-block-2 {
-                    border-right: 2px solid rgba(200,200,200,0.3);
-                }
-                
-                .icon-block-2 {
-                    
-                    h2 {
-                        margin-top: 11%;
+                    .icon-block-1 {
+                        border-right: 2px solid rgba(200,200,200,0.3);
+                        
+                        h2 {
+                            margin-top: 9%;
+                        }
                     }
-                }
-                
-                .icon-block-3 {
+                        
+                    .icon-block-2 {
+                        border-right: 2px solid rgba(200,200,200,0.3);
+                        
+                        h2 {
+                            margin-top: 11%;
+                        }
+                    }
                     
-                    h2 {
-                        margin-top: 13%;
+                    .icon-block-3 {
+                        
+                        h2 {
+                            margin-top: 13%;
+                        }
                     }
                 }
             }
         }
     }
-    
     .section-teal-bg {
         display: none;
     }
-    
     .large-section-teal-bg {
+        display: block;
         background-color: #a0d1b8;
         color: white;
         padding: 13% 0;
@@ -811,6 +1366,35 @@ body {
             margin: 0;
             font-family: 'gotham_boldregular';
             font-size: 3.4vw;
+        }
+    }
+    .small-selfie-blurb-on-image {
+        display: none;
+    }
+    .selfie-blurb-on-image {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        
+        .selfie-blurb-text {
+        
+            position: absolute;
+            width: 70%;
+            top: 10%;
+            left: 15%;
+            color: #fff;
+            
+            h2 {
+                text-transform: uppercase;
+                font-size: 5vw;
+                margin-top: 6%;
+            }
+            
+            p {
+                font-family: 'gotham_bookregular';
+                font-size: 2.5vw;
+                margin-top: 4%;
+            }
         }
     }
 }
