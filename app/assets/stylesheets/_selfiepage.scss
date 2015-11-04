@@ -415,39 +415,52 @@ body {
                     }
                     
                     .icon-block-1 {
+                        
+                        h2 {
+                            margin-top: 10vw;
+                        }
+                        
                         img {
-                            height: 30vw;
-                            margin-top: 6%;
+                            height: 27vw;
+                            margin-top: 0;
                         }
                         h5 {
-                            font-size: 6vw;
-                            margin-top: 11%;
-                            margin-bottom: 13%;
+                            font-size: 5vw;
+                            margin-top: 8vw;
+                            margin-bottom: 11vw;
                         }
                     }
                     
                     .icon-block-2 {
+                        
+                        h2 {
+                            margin-top: 12vw;
+                        }
+                        
                         img {
-                            height: 29vw;
-                            margin-top: 6%;
+                            height: 27vw;
+                            margin-top: 0;
                         }
                         h5 {
                             font-size: 6vw;
-                            margin-top: 11%;
-                            margin-bottom: 13%;
+                            margin-top: 10vw;
+                            margin-bottom: 11vw;
                         }
                     }
                     .icon-block-3 {
-                        padding-bottom: 1%;
+                        
+                        h2 {
+                            margin-top: 11vw;
+                        }
                         
                         img {
-                            height: 26vw;
-                            margin-top: 6%;
+                            height: 24vw;
+                            margin-top: 0;
                         }
                         h5 {
                             font-size: 6vw;
-                            margin-top: 11%;
-                            margin-bottom: 13%;
+                            margin-top: 10vw;
+                            margin-bottom: 11vw;
                         }
                     }
                 }
@@ -1170,22 +1183,74 @@ body {
 
 @media screen and (min-width: 768px) and (orientation: portrait) {
     
-    .selfie-round-shadow .white-fill-for-selfie .selfie-icon-container {
-        width: 70%;
-        margin: 0 15% ;
+    .selfie-round-shadow {
         
-        .selfie-icon-section {
+        .white-fill-for-selfie {
+        
+            .selfie-icon-container {
+                width: 90%;
+                margin: 0 5%;
             
-            .icon-block-1, .icon-block-2, .icon-block-3 {
-                transform: scale(0.8);
-            }
-            .icon-block-1 {
-                margin-top: -4%;
-            }
-            .icon-block-2 {
-                margin: -12% 0;
-            }
+                .selfie-icon-section {
+                    
+                    .row {
             
+                        .icon-block-1, .icon-block-2, .icon-block-3 {
+                            margin: 0;
+                            width: 100%;
+                            padding: 0 10vw;
+                        }
+                        .icon-block-1 {
+                            
+                            h2 {
+                                margin-top: 10vw;
+                            }
+                            
+                            img {
+                                height: 23vw;
+                                margin-top: 0;
+                            }
+                            h5 {
+                                font-size: 4vw;
+                                margin-top: 8vw;
+                                margin-bottom: 11vw;
+                            }
+                        }
+                        .icon-block-2 {
+                            
+                            h2 {
+                                margin-top: 12vw;
+                            }
+                            
+                            img {
+                                height: 23vw;
+                                margin-top: 0;
+                            }
+                            h5 {
+                                font-size: 4vw;
+                                margin-top: 10vw;
+                                margin-bottom: 11vw;
+                            }
+                        }
+                        .icon-block-3 {
+                            
+                            h2 {
+                                margin-top: 11vw;
+                            }
+                            
+                            img {
+                                height: 21vw;
+                                margin-top: 0;
+                            }
+                            h5 {
+                                font-size: 4vw;
+                                margin-top: 10vw;
+                                margin-bottom: 11vw;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
     .large-section-teal-bg.center {
