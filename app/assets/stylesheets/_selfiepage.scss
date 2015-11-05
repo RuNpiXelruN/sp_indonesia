@@ -583,9 +583,9 @@ body {
     }
     .small-selfie-strip {
         display: block;
-        width: 100%;
+        width: 101vw;
         overflow: hidden;
-        height: 19.3%;
+        height: 34.1vw;
         
         img {
             width: 34.2vw;
@@ -638,7 +638,7 @@ body {
         }
     }
 }
-@media screen and (min-width: 5px) and (max-width: 767px) and (orientation: landscape) {
+@media screen and (min-width: 5px) and (max-width: 1023px) and (orientation: landscape) {
     .selfies-hero-image-container {
         height: 99vh;
         
@@ -862,9 +862,9 @@ body {
     }
     .small-selfie-strip {
         display: block;
-        width: 100%;
+        width: 101vw;
         overflow: hidden;
-        height: 51.3%;
+        height: 34.2vw;
         
         img {
             width: 34.5vw;
@@ -1347,12 +1347,12 @@ body {
                 height: 85vw;
                 bottom: 0%;
                 // right: 22%;
-                margin-left: 17vw;
+                margin-left: 24.7vw;
                 position: absolute;
                 -webkit-transform: scale(1);
                 -ms-transform: scale(1);
                 transform: scale(1);
-                max-height: 56vw;
+                max-height: 42vw;
                 width: initial;
             }
         }
