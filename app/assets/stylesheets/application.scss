@@ -25,6 +25,117 @@
 
 
 
+
+.navcontainer {
+    width: 100%;
+    height: 7.7vw;
+    background-color: rgba(10,10,10,0);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    
+    .nav-elements {
+        position: relative;
+        width: 100%;
+        
+        img, .nav-list {
+            position: absolute;
+        }
+        
+        img {
+            top: 1vw;
+            left: 2vw;
+            height: 5.5vw;
+        }
+        
+        .nav-list {
+            left: 19vw;
+            font-size: 1vw;
+            font-family: 'gotham_bookregular';
+            margin-top: 1vw;
+            text-transform: uppercase;
+            z-index: 999;
+            
+            
+            ul {
+                padding: 0;
+                list-style: none;
+                
+                li {
+                    display: inline-block;
+                    margin-left: 2vw;
+                    padding: 0.6vw 1.7vw;
+                }
+                    
+                a {
+                    font-family: 'gotham_bookregular';
+                    letter-spacing: 0.1vw;
+                }
+                    
+                .nav-home {
+                    color: rgb(250, 156, 37);
+                    li {
+                        border: 0.3vw solid rgba(250, 156, 37, 0);
+                        transition: border 0.4s ease;
+                        &:hover {
+                            border: 0.3vw solid rgba(250, 156, 37, 1);
+                        }
+                    }
+                }
+                .nav-toys {
+                    color: rgb(143, 218, 230);
+                    li {
+                        border: 0.3vw solid rgba(143, 218, 230, 0);
+                        transition: border 0.4s ease;
+                        &:hover {
+                            border: 0.3vw solid rgba(143, 218, 230, 1);
+                        }
+                    }
+                }
+                .nav-pastevents {
+                    color: rgb(238, 164, 172);
+                    li {
+                        border: 0.3vw solid rgba(238, 164, 172, 0);
+                        transition: border 0.4s ease;
+                        &:hover {
+                            border: 0.3vw solid rgba(238, 164, 172, 1);
+                        }
+                    }
+                }
+                .nav-contact {
+                    color: rgb(159, 209, 184);
+                    li {
+                        border: 0.3vw solid rgba(159, 209, 184, 0);
+                        transition: border 0.4s ease;
+                        &:hover {
+                            border: 0.3vw solid rgba(159, 209, 184, 1);
+                        }
+                    }
+                }
+                .nav-partners {
+                    color: rgb(255, 155, 126);
+                    li {
+                        border: 0.3vw solid rgba(255, 155, 126, 0);
+                        transition: border 0.4s ease;
+                        &:hover {
+                            border: 0.3vw solid rgba(255, 155, 126, 1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .drop-down {
     position: relative;
 }

@@ -61,57 +61,57 @@ body {
 // navbar styles for gif and selfies page
 // --------------------------------------
 
-.navcontainer {
-    width: 100%;
-    height: 112px;
-    background-color: rgba(10,10,10,0.5);
+// .navcontainer {
+//     width: 100%;
+//     height: 7.7vw;
+//     background-color: rgba(10,10,10,0.5);
     
-    .nav-elements {
-        position: relative;
-        width: 100%;
+//     .nav-elements {
+//         position: relative;
+//         width: 100%;
         
-        img, .nav-list {
-            position: absolute;
-        }
+//         img, .nav-list {
+//             position: absolute;
+//         }
         
-        img {
-            transform: scale(0.8);
-            top: -5px;
-            left: 7%;
-        }
+//         img {
+//             transform: scale(0.8);
+//             top: -5px;
+//             left: 7%;
+//         }
         
-        .nav-list {
-            left: 32%;
-            font-size: 1.1em;
-            margin-top: 15px;
-            text-transform: uppercase;
-            z-index: 2;
+//         .nav-list {
+//             left: 32%;
+//             font-size: 1.1em;
+//             margin-top: 15px;
+//             text-transform: uppercase;
+//             z-index: 2;
             
             
-            ul {
-                padding: 0;
-                list-style: none;
+//             ul {
+//                 padding: 0;
+//                 list-style: none;
                 
-                li {
-                    display: inline-block;
-                    margin-left: 29px;
-                    padding: 3px 15px;
-                    border: 4px solid rgba(255,255,255,0);
+//                 li {
+//                     display: inline-block;
+//                     margin-left: 29px;
+//                     padding: 3px 15px;
+//                     border: 4px solid rgba(255,255,255,0);
                     
-                    &:hover {
-                        border: 4px solid rgba(255,255,255,1);
-                        font-weight: 400;
-                    }
+//                     &:hover {
+//                         border: 4px solid rgba(255,255,255,1);
+//                         font-weight: 400;
+//                     }
                     
-                    a {
-                        color: #fff;
-                        font-family: 'gotham_boldregular';
-                    }
-                }
-            }
-        }
-    }
-}
+//                     a {
+//                         color: #fff;
+//                         font-family: 'gotham_boldregular';
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
 
 // --------------------------------------
 // styles for gif hero/nav section
@@ -416,23 +416,9 @@ body {
 
 //--------------------------------------------------------------------------------------------------------------------------------
 
-@media screen and (min-width: 0px) and (orientation: landscape) {
-    .hero-image-container #gif-foreground-hero {
-        padding-right: 2%;
-        height: 79vh;
-    }
-}
-@media screen and (min-width: 0px) and (orientation: portrait) {
-    .hero-image-container #gif-foreground-hero {
-        padding-right: 2%;
-        height: 101vw;
-    }
-}
 
 
-
-
-@media screen and (min-width: 250px) {
+@media screen and (min-width: 5px) {
     
     .hero-image-container {
         width: 100%;
@@ -443,7 +429,6 @@ body {
         //     height: 79vh;
         // }
     }
-    
     .quote-section-1 .container {
         width: 95%;
     
@@ -455,7 +440,6 @@ body {
             font-size: 7.5vw;
         }
     }
-    
     .gif-icon-section {
         padding: 4% 0 9% 0;
         
@@ -495,7 +479,6 @@ body {
             margin-top: 9%;
         }
     }
-    
     .quote2-section {
         margin-top: -1%;
         
@@ -510,7 +493,6 @@ body {
             }
         }
     }
-    
     .blurb-on-image {
         display: none;
     }
@@ -535,7 +517,6 @@ body {
             margin-bottom: 17%;
         }
     }
-    
     .ipad-container {
         display: none;
     }
@@ -549,11 +530,9 @@ body {
             margin: 0 auto;
         }
     }
-    
     .ipad-container {
         display: none;
     }
-    
     .small-ipad-gif-text-container {
         display: block;
         width: 90%;
@@ -607,7 +586,6 @@ body {
         display: block;
         transform: scaleX(1.01);
     }
-    
     .orange-quote-section {
         padding: 10% 0;
         
@@ -620,7 +598,6 @@ body {
             
         }
     }
-    
     .branded-selfies-section {
         padding: 9% 2% 10% 2%;
         
@@ -643,224 +620,541 @@ body {
         }
     }
 }
-// @media screen and (min-width: 360px) {
-//     .hero-image-container {
-//         height: 15.5%;
-//     }
-// }
 
-
-// @media screen and (min-width: 375px) {
-//     .hero-image-container {
-//         height: 15.3%;
-//     }
-// }
-// @media screen and (min-width: 414px) {
-//     .hero-image-container {
-//         height: 17.9%;
-//     }
-// }
-
-@media screen and (min-width: 768px) {
-    .hero-image-container {
-        // height: 24.9%;
-        
-        #gif-foreground-hero {
-            padding-right: 3%;
-        }
-    }
+@media screen and (min-width: 768px) and (orientation: portrait) {
     .quote-section-1 .container {
+        width: 95%;
     
         .content1-quote-gif h2 {
-            padding: 19% 0;
-            font-size: 7.1vw;
+
+            margin-top: 0;
+            margin-bottom: 0;
+            padding: 18vw 0;
+            font-size: 4.5vw;
         }
     }
     .gif-icon-section {
-        padding: 4% 0 4% 0;
+        padding: 3vw 0 7vw 0;
+        
+        .icon-block-1, .icon-block-2 {
+            border-bottom: 1px solid rgba(200,200,200,0.8);
+        }
         
         .icon-block-1, .icon-block-2, .icon-block-3 {
             
             h5 {
-                font-size: 6vw;
-                margin-top: 9%;         
+                font-size: 5vw;
+                margin-top: 5vw;         
             }
             img {
-                transform: scale(1.5);
+                height: 18vw;
             }
         }
+        
         .icon-block-1 {
+            margin-top: 4vw;
+            margin-bottom: 0;
+    
             .icon-block {
-                padding-bottom: 6%;
+                padding-bottom: 9vw;
             }
         }
+    
         .icon-block-2 {
-            margin-top: 8%;
+            margin-top: 8vw;
         
             .icon-block {
-                padding-bottom: 6%;
+                padding-bottom: 9vw;
             }
         }
+    
         .icon-block-3 {
-            margin-top: 8%;
+                margin-top: 8vw;
         }
     }
-    .quote2-section .container h2 {
-        margin: 13% 0;
+    .quote2-section {
+        margin-top: -1%;
+        
+        .container {
+            width: 95%;
+            
+            h2 {
+                text-transform: uppercase;
+                margin: 19vw 0;
+                color: #fa9c25;
+                font-size: 5vw;
+            }
+        }
     }
     .blurb-container {
-    
+        width: 90%;
+        
         .small-blurb-p {
-            margin-top: 15%;
+            margin-top: 17vw;
+            
+            .blurb-under-header {
+                font-size: 6vw;
+            }
         }
+        
         .gif-quote-under-image {
-            font-size: 5vw;
-            line-height: 1.5;
-            padding: 2% 4%;
-            margin-bottom: 7%;
+            line-height: 2;
+            font-size: 4vw;
+            padding: 2vw 13vw;
+            margin-bottom: 6vw;
         }
     }
     .small-ipad-container {
-        margin-top: 27%;
+        display: block;
+        margin-top: 22vw;
+        width: 100%;
         
         #small-wrapper {
-            transform: scale(1.4);
+            transform: scale(1.1);
+            margin: 0 auto;
         }
     }
-    .small-ipad-gif-text-container .ipad-section-content-small {
-        margin-top: 20%;
+    .small-ipad-gif-text-container {
+        display: block;
+        width: 90%;
         
-        .staggered-test-small {
-        
-            .branding {
-                margin-bottom: 3%;
+        .ipad-section-content-small {
+            margin-bottom: 5%;
+            margin-top: 18vw;
             
-                .li-header-ipad {
-                    font-size: 5vw;
+            .staggered-test-small {
+                text-align: center;
+                margin-bottom: -6%;
+                
+                li {
+                    line-height: 6vw;
                 }
-                .li-body-ipad {
-                    font-size: 4.5vw;
+            
+                li:first-child {
+                    padding-bottom: 3%;
                 }
-            }
-            .live-gallery {
-                margin-top: 8%;
-                margin-bottom: 6%;
+                .branding {
+                    margin-bottom: 4vw;
+                }
+                
+                .live-gallery {
+                    margin-top: 13vw;
+                    margin-bottom: 7vw;
+                }
                 
                 .li-header-ipad {
-                    font-size: 5vw;
+                    font-size: 6vw;
                 }
                 .li-body-ipad {
                     font-size: 4.5vw;
                 }
-            }
-            .gifgif-global {
-                font-size: 5vw;
-                margin-top: 4%;
-                margin-bottom: 14%;
+                .gifgif-global {
+                    font-size: 5.5vw;
+                    margin-top: 2vw;
+                    margin-bottom: 15vw;
+                    
+                    a {
+                        color: #888;
+                        
+                        &:hover {
+                        color: #9fd1b8;
+                        }
+                    }
+                }
             }
         }
     }
     .orange-quote-section {
+        padding: 11vw 0;
         
-        padding: 8% 0 10% 0;
-    
+        h2 {
+            font-size: 5.5vw;
+        }
+        a {
+            font-size: 3vw;
+        }
         .book-now-button {
-            transform: scale(1.5);
+            margin-top: 6%;
+            transform: scale(0.9);
+            color: #fff;
+            border: 0.7vw solid #fff;
+            display: inline-block;
+            padding: 1vw 2vw;
+            
         }
     }
     .branded-selfies-section {
-        padding: 8% 2%;
+        padding: 9% 2% 10% 2%;
         
         h2 {
-            font-size: 6vw;
+            font-size: 5.5vw;
         }
-        
+        a {
+            font-size: 3vw;
+        }
         a p {
-            transform: scale(1.5);
+            margin-top: 6%;
+            transform: scale(0.9);
+            color: #fff;
+            border: 0.7vw solid #fff;
+            display: inline-block;
+            padding: 1vw 2vw;
         }
-    }
-    footer {
-        margin: -1px;
     }
 }
-@media screen and (min-width: 1280px) {
+
+@media screen and (min-width: 5px) and (max-width: 1023px) and (orientation: landscape) {
+    
     .hero-image-container {
-        // height: 19.4%;
+        width: 100%;
+        height: 99vh;
         
         #gif-foreground-hero {
-            // transform: scale(0.6);
+            padding-right: 2%;
+            height: 50vw;
         }
     }
-    .quote-section-1 .container .content1-quote-gif h2 {
-        padding: 11% 0;
-        font-size: 3.5vw;
+    .quote-section-1 .container {
+        width: 95%;
+    
+        .content1-quote-gif h2 {
+
+            padding: 16vw 0;
+            margin-top: 0;
+            margin-bottom: 0;
+            font-size: 5vw;
+        }
+    }
+    .gif-icon-section {
+        padding: 4vw 0 5vw 0;
+        
+        .icon-block-1, .icon-block-2 {
+            border-bottom: 1px solid rgba(200,200,200,0.8);
+        }
+        
+        p.light {
+            margin: 0;
+        }
+        
+        .icon-block-1 {
+            margin-top: 4vw;
+            margin-bottom: 0;
+    
+            .icon-block {
+                padding-bottom: 7vw;
+                
+                h2 {
+                    margin-top: 2vw;
+                }
+                img {
+                    height: 18vw;
+                }
+                h5 {
+                    font-size: 5vw;
+                    margin-top: 3vw;
+                }
+            }
+        }
+    
+        .icon-block-2 {
+            margin-top: 6vw;
+        
+            .icon-block {
+                padding-bottom: 8vw;
+                
+                h2 {
+                    margin-top: 4vw;
+                }
+                img {
+                    height: 18vw;
+                }
+                h5 {
+                    font-size: 5vw;
+                    margin-top: 3vw;
+                }
+            }
+        }
+    
+        .icon-block-3 {
+            margin-top: 8vw;
+            
+            h2 {
+                margin-top: 2vw;
+            }
+            img {
+                height: 15vw;
+            }
+            h5 {
+                font-size: 5vw;
+                margin-top: 3vw;
+            }
+        }
+    }
+    .quote2-section {
+        margin-top: -1%;
+        
+        .container {
+            width: 95%;
+            
+            h2 {
+                text-transform: uppercase;
+                margin: 13vw 0;
+                color: #fa9c25;
+                font-size: 6vw;
+            }
+        }
+    }
+    .blurb-container {
+        width: 90%;
+        
+        .small-blurb-p {
+            margin-top: 12vw;
+            
+            .blurb-under-header {
+                font-size: 6vw;
+            }
+        }
+        
+        .gif-quote-under-image {
+            line-height: 7vw;
+            font-size: 4vw;
+            padding: 1vw 2vw;
+            margin-bottom: 7vw;
+        }
+    }
+    .small-ipad-container {
+        display: block;
+        margin-top: 11vw;
+        width: 100%;
+        transform: scale(0.9);
+        
+        #small-wrapper {
+            transform: scale(0.9);
+            margin: 0 auto;
+        }
+    }
+    .small-ipad-gif-text-container {
+        display: block;
+        width: 90%;
+        
+        .ipad-section-content-small {
+            margin-bottom: 0;
+            margin-top: 7vw;
+            padding-bottom: 4vw;
+            
+            .staggered-test-small {
+                text-align: center;
+                margin-bottom: -6vw;
+            
+                li:first-child {
+                    padding-bottom: 2vw;
+                }
+                .branding {
+                    margin-bottom: 2vw;
+                }
+                
+                .live-gallery {
+                    margin-top: 10vw;
+                    margin-bottom: 5vw;
+                }
+                
+                .li-header-ipad {
+                    font-size: 6vw;
+                }
+                .li-body-ipad {
+                    font-size: 4vw;
+                    line-height: 5vw;
+                }
+                .gifgif-global {
+                    font-size: 5.5vw;
+                    margin-top: 4vw;
+                    margin-bottom: 3vw;
+                    
+                    a {
+                        color: #888;
+                        
+                        &:hover {
+                        color: #9fd1b8;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+    .hero-image-container {
+        width: 100%;
+        height: 99vh;
+        position: relative;
+        overflow: hidden;
+        background: url(/assets/Gif-Background-Final-compressor-dff749219705cacb5010f2f00591db43.png) no-repeat;
+        background-size: cover;
+        
+        #gif-foreground-hero {
+            position: absolute;
+            top: -9999px;
+            bottom: -9999px;
+            left: -9999px;
+            right: -9999px;
+            margin: auto;
+            height: 57vw;
+            padding-top: 0;
+        }
+    }
+    .quote-section-1 .container {
+        width: 95%;
+    
+        .content1-quote-gif h2 {
+            padding: 16vw 0;
+            margin-top: 0;
+            margin-bottom: 0;
+            font-size: 4.5vw;
+        }
     }
     .gif-icon-section {
         padding: 0;
-        width: 100%;
+        height: 25vw;
         
         .row {
+            height: inherit;
             margin-bottom: 0;
-            
+        
             .icon-block-1, .icon-block-2 {
                 border-bottom: none;
-                border-right: 1px solid rgba(200,200,200,0.4);
-            }
-            .icon-block-1, .icon-block-2, .icon-block-3 {
-                
-                h5 {
-                    font-size: 2vw;    
-                }
             }
             
-            img {
-                transform: scale(1.3);
+            p.light {
+                margin: 0;
             }
+            
+            .icon-block-1, .icon-block-2, .icon-block-3 {
+                
+                height: inherit;
+                
+                // img {
+                //     transform: scale(1);
+                // }
+            }
+            
+            
             .icon-block-1 {
-                margin-top: 0%;
-                padding-top: 10%;
-                padding-bottom: 8%;
+                margin-top: 0;
+                margin-bottom: 0;
+                border-right: 0.2vw solid rgba(200,200,200,0.4);
+        
+                .icon-block {
+                    padding-top: 3.5vw;
+                    padding-bottom: 3vw;
+                    margin: -3vw;
+                    height: auto;
+                }
+                h2 {
+                   margin-top: 4vw; 
+                }
+                img {
+                    height: 8vw;
+                }
+                h5 {
+                    font-size: 2.2vw;
+                    margin-top: 3vw;
+                }
+            }
+        
+            .icon-block-2 {
+                margin-top: 0;
+                border-right: 0.2vw solid rgba(200,200,200,0.4);
+            
+                .icon-block {
+                    padding-top: 3.5vw;
+                    padding-bottom: 3vw;
+                    margin: -3vw;
+                    height: auto;
+                }
+                h2 {
+                    margin-top: 3.7vw;
+                }
+                img {
+                    height: 8vw;
+                }
+                h5 {
+                    margin-top: 3.5vw;
+                    font-size: 2.2vw;
+                }
+            }
+        
+            .icon-block-3 {
+                margin-top: 0;
                 
                 .icon-block {
-                    padding-bottom: 0%;
+                    margin: -3vw;
+                    height: auto;
+                    padding-top: 3.5vw;
+                    padding-bottom: 5vw;
+                    
+                    h2 {
+                        margin-top: 3.7vw;
+                    }
+                    img {
+                        height: 7vw;
+                    }
+                    h5 {
+                        margin-top: 3.8vw;
+                        font-size: 2.2vw;
+                    }
                 }
-                
-                h5 {
-                    margin-top: 11%;
-                }
-            }
-            .icon-block-2 {
-                margin-top: 0%;
-                padding-top: 10.5%;
-                padding-bottom: 6.2%;
-                
-                h5 {
-                    margin-top: 12%;
-                }
-            }
-            .icon-block-3 {
-                margin-top: 0%;
-                padding-top: 11.5%;
-                padding-bottom: 7.9%;
-                
-                h5 {
-                    margin-top: 12%;
-                }
+    
+            }    
+        }
+    }
+    .quote2-section {
+        margin-top: -1%;
+        
+        .container {
+            width: 95%;
+            
+            h2 {
+                text-transform: uppercase;
+                margin: 14vw 0;
+                color: #fa9c25;
+                font-size: 4vw;
             }
         }
     }
-    .quote2-section .container h2 {
-        margin: 11% 0;
-        font-size: 3.5vw;
-    }
-    .blurb-on-image-small, .blurb-container {
+    .blurb-on-image-small {
         display: none;
     }
-    .blurb-on-image { 
+    .blurb-container {
+        display: none;
+    }
+    .blurb-on-image {
         display: block;
+        height: 51vw;
+        position: relative;
         
+        img {
+            width: 100%;
+            height: auto;
+        }
         p {
-            font-size: 2vw;
+            font-family: 'gotham_bookregular';
+            color: white;
+            position: absolute;
+            left: 8vw;
+            bottom: 0vw;
+            font-size: 2.5vw;
+            width: 60vw;
+        }
+        .gif-image-text-header {
+            text-transform: uppercase;
+        }
+        .blurb-gif-logo {
+            position: absolute;
+            width: 11vw;
+            height: auto;
+            right: 5vw;
+            bottom: 3vw;
         }
     }
     .small-ipad-container {
@@ -871,36 +1165,99 @@ body {
     }
     .ipad-container {
         display: block;
-        width: 85%;
-        margin: 0 7.5%;
-        margin-top: 10%;
-        margin-bottom: 9%;
+        height: 75vw;
+        position: relative;
+        width: 90%;
         
-        #wrapper {
-            margin: 0;
-        }
-        .row .ipad-text-large {
-            width: 59%;
-        }
-        .ipad-text-large {
-            font-size: 3.3vh;
-            margin-top: 12%;
-            margin-bottom: 0%;
-            padding-left: 9%;
-            color: #888;
+        .row {
+            margin-top: 3vw;
             
-            .branding, .live-gallery {
-                color: #000;
-                transition: color .3s ease;
-                &:hover {
-                    color: #9fd1b8;
+            #wrapper {
+                width: 47vw;
+                margin: 11vw 1vw 7vw 5vw;
+                
+                .ipad-front {
+                    position: relative;
+                    width: 38vw;
+                    height: 53vw;
+                    background-color: #000;
+                    border-radius: 10px;
+                    border: 2px solid #888;
+                    padding: 40px;
+                    box-shadow: 1px 2px 0px #111;
+                    
+                    .ipad-front-camera {
+                        width: 0.8vw;
+                        height: 0.8vw;
+                        background-color: #222;
+                        border-radius: 50px;
+                        position: absolute;
+                        top: 2vw;
+                        left: 19vw;
+                        
+                        span {
+                            display: block;
+                            width: 0.4vw;
+                            height: 0.4vw;
+                            background-color: #111;
+                            border-radius: 50px;
+                            position: absolute;
+                            top: 0.2vw;
+                            left: 0.2vw;
+                        }
+                    }
+                    .ipad-front-display {
+                        width: 100%;
+                        height: 100%;
+                        margin-top: 11px;
+                        
+                        img {
+                            height: 42vw;
+                            width: 30vw;
+                            position: absolute;
+                            top: 5vw;
+                            left: 4vw;
+                            margin-left: 0;
+                            margin-top: 0;                            
+                        }
+                    }
+                    .ipad-front-home-button {
+                        width: 2.2vw;
+                        height: 2.2vw;
+                        background-color: #000;
+                        border: 1px solid #111;
+                        border-radius: 5vw;
+                        position: absolute;
+                        bottom: 1.8vw;
+                        left: 18.1vw;
+                        box-shadow: 1px 1px 2px #666;
+                        
+                        span {
+                            width: 1vw;
+                            height: 1vw;
+                            position: absolute;
+                            top: 0.6vw;
+                            left: 0.6vw;
+                            background-color: #000;
+                            border: 1px solid #444;
+                            border-radius: 0.2vw;
+                        }
+                    }
                 }
             }
-            a {
-                color: #000;
-                transition: color .3s ease;
-                &:hover {
-                    color: #9fd1b8;
+            .ipad-text-large {
+                margin-top: 26vw;
+                font-size: 2vw;
+                font-family: 'gotham_bookregular';
+                
+                .gifgifglobal-link a {
+                    color: #333;
+                }
+                
+                .branding, .live-gallery, .gifgifglobal-link {
+                    &:hover {
+                        color: #9FD1B8;
+                    }
                 }
             }
         }
@@ -910,244 +1267,58 @@ body {
     }
     .gif-strip {
         display: block;
-        width: 100%;
+        width: 102vw;
+        margin-top: 4vw;
+        margin-bottom: -1vw;
+        margin-left: 0.6vw;
+        transform: scaleX(1.05);
         
         img {
-            margin-right: -3px;
-            overflow-x: hidden;
-            margin-left: -2px;
-            transform: scaleX(1.03);
+            padding: 0;
+            margin: -0.2vw;
+            width: 20vw;
         }
     }
     .orange-quote-section {
-        padding: 6% 0 8% 0;
+        padding: 8vw 0;
         
         h2 {
-            font-size: 3.5vw;
+            font-size: 5vw;
         }
-        
-        a p {
-            transition: color .3s ease;
-            transition: color .3s ease;
-            &:hover {
-                color: #f7a73f;
-                background: #fff;
-            }
+        a {
+            font-size: 3vw;
         }
-        
+        .book-now-button {
+            color: #fff;
+            border: 0.7vw solid #fff;
+            display: inline-block;
+            padding: 1vw 2vw;
+            margin-bottom: 0;
+            margin-top: 4vw;
+            transform: scale(0.7);
+            
+        }
     }
     .branded-selfies-section {
-        padding: 6% 2% 7%;
+        padding: 7vw 1vw;
         
         h2 {
-            font-size: 3.5vw;
+            font-size: 5vw;
         }
-        
+        a {
+            font-size: 3vw;
+        }
         a p {
-            transition: color .3s ease;
-            transition: background .3s ease;
-    
-            &:hover {
-                color: #000;
-                background: #fff;
-            }
-        }
-    }
-    footer {
-        padding: 2%;
-        
-        p {
-            font-size: 1vw;
+            color: #fff;
+            border: 0.7vw solid #fff;
+            display: inline-block;
+            padding: 1vw 2vw;
+            margin-bottom: 0;
+            margin-top: 4vw;
+            transform: scale(0.7);
         }
     }
 }
-
-// @media screen and (min-width: 1400px) {
-//     .hero-image-container {
-//         height: 21.2%;
-//     }
-// }
-
-
-@media screen and (min-width: 1440px) {
-    .ipad-container .ipad-text-large {
-        margin-top: 6%;
-    }
-}
-
-@media screen and (min-width: 1580px) {
-    .ipad-container {
-        width: 70%;
-        margin: 0 15%;
-        margin-top: 10%;
-        margin-bottom: 9%;
-        
-        .ipad-text-large {
-            padding-left: 14%;
-        }
-    }
-}
-
-@media screen and (min-height: 768px) and (orientation: landscape) {
-    .ipad-container .ipad-text-large {
-        margin-top: 16%;
-    }
-}
-
-@media screen and (min-height: 800px) and (orientation: landscape) {
-    .ipad-container .ipad-text-large {
-        margin-top: 12%;
-    }
-}
-
-@media screen and (min-height: 900px) and (orientation: landscape) {
-    .ipad-container .ipad-text-large {
-        margin-top: 5%;
-        padding-left: 11%;
-    }
-}
-
-
-@media screen and (min-height: 1080px) and (orientation: landscape) {
-    .ipad-container {
-        position: relative;
-        width: 100%;
-        margin: 0 0;
-        margin-top: 10%;
-        margin-bottom: 9%;
-        height: 77vh;
-        
-        #wrapper {
-            position: absolute;
-            top: 10%;
-            left: 14%;
-            transform: scale(1.3);
-        }
-        .ipad-text-large {
-            position: absolute;
-            width: 59%;
-            left: 33%;
-            top: -14%;
-        }
-    }
-    .gif-icon-section {
-        
-        .icon-block img {
-        transform: scale(1.8);
-        }
-        
-        .row {
-            
-            .icon-block-1 h5 {
-                margin-top: 16%;
-            }
-            .icon-block-2 h5 {
-                margin-top: 17%;
-            }
-            .icon-block-3 h5 {
-                margin-top: 15%;
-            }
-        }
-    }
-}
-
-
-
-// @media screen and (min-width: 1600px) {
-//     .hero-image-container {
-//         height: 24.3%;
-//     }
-// }
-// @media screen and (min-height: 900px) {
-//     .hero-image-container {
-//         height: 21.7%;
-//     }
-// }
-
-
-
-
-
-// @media screen and (max-width: 420px) {
-//     .round-shadow .container {
-        
-//         .content1-quote {
-//             padding: 50px 0;
-        
-//             .gif-text {
-//                 font-size: 2em;
-//             }
-//         }
-//     }
-    
-//     .gif-icon-section {
-//         padding: 36px 0;
-        
-//         .icon-block-1, .icon-block-2 {
-//             border-bottom: 2px solid rgba(200,200,200,0.8);
-//         }
-        
-//         .col.s12.m12.l4.icon-block-1, .col.s12.m12.l4.icon-block-2 {
-//             padding-bottom: 40px;
-//         }
-        
-//         .col.s12.m12.l4.icon-block-2 {
-//             padding-top: 32px;
-//         }
-        
-//         .col.s12.m12.l4.icon-block-3 {
-//             padding-top: 39px;
-//         }
-//     }
-    
-//     .quote-section .gif-new-concept-quote {
-//         font-size: 1.5em;
-//         padding: 55px 0;
-//     }
-    
-//     .blurb-below-image .small-blurb-p  {
-//         margin-top: 65px;
-//         line-height: initial;
-//         color: #888888;
-
-        
-//         .blurb-under-header {
-//             line-height: 1.6;
-//         }
-//         .gif-quote-under-image {
-//             line-height: 1.8;
-//         }
-//     }
-
-
-// // ipad section media queries -----------------v
-    
-    
-//     .ipad-container {
-//         display: none;
-//     }
-    
-//     .small-ipad-container {
-//         display: block;
-//     }
-    
-    
-    
-//     .gif-strip {
-//         display: none;
-//     }
-    
-//     .small-gif-strip {
-//         display: block;
-//     }
-// }
-
-
-
-
-
-
-
 
 
 
