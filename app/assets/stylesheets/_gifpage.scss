@@ -418,16 +418,29 @@ body {
 
 
 
-@media screen and (min-width: 5px) {
-    
+@media screen and (min-width: 5px) and (orientation: portrait) {
     .hero-image-container {
         width: 100%;
         height: 99vh;
         
-        // #gif-foreground-hero {
-        //     padding-right: 2%;
-        //     height: 79vh;
-        // }
+        img#facebook-icon {
+            position: absolute;
+            right: 1.5vw;
+            height: 5vw;
+            top: 28vw;
+        }
+        img#twitter-icon {
+            position: absolute;
+            right: 1.5vw;
+            height: 5vw;
+            top: 36vw;
+        }
+        img#instagram-icon {
+            position: absolute;
+            right: 1.5vw;
+            height: 5vw;
+            top: 43vw;
+        }
     }
     .quote-section-1 .container {
         width: 95%;
@@ -622,6 +635,29 @@ body {
 }
 
 @media screen and (min-width: 768px) and (orientation: portrait) {
+    .hero-image-container {
+        width: 100%;
+        height: 99vh;
+        
+        img#facebook-icon {
+            position: absolute;
+            right: 1.5vw;
+            height: 4vw;
+            top: 28vw;
+        }
+        img#twitter-icon {
+            position: absolute;
+            right: 1.5vw;
+            height: 4vw;
+            top: 34vw;
+        }
+        img#instagram-icon {
+            position: absolute;
+            right: 1.5vw;
+            height: 4vw;
+            top: 40vw;
+        }
+    }
     .quote-section-1 .container {
         width: 95%;
     
@@ -804,10 +840,28 @@ body {
 }
 
 @media screen and (min-width: 5px) and (max-width: 1023px) and (orientation: landscape) {
-    
     .hero-image-container {
         width: 100%;
         height: 99vh;
+        
+        img#facebook-icon {
+            position: absolute;
+            right: 1.5vw;
+            height: 3vw;
+            top: 18vw;
+        }
+        img#twitter-icon {
+            position: absolute;
+            right: 1.5vw;
+            height: 3vw;
+            top: 22vw;
+        }
+        img#instagram-icon {
+            position: absolute;
+            right: 1.5vw;
+            height: 3vw;
+            top: 26vw;
+        }
         
         #gif-foreground-hero {
             padding-right: 2%;
@@ -991,6 +1045,25 @@ body {
         overflow: hidden;
         background: url(/assets/Gif-Background-Final-compressor-dff749219705cacb5010f2f00591db43.png) no-repeat;
         background-size: cover;
+        
+        img#facebook-icon {
+            position: absolute;
+            right: 1.5vw;
+            height: 2.8vw;
+            top: 17vw;
+        }
+        img#twitter-icon {
+            position: absolute;
+            right: 1.5vw;
+            height: 2.8vw;
+            top: 21vw;
+        }
+        img#instagram-icon {
+            position: absolute;
+            right: 1.5vw;
+            height: 2.8vw;
+            top: 25vw;
+        }
         
         #gif-foreground-hero {
             position: absolute;

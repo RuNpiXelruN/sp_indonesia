@@ -609,7 +609,46 @@ body {
 }
 
 @media screen and (min-width: 768px) and (orientation: portrait) {
-    
+    .selfies-hero-image-container {
+        height: 99vh;
+        
+        .nav-selfie-image {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0%;
+            transform-origin: 50% 100%;
+            
+            img#facebook-icon {
+                position: absolute;
+                right: 1.5vw;
+                height: 4vw;
+                top: 28vw;
+            }
+            img#twitter-icon {
+                position: absolute;
+                right: 1.5vw;
+                height: 4vw;
+                top: 34vw;
+            }
+            img#instagram-icon {
+                position: absolute;
+                right: 1.5vw;
+                height: 4vw;
+                top: 40vw;
+            }
+        
+            #selfie-foreground-hero {
+                height: 85vw;
+                bottom: 0%;
+                left: -1%;
+                position: absolute;
+                -webkit-transform: scale(1);
+                -ms-transform: scale(1);
+                transform: scale(1.05);
+            }
+        }
+    }
     .selfie-round-shadow {
         
         .white-fill-for-selfie {
@@ -761,6 +800,25 @@ body {
             width: 100%;
             top: 0%;
             transform-origin: 50% 100%;
+            
+            img#facebook-icon {
+                position: absolute;
+                right: 1.5vw;
+                height: 3vw;
+                top: 18vw;
+            }
+            img#twitter-icon {
+                position: absolute;
+                right: 1.5vw;
+                height: 3vw;
+                top: 22vw;
+            }
+            img#instagram-icon {
+                position: absolute;
+                right: 1.5vw;
+                height: 3vw;
+                top: 26vw;
+            }
         
             #selfie-foreground-hero {
                 height: 49vw;
@@ -1032,8 +1090,6 @@ body {
 }
 
 @media screen and (min-width: 1024px) and (orientation: landscape) {
-
-    
     .selfies-hero-image-container {
     
         height: 99vh;
@@ -1050,23 +1106,22 @@ body {
             img#facebook-icon {
                 position: absolute;
                 right: 1.5vw;
-                height: 1.8vw;
-                top: 15vw;
+                height: 2.8vw;
+                top: 17vw;
             }
             img#twitter-icon {
                 position: absolute;
                 right: 1.5vw;
-                height: 1.8vw;
-                top: 18vw;
+                height: 2.8vw;
+                top: 21vw;
             }
             img#instagram-icon {
                 position: absolute;
                 right: 1.5vw;
-                height: 1.8vw;
-                top: 21vw;
+                height: 2.8vw;
+                top: 25vw;
             }
-        
-        
+      
             #selfie-foreground-hero {
                 height: 85vw;
                 bottom: 0%;
