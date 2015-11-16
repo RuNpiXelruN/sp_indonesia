@@ -70,18 +70,7 @@
 }
 
 @media screen and (min-width: 1024px) and (orientation: landscape) {
-    .navcontainer {
-        height: 10.7vw;
-        
-        .nav-elements {
-            
-            img {
-                top: 1vw;
-                left: 3vw;
-                height: 8.5vw;
-            }
-        }
-    }
+    
 }
 
 
@@ -92,7 +81,7 @@
     width: 100%;
     // height: 7.7vw;
     background-color: rgba(10,10,10,0);
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 0.1vw solid rgba(255,255,255,0.1);
     
     .nav-elements {
         position: relative;
@@ -293,7 +282,20 @@ img.logo-main {
     }
 }
 
-@media screen and (min-height: 5px) {
+@media screen and (min-width: 5px) and (orientation: portrait) {
+    
+    .navcontainer {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .navbar-desktop {
+        display: none;
+    }
+    
+    .navbar-dropdown {
+        display: block;
+    }
+    
     img.logo-main {
         top: 5vw;
         left: 5vw;
@@ -304,11 +306,11 @@ img.logo-main {
         .nav-item {
             position: absolute;
             width: 9vw;
-            left: 82vw;
-            -webkit-transform: scale(1.3, 1.2);
-                -ms-transform: scale(1.3, 1.2);
-                    transform: scale(1.3, 1.2);
-            top: 3vw;
+            left: 83vw;
+            -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1);
+            top: 2.8vw;
             z-index: 999;
         }
         
@@ -322,17 +324,17 @@ img.logo-main {
             background-color: rgba(0, 0, 0, 0.8);
             width: 100vw;
             position: absolute;
-            top: -5vw;
+            top: -4vw;
             left: 0vw;
-            height: 140vw;
-            z-index: 1;
+            height: 143vw;
+            z-index: 2;
             overflow: hidden;
-            border-bottom: 1px solid rgb(64, 63, 63);
             max-height: 150vw;
             display: none;
+            border-bottom: 1px solid grey;
             
             .nav-sub {
-                margin-top: 32vw;
+                margin-top: 33vw;
                 
                 ul {
                     font-size: 4.3vw;
@@ -342,12 +344,14 @@ img.logo-main {
                     text-transform: uppercase;
                 }
                 p {
-                    width: 42vw;
-                    margin: 12vw 1vw 3vw 29vw;
+                    width: 38vw;
+                    margin-left: 19vw;
+                    text-align: center;
+                    margin: 10vw 1vw 10vw 33vw;
                     border: 0.4vw solid transparent;
                     -webkit-transition: border 0.4s ease;
                     transition: border 0.4s ease;
-                    padding: 1vw 1vw;
+                    padding: 2vw 1vw;
                 }
             }
         }
@@ -355,7 +359,18 @@ img.logo-main {
 }
 
 
-@media screen and (min-height: 768px) and (orientation: portrait) {
+@media screen and (min-width: 768px) and (orientation: portrait) {
+    
+    .navcontainer {
+        border-bottom: 0.2vw solid rgba(255, 255, 255, 0.1);
+    }
+    .navbar-desktop {
+        display: none;
+    }
+    
+    .navbar-dropdown {
+        display: block;
+    }
     
     img.logo-main {
         top: 4vw;
@@ -400,10 +415,219 @@ img.logo-main {
                 .home-p, .toys-p, .pastevents-p, .contact-p, .partners-p {
                     margin: 0;
                 }
+                .home-p:hover {
+                    border: 0.4vw solid rgba(250 ,156 ,37 ,1);
+                    -webkit-transition: border 0.4s ease;
+                    transition: border 0.4s ease;
+                }
+                .toys-p:hover {
+                    border: 0.4vw solid rgba(143, 218, 230, 1);
+                    -webkit-transition: border 0.4s ease;
+                    transition: border 0.4s ease;
+                }
+                .pastevents-p:hover {
+                    border: 0.4vw solid rgba(238, 164, 172, 1);
+                    -webkit-transition: border 0.4s ease;
+                    transition: border 0.4s ease;
+                }
+                .contact-p:hover {
+                    border: 0.4vw solid rgba(159, 209, 184, 1);
+                    -webkit-transition: border 0.4s ease;
+                    transition: border 0.4s ease;
+                }
+                .partners-p:hover {
+                    border: 0.4vw solid rgba(255, 155, 126, 1);
+                    -webkit-transition: border 0.4s ease;
+                    transition: border 0.4s ease;
+                }
             }
         }
     }
 }
+
+
+@media screen and (min-width: 5px) and (max-width: 1023px) and (orientation: landscape) {
+    
+    .navbar-desktop {
+        display: none;
+    }
+    
+    .navbar-dropdown {
+        display: block;
+    }
+    
+    .navcontainer {
+        border-bottom: 1px solid rgba(255,255,255,0.1) !important;
+    }
+    .dropdown-ul {
+    
+        .nav-item {
+            position: absolute;
+            width: 9vw;
+            left: 83vw;
+            -webkit-transform: scale(0.6);
+            -ms-transform: scale(0.6);
+            transform: scale(0.6);
+            top: 0.5vw;
+            z-index: 999;
+        }
+        .nav-content {
+            background-color: rgba(0, 0, 0, 0.8);
+            width: 100vw;
+            position: absolute;
+            top: -5vw;
+            left: 0;
+            height: 27vw;
+            z-index: 2;
+            overflow: hidden;
+            max-height: 150vw;
+            display: none;
+            border-bottom: 1px solid rgba(255,255,255,0.3);
+            
+            .nav-sub {
+                margin-top: 15vw;
+                
+                ul {
+                    font-size: 1.3vw;
+                    text-align: center;
+                    font-family: 'gotham_bookregular';
+                    letter-spacing: 0.2vw;
+                    text-transform: uppercase;
+                    display: flex;
+                }
+                p {
+                    width: 18vw;
+                    margin-left: 19vw;
+                    margin: 1vw 1vw 1vw 1vw;
+                    border: 0.4vw solid transparent;
+                    -webkit-transition: border 0.4s ease;
+                    transition: border 0.4s ease;
+                    padding: 1.5vw 1vw;
+                }
+                .home-p:hover {
+                    border: 0.4vw solid rgba(250 ,156 ,37 ,1);
+                    -webkit-transition: border 0.4s ease;
+                    transition: border 0.4s ease;
+                }
+                .toys-p:hover {
+                    border: 0.4vw solid rgba(143, 218, 230, 1);
+                    -webkit-transition: border 0.4s ease;
+                    transition: border 0.4s ease;
+                }
+                .pastevents-p:hover {
+                    border: 0.4vw solid rgba(238, 164, 172, 1);
+                    -webkit-transition: border 0.4s ease;
+                    transition: border 0.4s ease;
+                }
+                .contact-p:hover {
+                    border: 0.4vw solid rgba(159, 209, 184, 1);
+                    -webkit-transition: border 0.4s ease;
+                    transition: border 0.4s ease;
+                }
+                .partners-p:hover {
+                    border: 0.4vw solid rgba(255, 155, 126, 1);
+                    -webkit-transition: border 0.4s ease;
+                    transition: border 0.4s ease;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+    
+    .navbar-dropdown {
+        display: none;
+    }
+    
+    .navbar-desktop {
+        display: block;
+    }
+
+    
+    .navcontainer {
+        height: 10.7vw;
+        
+        .nav-elements {
+            
+            img {
+                top: 2.5vw;
+                left: 3vw;
+                height: 5.5vw;
+            }
+            .nav-list {
+                left: 18vw;
+                font-size: 1.3vw;
+                font-family: 'gotham_bookregular';
+                margin-top: 3.2vw;
+                text-transform: uppercase;
+                z-index: 999;
+                
+                ul {
+                    padding: 0;
+                    list-style: none;
+                    display: flex;
+                    
+                    .home-link {
+                        color: rgb(250, 156, 37);
+                        border: 0.4vw solid rgba(250, 156, 37, 0);
+                        
+                        &:hover {
+                           border: 0.4vw solid rgba(250, 156, 37, 1); 
+                        }
+                    }
+                    .toys-link {
+                        color: rgb(143, 218, 230);
+                        border: 0.4vw solid rgba(143, 218, 230, 0);
+                        
+                        &:hover {
+                            border: 0.4vw solid rgba(143, 218, 230, 1);
+                        }
+                    }
+                    .pastevents-link {
+                        color: rgb(238, 164, 172);
+                        border: 0.4vw solid rgba(238, 164, 172, 0);
+                        
+                        &:hover {
+                            border: 0.4vw solid rgba(238, 164, 172, 1);
+                        }
+                    }
+                    .contact-link {
+                        color: rgb(159, 209, 184);
+                        border: 0.4vw solid rgba(159, 209, 184, 0);
+                        
+                        &:hover {
+                            border: 0.4vw solid rgba(159, 209, 184, 1);
+                        }
+                    }
+                    .partners-link {
+                        color: rgb(255, 155, 126);
+                        border: 0.4vw solid rgba(255, 155, 126, 0);
+                        &:hover {
+                            border: 0.4vw solid rgba(255, 155, 126, 1);
+                        }
+                    }
+                    
+                    li {
+                        margin-left: 1vw;
+                        padding: 0;
+                    }
+                    a {
+                        font-family: 'gotham_bookregular';
+                        letter-spacing: 0.1vw;
+                        padding: 1.5vw 2.5vw;
+                        margin: 0 1vw;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+
+
 
 
 

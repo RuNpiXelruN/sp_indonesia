@@ -1,8 +1,8 @@
 
 $(document).ready(function(){
 
-$(".nav-item").click(function(){
-        $(".nav-content").slideToggle(1000, "easeOutBounce");
+    $(".nav-item").click(function(){
+        $(".nav-content").slideToggle(500, "easeOutBounce");
     });
   
     $(document).click(function(event){
