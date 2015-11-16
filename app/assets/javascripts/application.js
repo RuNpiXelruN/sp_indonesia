@@ -16,7 +16,16 @@
 //= require_tree .
 
 $(document).ready(function(){
+    
+    // var hidden = true;
+    // document.getElementById('nav-item').onclick = function() {
+    //     document.getElementById('nav-content').style.height = '140vw';
+    //     hidden = !hidden;
+    // };    
+    
   $('.parallax').parallax();
+  
+  
 });
 
 var options = [
@@ -28,3 +37,6 @@ var options = [
     {selector: '.staggered-test-small', offset: 400, callback: 'Materialize.showStaggeredList(".staggered-test-small")' }
   ];
   Materialize.scrollFire(options);
+  
+
+
