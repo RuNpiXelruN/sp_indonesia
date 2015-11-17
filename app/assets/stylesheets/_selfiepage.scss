@@ -60,7 +60,7 @@ body {
 .selfies-hero-image-container {
     position: relative;
     overflow: hidden;
-    background: url("/assets/selfie-hero-img.png") no-repeat;
+    background: url("/assets/Hero image B&W.png") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -375,6 +375,12 @@ body {
             padding: 18% 4%;
         }
     }
+    .selfie-no-sprites {
+        display: block;
+    }
+    .selfie-desktop-sprites {
+        display: none;
+    }
     .selfie-round-shadow {
         width: 100%;
         
@@ -669,6 +675,12 @@ body {
             }
         }
     }
+    .selfie-no-sprites {
+        display: block;
+    }
+    .selfie-desktop-sprites {
+        display: none;
+    }
     .selfie-round-shadow {
         
         .white-fill-for-selfie {
@@ -868,6 +880,12 @@ body {
             font-size: 4.5vw;
             padding: 13% 4%;
         }
+    }
+    .selfie-no-sprites {
+        display: block;
+    }
+    .selfie-desktop-sprites {
+        display: none;
     }
     .selfie-round-shadow {
         width: 100%;
@@ -1181,9 +1199,52 @@ body {
         padding: 9% 15%;
         font-size: 4vw;
     }
+    .selfie-no-sprites {
+        display: none;
+    }
+    .selfie-desktop-sprites {
+        display: block;
+        
+        .selfie-shoot-sprite {
+            background: url(/assets/shoot-grow-sprite.png) no-repeat;
+            height: 14vw;
+            background-size: 18vw;
+            margin-left: 7vw;
+            width: 19vw;
+            background-position: 0vw 0vw;
+            
+            &:hover {
+                background-position: 0vw -14vw;
+            }
+        }
+        .selfie-phone-sprite {
+            background: url(/assets/selfie-phone-sprite-grow.png) no-repeat;
+            height: 14vw;
+            margin-left: 7vw;
+            background-size: 18vw;
+            width: 17vw;
+            background-position: 0vw 0.5vw;
+            
+            &:hover {
+                background-position: 0.2vw -16vw;
+            }
+        }
+        .selfie-share-sprite {
+            background: url(/assets/selfie-sharethumb-sprite-grow.png) no-repeat;
+            height: 13vw;
+            background-size: 17vw;
+            margin-left: 7vw;
+            width: 16vw;
+            background-position: 0vw 0vw;
+            
+            &:hover {
+                background-position: 0vw -15vw;
+            }
+        }
+    }
     .selfie-round-shadow {
         
-        height: 29vw;
+        height: 31vw;
         
         .white-fill-for-selfie .selfie-icon-container {
         
@@ -1192,7 +1253,7 @@ body {
             .selfie-icon-section {
             
                 .row {
-                    height: 29vw;
+                    height: 31vw;
                     margin-bottom: 0;
                     
                     .icon-block-1, .icon-block-2, .icon-block-3 {
@@ -1396,6 +1457,16 @@ body {
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
 
 
 // @media screen and (min-width: 5px) and (max-width: 767px) {
