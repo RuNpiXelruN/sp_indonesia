@@ -1,8 +1,4 @@
 
-             <!-------------------------------------------->
-             <!--         Gif Nav and hero image     -->
-             <!-------------------------------------------->
-
 
 <div class="hero-image-container group">
     <%= render 'layouts/nav' %>
@@ -29,7 +25,7 @@
 
 
 
-<div class="gif-icon-section">
+<div class="gif-icon-section gif-no-sprite">
     <div class="row">
         <div class="col s12 m12 l4 icon-block-1">
           <div class="icon-block">
@@ -39,7 +35,7 @@
             <p class="light"></p>
           </div>
         </div>
-    
+
         <div class="col s12 m12 l4 icon-block-2">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons"><img src="<%= asset_path( 'SMS.png' ) %>"></i></h2>
@@ -48,6 +44,7 @@
             <p class="light"></p>
           </div>
         </div>
+
     
         <div class="col s12 m12 l4 icon-block-3">
           <div class="icon-block">
@@ -58,15 +55,49 @@
           </div>
         </div>
     </div>
+</div> 
+
+
+<div class="gif-icon-section gif-sprites">
+    <div class="row">
+ 
+        <div class="col s12 m12 l4 icon-block-1">
+          <div class="icon-block">
+            <h2 class="center brown-text gif-finger-sprite"></h2>
+            <h5 class="center">Press the button &</br><span style="font-family: 'gotham_boldregular'">DO YOUR THING</span></h5>
+    
+            <p class="light"></p>
+          </div>
+        </div>
+        
+        <div class="col s12 m12 l4 icon-block-2">
+          <div class="icon-block">
+            <h2 class="center brown-text gif-phone-sprite"></h2>
+            <h5 class="center">Links sent by SMS so</br>it's <span style="font-family: 'gotham_boldregular'">EASY TO SHARE</span></h5>
+    
+            <p class="light"></p>
+          </div>
+        </div>
+        
+        <div class="col s12 m12 l4 icon-block-3">
+          <div class="icon-block">
+            <h2 class="center brown-text gif-megaphone-sprite"></h2>
+            <h5 class="center">Branded GIF's</br><span style="font-family: 'gotham_boldregular'">INCREASE EXPOSURE</span></h5>
+    
+            <p class="light"></p>
+          </div>
+        </div>
+    </div>
 </div>                       <!-- ************  ICON SECTION  ************  -->
 
 
 
-<video class="responsive-video gifvideo" controls>
+<video class="responsive-video gifvideo" poster="/assets/gif-video-thumbnail.png" controls>
     <source src="http://player.vimeo.com/external/108245583.hd.mp4?s=22b4db588f6e479cc4eb19e7918c7e42" type="video/mp4">
 </video>
-    
-    
+
+
+
 
 <div class="css3-shadow quote2-section">
 <div class="container">
@@ -226,7 +257,7 @@
 
 
 
+
+
 <!--<div class="hi">-->
 <!--</div>-->
-
-
