@@ -1,0 +1,561 @@
+        /* -------------------------------------------
+        // -----      Universal NavBar Styles
+        // ---------------------------------------- */
+
+
+
+
+            /* ---------------  Desktop Navbar Styles ---------*/
+
+
+
+.navcontainer {
+    width: 100%;
+    // height: 7.7vw;
+    background-color: rgba(10,10,10,0);
+    border-bottom: 0.1vw solid rgba(255,255,255,0.1);
+    
+    .nav-elements {
+        position: relative;
+        width: 100%;
+        
+        img, .nav-list {
+            position: absolute;
+        }
+        
+        .nav-list {
+            left: 19vw;
+            font-size: 1vw;
+            font-family: 'gotham_bookregular';
+            margin-top: 1vw;
+            text-transform: uppercase;
+            z-index: 999;
+            
+            
+            ul {
+                padding: 0;
+                list-style: none;
+                
+                li {
+                    margin-left: 2vw;
+                    padding: 0.6vw 1.7vw;
+                }
+                    
+                a {
+                    font-family: 'gotham_bookregular';
+                    letter-spacing: 0.1vw;
+                }
+                    
+                .nav-home {
+                    color: rgb(250, 156, 37);
+                    li {
+                        border: 0.3vw solid rgba(250, 156, 37, 0);
+                        transition: border 0.4s ease;
+                        &:hover {
+                            border: 0.3vw solid rgba(250, 156, 37, 1);
+                        }
+                    }
+                }
+                .nav-toys {
+                    color: rgb(143, 218, 230);
+                    li {
+                        border: 0.3vw solid rgba(143, 218, 230, 0);
+                        transition: border 0.4s ease;
+                        &:hover {
+                            border: 0.3vw solid rgba(143, 218, 230, 1);
+                        }
+                    }
+                }
+                .nav-pastevents {
+                    color: rgb(238, 164, 172);
+                    li {
+                        border: 0.3vw solid rgba(238, 164, 172, 0);
+                        transition: border 0.4s ease;
+                        &:hover {
+                            border: 0.3vw solid rgba(238, 164, 172, 1);
+                        }
+                    }
+                }
+                .nav-contact {
+                    color: rgb(159, 209, 184);
+                    li {
+                        border: 0.3vw solid rgba(159, 209, 184, 0);
+                        transition: border 0.4s ease;
+                        &:hover {
+                            border: 0.3vw solid rgba(159, 209, 184, 1);
+                        }
+                    }
+                }
+                .nav-partners {
+                    color: rgb(255, 155, 126);
+                    li {
+                        border: 0.3vw solid rgba(255, 155, 126, 0);
+                        transition: border 0.4s ease;
+                        &:hover {
+                            border: 0.3vw solid rgba(255, 155, 126, 1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}                        /* -------- /Desktop Navbar Styles --------*/
+
+
+img.logo-main {
+    z-index: 999;
+}
+
+
+
+
+            /* ---------------  Dropdown Navbar Styles ---------*/
+
+
+.dropdown-ul {
+    position: absolute;
+    
+    .nav-item {
+        position: absolute;
+        width: 9vw;
+        left: 80vw;
+        -webkit-transform: scale(0.5);
+            -ms-transform: scale(0.5);
+                transform: scale(0.5);
+        top: 1.5vw;
+    }
+    
+    .nav-content {
+        background-color: rgba(0,0,0,0.8);
+        width: 55vw;
+        position: absolute;
+        top: -5vw;
+        left: 22vw;
+        height: 139vw;
+        z-index: 2;
+        overflow: hidden;
+        max-height: 150vw;
+        display: none;
+        
+        .nav-sub {
+            margin-top: 32vw;
+            
+            ul {
+                font-size: 1.3vw;
+                text-align: center;
+                font-family: 'gotham_bookregular';
+                letter-spacing: 0.2vw;
+                text-transform: uppercase;
+            }
+            li {
+                display: block;
+            }
+            p {
+                width: 17vw;
+                margin-left: 19vw;
+                margin: 1vw 1vw 3vw 19vw;
+                border: 0.4vw solid transparent;
+                -webkit-transition: border 0.4s ease;
+                transition: border 0.4s ease;
+                padding: 1vw 1vw;
+                color: white;
+            }
+            
+            .home-p {
+                color: rgba(250 ,156 ,37 ,1);
+            }
+            .toys-p {
+                color: rgba(143, 218, 230, 1);
+            }
+            .pastevents-p {
+                color: rgba(238, 164, 172, 1);
+            }
+            .contact-p {
+                color: rgba(159, 209, 184, 1);
+            }
+            .partners-p {
+                color: rgba(255, 155, 126, 1);
+            }
+            
+            .home-li:hover .home-p {
+                border: 0.4vw solid rgba(250 ,156 ,37 ,1);
+                -webkit-transition: border 0.4s ease;
+                transition: border 0.4s ease;
+            }
+            .toys-li:hover .toys-p {
+                border: 0.4vw solid rgba(143, 218, 230, 1);
+                -webkit-transition: border 0.4s ease;
+                transition: border 0.4s ease;
+            }
+            .pastevents-li:hover .pastevents-p {
+                border: 0.4vw solid rgba(238, 164, 172, 1);
+                -webkit-transition: border 0.4s ease;
+                transition: border 0.4s ease;
+            }
+            .contact-li:hover .contact-p {
+                border: 0.4vw solid rgba(159, 209, 184, 1);
+                -webkit-transition: border 0.4s ease;
+                transition: border 0.4s ease;
+            }
+            .partners-li:hover .partners-p {
+                border: 0.4vw solid rgba(255, 155, 126, 1);
+                -webkit-transition: border 0.4s ease;
+                transition: border 0.4s ease;
+            }
+        }
+    }
+}                         /* -------------- /Dropdown Navbar Styles --------------*/
+
+
+
+
+
+        
+        
+        /* -------------------------------------------
+        // -----     NavBar Only MEDIA QUERIES
+        // ---------------------------------------- */
+
+
+
+
+@media screen and (min-width: 5px) and (orientation: portrait) {
+    
+    .navcontainer {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .navbar-desktop {
+        display: none;
+    }
+    
+    .navbar-dropdown {
+        display: block;
+    }
+    
+    img.logo-main {
+        top: 5vw;
+        left: 5vw;
+        height: 15.5vw;
+    }
+    .dropdown-ul {
+        
+        .nav-item {
+            position: absolute;
+            width: 9vw;
+            left: 83vw;
+            -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1);
+            top: 2.8vw;
+            z-index: 999;
+        }
+        
+        .nav-content {
+            background-color: rgba(0, 0, 0, 0.8);
+            width: 100vw;
+            position: absolute;
+            top: -4vw;
+            left: 0vw;
+            height: 143vw;
+            z-index: 2;
+            overflow: hidden;
+            max-height: 150vw;
+            display: none;
+            border-bottom: 1px solid grey;
+            
+            .nav-sub {
+                margin-top: 33vw;
+                
+                ul {
+                    font-size: 4.3vw;
+                    text-align: center;
+                    font-family: 'gotham_bookregular';
+                    letter-spacing: 0.2vw;
+                    text-transform: uppercase;
+                }
+                p {
+                    width: 38vw;
+                    margin-left: 19vw;
+                    text-align: center;
+                    margin: 10vw 1vw 10vw 33vw;
+                    border: 0.4vw solid transparent;
+                    -webkit-transition: border 0.4s ease;
+                    transition: border 0.4s ease;
+                    padding: 2vw 1vw;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 768px) and (orientation: portrait) {
+    
+    .navcontainer {
+        border-bottom: 0.2vw solid rgba(255, 255, 255, 0.1);
+    }
+    .navbar-desktop {
+        display: none;
+    }
+    
+    .navbar-dropdown {
+        display: block;
+    }
+    
+    img.logo-main {
+        top: 4vw;
+        left: 5vw;
+        height: 12vw;
+    }
+    .dropdown-ul {
+        
+        .nav-item {
+            position: absolute;
+            width: 9vw;
+            left: 84vw;
+            -webkit-transform: scale(1, 1);
+                -ms-transform: scale(1, 1);
+                    transform: scale(1, 1);
+            top: 4vw;
+            z-index: 999;
+        }
+        .nav-content {
+            height: 44vw;
+        
+            .nav-sub {
+                margin-top: 26vw;
+            
+                ul {
+                    font-size: 1.66vw;
+                    text-align: center;
+                    font-family: 'gotham_bookregular';
+                    letter-spacing: 0.2vw;
+                    text-transform: uppercase;
+                    margin-left: 2vw;
+                }
+                li {
+                    display: inline-block;
+                    float: left;
+                    margin: 0 1vw;
+                }
+                p {
+                    padding: 2vw 1vw;
+                    width: 17vw;
+                }
+                .home-p, .toys-p, .pastevents-p, .contact-p, .partners-p {
+                    margin: 0;
+                }
+                .home-p:hover {
+                    border: 0.4vw solid rgba(250 ,156 ,37 ,1);
+                    -webkit-transition: border 0.4s ease;
+                    transition: border 0.4s ease;
+                }
+                .toys-p:hover {
+                    border: 0.4vw solid rgba(143, 218, 230, 1);
+                    -webkit-transition: border 0.4s ease;
+                    transition: border 0.4s ease;
+                }
+                .pastevents-p:hover {
+                    border: 0.4vw solid rgba(238, 164, 172, 1);
+                    -webkit-transition: border 0.4s ease;
+                    transition: border 0.4s ease;
+                }
+                .contact-p:hover {
+                    border: 0.4vw solid rgba(159, 209, 184, 1);
+                    -webkit-transition: border 0.4s ease;
+                    transition: border 0.4s ease;
+                }
+                .partners-p:hover {
+                    border: 0.4vw solid rgba(255, 155, 126, 1);
+                    -webkit-transition: border 0.4s ease;
+                    transition: border 0.4s ease;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 5px) and (max-width: 1023px) and (orientation: landscape) {
+    
+    .navbar-desktop {
+        display: none;
+    }
+    
+    .navbar-dropdown {
+        display: block;
+    }
+    
+    .navcontainer {
+        border-bottom: 1px solid rgba(255,255,255,0.1) !important;
+    }
+    .dropdown-ul {
+    
+        .nav-item {
+            position: absolute;
+            width: 9vw;
+            left: 83vw;
+            -webkit-transform: scale(0.6);
+            -ms-transform: scale(0.6);
+            transform: scale(0.6);
+            top: 0.5vw;
+            z-index: 999;
+        }
+        .nav-content {
+            background-color: rgba(0, 0, 0, 0.8);
+            width: 100vw;
+            position: absolute;
+            top: -5vw;
+            left: 0;
+            height: 27vw;
+            z-index: 2;
+            overflow: hidden;
+            max-height: 150vw;
+            display: none;
+            border-bottom: 1px solid rgba(255,255,255,0.3);
+            
+            .nav-sub {
+                margin-top: 15vw;
+                
+                ul {
+                    font-size: 1.3vw;
+                    text-align: center;
+                    font-family: 'gotham_bookregular';
+                    letter-spacing: 0.2vw;
+                    text-transform: uppercase;
+                    display: flex;
+                }
+                p {
+                    width: 18vw;
+                    margin-left: 19vw;
+                    margin: 1vw 1vw 1vw 1vw;
+                    border: 0.4vw solid transparent;
+                    -webkit-transition: border 0.4s ease;
+                    transition: border 0.4s ease;
+                    padding: 1.5vw 1vw;
+                }
+                .home-p:hover {
+                    border: 0.4vw solid rgba(250 ,156 ,37 ,1);
+                    -webkit-transition: border 0.4s ease;
+                    transition: border 0.4s ease;
+                }
+                .toys-p:hover {
+                    border: 0.4vw solid rgba(143, 218, 230, 1);
+                    -webkit-transition: border 0.4s ease;
+                    transition: border 0.4s ease;
+                }
+                .pastevents-p:hover {
+                    border: 0.4vw solid rgba(238, 164, 172, 1);
+                    -webkit-transition: border 0.4s ease;
+                    transition: border 0.4s ease;
+                }
+                .contact-p:hover {
+                    border: 0.4vw solid rgba(159, 209, 184, 1);
+                    -webkit-transition: border 0.4s ease;
+                    transition: border 0.4s ease;
+                }
+                .partners-p:hover {
+                    border: 0.4vw solid rgba(255, 155, 126, 1);
+                    -webkit-transition: border 0.4s ease;
+                    transition: border 0.4s ease;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+    
+    .navbar-dropdown {
+        display: none;
+    }
+    
+    .navbar-desktop {
+        display: block;
+    }
+
+    .navcontainer {
+        height: 10.7vw;
+        
+        .nav-elements {
+            
+            img {
+                top: 2vw;
+                left: 3vw;
+                height: 7.5vw;
+            }
+            .nav-list {
+                left: 18vw;
+                font-size: 1.3vw;
+                font-family: 'gotham_bookregular';
+                margin-top: 3.2vw;
+                text-transform: uppercase;
+                z-index: 999;
+                
+                ul {
+                    padding: 0;
+                    list-style: none;
+                    display: flex;
+                    
+                    .home-link {
+                        color: rgb(250, 156, 37);
+                        border: 0.4vw solid rgba(250, 156, 37, 0);
+                        
+                        &:hover {
+                           border: 0.4vw solid rgba(250, 156, 37, 1); 
+                        }
+                    }
+                    .toys-link {
+                        color: rgb(143, 218, 230);
+                        border: 0.4vw solid rgba(143, 218, 230, 0);
+                        
+                        &:hover {
+                            border: 0.4vw solid rgba(143, 218, 230, 1);
+                        }
+                    }
+                    .pastevents-link {
+                        color: rgb(238, 164, 172);
+                        border: 0.4vw solid rgba(238, 164, 172, 0);
+                        
+                        &:hover {
+                            border: 0.4vw solid rgba(238, 164, 172, 1);
+                        }
+                    }
+                    .contact-link {
+                        color: rgb(159, 209, 184);
+                        border: 0.4vw solid rgba(159, 209, 184, 0);
+                        
+                        &:hover {
+                            border: 0.4vw solid rgba(159, 209, 184, 1);
+                        }
+                    }
+                    .partners-link {
+                        color: rgb(255, 155, 126);
+                        border: 0.4vw solid rgba(255, 155, 126, 0);
+                        &:hover {
+                            border: 0.4vw solid rgba(255, 155, 126, 1);
+                        }
+                    }
+                    
+                    li {
+                        margin-left: 1vw;
+                        padding: 0;
+                    }
+                    a {
+                        font-family: 'gotham_bookregular';
+                        letter-spacing: 0.1vw;
+                        padding: 1.5vw 2.5vw;
+                        margin: 0 1vw;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+                
+                            
+                                                                      /* -------------- /NavBar Only MEDIA QUERIES --------------*/
