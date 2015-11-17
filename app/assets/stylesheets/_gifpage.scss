@@ -558,9 +558,10 @@ body {
         }
         
         .gif-quote-under-image {
-            line-height: 2;
+            line-height: 1.9;
             font-size: 5vw;
             padding: 2% 4%;
+            color: #666;
             margin-bottom: 17%;
         }
     }
@@ -588,42 +589,64 @@ body {
             margin-bottom: 5%;
             margin-top: 12%;
             
-            .staggered-test-small {
-                text-align: center;
-                margin-bottom: -6%;
-            
-                li:first-child {
-                    padding-bottom: 3%;
-                }
-                .branding {
-                    margin-bottom: 7%;
-                }
+            .ul-below-gifs {
+                margin-top: 16vw;
+                color: #666;
                 
-                .live-gallery {
-                    margin-top: 13%;
-                    margin-bottom: 7%;
-                }
-                
-                .li-header-ipad {
-                    font-size: 6vw;
+                .branding-li, .live-gallery-li {
+                    border-bottom: 1px solid rgba(10,10,10,0.2);
                 }
                 .li-body-ipad {
-                    font-size: 5.5vw;
-                }
-                .gifgif-global {
-                    font-size: 5.5vw;
-                    margin-top: 3%;
-                    margin-bottom: 0%;
-                    
-                    a {
-                        color: #888;
-                        
-                        &:hover {
-                        color: #9fd1b8;
-                        }
-                    }
+                    font-size: 5vw;
                 }
             }
+            .live-gallery {
+                margin-top: 15vw;
+            }
+            .gifgif-link {
+                color: #666;
+                
+                &:hover {
+                    color: #9fd1b8;
+                }
+            }
+            
+            // .staggered-test-small {
+            //     text-align: center;
+            //     margin-bottom: -6%;
+            
+            //     li:first-child {
+            //         padding-bottom: 3%;
+            //     }
+            //     .branding {
+            //         margin-bottom: 7%;
+            //     }
+                
+            //     .live-gallery {
+            //         margin-top: 13%;
+            //         margin-bottom: 7%;
+            //     }
+                
+            //     .li-header-ipad {
+            //         font-size: 6vw;
+            //     }
+            //     .li-body-ipad {
+            //         font-size: 5.5vw;
+            //     }
+            //     .gifgif-global {
+            //         font-size: 5.5vw;
+            //         margin-top: 3%;
+            //         margin-bottom: 0%;
+                    
+            //         a {
+            //             color: #888;
+                        
+            //             &:hover {
+            //             color: #9fd1b8;
+            //             }
+            //         }
+            //     }
+            // }
         }
     }
     .gif-strip {
@@ -811,6 +834,39 @@ body {
         .ipad-section-content-small {
             margin-bottom: 5%;
             margin-top: 18vw;
+            
+            .ul-below-gifs {
+                margin-top: 16vw;
+                color: #666;
+                text-align: center;
+                
+                .branding-li, .live-gallery-li {
+                    border-bottom: 1px solid rgba(10,10,10,0.2);
+                }
+                .branding-li .branding {
+                    margin-bottom: 6vw;
+                }
+                .li-header-ipad {
+                    font-size: 5vw;
+                }
+                .li-body-ipad {
+                    font-size: 3.5vw;
+                }
+            }
+            .live-gallery {
+                margin-top: 8vw;
+                margin-bottom: 6vw;
+            }
+            .gifgif-global {
+                font-size: 3vw;
+            }
+            .gifgif-link {
+                color: #666;
+                
+                &:hover {
+                    color: #9fd1b8;
+                }
+            }
             
             .staggered-test-small {
                 text-align: center;
@@ -1001,7 +1057,7 @@ body {
                     margin-top: 4vw;
                 }
                 img {
-                    height: 18vw;
+                    height: 16vw;
                 }
                 h5 {
                     font-size: 5vw;
@@ -1039,11 +1095,27 @@ body {
             }
         }
     }
+    .blurb-on-image {
+        display: none;
+    }
+    .blurb-on-image-small {
+        display: block;
+        
+        .blurb-container .gif-quote-under-image {
+            line-height: 6vw;
+            font-size: 3vw;
+            padding: 1vw 10vw;
+            margin-bottom: 7vw;
+            color: #666;
+        }
+    }
+    
     .blurb-container {
         width: 90%;
         
         .small-blurb-p {
             margin-top: 12vw;
+            padding: 0vw 10vw;
             
             .blurb-under-header {
                 font-size: 6vw;
@@ -1051,11 +1123,15 @@ body {
         }
         
         .gif-quote-under-image {
-            line-height: 7vw;
+            line-height: 6vw;
             font-size: 4vw;
-            padding: 1vw 2vw;
+            padding: 1vw 10vw;
             margin-bottom: 7vw;
+            color: #666;
         }
+    }
+    .ipad-container {
+        display: none;
     }
     .small-ipad-container {
         display: block;
@@ -1076,6 +1152,40 @@ body {
             margin-bottom: 0;
             margin-top: 7vw;
             padding-bottom: 4vw;
+            
+            .ul-below-gifs {
+                margin-top: 7vw;
+                color: #666;
+                text-align: center;
+                
+                .branding {
+                    margin-bottom: 5vw;
+                }
+                
+                .branding-li, .live-gallery-li {
+                    border-bottom: 1px solid rgba(10,10,10,0.2);
+                }
+                .li-header-ipad {
+                    font-size: 5vw;
+                }
+                .li-body-ipad {
+                    font-size: 3.5vw;
+                }
+            }
+            .live-gallery {
+                margin-top: 9vw;
+                margin-bottom: 6vw;
+            }
+            .gifgif-global {
+                font-size: 3vw;
+            }
+            .gifgif-link {
+                color: #666;
+                
+                &:hover {
+                    color: #9fd1b8;
+                }
+            }
             
             .staggered-test-small {
                 text-align: center;
@@ -1114,6 +1224,29 @@ body {
                     }
                 }
             }
+        }
+    }
+    .gif-strip {
+        display: none;
+    }
+    .small-gif-strip {
+        display: block;
+        margin-top: 2vw !important;
+    }
+    .branded-selfies-section {
+        
+        .gifgifcta {
+            margin-top: 0;
+            font-size: 4.5vw;
+            padding: 13vw 11vw 0vw;
+        }
+        p {
+            color: #fff;
+            border: 3px solid #fff;
+            display: inline-block;
+            padding: 8px 15px;
+            margin-top: 6vw;
+            margin-bottom: 10vw;
         }
     }
 }
