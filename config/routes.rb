@@ -1,11 +1,13 @@
 Rails.application.routes.draw do
   
-  get '/gifpage', :to => 'pages#gifpage'
+  get '/gifgif', :to => 'pages#gifpage'
+  
+  get '/roaming_selfies', to: 'pages#selfies'
   
   get '/testnav', to: 'pages#testnav'
   
   
-  root 'pages#selfies'
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
