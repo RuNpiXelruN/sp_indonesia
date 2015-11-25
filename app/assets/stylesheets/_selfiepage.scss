@@ -342,7 +342,9 @@ body {
             height: 100%;
             width: 100%;
             top: 0%;
-            transform-origin: 50% 100%;
+            -webkit-transform-origin: 50% 100%;
+                -ms-transform-origin: 50% 100%;
+                    transform-origin: 50% 100%;
             
             .selfies-hero-text {
                 color: #ffffff;
@@ -660,7 +662,9 @@ body {
             height: 100%;
             width: 100%;
             top: 0%;
-            transform-origin: 50% 100%;
+            -webkit-transform-origin: 50% 100%;
+                -ms-transform-origin: 50% 100%;
+                    transform-origin: 50% 100%;
             
             .selfies-hero-text {
                 color: #ffffff;
@@ -794,7 +798,9 @@ body {
     .small-selfie-text-container {
     
         .small-selfie-img-box {
-            transform: scale(0.8);
+            -webkit-transform: scale(0.8);
+                -ms-transform: scale(0.8);
+                    transform: scale(0.8);
             
             img {
                 margin-top: 1%;
@@ -871,7 +877,9 @@ body {
             height: 100%;
             width: 100%;
             top: 0%;
-            transform-origin: 50% 100%;
+            -webkit-transform-origin: 50% 100%;
+                -ms-transform-origin: 50% 100%;
+                    transform-origin: 50% 100%;
             
             .selfies-hero-text {
                 color: #FFFFFF;
@@ -946,7 +954,9 @@ body {
                     }
                     
                     .icon-block {
-                        transform: scale(0.7);
+                        -webkit-transform: scale(0.7);
+                            -ms-transform: scale(0.7);
+                                transform: scale(0.7);
                         
                         p.light {
                             margin: 0;
@@ -1224,7 +1234,6 @@ body {
             #selfie-foreground-hero {
                 height: 85vw;
                 bottom: 0%;
-                // right: 22%;
                 margin-left: 24.7vw;
                 position: absolute;
                 -webkit-transform: scale(1);
@@ -1300,7 +1309,9 @@ body {
                         height: 100%;
                         
                         .icon-block {
-                            transform: scale(0.9);
+                            -webkit-transform: scale(0.9);
+                                -ms-transform: scale(0.9);
+                                    transform: scale(0.9);
                             
                             h5 {
                                 font-size: 2.5vw;
@@ -1385,7 +1396,7 @@ body {
             
             h2 {
                 text-transform: uppercase;
-                font-size: 5vw;
+                font-size: 4.9vw;
                 margin-top: 3vw;
             }
             
