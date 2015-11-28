@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   
   get '/testnav', to: 'pages#testnav'
   
+  root 'pages#gifpage'
+  
   
   
   # The priority is based upon order of creation: first created -> highest priority.
