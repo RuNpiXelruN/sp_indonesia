@@ -1510,17 +1510,25 @@ body {
 }
 
 
-@media screen and (min-width: 1200px) and (min-height: 651px) and (max-height: 700px) and (orientation: landscape) {
-    #selfie-foreground-hero {
-        max-height: 33vw !important;
-        margin-left: 30.7vw !important;
-    }
-}
 
 @media screen and (min-width: 1200px) and (min-height: 600px) and (max-height: 650px) and (orientation: landscape) {
     #selfie-foreground-hero {
         max-height: 27vw !important;
         margin-left: 34.7vw !important;
+    }
+}
+
+@media screen and (min-width: 1400px) and (min-height: 600px) and (max-height: 650px) and (orientation: landscape) {
+    #selfie-foreground-hero {
+        max-height: 25vw !important;
+        margin-left: 34.7vw !important;
+    }
+}
+
+@media screen and (min-width: 1200px) and (min-height: 651px) and (max-height: 700px) and (orientation: landscape) {
+    #selfie-foreground-hero {
+        max-height: 33vw !important;
+        margin-left: 30.7vw !important;
     }
 }
 
