@@ -1846,6 +1846,21 @@ body {
 }
 
 
+@media screen and (min-width: 1200px) and (min-height: 600px) and (max-height: 700px) and (orientation: landscape) {
+    #gif-foreground-hero {
+        height: 61vw !important;
+        padding-top: 52vh !important;
+    }
+}
+
+@media screen and (min-width: 1200px) and (min-height: 700px) and (max-height: 800px) and (orientation: landscape) {
+    #gif-foreground-hero {
+        height: 68vw !important;
+        padding-top: 52vh !important;
+    }
+}
+
+
                                     
                                                                                         /* ------------------- /MEDIA QUERIES ------------------*/
 
