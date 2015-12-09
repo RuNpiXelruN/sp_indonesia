@@ -452,6 +452,7 @@ ul.indicators {
     padding: 6vw 10vw 9vw;
     font-size: 1.3vw;
     font-family: 'gotham_bookregular';
+    border-bottom: 0.1vw solid rgba(10,10,10,1);
     
     .main-quote {
         font-family: 'gotham_boldregular';
@@ -461,6 +462,59 @@ ul.indicators {
     .small-quote {
         line-height: 2.1vw;
         margin-top: 4vw;
+    }
+}
+
+.main-australia-section {
+    text-align: center;
+    background: #353535;
+    color: white;
+    padding: 5vw 10vw;
+    font-size: 1.5vw;
+    font-family: 'gotham_bookregular';
+    
+    p {
+        margin: 0;
+    }
+    
+    .area-title {
+        font-size: 3vw;
+        text-transform: uppercase;
+        color: #9fd1b8;
+        margin-bottom: 2vw;
+        font-family: 'gotham_boldregular';
+    }
+    .sub-regions {
+        margin-bottom: 3vw;
+    }
+    .business-location {
+        
+        span {
+            display: block;
+        }
+    
+        .business-name {
+            margin-bottom: 2vw;
+        }
+        .business-address, .business-phone {
+            color: #666;
+            transition: color 0.4s ease;
+            width: 19vw;
+            margin: 0vw 30vw 2vw;
+            
+            &:hover {
+                color: white;
+            }
+        }
+        .business-email-link {
+            transition: letter-spacing 0.4s ease;
+            width: 19vw;
+            margin: 0 30vw;
+            
+            &:hover {
+                letter-spacing: 0.1vw;
+            }
+        }
     }
 }
 
