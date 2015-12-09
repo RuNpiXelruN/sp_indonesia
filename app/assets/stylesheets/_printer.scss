@@ -1,0 +1,28 @@
+
+.printerpage-hero-section {
+
+    position: relative;
+    height: 99vh;
+    width: 100vw;
+
+    .navcontainer.navbar-desktop {
+        z-index: 999;
+        background-color: rgba(10, 10, 10, 0.4);
+        position: absolute;
+    }
+    
+    img {
+    position: absolute;
+    height: inherit;
+    }
+}
+
+.how-to-play-section {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 9vw 10vw;
+    font-size: 3vw;
+    color: #888;
+    font-family: 'gotham_boldregular';
+}
+

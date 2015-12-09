@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   
   
+  get '/instagram-printer', to: 'pages#printer'
   
   get '/gifgif', :to => 'pages#gifpage'
   

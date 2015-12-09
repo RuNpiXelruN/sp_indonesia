@@ -4,6 +4,9 @@ class PagesController < ApplicationController
     def homepage
     end
     
+    def printer_page
+    end
+    
     def gifpage
     end
     
