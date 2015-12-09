@@ -1,5 +1,34 @@
-
-
+.slider.home-slider {
+    height: 99vh !important;
+    
+    .slides.home-slides {
+        height: inherit !important;
+    }
+    .home-slider .indicators {
+        position: absolute;
+        text-align: center;
+        left: 0;
+        right: 0;
+        bottom: 1vw;
+        margin: 0;
+    }
+}
+ul.indicators {
+    z-index: 3;
+    bottom: 1vw;
+}
+.slider .indicators .indicator-item {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    height: 0.7vw;
+    width: 4vw;
+    margin: 0 1vw;
+    background-color: #e0e0e0;
+    -webkit-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+    border-radius: 0%;
+}
 
 .homepage-hero-section {
     
@@ -264,18 +293,19 @@
     }
 }
 
+
 .past-clients-row-1 {
     width: 100vw;
     position: relative;
     overflow: hidden;
     display: flex;
     height: 16vw;
-    border-bottom: 0.2vw solid rgba(10,10,10,0.3);
+    border-bottom: 0.1vw solid rgba(10, 10, 10, 0.1);
     
     .clients-row-1-col-1-section, .clients-row-1-col-2-section, .clients-row-1-col-3-section, .clients-row-1-col-4-section {
         width: 25vw;
         display: inline-block;
-        border-right: 0.2vw solid rgba(10,10,10,0.3);
+        border-right: 0.1vw solid rgba(10, 10, 10, 0.1);
         height: inherit;
         
         .client1-rel-section, .client2-rel-section, .client3-rel-section, .client4-rel-section {
@@ -291,18 +321,19 @@
         border-right: none;
     }
 }
+
 .past-clients-row-2 {
     width: 100vw;
     position: relative;
     overflow: hidden;
     display: flex;
     height: 16vw;
-    border-bottom: 0.2vw solid rgba(10,10,10,0.3);
+    border-bottom: 0.1vw solid rgba(10, 10, 10, 0.1);
     
     .clients-row-2-col-1-section, .clients-row-2-col-2-section, .clients-row-2-col-3-section, .clients-row-2-col-4-section {
         width: 25vw;
         display: inline-block;
-        border-right: 0.2vw solid rgba(10,10,10,0.3);
+        border-right: 0.1vw solid rgba(10, 10, 10, 0.1);
         height: inherit;
         
         .client5-rel-section, .client6-rel-section, .client7-rel-section, .client8-rel-section {
@@ -325,12 +356,12 @@
     overflow: hidden;
     display: flex;
     height: 16vw;
-    border-bottom: 0.2vw solid rgba(10,10,10,0.3);
+    border-bottom: 0.1vw solid rgba(10, 10, 10, 0.1);
     
     .clients-row-3-col-1-section, .clients-row-3-col-2-section, .clients-row-3-col-3-section, .clients-row-3-col-4-section {
         width: 25vw;
         display: inline-block;
-        border-right: 0.2vw solid rgba(10,10,10,0.3);
+        border-right: 0.1vw solid rgba(10, 10, 10, 0.1);
         height: inherit;
         
         .client9-rel-section, .client10-rel-section, .client11-rel-section, .client12-rel-section {
@@ -357,7 +388,7 @@
     .clients-row-4-col-1-section, .clients-row-4-col-2-section, .clients-row-4-col-3-section, .clients-row-4-col-4-section {
         width: 25vw;
         display: inline-block;
-        border-right: 0.2vw solid rgba(10,10,10,0.3);
+        border-right: 0.1vw solid rgba(10, 10, 10, 0.1);
         height: inherit;
         
         .client13-rel-section, .client14-rel-section, .client15-rel-section, .client16-rel-section {
@@ -371,6 +402,65 @@
     }
     .clients-row-4-col-4-section {
         border-right: none;
+    }
+}
+
+.testimonial-section {
+    
+    background: #eea4ac;
+    
+    .slider .testimonial-slider {
+        height: 30vw !important;
+    
+        .slides .testimonial-slides {
+            height: inherit !important;
+            background: #eea4ac;
+        }
+    }
+    .slider .indicators {
+        position: absolute;
+        text-align: center;
+        left: 0;
+        right: 0;
+        bottom: 1vw;
+        margin: 0;
+    }
+}
+
+.mailing-list-section {
+    text-align: center;
+    background: #9fd1b8;
+    color: white;
+    text-transform: uppercase;
+    padding: 9vw 10vw;
+    font-size: 2vw;
+    font-family: 'gotham_bookregular';
+    
+    p {
+        margin: 0;
+    }
+    .mail-form {
+        margin-top: 4vw;
+    }
+}
+
+.get-in-touch-section {
+    text-align: center;
+    background: #353535;
+    color: white;
+    text-transform: uppercase;
+    padding: 6vw 10vw 9vw;
+    font-size: 1.3vw;
+    font-family: 'gotham_bookregular';
+    
+    .main-quote {
+        font-family: 'gotham_boldregular';
+        font-size: 3vw;
+        line-height: 3vw;
+    }
+    .small-quote {
+        line-height: 2.1vw;
+        margin-top: 4vw;
     }
 }
 
