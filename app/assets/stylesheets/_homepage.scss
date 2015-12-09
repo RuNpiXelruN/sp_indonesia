@@ -518,4 +518,41 @@ ul.indicators {
     }
 }
 
+.partners-callout-section {
+    text-align: center;
+    background: black;
+    color: white;
+    font-family: 'gotham_bookregular';
+    font-size: 1.5vw;
+    padding: 6vw 10vw 7vw;
+    
+    p {
+        margin: 0;
+    }
+    .section-title {
+        font-size: 4vw;
+        font-family: 'gotham_boldregular';
+        margin-bottom: 2vw;
+    }
+    .section-quote {
+        margin-bottom: 5vw;
+    }
+    a.partner-button {
+        text-transform: uppercase;
+        color: #ff9b7e;
+        background: transparent;
+        border: 0.4vw solid #ff9b7e;
+        padding: 1vw 2vw;
+        font-size: 1.8vw;
+        font-family: 'gotham_boldregular';
+        transition: background 0.4s ease;
+        
+        &:hover {
+            background: #ff9b7e;
+            color: black;
+            transition: color 1s ease;
+        }
+    }
+}
+
 
