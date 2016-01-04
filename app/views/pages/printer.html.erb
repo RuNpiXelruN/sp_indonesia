@@ -1,15 +1,46 @@
 <div class="printerpage-hero-section">
     <%= render 'layouts/nav' %>
-    <img src="<%= asset_path("carousel01-big.jpg") %>">
+    <img class="hero-img" src="<%= asset_path("carousel01-big.jpg") %>">
 </div>
 
 <div class="how-to-play-section">
     <span class="how-to-play-quote">How to play</span>
 </div>
 
-<div class="stp-icon-section">
+<div class="stp-icon-section round-shadow">
     <div class="snap-icon-section">
-        <span class="stp-icon-header">Snap.</span>
+        <img src="#">
+        <span class="stp-icon-header">Snap</span>
         <span class="stp-icon-text">Take of upload a photo</br>to instagram</span>
     </div>
+    <div class="tag-icon-section">
+        <img src="#">
+        <span class="stp-icon-header">Tag</span>
+        <span class="stp-icon-text">Take of upload a photo</br>to instagram</span>
+    </div>
+    <div class="print-icon-section">
+        <img src="#">
+        <span class="stp-icon-header">Print</span>
+        <span class="stp-icon-text">Take of upload a photo</br>to instagram</span>
+    </div>
+</div>
+
+<div class="about-printer-section">
+    
+</div>
+
+<div class="printer-img-highlight-section">
+    <h2 class="printer-highlight-heading">The Printer.</h2>
+    <ul class="printer-image-ul">
+        <div class="image-row-1">
+            <li><%= image_tag ("printer/instagram-printer01.jpg") %></li>
+            <li><%= image_tag ("printer/instagram-printer02.jpg") %></li>
+            <li><%= image_tag ("printer/instagram-printer03.jpg") %></li>
+        </div>
+        <div class="image-row-2">
+            <li><%= image_tag ("printer/instagram-printer04.jpg") %></li>
+            <li><%= image_tag ("printer/instagram-printer05.jpg") %></li>
+            <li><%= image_tag ("printer/instagram-printer06.jpg") %></li>
+        </div>
+    </ul>
 </div>
