@@ -473,7 +473,7 @@ ul.indicators {
     text-align: center;
     background: #353535;
     color: white;
-    padding: 5vw 10vw;
+    padding: 5vw 10vw 0vw;
     font-size: 1.5vw;
     font-family: 'gotham_bookregular';
     
@@ -517,6 +517,93 @@ ul.indicators {
             
             &:hover {
                 letter-spacing: 0.1vw;
+            }
+        }
+    }
+    .australian-partner-tabs {
+        margin-left: -10vw;
+        margin-right: -10vw;
+        margin-top: 4vw;
+        
+        .collapsible {
+            border-top: 0.1vw solid rgba(82, 82, 82, 0.4);
+            border-right: 0;
+            border-left: 0;
+            margin: 0;
+            box-shadow: none;
+            
+            li .collapsible-header {
+                display: block;
+                cursor: pointer;
+                min-height: 3rem;
+                line-height: 3rem;
+                padding: 1vw 0;
+                background-color: #353535;
+                border-bottom: 0.1vw solid rgba(82, 82, 82, 0.4);
+            }
+            li .collapsible-body {
+                border-bottom: 0.1vw solid rgba(82, 82, 82, 0.4);
+                box-sizing: border-box;
+                color: #666;
+                background-color: #3C3C3C;
+            }
+        }
+    }
+}
+
+.partner-tabs-section {
+    
+    background: #353535;
+    
+    .area-title {
+        font-size: 3vw;
+        text-transform: uppercase;
+        color: #9fd1b8;
+        margin-bottom: 0vw;
+        margin-top: 0;
+        text-align: center;
+        font-family: 'gotham_boldregular';
+        padding-top: 6vw;
+        padding-bottom: 0vw;
+    }
+    
+    .international-blurb {
+        text-align: center;
+        color: white;
+        font-family: 'gotham_bookregular';
+        font-size: 1.5vw;
+        margin-top: 1vw;
+        margin-bottom: 8vw;
+    }
+    
+    .collapsible {
+        border-top: 0.1vw solid rgba(82, 82, 82, 0.4);
+        border-right: none;
+        border-left: none;
+        margin: 0;
+        color: white;
+        text-align: center;
+        font-size: 1.5vw;
+        font-family: 'gotham_bookregular';
+        
+        li .collapsible-header {
+            display: block;
+            cursor: pointer;
+            min-height: 3rem;
+            line-height: 3rem;
+            padding: 1vw 0vw;
+            background-color: rgb(53, 53, 53);
+            border-bottom: 0.1vw solid rgba(82, 82, 82, 0.4);
+        }
+        
+        li .collapsible-body {
+            border-bottom: 0.1vw solid rgba(82, 82, 82, 0.4);
+            box-sizing: border-box;
+            color: #666;
+            background-color: #3C3C3C;
+            
+            .contact-email-link, .contact-address-link, .contact-phone-link {
+                color: #666;
             }
         }
     }

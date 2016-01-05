@@ -28,6 +28,12 @@ $(document).ready(function(){
   
 });
 
+$(document).ready(function(){
+    $('.collapsible').collapsible({
+      accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+    });
+  });
+
 var options = [
     {selector: '.staggered-test', offset: 400, callback: 'Materialize.showStaggeredList(".staggered-test")' }
   ];
