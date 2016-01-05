@@ -1,6 +1,6 @@
 <div class="printerpage-hero-section">
     <%= render 'layouts/nav' %>
-    <img class="hero-img" src="<%= asset_path("carousel01-big.jpg") %>">
+    <%= image_tag('printer/carousel01-big (1).jpg', class: 'printer-page-hero-image') %>
 </div>
 
 <div class="how-to-play-section">
@@ -9,28 +9,41 @@
 
 <div class="stp-icon-section round-shadow">
     <div class="snap-icon-section">
-        <img src="#">
+        <p class="printer-snap-sprite"></p>
         <span class="stp-icon-header">Snap</span>
         <span class="stp-icon-text">Take of upload a photo</br>to instagram</span>
     </div>
     <div class="tag-icon-section">
-        <img src="#">
+        <p class="printer-tag-sprite"></p>
         <span class="stp-icon-header">Tag</span>
         <span class="stp-icon-text">Take of upload a photo</br>to instagram</span>
     </div>
     <div class="print-icon-section">
-        <img src="#">
+        <p class="printer-print-sprite"></p>
         <span class="stp-icon-header">Print</span>
         <span class="stp-icon-text">Take of upload a photo</br>to instagram</span>
     </div>
 </div>
 
 <div class="about-printer-section">
-    
+    <%= image_tag('printer/instagram-printer-goals-bg.jpg', class: "about-printer-background") %>
+    <div class="printer-facts">
+        <p class="printer-facts-heading">Spread Content Organically</p>
+        <p class="printer-facts-body">Inspire attendees to share user generated content from anywhere in your event and build online conversations about your brand.</p>
+        
+        <p class="printer-facts-heading">Drive Your Hashtag Further</p>
+        <p class="printer-facts-body">Incentivize consumers to tag their photos with your brand or event hashtag, driving viral reach.</p>
+        
+        <p class="printer-facts-heading">Engage Via Offers & Competitions</p>
+        <p class="printer-facts-body">Integrate hashtag competitions or brand your printed photos with exclusive offers to engage consumers further.</p>
+        
+        <p class="printer-facts-heading">Post Event Content & Insights</p>
+        <p class="printer-facts-body">We’ll provide you with a digital copy of all of your photos and a detailed insights report so you can see exactly how much engagement was generated.</p>
+    </div>
 </div>
 
 <div class="printer-img-highlight-section">
-    <h2 class="printer-highlight-heading">The Printer.</h2>
+    <h2 class="printer-highlight-heading">The Printer</h2>
     <ul class="printer-image-ul">
         <div class="image-row-1">
             <li><%= image_tag ("printer/instagram-printer01.jpg") %></li>

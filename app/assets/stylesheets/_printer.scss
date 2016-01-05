@@ -5,19 +5,16 @@
     height: 99vh;
     width: 100vw;
 
+
     .navcontainer.navbar-desktop {
         z-index: 999;
         background-color: rgba(10, 10, 10, 0.4);
         position: absolute;
     }
     
-    img {
-    position: absolute;
-    height: inherit;
-    }
-    
-    .hero-img {
-        width: 100vw;
+    .printer-page-hero-image {
+        height: 99vh;
+        width: 100%;
     }
 }
 
@@ -74,26 +71,90 @@
         width: 33.33333vw;
         position: absolute;
         height: inherit;
+        
+        .printer-snap-sprite {
+            background: url("printer/Snap sprite.png") no-repeat;
+            height: 7.7vw;
+            margin-left: 14vw;
+            margin-top: 3vw;
+            width: 6vw;
+            background-position: 0 0vw;
+            background-size: 6vw;
+            
+            &:hover {
+                background-position: 0vw -8vw;
+            }
+        }
     }
     .tag-icon-section {
         width: 33.33333vw;
         position: absolute;
         height: inherit;
         left: 33.33333vw;
+        
+        .printer-tag-sprite {
+            background: url("printer/Tag sprite.png") no-repeat;
+            height: 8vw;
+            margin-left: 13vw;
+            margin-top: 2.5vw;
+            margin-bottom: 0;
+            background-size: 9.5vw;
+            background-position: 0vw 0vw;
+            width: 10vw;
+            
+            &:hover {
+                background-position: 0.5vw -8vw;
+            }
+        }
     }
     .print-icon-section {
         width: 33.33333vw;
         position: absolute;
         height: inherit;
         left: 66.66667vw;
+        
+        .printer-print-sprite {
+            background: url("printer/Print sprite.png") no-repeat;
+            height: 8vw;
+            margin-left: 12vw;
+            margin-top: 2.5vw;
+            width: 10vw;
+            background-size: 10vw;
+            background-position: 0vw 0vw;
+            
+            &:hover {
+                background-position: 0vw -8.5vw;
+            }
+        }
     }
 }
 
 
 
 .about-printer-section {
-    height: 30vw;
-    background: #8BD7E4;
+    position: relative;
+    
+    .about-printer-background {
+        width: 100vw;
+    }
+    
+    .printer-facts {
+        position: absolute;
+        top: 4vw;
+        left: 10vw;
+        width: 40vw;
+        color: white;
+        font-size: 1.3vw;
+        
+        .printer-facts-heading {
+            text-transform: uppercase;
+        }
+        
+        .printer-facts-body {
+            font-family: 'gotham_bookregular';
+            margin-bottom: 2vw;
+        }
+    }
 }
 
 .printer-img-highlight-section {
@@ -105,7 +166,8 @@
     background: white;
     
     h2 {
-        margin: 5vw 0 4vw;
+        font-size: 3.5vw;
+        margin: 5vw 0 5vw;
     }
     
     .printer-image-ul {
