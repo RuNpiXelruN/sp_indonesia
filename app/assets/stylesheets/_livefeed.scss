@@ -1,0 +1,85 @@
+.livefeed-hero-section {
+    position: relative;
+    height: 99vh;
+    width: 100vw;
+    
+    .navcontainer.navbar-desktop {
+        z-index: 999;
+        background-color: rgba(10, 10, 10, 0.4);
+        position: absolute;
+    }
+    
+    .livefeed-hero-image {
+        height: 99vh;
+        width: 100%;
+    }
+}
+
+.livefeed-quote1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #666;
+    padding: 9vw 0;
+    border-bottom: 0.1vw solid rgba(10,10,10,0.1);
+    
+    h2 {
+        margin: 0;
+    }
+}
+
+
+
+.livefeed-facts-section {
+    position: relative;
+    margin-top: -1.5vw;
+    z-index: -2;
+    height: 91vw;
+    color: #A2A2A2;
+    
+    .main-bg-image {
+        width: 100vw;
+    }
+    
+    .section-main-text {
+        position: absolute;
+        top: 5vw;
+        text-align: center;
+        left: 29vw;
+        
+        .main-section-heading {
+            text-transform: uppercase;
+            color: #eea4ac;
+        }
+        
+        .main-section-body {
+            font-size: 1.5vw;
+            font-family: 'gotham_bookregular';
+            width: 45vw;
+        }
+    }
+    
+    .centre-image {
+        position: absolute;
+        left: 28vw;
+        top: 26vw;
+    }
+    
+    .section-facts-text {
+        position: absolute;
+        top: 61vw;
+        text-align: center;
+        left: 35.5vw;
+        
+        .fact-heading {
+            text-transform: uppercase;
+            font-size: 1.5vw;
+            margin-top: 2vw;
+            color: #848484;
+        }
+        .fact-info {
+            font-family: 'gotham_bookregular';
+            font-size: 1vw;
+            width: 32vw;
+        }
+    }
+}

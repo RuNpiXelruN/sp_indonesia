@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   
   get '/instagram-printer', to: 'pages#printer'
   
+  get '/livefeed', to: 'pages#livefeed'
+  
   get '/gifgif', :to => 'pages#gifpage'
   
   get '/roaming_selfies', to: 'pages#selfies'

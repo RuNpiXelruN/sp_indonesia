@@ -7,6 +7,9 @@ class PagesController < ApplicationController
     def printer_page
     end
     
+    def livefeed
+    end
+    
     def gifpage
     end
     
