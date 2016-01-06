@@ -51,7 +51,7 @@
             <img src="<%= asset_path('product-printer (1).jpg') %>">
             <div class="product1">
                 <p>Instagram</br>Printer</p>
-                <a href="" class="instagram-printer-link">View</a>
+                <%= link_to "View", instagram_printer_path, class: "instagram-printer-link" %>
             </div>
         </div>
     </div>
@@ -73,7 +73,7 @@
             <img src="<%= asset_path('product-gif.jpg') %>">
             <div class="product3">
                 <p>Gif</br>Gif</p>
-                <a href="" class="gifgif-link">View</a>
+                <%= link_to "View", gifgif_path, class: "gifgif-link" %>
             </div>
         </div>
     </div>
@@ -83,7 +83,7 @@
             <img src="<%= asset_path('product-selfie.jpg') %>">
             <div class="product4">
                 <p>Branded</br>Selfie</p>
-                <a href="" class="branded-selfie-link">View</a>
+                <%= link_to "View", roaming_selfies_path, class: "branded-selfie-link" %>
             </div>
         </div>
     </div>
@@ -185,39 +185,78 @@
     </div>
 </div>
 
-<div class="testimonial-section">
-    <div class="slider testimonial-slider">
-        <ul class="slides testimonial-slides" style="height: 30vw !important; background: #eea4ac;">
+<div class="past-events-image-section">
+    <div class="slider past-events-slider">
+        <ul class="slides past-events-slides">
           <li>
-             
-            <div class="caption center-align">
-              <h3>Testimonial 1</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
+            <img src="<%= asset_path("jessnicholls_PartyWithLenzo_Polo1464-compressor.jpg") %>"> 
+            <!--<div class="caption center-align">-->
+            <!--  <h3>HIRE OUR LIVE INSTAGRAM PRINTER</h3>-->
+            <!--  <h3 class="light grey-text text-lighten-3">SNAP. TAG. PRINT.</h3>-->
+            <!--</div>-->
           </li>
           <li>
-            
-            <div class="caption center-align">
-              <h3>Testimonial 2</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
+            <img src="<%= asset_path("LenzoStyledShoot_LKS-372-compressor.jpg") %>"> <!-- random image -->
+            <!--<div class="caption left-align">-->
+            <!--  <h3>Left Aligned Caption</h3>-->
+            <!--  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>-->
+            <!--</div>-->
           </li>
           <li>
-            
-            <div class="caption center-align">
-              <h3>Testimonial 3</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
+            <img src="<%= asset_path("unnamed-2.jpg") %>"> <!-- random image -->
+            <!--<div class="caption right-align">-->
+            <!--  <h3>Right Aligned Caption</h3>-->
+            <!--  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>-->
+            <!--</div>-->
           </li>
           <li>
-            
-            <div class="caption center-align">
-              <h3>Testimonial 4</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
+            <img src="<%= asset_path("jessnicholls_PartyWithLenzo_Polo2171-min.jpg") %>"> <!-- random image -->
+            <!--<div class="caption center-align">-->
+            <!--  <h3>This is our big Tagline!</h3>-->
+            <!--  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>-->
+            <!--</div>-->
+          </li>
+          <li>
+            <img src="<%= asset_path("M_L_SocialPlayground-3-compressor.jpg") %>"> <!-- random image -->
+            <!--<div class="caption center-align">-->
+            <!--  <h3>This is our big Tagline!</h3>-->
+            <!--  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>-->
+            <!--</div>-->
           </li>
         </ul>
     </div>
+    <!--<div class="slider testimonial-slider">-->
+    <!--    <ul class="slides testimonial-slides" style="height: 30vw !important; background: #eea4ac;">-->
+    <!--      <li>-->
+             
+    <!--        <div class="caption center-align">-->
+    <!--          <h3>Testimonial 1</h3>-->
+    <!--          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>-->
+    <!--        </div>-->
+    <!--      </li>-->
+    <!--      <li>-->
+            
+    <!--        <div class="caption center-align">-->
+    <!--          <h3>Testimonial 2</h3>-->
+    <!--          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>-->
+    <!--        </div>-->
+    <!--      </li>-->
+    <!--      <li>-->
+            
+    <!--        <div class="caption center-align">-->
+    <!--          <h3>Testimonial 3</h3>-->
+    <!--          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>-->
+    <!--        </div>-->
+    <!--      </li>-->
+    <!--      <li>-->
+            
+    <!--        <div class="caption center-align">-->
+    <!--          <h3>Testimonial 4</h3>-->
+    <!--          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>-->
+    <!--        </div>-->
+    <!--      </li>-->
+    <!--    </ul>-->
+    <!--</div>-->
 </div>
 
 <div class="mailing-list-section">

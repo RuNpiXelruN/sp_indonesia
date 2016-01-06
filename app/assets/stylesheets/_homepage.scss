@@ -409,16 +409,13 @@ ul.indicators {
     }
 }
 
-.testimonial-section {
+.past-events-image-section {
     
-    background: #eea4ac;
+    .slider.past-events-slider {
+        height: 50vw !important;
     
-    .slider .testimonial-slider {
-        height: 30vw !important;
-    
-        .slides .testimonial-slides {
-            height: inherit !important;
-            background: #eea4ac;
+        .slides.past-events-slides {
+            height: 50vw !important;
         }
     }
     .slider .indicators {
