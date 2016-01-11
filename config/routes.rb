@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  resources :contacts
   
   get '/instagram-printer', to: 'pages#printer'
   

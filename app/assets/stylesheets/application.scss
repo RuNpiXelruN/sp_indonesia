@@ -28,12 +28,99 @@
 
 @import "printer";
 
+
+
         
         
+.contact-form {
+    width: 60vw;
+    margin: 10vw 9.5vw 10vw;
+    position: relative;
+    height: 40vw;
+    
+    .name-field {
+        width: 28vw;
+        background: #222;
+        height: 6vw;
+        color: white;
+        padding-left: 2vw;
+        position: absolute;
+        left: 0px;
+        font-size: 2vw;
+    }
+    
+    .phone-field {
+        position: absolute;
+        background: #222;
+        width: 27vw;
+        left: 31vw;
+        height: 6vw;
+        padding-left: 2vw;
+        color: white;
+        font-size: 2vw;
+    }
+    
+    .email-field {
+        background: #222;
+        width: 58vw;
+        position: absolute;
+        left: 0;
+        top: 7vw;
+        height: 6vw;
+        color: white;
+        padding-left: 2vw;
+        font-size: 2vw;
+    }
+    
+    .comments-field {
+        background: #222;
+        position: absolute;
+        left: 0;
+        top: 14vw;
+        height: 12vw;
+        padding: 1vw 2vw;
+        color: white;
+        font-size: 2vw;
+    }
+    
+    .form-submit-button {
+        position: absolute;
+        top: 30vw;
+        left: 23.6vw;
+        background: none;
+        border: 0.4vw solid white;
+        padding: 1vw 2vw;
+        font-size: 2vw;
+        color: white;
+        transition: background 0.3s ease, color 0.3s ease;
+        
+        &:hover {
+            background: white;
+            color: #ff9b7e;
+        }
+    }
+}
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+// form#new_contact {
+//     width: 42vw;
+//     margin-left: 29vw;
+//     margin-top: 14vw;
+//     margin-bottom: 13vw;
+// }
 
 
 

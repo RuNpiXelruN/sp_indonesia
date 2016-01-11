@@ -608,7 +608,7 @@ ul.indicators {
 
 .partners-callout-section {
     text-align: center;
-    background: black;
+    background: #ff9b7e;
     color: white;
     font-family: 'gotham_bookregular';
     font-size: 1.5vw;
@@ -627,17 +627,17 @@ ul.indicators {
     }
     a.partner-button {
         text-transform: uppercase;
-        color: #ff9b7e;
+        color: white;
         background: transparent;
-        border: 0.4vw solid #ff9b7e;
+        border: 0.4vw solid white;
         padding: 1vw 2vw;
         font-size: 1.8vw;
         font-family: 'gotham_boldregular';
-        transition: background 0.4s ease;
+        transition: background 0.3s ease, color 0.3s ease;
         
         &:hover {
-            background: #ff9b7e;
-            color: black;
+            background: white;
+            color: #ff9b7e;
             transition: color 1s ease;
         }
     }

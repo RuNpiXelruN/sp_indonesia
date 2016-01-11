@@ -1,0 +1,9 @@
+<!--<%= form_for @contact do |f| %>-->
+<!--    <%= f.text_field :name, placeholder: "Name" %>-->
+<!--    <%= f.email_field :email, placeholder: "Email" %>-->
+<!--    <%= f.telephone_field :phone, placeholder: "Phone" %>-->
+<!--    <%= f.text_area :comments, placeholder: "Message" %>-->
+<!--    <%= f.submit "Submit" %>-->
+<!--<% end %>-->
+
+<%= render partial: 'contacts/partials/form', locals: { contact_type: 'become_partner' }  %>
