@@ -34,9 +34,14 @@
         
 .contact-form {
     width: 60vw;
-    margin: 10vw 9.5vw 10vw;
+    margin: 0;
     position: relative;
-    height: 40vw;
+    height: 0vw;
+    
+    .form-content {
+        display: none;
+    }
+    
     
     .name-field {
         width: 28vw;
