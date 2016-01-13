@@ -551,6 +551,7 @@ ul.indicators {
 .partner-tabs-section {
     
     background: #353535;
+    padding-bottom: 5vw;   // This added for new look for partner section change
     
     .area-title {
         font-size: 3vw;
@@ -574,23 +575,44 @@ ul.indicators {
     }
     
     .collapsible {
-        border-top: 0.1vw solid rgba(82, 82, 82, 0.4);
+        // border-top: 0.1vw solid rgba(82, 82, 82, 0.4);
+        // border-right: none;
+        // border-left: none;
+        // margin: 0;
+        // color: white;
+        // text-align: center;
+        // font-size: 1.5vw;
+        // font-family: 'gotham_bookregular';
+        
+        border-top: 0.1vw solid rgba(82, 82, 82, 0.4);      //This added instead of above for partenr tabs section change
         border-right: none;
         border-left: none;
-        margin: 0;
+        margin-left: 15vw;
         color: white;
         text-align: center;
         font-size: 1.5vw;
         font-family: 'gotham_bookregular';
+        width: 70vw;
+        box-shadow: none;
         
         li .collapsible-header {
-            display: block;
+            // display: block;
+            // cursor: pointer;
+            // min-height: 3rem;
+            // line-height: 3rem;
+            // padding: 1vw 0vw;
+            // background-color: rgb(53, 53, 53);
+            // border-bottom: 0.1vw solid rgba(82, 82, 82, 0.4);
+            
+            
+            display: block;             //This added instead of above for partenr tabs section change
             cursor: pointer;
             min-height: 3rem;
             line-height: 3rem;
             padding: 1vw 0vw;
-            background-color: rgb(53, 53, 53);
-            border-bottom: 0.1vw solid rgba(82, 82, 82, 0.4);
+            background-color: #292727;
+            border-bottom: 1vw solid rgb(60, 59, 59);
+            border-radius: 0.5vw;
         }
         
         li .collapsible-body {

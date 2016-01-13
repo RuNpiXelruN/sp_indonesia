@@ -28,9 +28,13 @@
 
 @import "printer";
 
+.general-form-scrollpoint {
+    display: none;
+}
 
-
-        
+.scroll-here {
+    display: none;
+}       
         
 .contact-form {
     width: 60vw;

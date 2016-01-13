@@ -16,14 +16,43 @@
 //= require_tree .
 
 
+$(document).ready(function() {
+    
+    $(".business-email-link").click(function() {
+        $(this).hide();
+        $('.general-form-scrollpoint').show();
+        $('.main-australia-section .contact-form').css({'height':'40vw', 'margin': '10vw 9.5vw 10vw'});
+        $('.main-australia-section .contact-form').fadeIn(300);
+        $('.main-australia-section .form-content').delay().fadeIn(300);
+
+        $('html, body').scrollTo('.general-form-scrollpoint',{duration:'1000', offsetTop : '0'});
+    });
+    
+    $('.general-form-scrollpoint').click(function() {
+        $(this).hide();
+        $('.business-email-link').show();
+        $('.main-australia-section .contact-form').css({'height': '0vw', 'margin': '0'});
+        $('.main-australia-section.contact-form').fadeOut(50);
+        $('.main-australia-section .form-content').delay().fadeOut(50);
+        
+        $('html, body').scrollTo('.main-australia-section', {duration: '500', offsetTop: '10'});
+    });
+});
+
+
+
+
+
+
 
 $(document).ready(function() {
     
-    $(".partner-button").click(function(){
+    $(".partner-button").click(function() {
         $(this).hide();
-        $('.contact-form').css({'height':'40vw', 'margin': '10vw 9.5vw 10vw'});
-        $('.contact-form').fadeIn(300);
-        $('.form-content').delay().fadeIn(300);
+        $('.scroll-here').show();
+        $('.partners-callout-section .contact-form').css({'height':'40vw', 'margin': '10vw 9.5vw 10vw'});
+        $('.partners-callout-section .contact-form').fadeIn(300);
+        $('.partners-callout-section .form-content').delay().fadeIn(300);
 
         $('html, body').scrollTo('.scroll-here',{duration:'1000', offsetTop : '0'});
     });
@@ -31,14 +60,16 @@ $(document).ready(function() {
     $('.scroll-here').click(function() {
         $(this).hide();
         $('.partner-button').show();
-        $('.contact-form').css({'height': '0vw', 'margin': '0'});
-        $('.contact-form').fadeOut(300);
-        $('.form-content').delay().fadeOut(300);
+        $('.partners-callout-section .contact-form').css({'height': '0vw', 'margin': '0'});
+        $('.partners-callout-section .contact-form').fadeOut(50);
+        $('.partners-callout-section .form-content').delay(0).fadeOut(50);
         
         $('html, body').scrollTo('.partners-callout-section', {duration: '500', offsetTop: '10'});
     });
-    
 });
+
+
+
 
 //  GREAT FOR USE WITH MEDIA QUERIES!! 
 
