@@ -5,7 +5,7 @@
 
 
 
-<div class="homepage-hero-section">
+<div class="homepage-hero-section home-hero-large">
     <%= render 'layouts/nav' %>
     <div class="slider home-slider">
         <ul class="slides home-slides">
@@ -41,11 +41,40 @@
     </div>
 </div>
 
+
+<div class="homepage-hero-section home-hero-small">
+    <%= render 'layouts/nav' %>
+    <div class="slider home-slider">
+        <ul class="slides home-slides">
+          <li>
+            <img src="<%= asset_path("carousel01-big.jpg") %>"> 
+            <h3 class="hero-printer-quote"><span class="text-hide">HIRE OUR</span>LIVE INSTAGRAM PRINTER</h3>
+            <h3 class="hero-printer-text">SNAP. TAG. PRINT.</h3>
+          </li>
+          <li>
+            <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
+               <h3>Left Aligned Caption</h3>
+               <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </li>
+          <li>
+            <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
+               <h3>Right Aligned Caption</h3>
+               <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </li>
+          <li>
+            <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+               <h3>This is our big Tagline!</h3>
+               <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </li>
+        </ul>
+    </div>
+</div>
+
 <div class="homepage-quote1-section">
     <p>Bridging the gap between the online and offline worlds through live digital experiences.</p>
 </div>
 
-<div class="product-row-1">
+<div class="product-row-1 product-section-row-1">
     <div class="product-row-1-col-1-section">
         <div class="instagram-printer-rel-section">
             <img src="<%= asset_path('product-printer (1).jpg') %>">
@@ -67,7 +96,7 @@
     </div>
 </div>
 
-<div class="product-row-2">
+<div class="product-row-2 product-section-row-1">
     <div class="product-row-2-col-1-section">
         <div class="gifgif-rel-section">
             <img src="<%= asset_path('product-gif.jpg') %>">
@@ -85,6 +114,18 @@
                 <p>Branded</br>Selfie</p>
                 <%= link_to "View", roaming_selfies_path, class: "branded-selfie-link" %>
             </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="product-section-small">
+    <div class="product-1">
+        <div class="bg-black"></div>
+        <%= image_tag('product-printer (1).jpg') %>
+        <div class="product-text">
+            <p>Instagram</br>Printer</p>
+            <%= link_to "View", instagram_printer_path, class: "instagram-printer-link" %>
         </div>
     </div>
 </div>
@@ -281,49 +322,125 @@
         <%= render partial: 'contacts/partials/form', locals: { contact_type: 'general_homepage' } %>
     </p>
     <div class="australian-partner-tabs">
-        <ul class="collapsible" data-collapsible="expandable">
+        <ul class="partner-details-section">
             <li>
-                <div class="collapsible-header">Adelaide</div>
-                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                <div class="partner-area">Adelaide</div>
+                <div class="partner-offices">
+                    <p>
+                        <h3>Social Playground Adelaide</h3>
+                        <a class="contact-address-link" target="_blank" href="https://www.google.com.au/maps/place/Social Playground Singapore/@1.3116332,103.8611801,17z/data=!3m1!4b1!4m2!3m1!1s0x31da19cbec341e93:0xf8e170128aa49f0a">
+                            2 Kallang Avenue</br>#08-29, CT Hub</br>Singapore 339407
+                        </a>
+                        </br></br>
+                        <a class="contact-phone-link" href="tel:+6596210450">+65 9621 0450</a>
+                        </br></br>
+                        <a href="mailto:info@socialplayground.com.sg">
+                            <span class="contact-email-link">Send us an email</span>
+                        </a>
+                    </p>
+                </div>
             </li>
             <li>
-                <div class="collapsible-header">Tasmania</div>
-                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                <div class="partner-area">Tasmania</div>
+                <div class="partner-offices">
+                    <p>
+                        <h3>Photobooth ...</h3>
+                        <a class="contact-address-link" target="_blank" href="https://www.google.com.au/maps/place/Social Playground Singapore/@1.3116332,103.8611801,17z/data=!3m1!4b1!4m2!3m1!1s0x31da19cbec341e93:0xf8e170128aa49f0a">
+                            2 Kallang Avenue</br>#08-29, CT Hub</br>Singapore 339407
+                        </a>
+                        </br></br>
+                        <a class="contact-phone-link" href="tel:+6596210450">+65 9621 0450</a>
+                        </br></br>
+                        <a href="mailto:info@socialplayground.com.sg">
+                            <span class="contact-email-link">Send us an email</span>
+                        </a>
+                    </p>
+                </div>
             </li>
         </ul>
     </div>
 </div>
 
-<div class="partner-tabs-section">
+
+
+
+<div class="new-partner-tabs-section">
     <p class="area-title">International</p>
-    <p class="international-blurb">(Our mates around the globe)</p>
-    <ul class="collapsible" data-collapsible="expandable">
-    <li>
-      <div class="collapsible-header">Social Playground Singapore</div>
-      <div class="collapsible-body"><p><a class="contact-address-link" target="_blank" href="https://www.google.com.au/maps/place/Social Playground Singapore/@1.3116332,103.8611801,17z/data=!3m1!4b1!4m2!3m1!1s0x31da19cbec341e93:0xf8e170128aa49f0a">2 Kallang Avenue</br>#08-29, CT Hub</br>Singapore 339407</a></br></br><a class="contact-phone-link" href="tel:+6596210450">+65 9621 0450</a></br></br><a href="mailto:info@socialplayground.com.sg"><span class="contact-email-link">Send us an email</span></a></p></div>
-    </li>
-    <li>
-      <div class="collapsible-header">Interlike New Zealand</div>
-      <div class="collapsible-body"><p><a class="contact-address-link" target="_blank" href="https://www.google.com.au/maps/place/Interlike/@-36.8493696,174.7235526,17z/data=!3m1!4b1!4m2!3m1!1s0x6d0d4770b79480a7:0x6c66b0927b70151">249b Jervois Rd</br>Herne Bay</br>Auckland 1011</br></br><a class="contact-phone-link" href="tel:+64093604026">+64 09 360 4026</a></br></br><a href="mailto:hello@interlike.co.nz"><span class="contact-email-link">Send us an email</span></a></p></div>
-    </li>
-    <li>
-      <div class="collapsible-header">JustPose! United Kingdom</div>
-      <div class="collapsible-body"><p><a class="contact-address-link" target="_blank" href="https://www.google.com.au/maps/place/JustPose/@51.3269186,0.5496611,16.22z/data=!4m2!3m1!1s0x47df32a250ccfca9:0xa1ea7a90842c4027">71-75 Shelton Street</br>Covent Garden</br>London WC2H 9JQ</a></br></br><a class="contact-phone-link" href="tel:+442071128962">+44 207 112 8962</a></br></br><a href="mailto:pose@just-pose.com"><span class="contact-email-link">Send us an email</span></a></p></div>
-    </li>
-    <li>
-      <div class="collapsible-header">Photoboothy United Kingdom</div>
-      <div class="collapsible-body"><p><a class="contact-address-link" target="_blank" href="https://www.google.com.au/maps/place/Photoboothy/@51.4630517,-0.1580944,16z/data=!4m2!3m1!1s0x487605a530090acd:0xfcd1eae11bee7ed2">62 Marmion Road</br>London</br>SW11 5PA</a></br></br><a class="contact-phone-link" href="tel:+442071128962">+44 207 183 9616</a></br></br><a href="mailto:info@photoboothy.co.uk"><span class="contact-email-link">Send us an email</span></a></p></div>
-    </li>
-    <li>
-      <div class="collapsible-header">Photobooth CPH Denmark</div>
-      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-    </li>
-  </ul>
+    <p class="international-blurb">(Our mates from around the globe)</p>
+    <ul class="partner-details-section">
+        <li>
+            <div class="partner-area">Singapore</div>
+            <div class="partner-offices">
+                <p>
+                    <h3>Social Playground Singapore</h3>
+                    <a class="contact-address-link" target="_blank" href="https://www.google.com.au/maps/place/Social Playground Singapore/@1.3116332,103.8611801,17z/data=!3m1!4b1!4m2!3m1!1s0x31da19cbec341e93:0xf8e170128aa49f0a">
+                        2 Kallang Avenue</br>#08-29, CT Hub</br>Singapore 339407
+                    </a>
+                    </br></br>
+                    <a class="contact-phone-link" href="tel:+6596210450">+65 9621 0450</a>
+                    </br></br>
+                    <a href="mailto:info@socialplayground.com.sg">
+                        <span class="contact-email-link">Send us an email</span>
+                    </a>
+                </p>
+            </div>
+        </li>
+        <li>
+            <div class="partner-area">United Kingdom</div>
+            <div class="partner-offices">
+                <p><h3>Photoboothy</h3>
+                    <a class="contact-address-link" target="_blank" href="https://www.google.com.au/maps/place/Photoboothy/@51.4630517,-0.1580944,16z/data=!4m2!3m1!1s0x487605a530090acd:0xfcd1eae11bee7ed2">62 Marmion Road</br>London</br>SW11 5PA</a></br></br><a class="contact-phone-link" href="tel:+442071128962">+44 207 183 9616</a></br></br><a href="mailto:info@photoboothy.co.uk"><span class="contact-email-link">Send us an email</span></a>
+                </p>
+                
+                <p>
+                    <h3>JustPose!</h3>
+                    <a class="contact-address-link" target="_blank" href="https://www.google.com.au/maps/place/JustPose/@51.3269186,0.5496611,16.22z/data=!4m2!3m1!1s0x47df32a250ccfca9:0xa1ea7a90842c4027">
+                        71-75 Shelton Street</br>Covent Garden</br>London WC2H 9JQ
+                    </a>
+                    </br></br>
+                    <a class="contact-phone-link" href="tel:+442071128962">+44 207 112 8962</a>
+                    </br></br>
+                    <a href="mailto:pose@just-pose.com">
+                        <span class="contact-email-link">Send us an email</span>
+                    </a>
+                </p>
+
+            </div>
+        </li>
+        <li>
+            <div class="partner-area">New Zealand</div>
+            <div class="partner-offices">
+                <p>
+                    <h3>Interlike</h3>
+                    <a class="contact-address-link" target="_blank" href="https://www.google.com.au/maps/place/Interlike/@-36.8493696,174.7235526,17z/data=!3m1!4b1!4m2!3m1!1s0x6d0d4770b79480a7:0x6c66b0927b70151">
+                      249b Jervois Rd</br>Herne Bay</br>Auckland 1011
+                    </a>
+                    </br></br>
+                    <a class="contact-phone-link" href="tel:+64093604026">+64 09 360 4026</a>
+                    </br></br>
+                    <a href="mailto:hello@interlike.co.nz">
+                        <span class="contact-email-link">Send us an email</span>
+                    </a>
+                </p>
+            </div>
+        </li>
+        <li>
+            <div class="partner-area">Denmark</div>
+            <div class="partner-offices">
+                <p>
+                    <h3>Photobooth CPH</h3>
+                    <p>'Lorem ipsum..'</p>
+                </p>
+            </div>
+        </li>
+    </ul>
 </div>
+
+
 
 <div class="partners-callout-section">
     <p class="section-title">PARTNERS</p>
-    <p class="section-quote">Interested in a commercial license? We’re on the lookout</br>for global playmates. Get in touch to find out more.</p>
+    <p class="section-quote">Interested in a commercial license? We’re on the lookout for global playmates. Get in touch to find out more.</p>
     <a class="partner-button"><span>Enquire</span></a>
     <p class="scroll-here">HERE</p>
     <%= render partial: 'contacts/partials/form', locals: { contact_type: 'become_partner' } %>
