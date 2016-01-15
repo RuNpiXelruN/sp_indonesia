@@ -25,7 +25,7 @@ $(document).ready(function() {
         $('.main-australia-section .contact-form').fadeIn(300);
         $('.main-australia-section .form-content').delay().fadeIn(300);
 
-        $('html, body').scrollTo('.general-form-scrollpoint',{duration:'1000', offsetTop : '0'});
+        $('html, body').scrollTo('.main-australia-section',{duration:'1000', offsetTop : '0'});
     });
     
     $('.general-form-scrollpoint').click(function() {
