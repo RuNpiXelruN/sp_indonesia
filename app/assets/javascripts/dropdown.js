@@ -2,7 +2,7 @@
 $(document).ready(function(){
 
     $(".nav-item").click(function(){
-        $(".nav-content").slideToggle(500, "easeOutBounce");
+        $(".nav-content").slideToggle(500);
     });
   
     $(document).click(function(event){
