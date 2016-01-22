@@ -12,10 +12,7 @@
         position: absolute;
     }
     
-    .printer-page-hero-image {
-        height: 99vh;
-        width: 100%;
-    }
+    
 }
 
 .how-to-play-section {
@@ -187,10 +184,11 @@
     
     .printerpage-hero-section .printer-page-hero-image {
         height: 99vh;
-        width: 300vw;
-        left: -99vw;
+        width:auto;
+        left: 50%;
+        transform: translate(-50%, 0);
         position: absolute;
-        max-width: 300vw;
+        max-width: 500vw;
     }
     
     .how-to-play-section {
@@ -451,10 +449,11 @@
     
     .printerpage-hero-section .printer-page-hero-image {
         height: 99vh;
-        width: 220vw;
-        left: -60vw;
+        width:auto;
+        left: 50%;
+        transform: translate(-50%, 0);
         position: absolute;
-        max-width: 300vw;
+        max-width: 500vw;
     }
     
     .stp-icon-section-small {
@@ -557,6 +556,17 @@
 }
 
 @media screen and (min-width: 5px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    
+    .printerpage-hero-section .printer-page-hero-image {
+        height: 99vh;
+        width:auto;
+        left: 50%;
+        transform: translate(-50%, 0);
+        position: absolute;
+        max-width: 500vw;
+    }
+    
     
     .how-to-play-section {
         text-align: center;
@@ -830,6 +840,17 @@
 }
 
 @media screen and (min-width: 1024px) and (orientation: landscape) {
+    
+    
+    .printerpage-hero-section .printer-page-hero-image {
+        height: 99vh;
+        width:auto;
+        left: 50%;
+        transform: translate(-50%, 0);
+        position: absolute;
+        max-width: 500vw;
+    }
+    
     
     .stp-icon-section-small {
         display: none;
