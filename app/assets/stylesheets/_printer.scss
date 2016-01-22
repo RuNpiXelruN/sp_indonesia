@@ -280,3 +280,264 @@
     }
 }
 
+
+@media screen and (min-width: 5px) and (orientation: portrait) {
+    
+    .printerpage-hero-section .printer-page-hero-image {
+        height: 99vh;
+        width: 300vw;
+        left: -99vw;
+        position: absolute;
+        max-width: 300vw;
+    }
+    
+    .how-to-play-section {
+        text-align: center;
+        text-transform: uppercase;
+        padding: 14vw 10vw;
+        font-size: 6vw;
+        color: #888;
+        font-family: 'gotham_boldregular';
+        border-bottom: 0.3vw solid rgba(10, 10, 10, 0.1);
+    }
+    
+    .stp-icon-section {
+        display: none;
+    }
+    
+    .stp-icon-section-small {
+        display: block;
+        
+        .snap-icon-section {
+            position: relative;
+            height: 68vw;
+            border-bottom: 0.3vw solid rgba(10,10,10,0.2);
+            text-transform: uppercase;
+            color: #888;
+            text-align: center;
+            
+            img {
+                position: absolute;
+                top: 5vw;
+                left: 40vw;
+            }
+            
+            .stp-icon-header {
+                position: absolute;
+                top: 36vw;
+                left: 40vw;
+                font-size: 6vw;
+            }
+            
+            .stp-icon-text {
+                position: absolute;
+                top: 47vw;
+                left: 22vw;
+                text-transform: initial;
+                font-size: 4.5vw;
+                font-family: 'gotham_bookregular';
+            }
+        }
+        
+        .tag-icon-section {
+            position: relative;
+            height: 68vw;
+            border-bottom: 0.3vw solid rgba(10,10,10,0.2);
+            text-transform: uppercase;
+            color: #888;
+            text-align: center;
+            
+            img {
+                position: absolute;
+                left: 32vw;
+                top: 5vw;
+            }
+            
+            .stp-icon-header {
+                position: absolute;
+                left: 40vw;
+                top: 36vw;
+                font-size: 6vw;
+            }
+            
+            .stp-icon-text {
+                left: 32vw;
+                top: 47vw;
+                position: absolute;
+                text-transform: initial;
+                font-size: 4.5vw;
+                font-family: 'gotham_bookregular';
+            }
+        }
+        
+        .print-icon-section {
+            position: relative;
+            height: 68vw;
+            text-transform: uppercase;
+            color: #888;
+            text-align: center;
+            
+            img {
+                position: absolute;
+                top: 5vw;
+                left: 31vw;
+            }
+            
+            .stp-icon-header {
+                position: absolute;
+                left: 38vw;
+                top: 36vw;
+                font-size: 6vw;
+            }
+            
+            .stp-icon-text {
+                position: absolute;
+                left: 32vw;
+                top: 47vw;
+                text-transform: initial;
+                font-size: 4.5vw;
+                font-family: 'gotham_bookregular';
+            }
+        }
+    }
+    
+    .about-printer-section {
+        display: none;
+    }
+    
+    .about-printer-section-small {
+        display: block;
+        position: relative;    
+        
+        .printer-facts {
+            position: absolute;
+            top: 7vw;
+            left: 12vw;
+            font-size: 3.5vw;
+            text-transform: uppercase;
+            color: white;
+            font-family: 'gotham_bookregular';
+            
+            p {
+                margin: 3vw;
+            }
+        }
+    }
+    
+    .printer-img-highlight-section {
+        height: 102vw;
+        text-align: center;
+        font-size: 3vw;
+        text-transform: uppercase;
+        color: gray;
+        background: white;
+        
+        h2 {
+            font-size: 8vw;
+            margin: 9vw 0 16vw;
+        }
+        
+        .printer-image-ul {
+            width: 100vw;
+            padding: 0;
+            transform: scale(1.2);
+        }
+    }
+    
+    .printer-live-feed-strip {
+        display: none;
+    }
+    
+    .printer-live-feed-strip-small {
+        display: block;
+        height: 33vw;
+        
+        .live-feed-strip {
+            position: relative;
+            width: 100vw;
+            height: inherit;
+            
+            .img1 {
+                position: absolute;
+                width: 33.3333vw;
+            }
+            
+            .img2 {
+                position: absolute;
+                left: 33.3333vw;
+                width: 33.3333vw;
+            }
+            
+            .img3 {
+                position: absolute;
+                left: 66.6666vw;
+                width: 33.3333vw;
+            }
+        }
+    }
+    
+    .instagram-printer-cta-section {
+        background: #8fdae6;
+        position: relative;
+        height: 47vw;
+        
+        h2 {
+            margin: 0;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 5vw;
+            color: white;
+            padding: 11vw 0 8vw;
+        }
+        
+        .printer-hire-link {
+            font-size: 3.5vw;
+            text-transform: uppercase;
+            color: white;
+            position: absolute;
+            top: 28vw;
+            left: 37vw;
+            border: 0.7vw solid white;
+            padding: 2vw 3vw;
+            -webkit-transition: background 0.4s ease, color 0.2s ease;
+            transition: background 0.4s ease, color 0.2s ease;
+        }
+    }
+    
+    .printer-live-feed-cta {
+        position: relative;
+        height: 47vw;
+        
+        .printer-live-feed-background-image {
+            position: absolute;
+            width: auto;
+            max-width: 200vw;
+            height: inherit;
+        }
+        
+        h2 {
+            position: absolute;
+            color: white;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 5vw;
+            left: 11vw;
+            top: 5vw;
+        }
+        
+        .live-feed-hire-link {
+            position: absolute;
+            font-size: 1.5vw;
+            text-transform: uppercase;
+            color: white;
+            position: absolute;
+            top: 28vw;
+            left: 37vw;
+            border: 0.7vw solid white;
+            font-size: 3.5vw;
+            padding: 2vw 3vw;
+            -webkit-transition: background 0.4s ease, color 0.2s ease;
+            transition: background 0.4s ease, color 0.2s ease;
+        }
+    }
+}
