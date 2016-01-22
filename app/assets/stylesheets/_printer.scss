@@ -29,105 +29,7 @@
     
 }
 
-.stp-icon-section.round-shadow {
-    text-align: center;
-    text-transform: uppercase;
-    position: relative;
-    height: 26vw;
-    width: 100vw;
-    color: #888;
-    background: #fff;
-    -webkit-box-shadow: 0 0vw 0vw rgba(0, 0, 0, 0.3);
-    box-shadow: 0 0vw 0vw rgba(0, 0, 0, 0.3);
-    
-    &:after {
-        content: "";
-        position: absolute;
-        z-index: -1;
-        box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
-        bottom: 0px;
-        left: 10%;
-        right: 10%;
-        width: 80%;
-        height: 50%;
-        border-radius: 100%;
-    }
-    
-    img {
-        margin-top: 8vw;
-    }
-    .stp-icon-header {
-        display: block;
-        margin-top: 2vw;
-        font-size: 3vw;
-    }
-    .stp-icon-text {
-        display: block;
-        margin-top: 2vw;
-        font-family: 'gotham_bookregular';
-    }
-    
-    .snap-icon-section {
-        width: 33.33333vw;
-        position: absolute;
-        height: inherit;
-        
-        .printer-snap-sprite {
-            background: url("printer/Snap sprite.png") no-repeat;
-            height: 7.7vw;
-            margin-left: 14vw;
-            margin-top: 3vw;
-            width: 6vw;
-            background-position: 0 0vw;
-            background-size: 6vw;
-            
-            &:hover {
-                background-position: 0vw -8vw;
-            }
-        }
-    }
-    .tag-icon-section {
-        width: 33.33333vw;
-        position: absolute;
-        height: inherit;
-        left: 33.33333vw;
-        
-        .printer-tag-sprite {
-            background: url("printer/Tag sprite.png") no-repeat;
-            height: 8vw;
-            margin-left: 13vw;
-            margin-top: 2.5vw;
-            margin-bottom: 0;
-            background-size: 9.5vw;
-            background-position: 0vw 0vw;
-            width: 10vw;
-            
-            &:hover {
-                background-position: 0.5vw -8vw;
-            }
-        }
-    }
-    .print-icon-section {
-        width: 33.33333vw;
-        position: absolute;
-        height: inherit;
-        left: 66.66667vw;
-        
-        .printer-print-sprite {
-            background: url("printer/Print sprite.png") no-repeat;
-            height: 8vw;
-            margin-left: 12vw;
-            margin-top: 2.5vw;
-            width: 10vw;
-            background-size: 10vw;
-            background-position: 0vw 0vw;
-            
-            &:hover {
-                background-position: 0vw -8.5vw;
-            }
-        }
-    }
-}
+
 
 
 
@@ -319,7 +221,8 @@
             img {
                 position: absolute;
                 top: 5vw;
-                left: 40vw;
+                left: 39vw;
+                height: 30vw;
             }
             
             .stp-icon-header {
@@ -349,8 +252,9 @@
             
             img {
                 position: absolute;
-                left: 32vw;
+                left: 34vw;
                 top: 5vw;
+                height: 30vw;
             }
             
             .stp-icon-header {
@@ -380,7 +284,8 @@
             img {
                 position: absolute;
                 top: 5vw;
-                left: 31vw;
+                left: 32vw;
+                height: 30vw;
             }
             
             .stp-icon-header {
@@ -540,4 +445,593 @@
             transition: background 0.4s ease, color 0.2s ease;
         }
     }
+}
+
+@media screen and (min-width: 768px) and (orientation: portrait) {
+    
+    .printerpage-hero-section .printer-page-hero-image {
+        height: 99vh;
+        width: 220vw;
+        left: -60vw;
+        position: absolute;
+        max-width: 300vw;
+    }
+    
+    .stp-icon-section-small {
+        
+        .snap-icon-section {
+            position: relative;
+            height: 64vw;
+            border-bottom: 0.3vw solid rgba(10, 10, 10, 0.2);
+            text-transform: uppercase;
+            color: #888;
+            text-align: center;
+        
+            img {
+                position: absolute;
+                top: 5vw;
+                left: 41vw;
+                height: 27vw;
+            }
+            
+            .stp-icon-header {
+                position: absolute;
+                top: 35vw;
+                left: 41vw;
+                font-size: 6vw;
+            }
+            
+            .stp-icon-text {
+                position: absolute;
+                top: 45vw;
+                left: 24vw;
+                text-transform: initial;
+                font-size: 4.5vw;
+                font-family: 'gotham_bookregular';
+            }
+        }
+        
+        .tag-icon-section {
+            position: relative;
+            height: 64vw;
+            border-bottom: 0.3vw solid rgba(10, 10, 10, 0.2);
+            text-transform: uppercase;
+            color: #888;
+            text-align: center;
+            
+            img {
+                position: absolute;
+                left: 36vw;
+                top: 5vw;
+                height: 27vw;
+            }
+            
+            .stp-icon-header {
+                position: absolute;
+                left: 41vw;
+                top: 33vw;
+                font-size: 6vw;
+            }
+            
+            .stp-icon-text {
+                left: 34vw;
+                top: 43vw;
+                position: absolute;
+                text-transform: initial;
+                font-size: 4.5vw;
+                font-family: 'gotham_bookregular';
+            }
+        }
+        
+        .print-icon-section {
+            position: relative;
+            height: 64vw;
+            text-transform: uppercase;
+            color: #888;
+            text-align: center;
+            
+            img {
+                position: absolute;
+                top: 5vw;
+                left: 34vw;
+                height: 27vw;
+            }
+            
+            .stp-icon-header {
+                position: absolute;
+                left: 39vw;
+                top: 34vw;
+                font-size: 6vw;
+            }
+            
+            .stp-icon-text {
+                position: absolute;
+                left: 34vw;
+                top: 44vw;
+                text-transform: initial;
+                font-size: 4.5vw;
+                font-family: 'gotham_bookregular';
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 5px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .how-to-play-section {
+        text-align: center;
+        text-transform: uppercase;
+        padding: 10vw 10vw;
+        font-size: 5vw;
+        color: #888;
+        font-family: 'gotham_boldregular';
+        border-bottom: 0.3vw solid rgba(10, 10, 10, 0.1);
+    }
+    
+    .stp-icon-section-small {
+        display: none;
+    }
+    
+    .stp-icon-section.round-shadow {
+        text-align: center;
+        text-transform: uppercase;
+        position: relative;
+        height: 31vw;
+        width: 100vw;
+        color: #888;
+        background: #fff;
+        box-shadow: 0 0vw 0vw rgba(0, 0, 0, 0.3);
+    
+        &:after {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+            bottom: 0px;
+            left: 10%;
+            right: 10%;
+            width: 80%;
+            height: 50%;
+            border-radius: 100%;
+        }
+    
+        img {
+            margin-top: 8vw;
+        }
+        .stp-icon-header {
+            display: block;
+            margin-top: 2vw;
+            font-size: 3vw;
+        }
+        .stp-icon-text {
+            display: block;
+            margin-top: 1vw;
+            font-family: 'gotham_bookregular';
+            font-size: 2vw;
+            text-transform: initial;
+        }
+        
+        .snap-icon-section {
+            width: 33.33333vw;
+            position: absolute;
+            height: inherit;
+            
+            .printer-snap-sprite {
+                background: url("printer/Snap sprite.png") no-repeat;
+                height: 7.7vw;
+                margin-left: 14vw;
+                margin-top: 5vw;
+                width: 6vw;
+                background-position: 0 0vw;
+                background-size: 6vw;
+                
+                &:hover {
+                    background-position: 0vw -8vw;
+                }
+            }
+        }
+        .tag-icon-section {
+            width: 33.33333vw;
+            position: absolute;
+            height: inherit;
+            left: 33.33333vw;
+            
+            .printer-tag-sprite {
+                background: url("printer/Tag sprite.png") no-repeat;
+                height: 8vw;
+                margin-left: 13vw;
+                margin-top: 4.5vw;
+                margin-bottom: 0;
+                background-size: 9.5vw;
+                background-position: 0vw 0vw;
+                width: 10vw;
+                
+                &:hover {
+                    background-position: 0.5vw -8vw;
+                }
+            }
+        }
+        .print-icon-section {
+            width: 33.33333vw;
+            position: absolute;
+            height: inherit;
+            left: 66.66667vw;
+            
+            .printer-print-sprite {
+                background: url("printer/Print sprite.png") no-repeat;
+                height: 8vw;
+                margin-left: 12vw;
+                margin-top: 4.5vw;
+                width: 10vw;
+                background-size: 10vw;
+                background-position: 0vw 0vw;
+                
+                &:hover {
+                    background-position: 0vw -8.5vw;
+                }
+            }
+        }
+    }
+    
+    .about-printer-section {
+        display: none;
+    }
+    
+    .about-printer-section-small {
+        display: block;
+        position: relative;    
+        
+        .printer-facts {
+            position: absolute;
+            top: 8vw;
+            left: 9vw;
+            font-size: 3vw;
+            text-transform: uppercase;
+            color: white;
+            font-family: 'gotham_bookregular';
+            
+            p {
+                margin: 3vw;
+            }
+        }
+    }
+    
+    .printer-img-highlight-section {
+        height: 76vw;
+        text-align: center;
+        font-size: 3vw;
+        text-transform: uppercase;
+        color: gray;
+        background: white;
+        
+        h2 {
+            font-size: 6vw;
+            margin: 7vw 0 -1vw;
+        }
+        
+        .printer-image-ul {
+            width: 100vw;
+            padding: 0;
+            transform: scale(0.8);
+        }
+    }
+    
+    .printer-live-feed-strip-small {
+        display: none;
+    }
+    
+    .printer-live-feed-strip {
+        display: block;
+        height: 20vw;
+        
+        .live-feed-strip {
+            width: 100vw;
+            margin: 0;
+            margin-bottom: -0.5vw;
+            padding: 0;
+            overflow: hidden;
+            position: relative;
+            height: inherit;
+            
+            .img1 {
+                position: absolute;
+                width: 20vw;
+            }
+            
+            .img2 {
+                position: absolute;
+                left: 20vw;
+                width: 20vw;
+            }
+            
+            .img3 {
+                position: absolute;
+                left: 40vw;
+                width: 20vw;
+            }
+            
+            .img4 {
+                position: absolute;
+                left: 60vw;
+                width: 20vw;
+            }
+            
+            .img5 {
+                position: absolute;
+                left: 80vw;
+                width: 20vw;
+            }
+        }
+    }
+    
+    .instagram-printer-cta-section {
+        background: #8fdae6;
+        position: relative;
+        height: 35vw;
+        
+        h2 {
+            margin: 0;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 4vw;
+            color: white;
+            padding: 7vw 0 8vw;
+        }
+        
+        .printer-hire-link {
+            font-size: 3.5vw;
+            text-transform: uppercase;
+            color: white;
+            position: absolute;
+            top: 20vw;
+            left: 38vw;
+            border: 0.4vw solid white;
+            padding: 0.7vw 2vw;
+            -webkit-transition: background 0.4s ease, color 0.2s ease;
+            transition: background 0.4s ease, color 0.2s ease;
+        }
+    }
+    
+    .printer-live-feed-cta {
+        position: relative;
+        height: 35vw;
+        
+        .printer-live-feed-background-image {
+            position: absolute;
+            height: inherit;
+            width: auto;
+            max-width: 200vw;
+        }
+        
+        h2 {
+            position: absolute;
+            color: white;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 4vw;
+            left: 19vw;
+            top: 4vw;
+        }
+        
+        .live-feed-hire-link {
+            position: absolute;
+            font-size: 3.5vw;
+            text-transform: uppercase;
+            color: white;
+            position: absolute;
+            top: 22vw;
+            left: 39vw;
+            border: 0.4vw solid white;
+            padding: 0.7vw 2vw;
+            -webkit-transition: background 0.4s ease, color 0.2s ease;
+            transition: background 0.4s ease, color 0.2s ease;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+    
+    .stp-icon-section-small {
+        display: none;
+    }
+    
+    .stp-icon-section.round-shadow {
+        text-align: center;
+        text-transform: uppercase;
+        position: relative;
+        height: 31vw;
+        width: 100vw;
+        color: #888;
+        background: #fff;
+        box-shadow: 0 0vw 0vw rgba(0, 0, 0, 0.3);
+    
+        &:after {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+            bottom: 0px;
+            left: 10%;
+            right: 10%;
+            width: 80%;
+            height: 50%;
+            border-radius: 100%;
+        }
+    
+        img {
+            margin-top: 8vw;
+        }
+        .stp-icon-header {
+            display: block;
+            margin-top: 2vw;
+            font-size: 3vw;
+        }
+        .stp-icon-text {
+            display: block;
+            margin-top: 1vw;
+            font-family: 'gotham_bookregular';
+            font-size: 2vw;
+            text-transform: initial;
+        }
+        
+        .snap-icon-section {
+            width: 33.33333vw;
+            position: absolute;
+            height: inherit;
+            
+            .printer-snap-sprite {
+                background: url("printer/Snap sprite.png") no-repeat;
+                height: 7.7vw;
+                margin-left: 14vw;
+                margin-top: 5vw;
+                width: 6vw;
+                background-position: 0 0vw;
+                background-size: 6vw;
+                
+                &:hover {
+                    background-position: 0vw -8vw;
+                }
+            }
+        }
+        .tag-icon-section {
+            width: 33.33333vw;
+            position: absolute;
+            height: inherit;
+            left: 33.33333vw;
+            
+            .printer-tag-sprite {
+                background: url("printer/Tag sprite.png") no-repeat;
+                height: 8vw;
+                margin-left: 13vw;
+                margin-top: 4.5vw;
+                margin-bottom: 0;
+                background-size: 9.5vw;
+                background-position: 0vw 0vw;
+                width: 10vw;
+                
+                &:hover {
+                    background-position: 0.5vw -8vw;
+                }
+            }
+        }
+        .print-icon-section {
+            width: 33.33333vw;
+            position: absolute;
+            height: inherit;
+            left: 66.66667vw;
+            
+            .printer-print-sprite {
+                background: url("printer/Print sprite.png") no-repeat;
+                height: 8vw;
+                margin-left: 12vw;
+                margin-top: 4.5vw;
+                width: 10vw;
+                background-size: 10vw;
+                background-position: 0vw 0vw;
+                
+                &:hover {
+                    background-position: 0vw -8.5vw;
+                }
+            }
+        }
+    }
+    
+    .about-printer-section-small {
+        display: none;
+    }
+    
+    .about-printer-section {
+    position: relative;
+    
+    .about-printer-background {
+        width: 100vw;
+    }
+    
+    .printer-facts {
+        position: absolute;
+        top: 4vw;
+        left: 10vw;
+        width: 40vw;
+        color: white;
+        font-size: 1.3vw;
+        
+        .printer-facts-heading {
+            text-transform: uppercase;
+        }
+        
+        .printer-facts-body {
+            font-family: 'gotham_bookregular';
+            margin-bottom: 2vw;
+        }
+    }
+}
+
+    .printer-img-highlight-section {
+        height: 75vw;
+        text-align: center;
+        font-size: 3vw;
+        text-transform: uppercase;
+        color: gray;
+        background: white;
+        
+        h2 {
+            font-size: 5vw;
+            margin: 7vw 0 -2vw;
+        }
+        
+        .printer-image-ul {
+            width: 100vw;
+            padding: 0;
+            transform: scale(0.8);
+        }
+    }
+    
+    .printer-live-feed-strip-small {
+        display: none;
+    }
+    
+    .printer-live-feed-strip {
+        display: block;
+        height: 20vw;
+        
+        .live-feed-strip {
+            width: 100vw;
+            margin: 0;
+            margin-bottom: -0.5vw;
+            padding: 0;
+            overflow: hidden;
+            position: relative;
+            height: inherit;
+            
+            .img1 {
+                position: absolute;
+                width: 20vw;
+            }
+            
+            .img2 {
+                position: absolute;
+                left: 20vw;
+                width: 20vw;
+            }
+            
+            .img3 {
+                position: absolute;
+                left: 40vw;
+                width: 20vw;
+            }
+            
+            .img4 {
+                position: absolute;
+                left: 60vw;
+                width: 20vw;
+            }
+            
+            .img5 {
+                position: absolute;
+                left: 80vw;
+                width: 20vw;
+            }
+        }
+    }
+    
 }
