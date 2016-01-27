@@ -15,6 +15,80 @@
 //= require materialize-sprockets
 //= require_tree .
 
+// $(document).ready(function() {
+    
+//     $('#navbar-floating').hide();
+
+//     $(document).scroll(function () {
+//         var scroll = $(this).scrollTop();
+//         var topDist = $(".homepage-quote1-section").position();
+//         if (scroll > topDist.top) {
+//             $('#navbar-floating').fadeIn(500);  
+//             $('#navbar-floating').css({"position":"fixed","top":"0"});
+//         } else {
+//             $('#navbar-floating').fadeOut(500);
+//         }
+//     });
+// });
+
+
+//  JQUERY SELECTIVE USE WITH MEDIA QUERIES!! 
+
+$(document).ready(function() {
+    // run test on initial page load
+    checkSize();
+
+    // run test on resize of the window
+    $(window).resize(checkSize);
+});
+
+//Function to the css rule
+function checkSize(){
+    if ($(".navbar-dropdown").css("display") == "none" ){
+        
+        $('#navbar-floating').hide();
+        
+        $(document).scroll(function() {
+        var scroll = $(this).scrollTop();
+
+        if (scroll > 800) {
+            $('#navbar-floating').fadeIn(500);  
+            $('#navbar-floating').css({"position":"fixed","top":"0"});
+        } else {
+            $('#navbar-floating').fadeOut(500);
+            }
+        });
+    }
+}
+
+
+
+
+
+
+
+// $(document).ready(function() {
+//     $('#navbar-floating').hide();
+
+//     $(document).scroll(function() {
+//         var scroll = $(this).scrollTop();
+
+//         if (scroll > 800) {
+//             $('#navbar-floating').fadeIn(500);  
+//             $('#navbar-floating').css({"position":"fixed","top":"0"});
+//         } else {
+//             $('#navbar-floating').fadeOut(500);
+//         }
+//     });
+// });
+
+
+
+
+
+
+
+
 
 $(document).ready(function() {
     
@@ -66,27 +140,20 @@ $(document).ready(function() {
         
         $('html, body').scrollTo('.partners-callout-section', {duration: '500', offsetTop: '10'});
     });
+    
+    
+
 });
 
 
 
 
-//  GREAT FOR USE WITH MEDIA QUERIES!! 
 
-// $(document).ready(function() {
-//     // run test on initial page load
-//     checkSize();
 
-//     // run test on resize of the window
-//     $(window).resize(checkSize);
-// });
 
-// //Function to the css rule
-// function checkSize(){
-//     if ($(".sampleClass").css("float") == "none" ){
-//         // your code here
-//     }
-// }
+
+
+
 
 
 

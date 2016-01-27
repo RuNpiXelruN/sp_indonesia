@@ -11,6 +11,24 @@
 	<meta content="Live Digital Experiences for brand activations, corporate events and weddings." name="description">
 </head>
 <body>
+  
+<div class="navcontainer navbar-desktop" id="navbar-floating">
+  <div class="nav-elements">
+      <a href="/"><img src="<%= asset_path('social-playground-logo.png')%>"></a>
+      <div class="nav-list">
+          <ul class="nav-ul">
+              <li><a href="/" class="home-link">Home</a></li>
+              <li><a class="toys-link">Toys</a></li>
+              <li><a class="pastevents-link">Past Events</a></li>
+              <li><a class="contact-link">Contact</a></li>
+              <li><a class="partners-link">Partners</a></li>
+          </ul>
+      </div>
+  </div>
+</div> 
+  
+  
+  
 <% flash.each do |key, value| %>
   <%= content_tag :div, value, class: "#{key}" %>
 <% end %>
