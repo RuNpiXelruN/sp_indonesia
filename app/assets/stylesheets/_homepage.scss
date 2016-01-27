@@ -1180,11 +1180,14 @@ ul.indicators {
                     height: inherit;
                     
                     img {
-                        height: auto;
-                        width: 100vw;
+                        height: 150%;
+                        width: auto;
                         position: absolute;
-                        left: -5vw;
-                        max-width: 100vw;
+                        left: 50%;
+                        -webkit-transform: translate(-50%, 0);
+                        -ms-transform: translate(-50%, 0);
+                        transform: translate(-50%, 0);
+                        max-width: 500vw;
                     }
                 }
                 
@@ -1224,11 +1227,14 @@ ul.indicators {
                 overflow: hidden;
                 
                 .live-feed-rel-section img {
-                    width: 74vw;
-                    left: -3vw;
                     height: auto;
-                    max-width: 100vw;
+                    width: 140%;
                     position: absolute;
+                    left: 50%;
+                    -webkit-transform: translate(-50%, 0);
+                    -ms-transform: translate(-50%, 0);
+                    transform: translate(-50%, 0);
+                    max-width: 500vw;
                 }
                 
                 .product2 {
@@ -1276,11 +1282,14 @@ ul.indicators {
                     height: inherit;
                     
                     img {
-                        width: 100vw;
-                        height: auto;
-                        left: -28vw;
+                        height: 140%;
+                        width: auto;
                         position: absolute;
-                        max-width: 100vw;
+                        left: 50%;
+                        -webkit-transform: translate(-50%, 0);
+                        -ms-transform: translate(-50%, 0);
+                        transform: translate(-50%, -18%);
+                        max-width: 500vw;
                     }
                     
                     .product3 {
@@ -1325,12 +1334,12 @@ ul.indicators {
                 overflow: hidden;
                 
                 img {
-                    width: 100vw;
-                    height: auto;
+                    height: inherit;
+                    width: auto;
                     position: absolute;
-                    left: -11vw;
-                    top: 0vw;
-                    max-width: 100vw;
+                    left: 50%;
+                    transform: translate(-50%,0);
+                    max-width: 500vw;
                 }
                 .product4 {
                     position: absolute;
@@ -1488,11 +1497,14 @@ ul.indicators {
                     height: inherit;
                     
                     img {
-                        height: auto;
-                        width: 100vw;
+                        height: 150%;
+                        width: auto;
                         position: absolute;
-                        left: -5vw;
-                        max-width: 100vw;
+                        left: 50%;
+                        -webkit-transform: translate(-50%, 0);
+                        -ms-transform: translate(-50%, 0);
+                        transform: translate(-50%, 0);
+                        max-width: 500vw;
                     }
                     
                     .product1 {
@@ -1542,6 +1554,17 @@ ul.indicators {
                 
                 .live-feed-rel-section {
                     height: inherit;
+                    
+                    img {
+                        height: auto;
+                        width: 140%;
+                        position: absolute;
+                        left: 50%;
+                        -webkit-transform: translate(-50%, 0);
+                        -ms-transform: translate(-50%, 0);
+                        transform: translate(-50%, 0);
+                        max-width: 500vw;
+                    }
                     
                     .product2 {
                         position: absolute;
@@ -1595,6 +1618,17 @@ ul.indicators {
                 .gifgif-rel-section {
                     height: inherit;
                     
+                    img {
+                        height: 140%;
+                        width: auto;
+                        position: absolute;
+                        left: 50%;
+                        -webkit-transform: translate(-50%, 0);
+                        -ms-transform: translate(-50%, 0);
+                        transform: translate(-50%, -18%);
+                        max-width: 500vw;
+                    }
+                    
                     .product3 {
                         position: absolute;
                         top: 0vw;
@@ -1643,6 +1677,17 @@ ul.indicators {
                 .branded-selfie-rel-section {
                     height: inherit;
                     overflow: hidden;
+                    
+                    img {
+                        height: 140%;
+                        width: auto;
+                        position: absolute;
+                        left: 50%;
+                        -webkit-transform: translate(-50%, 0);
+                        -ms-transform: translate(-50%, 0);
+                        transform: translate(-50%, 0);
+                        max-width: 500vw;
+                    }
                     
                     .product4 {
                         position: absolute;
@@ -1733,11 +1778,14 @@ ul.indicators {
                     height: inherit;
                     
                     img {
-                        height: auto;
-                        width: 100vw;
+                        height: 150%;
+                        width: auto;
                         position: absolute;
-                        left: -5vw;
-                        max-width: 100vw;
+                        left: 50%;
+                        -webkit-transform: translate(-50%, 0);
+                        -ms-transform: translate(-50%, 0);
+                        transform: translate(-50%, 0);
+                        max-width: 500vw;
                     }
                     
                     .product1 {
@@ -1787,6 +1835,17 @@ ul.indicators {
                 
                 .live-feed-rel-section {
                     height: inherit;
+                    
+                    img {
+                        height: auto;
+                        width: 140%;
+                        position: absolute;
+                        left: 50%;
+                        -webkit-transform: translate(-50%, 0);
+                        -ms-transform: translate(-50%, 0);
+                        transform: translate(-50%, 0);
+                        max-width: 500vw;
+                    }
                     
                     .product2 {
                         position: absolute;
@@ -1840,6 +1899,17 @@ ul.indicators {
                 .gifgif-rel-section {
                     height: inherit;
                     
+                    img {
+                        height: 140%;
+                        width: auto;
+                        position: absolute;
+                        left: 50%;
+                        -webkit-transform: translate(-50%, 0);
+                        -ms-transform: translate(-50%, 0);
+                        transform: translate(-50%, -18%);
+                        max-width: 500vw;
+                    }
+                    
                     .product3 {
                         position: absolute;
                         top: 0vw;
@@ -1888,6 +1958,17 @@ ul.indicators {
                 .branded-selfie-rel-section {
                     height: inherit;
                     overflow: hidden;
+                    
+                    img {
+                        height: 140%;
+                        width: auto;
+                        position: absolute;
+                        left: 50%;
+                        -webkit-transform: translate(-50%, 0);
+                        -ms-transform: translate(-50%, 0);
+                        transform: translate(-50%, 0);
+                        max-width: 500vw;
+                    }
                     
                     .product4 {
                         position: absolute;
@@ -1950,12 +2031,15 @@ ul.indicators {
                     height: inherit;
                     
                     img {
-                        height: auto;
-                        width: 100vw;
+                        height: 150%;
+                        width: auto;
                         position: absolute;
-                        left: -5vw;
-                        max-width: 100vw;
-                    }
+                        left: 50%;
+                        -webkit-transform: translate(-50%, 0);
+                        -ms-transform: translate(-50%, 0);
+                        transform: translate(-50%, 0);
+                        max-width: 500vw;
+                    
                     
                     .product1 {
                         position: absolute;
@@ -2004,6 +2088,17 @@ ul.indicators {
                 
                 .live-feed-rel-section {
                     height: inherit;
+                    
+                    img {
+                        height: auto;
+                        width: 140%;
+                        position: absolute;
+                        left: 50%;
+                        -webkit-transform: translate(-50%, 0);
+                        -ms-transform: translate(-50%, 0);
+                        transform: translate(-50%, 0);
+                        max-width: 500vw;
+                    }
                     
                     .product2 {
                         position: absolute;
@@ -2057,6 +2152,17 @@ ul.indicators {
                 .gifgif-rel-section {
                     height: inherit;
                     
+                    img {
+                        height: 140%;
+                        width: auto;
+                        position: absolute;
+                        left: 50%;
+                        -webkit-transform: translate(-50%, 0);
+                        -ms-transform: translate(-50%, 0);
+                        transform: translate(-50%, -18%);
+                        max-width: 500vw;
+                    }
+                    
                     .product3 {
                         position: absolute;
                         top: 0vw;
@@ -2106,6 +2212,17 @@ ul.indicators {
                     height: inherit;
                     overflow: hidden;
                     
+                    img {
+                        height: 140%;
+                        width: auto;
+                        position: absolute;
+                        left: 50%;
+                        -webkit-transform: translate(-50%, 0);
+                        -ms-transform: translate(-50%, 0);
+                        transform: translate(-50%, 0);
+                        max-width: 500vw;
+                    }
+                    
                     .product4 {
                         position: absolute;
                         top: 0vw;
@@ -2141,5 +2258,6 @@ ul.indicators {
             }
         }
     }
+}
 }
     
