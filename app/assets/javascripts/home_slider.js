@@ -7,3 +7,4 @@ $(document).ready(function(){
 // $(document).ready(function(){    
 //     $('slider.testimonial-slider').slider({full_width: true});
 // });
+
