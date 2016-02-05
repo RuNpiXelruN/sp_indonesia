@@ -502,27 +502,85 @@ body {
 
 
 
-.orange-quote-section {
-    text-transform: uppercase;
-    background: #f7a73f;
-    color: white;
-    padding: 58px 0;
+// .orange-quote-section {
+//     text-transform: uppercase;
+//     background: #f7a73f;
+//     color: white;
+//     padding: 58px 0;
     
-    h2 {
-        font-size: 1.8em;
-        line-height: 1.1;
-    }
+//     h2 {
+//         font-size: 1.8em;
+//         line-height: 1.1;
+//     }
     
-    p {
-        color: #fff;
-        border: 3px solid #fff;
-        display: inline-block;
-        padding: 8px 15px;
-        margin-top: 29px;
-        margin-bottom: 0;
+//     p {
+//         color: #fff;
+//         border: 3px solid #fff;
+//         display: inline-block;
+//         padding: 8px 15px;
+//         margin-top: 29px;
+//         margin-bottom: 0;
+//     }
+
+// }                                /* ---------------- /GifGif CTA ----------------*/
+
+
+.gif-form-div {
+        background: #eea4ac;
+        padding: 6vw 0vw 1vw;
+        position: relative;
+        margin-bottom: -7vw;
+        z-index: -1;
+        
+        .gif-form-text {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 26vw;
+            
+            h2 {
+                margin-top: 0;
+                font-size: 5vw;
+            }
+        }
+        
+        .gif-form-section {
+            
+            .gifhire-button.enquire-button {
+                text-transform: uppercase;
+                text-align: center;
+                color: white;
+                font-size: 2vw;
+                border: 0.4vw solid white;
+                padding: 1vw 3vw;
+                position: absolute;
+                left: 40.5vw;
+                top: 22vw;
+                cursor: pointer;
+            }
+            
+            .gif-form-scrollpoint {
+                position: absolute;
+                left: 46vw;
+                top: 20vw;
+                display: none;
+            }
+            
+            .contact-form {
+                width: 60vw;
+                margin: 0vw 20vw 9vw;
+                position: relative;
+                height: 45vw;
+                display: none;
+                -webkit-transform: scale(1.3);
+                -ms-transform: scale(1.3);
+                transform: scale(1.3);
+            }
+        }
     }
 
-}                                /* ---------------- /GifGif CTA ----------------*/
+
+
 
             
            
@@ -532,26 +590,58 @@ body {
             
             
 
-.branded-selfies-section {
+// .branded-selfies-section {
     
-    text-transform: uppercase;
-    color: #fff;
+//     text-transform: uppercase;
+//     color: #fff;
+//     background: url('/assets/Branded Selfie CTA Graphic.png') no-repeat;
+//     background-position: center;
+//     -webkit-background-size: cover;
+//     -moz-background-size: cover;
+//     -o-background-size: cover;
+//     background-size: cover;
+
+    
+//     p {
+//         color: #fff;
+//         border: 3px solid #fff;
+//         display: inline-block;
+//         padding: 8px 15px;
+//         margin-top: 29px;
+//     }
+// }                             /* ---------------- /Branded Selfies CTA ----------------*/
+
+
+.brandedselfies-cta-section {
+    z-index: 2;
     background: url('/assets/Branded Selfie CTA Graphic.png') no-repeat;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
+    padding: 6vw 0vw 7vw;
     
-    p {
-        color: #fff;
-        border: 3px solid #fff;
-        display: inline-block;
-        padding: 8px 15px;
-        margin-top: 29px;
+    .brandedselfies-text {
+        font-size: 5vw;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+        margin-bottom: 7vw;
+        margin-top: 0;
     }
-}                             /* ---------------- /Branded Selfies CTA ----------------*/
+    
+    .brandedselfies-link {
+        font-size: 2vw;
+        text-transform: uppercase;
+        color: white;
+        border: 0.4vw solid white;
+        padding: 1vw 3vw;
+        text-align: center;
+        margin-left: 36.5vw;
+        cursor: pointer;
+    }
+}
 
 
 
@@ -1228,7 +1318,6 @@ body {
     .gif-no-sprite {
         display: block;
     }
-    
     .gif-icon-section {
         padding: 4vw 0 5vw 0;
         
@@ -1322,7 +1411,6 @@ body {
             color: #666;
         }
     }
-    
     .blurb-container {
         width: 90%;
         
@@ -1464,6 +1552,64 @@ body {
             padding: 8px 15px;
             margin-top: 6vw;
             margin-bottom: 10vw;
+        }
+    }
+    .gif-form-div {
+        background: #fa9c25;
+        padding: 6vw 0vw 1vw;
+        position: relative;
+        margin-bottom: -7vw;
+        z-index: -1;
+        
+        .gif-form-text {
+            
+            h2 {
+                margin-top: 0;
+                font-size: 5vw;
+            }
+        }
+        
+        .gif-form-section {
+            
+            .gifhire-button.enquire-button {
+                text-transform: uppercase;
+                text-align: center;
+                color: white;
+                font-size: 3vw;
+                border: 0.4vw solid white;
+                padding: 1vw 3vw;
+                position: absolute;
+                left: 38.5vw;
+                top: 23vw;
+                cursor: pointer;
+            }
+        }
+    }
+    .brandedselfies-cta-section {
+        z-index: 2;
+        background: url("/assets/Branded Selfie CTA Graphic.png") no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 6vw 0vw 7vw;
+        
+        .brandedselfies-text {
+            font-size: 5vw;
+            text-transform: uppercase;
+            text-align: center;
+            color: white;
+            margin-bottom: 7vw;
+            margin-top: 0;
+        }
+        
+        .brandedselfies-link {
+            font-size: 3vw;
+            text-transform: uppercase;
+            color: white;
+            border: 0.4vw solid white;
+            padding: 1vw 3vw;
+            text-align: center;
+            margin-left: 32.5vw;
+            cursor: pointer;
         }
     }
 }
@@ -1799,47 +1945,105 @@ body {
             width: 20vw;
         }
     }
-    .orange-quote-section {
-        padding: 8vw 0;
+    // .orange-quote-section {
+    //     padding: 8vw 0;
         
-        h2 {
-            font-size: 5vw;
-        }
-        a {
-            font-size: 3vw;
-        }
-        .book-now-button {
-            color: #fff;
-            border: 0.7vw solid #fff;
-            display: inline-block;
-            padding: 1vw 2vw;
-            margin-bottom: 0;
-            margin-top: 4vw;
-            -webkit-transform: scale(0.7);
-                -ms-transform: scale(0.7);
-                    transform: scale(0.7);
+    //     h2 {
+    //         font-size: 5vw;
+    //     }
+    //     a {
+    //         font-size: 3vw;
+    //     }
+    //     .book-now-button {
+    //         color: #fff;
+    //         border: 0.7vw solid #fff;
+    //         display: inline-block;
+    //         padding: 1vw 2vw;
+    //         margin-bottom: 0;
+    //         margin-top: 4vw;
+    //         -webkit-transform: scale(0.7);
+    //             -ms-transform: scale(0.7);
+    //                 transform: scale(0.7);
             
+    //     }
+    // }
+    .gif-form-div {
+        background: #fa9c25;
+        padding: 6vw 0vw 1vw;
+        position: relative;
+        margin-bottom: -7vw;
+        z-index: -1;
+        
+        .gif-form-text {
+            
+            h2 {
+                margin-top: 0;
+                font-size: 5vw;
+            }
+        }
+        
+        .gif-form-section {
+            
+            .gifhire-button.enquire-button {
+                text-transform: uppercase;
+                text-align: center;
+                color: white;
+                font-size: 2vw;
+                border: 0.4vw solid white;
+                padding: 1vw 3vw;
+                position: absolute;
+                left: 41vw;
+                top: 22vw;
+                cursor: pointer;
+            }
         }
     }
-    .branded-selfies-section {
-        padding: 7vw 1vw;
+    // .branded-selfies-section {
+    //     padding: 7vw 1vw;
         
-        h2 {
+    //     h2 {
+    //         font-size: 5vw;
+    //     }
+    //     a {
+    //         font-size: 3vw;
+    //     }
+    //     a p {
+    //         color: #fff;
+    //         border: 0.7vw solid #fff;
+    //         display: inline-block;
+    //         padding: 1vw 2vw;
+    //         margin-bottom: 0;
+    //         margin-top: 4vw;
+    //         -webkit-transform: scale(0.7);
+    //             -ms-transform: scale(0.7);
+    //                 transform: scale(0.7);
+    //     }
+    // }
+    .brandedselfies-cta-section {
+        z-index: 2;
+        background: url("/assets/Branded Selfie CTA Graphic.png") no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 6vw 0vw 7vw;
+        
+        .brandedselfies-text {
             font-size: 5vw;
+            text-transform: uppercase;
+            text-align: center;
+            color: white;
+            margin-bottom: 7vw;
+            margin-top: 0;
         }
-        a {
-            font-size: 3vw;
-        }
-        a p {
-            color: #fff;
-            border: 0.7vw solid #fff;
-            display: inline-block;
-            padding: 1vw 2vw;
-            margin-bottom: 0;
-            margin-top: 4vw;
-            -webkit-transform: scale(0.7);
-                -ms-transform: scale(0.7);
-                    transform: scale(0.7);
+        
+        .brandedselfies-link {
+            font-size: 2vw;
+            text-transform: uppercase;
+            color: white;
+            border: 0.4vw solid white;
+            padding: 2vw 3vw;
+            text-align: center;
+            margin-left: 36.5vw;
+            cursor: pointer;
         }
     }
 }
@@ -1858,6 +2062,7 @@ body {
             max-width: 500vw;
         }
     }
+    
 }
 
 
