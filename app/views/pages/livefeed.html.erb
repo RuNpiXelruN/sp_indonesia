@@ -82,10 +82,23 @@
 
 
 
-<div class="livefeed-page-cta">
-    <h2>Want the live feed</br>at your next event?</h2>
-    <%= link_to "Hire Now", root_path, class: "live-feed-hire-link" %>
+<!--<div class="livefeed-page-cta">-->
+<!--    <h2>Want the live feed</br>at your next event?</h2>-->
+<!--    <%= link_to "Hire Now", root_path, class: "live-feed-hire-link" %>-->
+<!--</div>-->
+
+<div class="livefeed-form-div">
+    <div class="livefeed-form-text">
+        <h2>Want the live feed</br>at your next event?</h2>
+    </div>
+    <div class="livefeed-form-section">
+        <a class="livefeedhire-button enquire-button"><span>Hire Now</span></a>
+        <p class="livefeed-form-scrollpoint"><%= image_tag('close-icon-white.png') %></p>
+        <%= render partial: 'contacts/partials/form', locals: { contact_type: 'livefeed_hire' } %>
+    </div>
 </div>
+
+
 
 <div class="livefeed-page-printer-cta">
     <h2>Like the live feed?</br>check out our instagram printer</h2>
