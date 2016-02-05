@@ -36,6 +36,20 @@ $(document).ready(function() {
         $('.gifhire-button').delay(400).show(0);
         $('.gif-form-section .contact-form').slideUp(500);
     });             // -------------------------       gifpage form  -----------------------
+    
+    
+        $('.selfiehire-button').click(function() {
+        $(this).hide();
+        $('.selfie-form-scrollpoint').show();
+        $('.selfie-form-section .contact-form').slideDown(500);
+    });
+    
+    $('.selfie-form-scrollpoint').click(function() {
+        $(this).delay(300).hide(0);
+        $('.selfiehire-button').delay(400).show(0);
+        $('.selfie-form-section .contact-form').slideUp(500);
+    });             // -------------------------       selfie form  -----------------------
+
 
     
     

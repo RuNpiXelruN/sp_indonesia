@@ -1163,27 +1163,138 @@ body {
             margin: 0 -1%;
         }
     }
-    .maincta-teal-bg {
-        background-color: #a0d1b8;
-        color: white;
-        padding: 11% 0 14% 0;
-        text-transform: uppercase;
-        width: 100%;
+    // .maincta-teal-bg {
+    //     background-color: #a0d1b8;
+    //     color: white;
+    //     padding: 11% 0 14% 0;
+    //     text-transform: uppercase;
+    //     width: 100%;
         
-        h2 {
-            font-size: 5vw;
-            width: 90%;
-            margin: 0 5% 5% 5%;
+    //     h2 {
+    //         font-size: 5vw;
+    //         width: 90%;
+    //         margin: 0 5% 5% 5%;
+    //     }
+        
+    //     .book-now-button {
+    //         text-decoration: none;
+    //         color: #fff;
+    //         border: 4px solid #fff;
+    //         padding: 3%;
+    //         font-size: 2vw;
+    //     }
+    // }
+    // .selfie-form-div {
+    //     background: #a0d1b8;
+    //     padding: 6vw 0vw 1vw;
+    //     position: relative;
+    //     margin-bottom: -7vw;
+    //     z-index: -1;
+        
+    //     .selfie-form-text {
+    //         color: white;
+    //         text-align: center;
+    //         text-transform: uppercase;
+    //         margin-bottom: 20vw;
+            
+    //         h2 {
+    //             margin-top: 0;
+    //             font-size: 5vw;
+    //         }
+    //     }
+        
+    //     .selfie-form-section {
+            
+    //         .selfiehire-button.enquire-button {
+    //             text-transform: uppercase;
+    //             text-align: center;
+    //             color: white;
+    //             font-size: 2vw;
+    //             border: 0.4vw solid white;
+    //             padding: 1vw 3vw;
+    //             position: absolute;
+    //             left: 38.5vw;
+    //             top: 22vw;
+    //             cursor: pointer;
+    //         }
+            
+    //         .selfie-form-scrollpoint {
+    //             position: absolute;
+    //             left: 47vw;
+    //             top: 21vw;
+    //             display: none;
+    //             transform: scale(1.3);
+    //         }
+            
+    //         .contact-form {
+    //             width: 60vw;
+    //             margin: 0vw 20vw 9vw;
+    //             position: relative;
+    //             height: 45vw;
+    //             display: none;
+    //             -webkit-transform: scale(1.3);
+    //             -ms-transform: scale(1.3);
+    //             transform: scale(1.3);
+    //         }
+    //     }
+    // }
+    .selfie-form-div {
+        background: #a0d1b8;
+        padding: 6vw 0vw 1vw;
+        position: relative;
+        margin-bottom: -7vw;
+        z-index: -1;
+        
+        .selfie-form-text {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 20vw;
+            
+            h2 {
+                margin-top: 0;
+                font-size: 5vw;
+            }
         }
         
-        .book-now-button {
-            text-decoration: none;
-            color: #fff;
-            border: 4px solid #fff;
-            padding: 3%;
-            font-size: 2vw;
+        .selfie-form-section {
+            
+            .selfiehire-button.enquire-button {
+                text-transform: uppercase;
+                text-align: center;
+                color: white;
+                font-size: 3vw;
+                border: 0.4vw solid white;
+                padding: 1vw 3vw;
+                position: absolute;
+                left: 35vw;
+                top: 22vw;
+                cursor: pointer;
+            }
+            
+            .selfie-form-scrollpoint {
+                position: absolute;
+                left: 45vw;
+                top: 19vw;
+                display: none;
+                -webkit-transform: scale(1.3);
+                -ms-transform: scale(1.3);
+                transform: scale(1);
+            }
+            
+            .contact-form {
+                width: 60vw;
+                margin: 0vw 20vw 9vw;
+                position: relative;
+                height: 45vw;
+                display: none;
+                -webkit-transform: scale(1.3);
+                -ms-transform: scale(1.3);
+                transform: scale(1.3);
+            }
         }
     }
+
     .livefeedcta-bg {
         text-transform: uppercase;
         color: #fff;
@@ -1494,27 +1605,135 @@ body {
             width: 20.2%;
         }
     }
-    .maincta-teal-bg {
-        background-color: #a0d1b8;
-        color: white;
-        padding: 10% 0 10% 0;
-        text-transform: uppercase;
-        width: 100%;
+    // .maincta-teal-bg {
+    //     background-color: #a0d1b8;
+    //     color: white;
+    //     padding: 10% 0 10% 0;
+    //     text-transform: uppercase;
+    //     width: 100%;
         
-        h2 {
-            font-size: 4vw;
-            width: 90%;
-            margin: 0 5% 5% 5%;
+    //     h2 {
+    //         font-size: 4vw;
+    //         width: 90%;
+    //         margin: 0 5% 5% 5%;
+    //     }
+        
+    //     .book-now-button {
+    //         text-decoration: none;
+    //         color: #fff;
+    //         border: 4px solid #fff;
+    //         padding: 2%;
+    //         font-size: 2vw;
+    //     }
+    // }
+    // .selfie-form-div {
+    //     background: #eea4ac;
+    //     padding: 6vw 0vw 1vw;
+    //     position: relative;
+    //     margin-bottom: -7vw;
+    //     z-index: -1;
+        
+    //     .selfie-form-text {
+    //         color: white;
+    //         text-align: center;
+    //         text-transform: uppercase;
+    //         margin-bottom: 26vw;
+            
+    //         h2 {
+    //             margin-top: 0;
+    //             font-size: 5vw;
+    //         }
+    //     }
+        
+    //     .selfie-form-section {
+            
+    //         .selfiehire-button.enquire-button {
+    //             text-transform: uppercase;
+    //             text-align: center;
+    //             color: white;
+    //             font-size: 2vw;
+    //             border: 0.4vw solid white;
+    //             padding: 1vw 3vw;
+    //             position: absolute;
+    //             left: 40.5vw;
+    //             top: 22vw;
+    //             cursor: pointer;
+    //         }
+            
+    //         .selfie-form-scrollpoint {
+    //             position: absolute;
+    //             left: 46vw;
+    //             top: 20vw;
+    //             display: none;
+    //         }
+            
+    //         .contact-form {
+    //             width: 60vw;
+    //             margin: 0vw 20vw 9vw;
+    //             position: relative;
+    //             height: 45vw;
+    //             display: none;
+    //             -webkit-transform: scale(1.3);
+    //             -ms-transform: scale(1.3);
+    //             transform: scale(1.3);
+    //         }
+    //     }
+    // }
+    .selfie-form-div {
+        background: #a0d1b8;
+        padding: 6vw 0vw 1vw;
+        position: relative;
+        margin-bottom: -7vw;
+        z-index: -1;
+        
+        .selfie-form-text {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 20vw;
+            
+            h2 {
+                margin-top: 0;
+                font-size: 5vw;
+            }
         }
         
-        .book-now-button {
-            text-decoration: none;
-            color: #fff;
-            border: 4px solid #fff;
-            padding: 2%;
-            font-size: 2vw;
+        .selfie-form-section {
+            
+            .selfiehire-button.enquire-button {
+                text-transform: uppercase;
+                text-align: center;
+                color: white;
+                font-size: 2vw;
+                border: 0.4vw solid white;
+                padding: 1vw 3vw;
+                position: absolute;
+                left: 38.5vw;
+                top: 22vw;
+                cursor: pointer;
+            }
+            
+            .selfie-form-scrollpoint {
+                position: absolute;
+                left: 47vw;
+                top: 21vw;
+                display: none;
+                transform: scale(1.3);
+            }
+            
+            .contact-form {
+                width: 60vw;
+                margin: 0vw 20vw 9vw;
+                position: relative;
+                height: 45vw;
+                display: none;
+                -webkit-transform: scale(1.3);
+                -ms-transform: scale(1.3);
+                transform: scale(1.3);
+            }
         }
     }
+
     .livefeedcta-bg {
         text-transform: uppercase;
         color: #fff;
