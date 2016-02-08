@@ -49,9 +49,31 @@ $(document).ready(function() {
         $('.selfiehire-button').delay(400).show(0);
         $('.selfie-form-section .contact-form').slideUp(500);
     });             // -------------------------       selfie form  -----------------------
-
-
     
     
+        $('.partnershire-button').click(function() {
+        $(this).hide();
+        $('.partners-form-scrollpoint').show();
+        $('.partners-form-section .contact-form').slideDown(500);
+    });
+    
+    $('.partners-form-scrollpoint').click(function() {
+        $(this).delay(300).hide(0);
+        $('.partnershire-button').delay(400).show(0);
+        $('.partners-form-section .contact-form').slideUp(500);
+    });             // -------------------------       partners form  -----------------------
+
+
+        $('.maincontacthire-button').click(function() {
+        $(this).hide();
+        $('.maincontact-form-scrollpoint').show();
+        $('.maincontact-form-section .contact-form').slideDown(500);
+    });
+    
+    $('.maincontact-form-scrollpoint').click(function() {
+        $(this).delay(300).hide(0);
+        $('.maincontacthire-button').delay(400).show(0);
+        $('.maincontact-form-section .contact-form').slideUp(500);
+    });             // -------------------------       maincontact form  -----------------------
     
 });

@@ -610,42 +610,42 @@ ul.indicators {
     
 }
 
-.partners-callout-section {
-    text-align: center;
-    background: #ff9b7e;
-    color: white;
-    font-family: 'gotham_bookregular';
-    font-size: 1.5vw;
-    padding: 6vw 10vw 7vw;
+// .partners-callout-section {
+//     text-align: center;
+//     background: #ff9b7e;
+//     color: white;
+//     font-family: 'gotham_bookregular';
+//     font-size: 1.5vw;
+//     padding: 6vw 10vw 7vw;
     
-    p {
-        margin: 0;
-    }
-    .section-title {
-        font-size: 4vw;
-        font-family: 'gotham_boldregular';
-        margin-bottom: 2vw;
-    }
-    .section-quote {
-        margin-bottom: 5vw;
-    }
-    .partner-button {
-        text-transform: uppercase;
-        color: white;
-        background: transparent;
-        border: 0.4vw solid white;
-        padding: 1vw 2vw;
-        font-size: 1.8vw;
-        font-family: 'gotham_boldregular';
-        transition: background 0.3s ease, color 0.3s ease;
+//     p {
+//         margin: 0;
+//     }
+//     .section-title {
+//         font-size: 4vw;
+//         font-family: 'gotham_boldregular';
+//         margin-bottom: 2vw;
+//     }
+//     .section-quote {
+//         margin-bottom: 5vw;
+//     }
+//     .partner-button {
+//         text-transform: uppercase;
+//         color: white;
+//         background: transparent;
+//         border: 0.4vw solid white;
+//         padding: 1vw 2vw;
+//         font-size: 1.8vw;
+//         font-family: 'gotham_boldregular';
+//         transition: background 0.3s ease, color 0.3s ease;
         
-        &:hover {
-            background: white;
-            color: #ff9b7e;
-            transition: color 1s ease;
-        }
-    }
-}
+//         &:hover {
+//             background: white;
+//             color: #ff9b7e;
+//             transition: color 1s ease;
+//         }
+//     }
+// }
 
 
 
@@ -991,7 +991,74 @@ ul.indicators {
             }
         }
     }
-    
+    .maincontact-form-div {
+        background: #353535;
+        padding: 2vw 0vw 1vw;
+        position: relative;
+        margin-bottom: -7vw;
+        
+        .maincontact-form-text {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 26vw;
+            
+            h2 {
+                margin-top: 0;
+            }
+        }
+        
+        .maincontact-form-section {
+            
+            .maincontacthire-button.enquire-button {
+                text-transform: uppercase;
+                text-align: center;
+                color: white;
+                font-size: 4vw;
+                border: 0.4vw solid white;
+                padding: 1vw 3vw;
+                position: absolute;
+                left: 17vw;
+                top: 5vw;
+                cursor: pointer;
+            }
+            
+            .maincontact-form-scrollpoint {
+                position: absolute;
+                left: 30.5vw;
+                top: -4vw;
+                display: none;
+                -webkit-transform: scale(0.8);
+                -ms-transform: scale(0.8);
+                transform: scale(0.8);
+                cursor: pointer;
+            }
+            
+            .contact-form {
+                width: 60vw;
+                margin: 0vw 10vw 13vw;
+                position: relative;
+                height: 45vw;
+                display: none;
+                -webkit-transform: scale(1.5);
+                -ms-transform: scale(1.5);
+                transform: scale(1.5);
+                
+                .form-submit-button {
+                    position: absolute;
+                    top: 30vw;
+                    left: 20vw;
+                    background: none;
+                    border: 0.4vw solid white;
+                    padding: 1vw 2vw;
+                    font-size: 4vw;
+                    color: white;
+                    -webkit-transition: background 0.3s ease, color 0.3s ease;
+                    transition: background 0.3s ease, color 0.3s ease;
+                }
+            }
+        }
+    }
     .new-partner-tabs-section {
         background: #353535;
         text-align: center;
@@ -1051,57 +1118,136 @@ ul.indicators {
         }
     }
     
-    .partners-callout-section {
-        text-align: center;
+    .partners-form-div {
         background: #ff9b7e;
-        color: white;
-        font-family: 'gotham_bookregular';
-        font-size: 1.5vw;
-        padding: 10vw 10vw 11vw;
+        padding: 6vw 0vw 1vw;
+        position: relative;
+        margin-bottom: -7vw;
+        z-index: -1;
         
-        .section-title {
-            font-size: 8vw;
-            font-family: 'gotham_boldregular';
-            margin-bottom: 3vw;
-        }
-        
-        .section-quote {
-            margin-bottom: 9vw;
-            font-size: 3.5vw;
-        }
-        
-        .partner-button {
+        .partners-form-text {
+            color: white;
+            text-align: center;
             text-transform: uppercase;
-            color: white;
-            background: transparent;
-            border: 0.4vw solid white;
-            padding: 1vw 2vw;
-            font-size: 4vw;
-            font-family: 'gotham_boldregular';
-            -webkit-transition: background 0.3s ease, color 0.3s ease;
-            transition: background 0.3s ease, color 0.3s ease;
+            margin-bottom: 34vw;
+            
+            h2 {
+                margin-top: 0;
+                font-size: 7.5vw;
+            }
+            
+            h4 {
+                text-transform: initial;
+                width: 80vw;
+                margin-left: 10vw;
+                font-size: 4vw;
+            }
         }
-    }
-    
-    .contact-form {
-        height: 40vw;
-        margin: 10vw 9.5vw;
-        transform: scale(1.5);
-        display: block;
         
-        .form-submit-button {
-            position: absolute;
-            top: 30vw;
-            left: 23.6vw;
-            background: none;
-            border: 0.4vw solid white;
-            padding: 2vw 3vw;
-            font-size: 2vw;
-            color: white;
-            -webkit-transition: background 0.3s ease, color 0.3s ease;
-            transition: background 0.3s ease, color 0.3s ease;
+        .partners-form-section {
+            
+            .partnershire-button.enquire-button {
+                text-transform: uppercase;
+                text-align: center;
+                color: white;
+                font-size: 6vw;
+                border: 0.4vw solid white;
+                padding: 1vw 3vw;
+                position: absolute;
+                left: 21.5vw;
+                top: 42vw;
+                cursor: pointer;
+            }
+            
+            .partners-form-scrollpoint {
+                position: absolute;
+                left: 40vw;
+                top: 33vw;
+                display: none;
+                -webkit-transform: scale(0.8);
+                -ms-transform: scale(0.8);
+                transform: scale(0.8);
+                cursor: pointer;
+            }
+            
+            .contact-form {
+                width: 60vw;
+                margin: 0vw 20vw 19vw;
+                position: relative;
+                height: 45vw;
+                display: none;
+                -webkit-transform: scale(1.5);
+                -ms-transform: scale(1.5);
+                transform: scale(1.5);
+                
+                .form-submit-button {
+                    position: absolute;
+                    top: 31vw;
+                    left: 18.6vw;
+                    background: none;
+                    border: 0.4vw solid white;
+                    padding: 2vw 3vw;
+                    font-size: 4vw;
+                    color: white;
+                    -webkit-transition: background 0.3s ease, color 0.3s ease;
+                    transition: background 0.3s ease, color 0.3s ease;
+                }
+            }
         }
     }
+
+    
+    // .partners-callout-section {
+    //     text-align: center;
+    //     background: #ff9b7e;
+    //     color: white;
+    //     font-family: 'gotham_bookregular';
+    //     font-size: 1.5vw;
+    //     padding: 10vw 10vw 11vw;
+        
+    //     .section-title {
+    //         font-size: 8vw;
+    //         font-family: 'gotham_boldregular';
+    //         margin-bottom: 3vw;
+    //     }
+        
+    //     .section-quote {
+    //         margin-bottom: 9vw;
+    //         font-size: 3.5vw;
+    //     }
+        
+    //     .partner-button {
+    //         text-transform: uppercase;
+    //         color: white;
+    //         background: transparent;
+    //         border: 0.4vw solid white;
+    //         padding: 1vw 2vw;
+    //         font-size: 4vw;
+    //         font-family: 'gotham_boldregular';
+    //         -webkit-transition: background 0.3s ease, color 0.3s ease;
+    //         transition: background 0.3s ease, color 0.3s ease;
+    //     }
+    // }
+    
+    // .contact-form {
+    //     height: 40vw;
+    //     margin: 10vw 9.5vw;
+    //     transform: scale(1.5);
+    //     display: block;
+        
+    //     .form-submit-button {
+    //         position: absolute;
+    //         top: 30vw;
+    //         left: 23.6vw;
+    //         background: none;
+    //         border: 0.4vw solid white;
+    //         padding: 2vw 3vw;
+    //         font-size: 2vw;
+    //         color: white;
+    //         -webkit-transition: background 0.3s ease, color 0.3s ease;
+    //         transition: background 0.3s ease, color 0.3s ease;
+    //     }
+    // }
 
 }
 
@@ -1111,6 +1257,154 @@ ul.indicators {
         display: block;
         position: relative;
         margin-bottom: -0.4vw;
+    }
+    
+    .partners-form-div {
+        background: #ff9b7e;
+        padding: 6vw 0vw 1vw;
+        position: relative;
+        margin-bottom: -7vw;
+        z-index: -1;
+        
+        .partners-form-text {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 30vw;
+            
+            h2 {
+                margin-top: 0;
+                font-size: 7.5vw;
+            }
+            
+            h4 {
+                text-transform: initial;
+                width: 80vw;
+                margin-left: 10vw;
+                font-size: 4vw;
+            }
+        }
+        
+        .partners-form-section {
+            
+            .partnershire-button.enquire-button {
+                text-transform: uppercase;
+                text-align: center;
+                color: white;
+                font-size: 4vw;
+                border: 0.4vw solid white;
+                padding: 1vw 3vw;
+                position: absolute;
+                left: 29.5vw;
+                top: 40vw;
+                cursor: pointer;
+            }
+            
+            .partners-form-scrollpoint {
+                position: absolute;
+                left: 45vw;
+                top: 38vw;
+                display: none;
+                -webkit-transform: scale(1.1);
+                -ms-transform: scale(1.1);
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+            
+            .contact-form {
+                width: 60vw;
+                margin: 0vw 20vw 19vw;
+                position: relative;
+                height: 45vw;
+                display: none;
+                -webkit-transform: scale(1.3);
+                -ms-transform: scale(1.3);
+                transform: scale(1.3);
+                
+                .form-submit-button {
+                    position: absolute;
+                    top: 33vw;
+                    left: 21.6vw;
+                    background: none;
+                    border: 0.4vw solid white;
+                    padding: 1vw 3vw;
+                    font-size: 3vw;
+                    color: white;
+                    -webkit-transition: background 0.3s ease, color 0.3s ease;
+                    transition: background 0.3s ease, color 0.3s ease;
+                }
+            }
+        }
+    }
+    
+    .maincontact-form-div {
+        background: #353535;
+        padding: 2vw 0vw 1vw;
+        position: relative;
+        margin-bottom: -7vw;
+        
+        .maincontact-form-text {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 26vw;
+            
+            h2 {
+                margin-top: 0;
+            }
+        }
+        
+        .maincontact-form-section {
+            
+            .maincontacthire-button.enquire-button {
+                text-transform: uppercase;
+                text-align: center;
+                color: white;
+                font-size: 4vw;
+                border: 0.4vw solid white;
+                padding: 1vw 3vw;
+                position: absolute;
+                left: 17vw;
+                top: 5vw;
+                cursor: pointer;
+            }
+            
+            .maincontact-form-scrollpoint {
+                position: absolute;
+                left: 36vw;
+                top: 0vw;
+                display: none;
+                -webkit-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                transform: scale(1.2);
+                cursor: pointer;
+            }
+            
+            .contact-form {
+                width: 60vw;
+                margin: 0vw 10vw 13vw;
+                position: relative;
+                height: 45vw;
+                display: none;
+                -webkit-transform: scale(1.5);
+                -ms-transform: scale(1.5);
+                transform: scale(1.5);
+                border-bottom: 0.3vw solid white;
+                
+                .form-submit-button {
+                    position: absolute;
+                    top: 30vw;
+                    left: 20vw;
+                    background: none;
+                    border: 0.4vw solid white;
+                    padding: 1vw 2vw;
+                    font-size: 4vw;
+                    color: white;
+                    -webkit-transition: background 0.3s ease, color 0.3s ease;
+                    transition: background 0.3s ease, color 0.3s ease;
+                }
+            }
+        }
     }
 }
 
@@ -1402,6 +1696,9 @@ ul.indicators {
     .main-australia-section {
         
         .australian-partner-tabs {
+            margin-left: -10vw;
+            margin-right: -10vw;
+            margin-top: 6vw;
             
             .partner-offices {
                 color: black;
@@ -1422,7 +1719,61 @@ ul.indicators {
             }
         }
     }
-    
+    .maincontact-form-div {
+        background: #353535;
+        padding: 2vw 0vw 1vw;
+        position: relative;
+        margin-bottom: -7vw;
+        
+        .maincontact-form-text {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 15vw;
+            
+            h2 {
+                margin-top: 0;
+            }
+        }
+        
+        .maincontact-form-section {
+            
+            .maincontacthire-button.enquire-button {
+                text-transform: uppercase;
+                text-align: center;
+                color: white;
+                font-size: 2vw;
+                border: 0.4vw solid white;
+                padding: 1vw 3vw;
+                position: absolute;
+                left: 26vw;
+                top: 4vw;
+                cursor: pointer;
+            }
+            
+            .maincontact-form-scrollpoint {
+                position: absolute;
+                left: 34.5vw;
+                top: -1vw;
+                display: none;
+                -webkit-transform: scale(0.8);
+                -ms-transform: scale(0.8);
+                transform: scale(0.8);
+                cursor: pointer;
+            }
+            
+            .contact-form {
+                width: 60vw;
+                margin: 0vw 10vw 3vw;
+                position: relative;
+                height: 45vw;
+                display: none;
+                -webkit-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                transform: scale(1.2);
+            }
+        }
+    }
     .new-partner-tabs-section {
         
         .partner-offices {
@@ -1434,6 +1785,84 @@ ul.indicators {
             
             .office-email-link {
                 color: white !important;
+            }
+        }
+    }
+    
+    .partners-form-div {
+        background: #ff9b7e;
+        padding: 6vw 0vw 1vw;
+        position: relative;
+        margin-bottom: -7vw;
+        z-index: -1;
+        
+        .partners-form-text {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 24vw;
+            
+            h2 {
+                margin-top: 0;
+                font-size: 5vw;
+            }
+            
+            h4 {
+                text-transform: initial;
+                width: 80vw;
+                margin-left: 10vw;
+                font-size: 3vw;
+            }
+        }
+        
+        .partners-form-section {
+            
+            .partnershire-button.enquire-button {
+                text-transform: uppercase;
+                text-align: center;
+                color: white;
+                font-size: 3vw;
+                border: 0.4vw solid white;
+                padding: 1vw 3vw;
+                position: absolute;
+                left: 34.5vw;
+                top: 28vw;
+                cursor: pointer;
+            }
+            
+            .partners-form-scrollpoint {
+                position: absolute;
+                left: 45vw;
+                top: 25vw;
+                display: none;
+                -webkit-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                transform: scale(0.8);
+                cursor: pointer;
+            }
+            
+            .contact-form {
+                width: 60vw;
+                margin: 0vw 20vw 9vw;
+                position: relative;
+                height: 45vw;
+                display: none;
+                -webkit-transform: scale(1.3);
+                -ms-transform: scale(1.3);
+                transform: scale(1.3);
+                
+                .form-submit-button {
+                    position: absolute;
+                    top: 31vw;
+                    left: 23.6vw;
+                    background: none;
+                    border: 0.4vw solid white;
+                    padding: 1vw 2vw;
+                    font-size: 2vw;
+                    color: white;
+                    -webkit-transition: background 0.3s ease, color 0.3s ease;
+                    transition: background 0.3s ease, color 0.3s ease;
+                }
             }
         }
     }
@@ -1732,6 +2161,230 @@ ul.indicators {
     .new-partner-tabs-section {
         border-top: none;
     }
+    .maincontact-form-div {
+        background: #353535;
+        padding: 2vw 0vw 1vw;
+        position: relative;
+        margin-bottom: -7vw;
+        
+        .maincontact-form-text {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 15vw;
+            
+            h2 {
+                margin-top: 0;
+            }
+        }
+        
+        .maincontact-form-section {
+            
+            .maincontacthire-button.enquire-button {
+                text-transform: uppercase;
+                text-align: center;
+                color: white;
+                font-size: 2vw;
+                border: 0.4vw solid white;
+                padding: 1vw 3vw;
+                position: absolute;
+                left: 26vw;
+                top: 4vw;
+                cursor: pointer;
+            }
+            
+            .maincontact-form-scrollpoint {
+                position: absolute;
+                left: 37vw;
+                top: 2vw;
+                display: none;
+                -webkit-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                transform: scale(1.2);
+                cursor: pointer;
+            }
+            
+            .contact-form {
+                width: 60vw;
+                margin: 0vw 10vw 3vw;
+                position: relative;
+                height: 45vw;
+                display: none;
+                -webkit-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                transform: scale(1.2);
+            }
+        }
+    }
+    .main-australia-section {
+        text-align: center;
+        background: #353535;
+        color: white;
+        padding: 7vw 10vw 7vw;
+        font-size: 1.5vw;
+        font-family: 'gotham_bookregular';
+        border-top: 0.5vw solid rgba(10,10,10,1);
+        
+        p {
+            margin: 0;
+            font-size: 2vw;
+        }
+        
+        .area-title {
+            font-size: 5vw;
+            text-transform: uppercase;
+            color: #9fd1b8;
+            margin-bottom: 2vw;
+            font-family: 'gotham_boldregular';
+        }
+        
+        .sub-regions {
+            margin-bottom: 3vw;
+            font-size: 2vw;
+        }
+        
+        a.business-phone {
+            color: #9A9A9A !important;
+        }
+        
+        .business-location {
+            
+            span {
+                display: block;
+            }
+        
+            .business-name {
+                margin-bottom: 2vw;
+                font-size: 3vw;
+            }
+            
+            .business-address, .business-phone {
+                color: #9A9A9A;
+                transition: color 0.4s ease;
+                width: 19vw;
+                margin: 0vw 30vw 2vw;
+                
+                &:hover {
+                    color: white;
+                }
+            }
+            .business-email-link {
+                transition: letter-spacing 0.4s ease;
+                width: 19vw;
+                margin: 0 30vw;
+                
+                &:hover {
+                    letter-spacing: 0.1vw;
+                }
+            }
+        }
+        .australian-partner-tabs {
+            margin-left: -10vw;
+            margin-right: -10vw;
+            margin-top: 7vw;
+            
+            .partner-area {
+                font-size: 3vw;
+                text-transform: uppercase;
+                font-family: 'gotham_boldregular';
+                height: 5vw;
+            }
+            
+            .partner-offices {
+                color: black;
+                font-family: 'gotham_boldregular';
+                line-height: 3vw;
+                display: none;
+                
+                h3 {
+                    font-size: 3vw;
+                }
+                
+                a {
+                    font-size: 2vw;
+                    text-align: center;
+                    color: #9A9A9A;
+                }
+            }
+        }
+    }
+    .partners-form-div {
+        background: #ff9b7e;
+        padding: 6vw 0vw 1vw;
+        position: relative;
+        margin-bottom: -7vw;
+        z-index: -1;
+        
+        .partners-form-text {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 24vw;
+            
+            h2 {
+                margin-top: 0;
+                font-size: 5vw;
+            }
+            
+            h4 {
+                text-transform: initial;
+                width: 80vw;
+                margin-left: 10vw;
+                font-size: 3vw;
+            }
+        }
+        
+        .partners-form-section {
+            
+            .partnershire-button.enquire-button {
+                text-transform: uppercase;
+                text-align: center;
+                color: white;
+                font-size: 2vw;
+                border: 0.4vw solid white;
+                padding: 1vw 3vw;
+                position: absolute;
+                left: 38.5vw;
+                top: 28vw;
+                cursor: pointer;
+            }
+            
+            .partners-form-scrollpoint {
+                position: absolute;
+                left: 47vw;
+                top: 27vw;
+                display: none;
+                -webkit-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                transform: scale(1.2);
+                cursor: pointer;
+            }
+            
+            .contact-form {
+                width: 60vw;
+                margin: 0vw 20vw 9vw;
+                position: relative;
+                height: 45vw;
+                display: none;
+                -webkit-transform: scale(1.3);
+                -ms-transform: scale(1.3);
+                transform: scale(1.3);
+                
+                .form-submit-button {
+                    position: absolute;
+                    top: 31vw;
+                    left: 23.6vw;
+                    background: none;
+                    border: 0.4vw solid white;
+                    padding: 1vw 2vw;
+                    font-size: 2vw;
+                    color: white;
+                    -webkit-transition: background 0.3s ease, color 0.3s ease;
+                    transition: background 0.3s ease, color 0.3s ease;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 1280px) and (orientation: landscape) {
@@ -1755,8 +2408,6 @@ ul.indicators {
             font-size: 4vw;
         }
     }
-    
-    
     .for-rel {
         
         position: relative;    
@@ -2001,6 +2652,232 @@ ul.indicators {
                             padding: 1vw 3vw;
                         }
                     }
+                }
+            }
+        }
+    }
+    .maincontact-form-div {
+        background: #353535;
+        padding: 2vw 0vw 1vw;
+        position: relative;
+        margin-bottom: -7vw;
+        
+        .maincontact-form-text {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 15vw;
+            
+            h2 {
+                margin-top: 0;
+            }
+        }
+        
+        .maincontact-form-section {
+            
+            .maincontacthire-button.enquire-button {
+                text-transform: uppercase;
+                text-align: center;
+                color: white;
+                font-size: 2vw;
+                border: 0.4vw solid white;
+                padding: 1vw 3vw;
+                position: absolute;
+                left: 26vw;
+                top: 4vw;
+                cursor: pointer;
+            }
+            
+            .maincontact-form-scrollpoint {
+                position: absolute;
+                left: 37vw;
+                top: 2vw;
+                display: none;
+                -webkit-transform: scale(1.5);
+                -ms-transform: scale(1.5);
+                transform: scale(1.5);
+                cursor: pointer;
+            }
+            
+            .contact-form {
+                width: 60vw;
+                margin: 0vw 10vw 3vw;
+                position: relative;
+                height: 45vw;
+                display: none;
+                -webkit-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    .partners-form-div {
+        background: #ff9b7e;
+        padding: 6vw 0vw 1vw;
+        position: relative;
+        margin-bottom: -7vw;
+        z-index: -1;
+        
+        .partners-form-text {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 24vw;
+            
+            h2 {
+                margin-top: 0;
+                font-size: 5vw;
+            }
+            
+            h4 {
+                text-transform: initial;
+                width: 80vw;
+                margin-left: 10vw;
+                font-size: 3vw;
+            }
+        }
+        
+        .partners-form-section {
+            
+            .partnershire-button.enquire-button {
+                text-transform: uppercase;
+                text-align: center;
+                color: white;
+                font-size: 2vw;
+                border: 0.4vw solid white;
+                padding: 1vw 3vw;
+                position: absolute;
+                left: 38.5vw;
+                top: 28vw;
+                cursor: pointer;
+            }
+            
+            .partners-form-scrollpoint {
+                position: absolute;
+                left: 47vw;
+                top: 28vw;
+                display: none;
+                -webkit-transform: scale(1.5);
+                -ms-transform: scale(1.5);
+                transform: scale(1.5);
+                cursor: pointer;
+            }
+            
+            .contact-form {
+                width: 60vw;
+                margin: 0vw 20vw 9vw;
+                position: relative;
+                height: 45vw;
+                display: none;
+                -webkit-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                transform: scale(1.2);
+                
+                .form-submit-button {
+                    position: absolute;
+                    top: 31vw;
+                    left: 23.6vw;
+                    background: none;
+                    border: 0.4vw solid white;
+                    padding: 1vw 2vw;
+                    font-size: 2vw;
+                    color: white;
+                    -webkit-transition: background 0.3s ease, color 0.3s ease;
+                    transition: background 0.3s ease, color 0.3s ease;
+                }
+            }
+        }
+    }
+    
+    .main-australia-section {
+        text-align: center;
+        background: #353535;
+        color: white;
+        padding: 7vw 10vw 7vw;
+        font-size: 1.5vw;
+        font-family: 'gotham_bookregular';
+        border-top: 0.5vw solid rgba(10,10,10,1);
+        
+        p {
+            margin: 0;
+            font-size: 2vw;
+        }
+        
+        .area-title {
+            font-size: 5vw;
+            text-transform: uppercase;
+            color: #9fd1b8;
+            margin-bottom: 2vw;
+            font-family: 'gotham_boldregular';
+        }
+        
+        .sub-regions {
+            margin-bottom: 3vw;
+            font-size: 2vw;
+        }
+        
+        a.business-phone {
+            color: #9A9A9A !important;
+        }
+        
+        .business-location {
+            
+            span {
+                display: block;
+            }
+        
+            .business-name {
+                margin-bottom: 2vw;
+                font-size: 3vw;
+            }
+            
+            .business-address, .business-phone {
+                color: #9A9A9A;
+                transition: color 0.4s ease;
+                width: 19vw;
+                margin: 0vw 30vw 2vw;
+                
+                &:hover {
+                    color: white;
+                }
+            }
+            .business-email-link {
+                transition: letter-spacing 0.4s ease;
+                width: 19vw;
+                margin: 0 30vw;
+                
+                &:hover {
+                    letter-spacing: 0.1vw;
+                }
+            }
+        }
+        .australian-partner-tabs {
+            margin-left: -10vw;
+            margin-right: -10vw;
+            margin-top: 7vw;
+            
+            .partner-area {
+                font-size: 3vw;
+                text-transform: uppercase;
+                font-family: 'gotham_boldregular';
+                height: 5vw;
+            }
+            
+            .partner-offices {
+                color: black;
+                font-family: 'gotham_boldregular';
+                line-height: 3vw;
+                display: none;
+                
+                h3 {
+                    font-size: 3vw;
+                }
+                
+                a {
+                    font-size: 2vw;
+                    text-align: center;
+                    color: #9A9A9A;
                 }
             }
         }
