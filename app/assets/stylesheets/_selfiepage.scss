@@ -609,25 +609,94 @@ body {
             margin: 0 -1%;
         }
     }
-    .maincta-teal-bg {
-        background-color: #a0d1b8;
-        color: white;
-        padding: 14% 0 18% 0;
-        text-transform: uppercase;
-        width: 100%;
+    // .maincta-teal-bg {
+    //     background-color: #a0d1b8;
+    //     color: white;
+    //     padding: 14% 0 18% 0;
+    //     text-transform: uppercase;
+    //     width: 100%;
         
-        h2 {
-            font-size: 6vw;
-            width: 90%;
-            margin: 0 5% 5% 5%;
+    //     h2 {
+    //         font-size: 6vw;
+    //         width: 90%;
+    //         margin: 0 5% 5% 5%;
+    //     }
+        
+    //     .book-now-button {
+    //         text-decoration: none;
+    //         color: #fff;
+    //         border: 4px solid #fff;
+    //         padding: 3%;
+    //         font-size: 3vw;
+    //     }
+    // }
+    .selfie-form-div {
+        background: #a0d1b8;
+        padding: 8vw 0vw 1vw;
+        position: relative;
+        margin-bottom: -4vw;
+        z-index: -1;
+        
+        .selfie-form-text {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 25vw;
+            
+            h2 {
+                margin-top: 0;
+                font-size: 6.5vw;
+            }
         }
         
-        .book-now-button {
-            text-decoration: none;
-            color: #fff;
-            border: 4px solid #fff;
-            padding: 3%;
-            font-size: 3vw;
+        .selfie-form-section {
+            
+            .selfiehire-button.enquire-button {
+                text-transform: uppercase;
+                text-align: center;
+                color: white;
+                font-size: 6vw;
+                border: 0.7vw solid white;
+                padding: 1vw 3vw;
+                position: absolute;
+                left: 23vw;
+                top: 30vw;
+                cursor: pointer;
+            }
+            
+            .selfie-form-scrollpoint {
+                position: absolute;
+                left: 41vw;
+                top: 20vw;
+                display: none;
+                -webkit-transform: scale(1);
+                -ms-transform: scale(1);
+                transform: scale(1);
+            }
+            
+            .contact-form {
+                width: 60vw;
+                margin: 0vw 20vw 15vw;
+                position: relative;
+                height: 45vw;
+                display: none;
+                -webkit-transform: scale(1.5);
+                -ms-transform: scale(1.5);
+                transform: scale(1.5);
+                
+                .form-submit-button {
+                    position: absolute;
+                    top: 31vw;
+                    left: 18.6vw;
+                    background: none;
+                    border: 0.7vw solid white;
+                    padding: 2vw 3vw;
+                    font-size: 4vw;
+                    color: white;
+                    -webkit-transition: background 0.3s ease, color 0.3s ease;
+                    transition: background 0.3s ease, color 0.3s ease;
+                }
+            }
         }
     }
     .livefeedcta-bg {
@@ -857,11 +926,80 @@ body {
             height: 100%;
         }
     }
-    .maincta-teal-bg {
-        padding: 14% 0 16% 0;
+    // .maincta-teal-bg {
+    //     padding: 14% 0 16% 0;
         
-        h2 {
-            margin: 0 5% 10% 5%;
+    //     h2 {
+    //         margin: 0 5% 10% 5%;
+    //     }
+    // }
+    .selfie-form-div {
+        background: #a0d1b8;
+        padding: 8vw 0vw 1vw;
+        position: relative;
+        margin-bottom: -4vw;
+        z-index: -1;
+        
+        .selfie-form-text {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 22vw;
+            
+            h2 {
+                margin-top: 0;
+                font-size: 6.5vw;
+            }
+        }
+        
+        .selfie-form-section {
+            
+            .selfiehire-button.enquire-button {
+                text-transform: uppercase;
+                text-align: center;
+                color: white;
+                font-size: 4vw;
+                border: 0.4vw solid white;
+                padding: 1vw 3vw;
+                position: absolute;
+                left: 30vw;
+                top: 28vw;
+                cursor: pointer;
+            }
+            
+            .selfie-form-scrollpoint {
+                position: absolute;
+                left: 46vw;
+                top: 25vw;
+                display: none;
+                -webkit-transform: scale(1.1);
+                -ms-transform: scale(1.1);
+                transform: scale(1.1);
+            }
+            
+            .contact-form {
+                width: 60vw;
+                margin: 0vw 20vw 15vw;
+                position: relative;
+                height: 45vw;
+                display: none;
+                -webkit-transform: scale(1.3);
+                -ms-transform: scale(1.3);
+                transform: scale(1.3);
+                
+                .form-submit-button {
+                    position: absolute;
+                    top: 32vw;
+                    left: 21.6vw;
+                    background: none;
+                    border: 0.4vw solid white;
+                    padding: 1vw 3vw;
+                    font-size: 3vw;
+                    color: white;
+                    -webkit-transition: background 0.3s ease, color 0.3s ease;
+                    transition: background 0.3s ease, color 0.3s ease;
+                }
+            }
         }
     }
     .livefeedcta-bg h2 {
@@ -1730,6 +1868,19 @@ body {
                 -webkit-transform: scale(1.3);
                 -ms-transform: scale(1.3);
                 transform: scale(1.3);
+                
+                .form-submit-button {
+                    position: absolute;
+                    top: 30vw;
+                    left: 24.6vw;
+                    background: none;
+                    border: 0.4vw solid white;
+                    padding: 1vw 2vw;
+                    font-size: 2vw;
+                    color: white;
+                    -webkit-transition: background 0.3s ease, color 0.3s ease;
+                    transition: background 0.3s ease, color 0.3s ease;
+                }
             }
         }
     }
@@ -1753,6 +1904,66 @@ body {
             border: 4px solid #fff;
             padding: 2%;
             font-size: 2vw
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) and (orientation: landscape) {
+    
+    .selfie-form-div {
+        background: #a0d1b8;
+        padding: 6vw 0vw 1vw;
+        position: relative;
+        margin-bottom: -7vw;
+        z-index: -1;
+        
+        .selfie-form-text {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 26vw;
+            
+            h2 {
+                margin-top: 0;
+                font-size: 5vw;
+            }
+        }
+        
+        .selfie-form-section {
+            
+            .selfiehire-button.enquire-button {
+                text-transform: uppercase;
+                text-align: center;
+                color: white;
+                font-size: 3vw;
+                border: 0.4vw solid white;
+                padding: 1vw 3vw;
+                position: absolute;
+                left: 35vw;
+                top: 24vw;
+                cursor: pointer;
+            }
+            
+            .selfie-form-scrollpoint {
+                position: absolute;
+                left: 48vw;
+                top: 24vw;
+                display: none;
+                -webkit-transform: scale(1.5);
+                -ms-transform: scale(1.5);
+                transform: scale(1.5);
+            }
+            
+            .contact-form {
+                width: 60vw;
+                margin: 0vw 20vw 9vw;
+                position: relative;
+                height: 45vw;
+                display: none;
+                -webkit-transform: scale(1.3);
+                -ms-transform: scale(1.3);
+                transform: scale(1.3);
+            }
         }
     }
 }
