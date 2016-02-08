@@ -122,57 +122,6 @@
 //     }
 // }
 
-.livefeed-form-div {
-        background: #eea4ac;
-        padding: 6vw 0vw 1vw;
-        position: relative;
-        margin-bottom: -7vw;
-        
-        .livefeed-form-text {
-            color: white;
-            text-align: center;
-            text-transform: uppercase;
-            margin-bottom: 26vw;
-            
-            h2 {
-                margin-top: 0;
-            }
-        }
-        
-        .livefeed-form-section {
-            
-            .livefeedhire-button.enquire-button {
-                text-transform: uppercase;
-                text-align: center;
-                color: white;
-                font-size: 2vw;
-                border: 0.4vw solid white;
-                padding: 1vw 3vw;
-                position: absolute;
-                left: 40.5vw;
-                top: 22vw;
-                cursor: pointer;
-            }
-            
-            .livefeed-form-scrollpoint {
-                position: absolute;
-                left: 46vw;
-                top: 20vw;
-                display: none;
-            }
-            
-            .contact-form {
-                width: 60vw;
-                margin: 0vw 20vw 9vw;
-                position: relative;
-                height: 45vw;
-                display: none;
-                -webkit-transform: scale(1.3);
-                -ms-transform: scale(1.3);
-                transform: scale(1.3);
-            }
-        }
-    }
 
 
 .livefeed-page-printer-cta {
@@ -322,31 +271,99 @@
         }
     }
     
-    .livefeed-page-cta {
-        text-align: center;
-        text-transform: uppercase;
-        background: #eea4ac;
-        color: white;
-        padding: 11vw 0 23vw;
-        position: relative;
+    // .livefeed-page-cta {
+    //     text-align: center;
+    //     text-transform: uppercase;
+    //     background: #eea4ac;
+    //     color: white;
+    //     padding: 11vw 0 23vw;
+    //     position: relative;
         
-        h2 {
-            margin: 0;
-            margin-bottom: 5vw;
-            font-size: 7vw;
+    //     h2 {
+    //         margin: 0;
+    //         margin-bottom: 5vw;
+    //         font-size: 7vw;
+    //     }
+        
+    //     .live-feed-hire-link {
+    //         text-transform: uppercase;
+    //         color: white;
+    //         font-size: 4.5vw;
+    //         position: absolute;
+    //         left: 35vw;
+    //         font-family: 'gotham_bookregular';
+    //         border: 0.4vw solid white;
+    //         padding: 2vw 3vw;
+    //         -webkit-transition: background 0.2s ease, color 0.2s ease;
+    //         transition: background 0.2s ease, color 0.2s ease;
+    //     }
+    // }
+    
+    .livefeed-form-div {
+        background: #eea4ac;
+        padding: 8vw 0vw 1vw;
+        position: relative;
+        margin-bottom: -4vw;
+        
+        .livefeed-form-text {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 36vw;
+            
+            h2 {
+                margin-top: 0;
+                font-size: 7.5vw;
+            }
         }
         
-        .live-feed-hire-link {
-            text-transform: uppercase;
-            color: white;
-            font-size: 4.5vw;
-            position: absolute;
-            left: 35vw;
-            font-family: 'gotham_bookregular';
-            border: 0.4vw solid white;
-            padding: 2vw 3vw;
-            -webkit-transition: background 0.2s ease, color 0.2s ease;
-            transition: background 0.2s ease, color 0.2s ease;
+        .livefeed-form-section {
+            
+            .livefeedhire-button.enquire-button {
+                text-transform: uppercase;
+                text-align: center;
+                color: white;
+                font-size: 6vw;
+                border: 0.7vw solid white;
+                padding: 1vw 3vw;
+                position: absolute;
+                left: 30vw;
+                top: 32vw;
+            }
+            
+            .livefeed-form-scrollpoint {
+                position: absolute;
+                left: 41vw;
+                top: 23vw;
+                display: none;
+                -webkit-transform: scale(1);
+                -ms-transform: scale(1);
+                transform: scale(1);
+            }
+            
+            .contact-form {
+                width: 60vw;
+                margin: 0vw 20vw 14vw;
+                position: relative;
+                height: 45vw;
+                display: none;
+                -webkit-transform: scale(1.5);
+                -ms-transform: scale(1.5);
+                transform: scale(1.5);
+                
+                .form-submit-button {
+                    position: absolute;
+                    top: 30vw;
+                    left: 18.6vw;
+                    background: none;
+                    border: 0.4vw solid white;
+                    padding: 2vw 3vw;
+                    font-size: 4vw;
+                    color: white;
+                    -webkit-transition: background 0.3s ease, color 0.3s ease;
+                    transition: background 0.3s ease, color 0.3s ease;
+                }
+            }
         }
     }
     
@@ -535,32 +552,100 @@
         }
     }
     
-    .livefeed-page-cta {
-        text-align: center;
-        text-transform: uppercase;
-        background: #eea4ac;
-        color: white;
-        padding: 10vw 0 24vw;
-        position: relative;
+    // .livefeed-page-cta {
+    //     text-align: center;
+    //     text-transform: uppercase;
+    //     background: #eea4ac;
+    //     color: white;
+    //     padding: 10vw 0 24vw;
+    //     position: relative;
         
-        h2 {
-            margin: 0;
-            margin-bottom: 5vw;
-            font-size: 6vw;
+    //     h2 {
+    //         margin: 0;
+    //         margin-bottom: 5vw;
+    //         font-size: 6vw;
+    //     }
+        
+    //     .live-feed-hire-link {
+    //         text-transform: uppercase;
+    //         color: white;
+    //         font-size: 4.5vw;
+    //         position: absolute;
+    //         left: 34vw;
+    //         top: 31vw;
+    //         font-family: 'gotham_boldregular';
+    //         border: 0.7vw solid white;
+    //         padding: 2vw 3vw;
+    //         -webkit-transition: background 0.2s ease, color 0.2s ease;
+    //         transition: background 0.2s ease, color 0.2s ease;
+    //     }
+    // }
+    
+    .livefeed-form-div {
+        background: #eea4ac;
+        padding: 8vw 0vw 1vw;
+        position: relative;
+        margin-bottom: -4vw;
+        
+        .livefeed-form-text {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 25vw;
+            
+            h2 {
+                margin-top: 0;
+                font-size: 6.5vw;
+            }
         }
         
-        .live-feed-hire-link {
-            text-transform: uppercase;
-            color: white;
-            font-size: 4.5vw;
-            position: absolute;
-            left: 34vw;
-            top: 31vw;
-            font-family: 'gotham_boldregular';
-            border: 0.7vw solid white;
-            padding: 2vw 3vw;
-            -webkit-transition: background 0.2s ease, color 0.2s ease;
-            transition: background 0.2s ease, color 0.2s ease;
+        .livefeed-form-section {
+            
+            .livefeedhire-button.enquire-button {
+                text-transform: uppercase;
+                text-align: center;
+                color: white;
+                font-size: 4vw;
+                border: 0.4vw solid white;
+                padding: 1vw 3vw;
+                position: absolute;
+                left: 36vw;
+                top: 28vw;
+            }
+            
+            .livefeed-form-scrollpoint {
+                position: absolute;
+                left: 45vw;
+                top: 24vw;
+                display: none;
+                -webkit-transform: scale(1.1);
+                -ms-transform: scale(1.1);
+                transform: scale(1.1);
+            }
+            
+            .contact-form {
+                width: 60vw;
+                margin: 0vw 20vw 9vw;
+                position: relative;
+                height: 45vw;
+                display: none;
+                -webkit-transform: scale(1.3);
+                -ms-transform: scale(1.3);
+                transform: scale(1.3);
+                
+                .form-submit-button {
+                    position: absolute;
+                    top: 31vw;
+                    left: 21.6vw;
+                    background: none;
+                    border: 0.4vw solid white;
+                    padding: 1vw 3vw;
+                    font-size: 3vw;
+                    color: white;
+                    -webkit-transition: background 0.3s ease, color 0.3s ease;
+                    transition: background 0.3s ease, color 0.3s ease;
+                }
+            }
         }
     }
     
@@ -715,7 +800,7 @@
     // }
     
     .livefeed-form-div {
-        background: #8fdae6;
+        background: #eea4ac;
         padding: 8vw 0vw 1vw;
         position: relative;
         margin-bottom: -4vw;
@@ -746,25 +831,28 @@
                 top: 23vw;
             }
             
-            .printerhire-form-scrollpoint {
+            .livefeed-form-scrollpoint {
                 position: absolute;
                 left: 45vw;
                 top: 19vw;
                 display: none;
+                -webkit-transform: scale(0.8);
+                -ms-transform: scale(0.8);
                 transform: scale(0.8);
             }
             
             .contact-form {
                 width: 60vw;
-                margin: 0vw 20vw 5vw;
+                margin: 0vw 20vw 9vw;
                 position: relative;
                 height: 45vw;
                 display: none;
+                -webkit-transform: scale(1.3);
+                -ms-transform: scale(1.3);
                 transform: scale(1.3);
             }
         }
     }
-
     
     .livefeed-page-printer-cta {
         position: relative;
@@ -817,5 +905,117 @@
     
     .livefeed-strip-small {
         display: none;
+    }
+    
+    .livefeed-form-div {
+        background: #eea4ac;
+        padding: 6vw 0vw 1vw;
+        position: relative;
+        margin-bottom: -7vw;
+        
+        .livefeed-form-text {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 26vw;
+            
+            h2 {
+                margin-top: 0;
+            }
+        }
+        
+        .livefeed-form-section {
+            
+            .livefeedhire-button.enquire-button {
+                text-transform: uppercase;
+                text-align: center;
+                color: white;
+                font-size: 2vw;
+                border: 0.4vw solid white;
+                padding: 1vw 3vw;
+                position: absolute;
+                left: 40.5vw;
+                top: 22vw;
+                cursor: pointer;
+            }
+            
+            .livefeed-form-scrollpoint {
+                position: absolute;
+                left: 46vw;
+                top: 20vw;
+                display: none;
+                transform: scale(1.2);
+                cursor: pointer;
+            }
+            
+            .contact-form {
+                width: 60vw;
+                margin: 0vw 20vw 9vw;
+                position: relative;
+                height: 45vw;
+                display: none;
+                -webkit-transform: scale(1.3);
+                -ms-transform: scale(1.3);
+                transform: scale(1.3);
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width: 1200px) and (orientation: landscape) {
+    
+    .livefeed-form-div {
+        background: #eea4ac;
+        padding: 6vw 0vw 1vw;
+        position: relative;
+        margin-bottom: -7vw;
+        
+        .livefeed-form-text {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 26vw;
+            
+            h2 {
+                margin-top: 0;
+            }
+        }
+        
+        .livefeed-form-section {
+            
+            .livefeedhire-button.enquire-button {
+                text-transform: uppercase;
+                text-align: center;
+                color: white;
+                font-size: 2vw;
+                border: 0.4vw solid white;
+                padding: 1vw 3vw;
+                position: absolute;
+                left: 40.5vw;
+                top: 22vw;
+                cursor: pointer;
+            }
+            
+            .livefeed-form-scrollpoint {
+                position: absolute;
+                left: 47vw;
+                top: 21vw;
+                display: none;
+                transform: scale(1.5);
+                cursor: pointer;
+            }
+            
+            .contact-form {
+                width: 60vw;
+                margin: 0vw 20vw 9vw;
+                position: relative;
+                height: 45vw;
+                display: none;
+                -webkit-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                transform: scale(1.2);
+            }
+        }
     }
 }
