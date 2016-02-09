@@ -298,8 +298,20 @@ img.logo-main {
 
 @media screen and (min-width: 768px) and (orientation: portrait) {
     
+    .homepage-hero-section .slider {
+        top: -19vw !important;
+        width: 100vw;
+        z-index: -1;
+        -ms-touch-action: pan-y;
+        touch-action: pan-y;
+        -webkit-user-drag: none;
+        -webkit-tap-highlight-color: transparent;
+    }
+    
     .navcontainer {
         border-bottom: 0.2vw solid rgba(255, 255, 255, 0.1);
+        background: rgba(0,0,0,0.2);
+        height: 19vw;
     }
     .navbar-desktop {
         display: none;
@@ -312,7 +324,7 @@ img.logo-main {
     img.logo-main {
         top: 4vw;
         left: 5vw;
-        height: 12vw;
+        height: 11vw;
     }
     .dropdown-ul {
         
@@ -325,6 +337,12 @@ img.logo-main {
                     transform: scale(1, 1);
             top: 4vw;
             z-index: 999;
+            
+            .dropdown-image {
+                height: 8vw;
+                top: -1vw;
+                right: -1vw;
+            }
         }
         .nav-content {
             height: 44vw;
@@ -394,83 +412,103 @@ img.logo-main {
     }
     
     .navcontainer {
-        border-bottom: 1px solid rgba(255,255,255,0.1) !important;
-    }
-    .dropdown-ul {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+        z-index: 999;
+        background: rgba(0, 0, 0, 0.2);
+        height: 12vw;    }
     
-        .nav-item {
-            position: absolute;
-            width: 9vw;
-            left: 83vw;
-            -webkit-transform: scale(0.6);
-            -ms-transform: scale(0.6);
-            transform: scale(0.6);
-            top: 0.5vw;
-            z-index: 999;
-        }
-        .nav-content {
-            background-color: rgba(0, 0, 0, 0.8);
-            width: 100vw;
-            position: absolute;
-            top: -5vw;
-            left: 0;
-            height: 27vw;
-            z-index: 2;
-            overflow: hidden;
-            max-height: 150vw;
-            display: none;
-            border-bottom: 1px solid rgba(255,255,255,0.3);
-            
-            .nav-sub {
-                margin-top: 15vw;
+        .dropdown-ul {
+    
+            .nav-item {
+                position: absolute;
+                width: 9vw;
+                left: 83vw;
+                -webkit-transform: scale(0.6);
+                -ms-transform: scale(0.6);
+                transform: scale(0.6);
+                top: 0.5vw;
+                z-index: 999;
                 
-                ul {
-                    font-size: 1.3vw;
-                    text-align: center;
-                    font-family: 'gotham_bookregular';
-                    letter-spacing: 0.2vw;
-                    text-transform: uppercase;
-                    display: -webkit-box;
-                    display: -webkit-flex;
-                    display: -ms-flexbox;
-                    display: flex;
-                }
-                p {
-                    width: 18vw;
-                    margin-left: 19vw;
-                    margin: 1vw 1vw 1vw 1vw;
-                    border: 0.4vw solid transparent;
-                    -webkit-transition: border 0.4s ease;
-                    transition: border 0.4s ease;
-                    padding: 1.5vw 1vw;
-                }
-                .home-p:hover {
-                    border: 0.4vw solid rgba(250 ,156 ,37 ,1);
-                    -webkit-transition: border 0.4s ease;
-                    transition: border 0.4s ease;
-                }
-                .toys-p:hover {
-                    border: 0.4vw solid rgba(143, 218, 230, 1);
-                    -webkit-transition: border 0.4s ease;
-                    transition: border 0.4s ease;
-                }
-                .pastevents-p:hover {
-                    border: 0.4vw solid rgba(238, 164, 172, 1);
-                    -webkit-transition: border 0.4s ease;
-                    transition: border 0.4s ease;
-                }
-                .contact-p:hover {
-                    border: 0.4vw solid rgba(159, 209, 184, 1);
-                    -webkit-transition: border 0.4s ease;
-                    transition: border 0.4s ease;
-                }
-                .partners-p:hover {
-                    border: 0.4vw solid rgba(255, 155, 126, 1);
-                    -webkit-transition: border 0.4s ease;
-                    transition: border 0.4s ease;
+                .dropdown-image {
+                    position: absolute;
+                    right: -8vw;
+                    top: 1vw;
                 }
             }
+            .nav-content {
+                background-color: rgba(0, 0, 0, 0.8);
+                width: 100vw;
+                position: absolute;
+                top: -5vw;
+                left: 0;
+                height: 27vw;
+                z-index: 2;
+                overflow: hidden;
+                max-height: 150vw;
+                display: none;
+                border-bottom: 1px solid rgba(255,255,255,0.3);
+                
+                .nav-sub {
+                    margin-top: 15vw;
+                    
+                    ul {
+                        font-size: 1.3vw;
+                        text-align: center;
+                        font-family: 'gotham_bookregular';
+                        letter-spacing: 0.2vw;
+                        text-transform: uppercase;
+                        display: -webkit-box;
+                        display: -webkit-flex;
+                        display: -ms-flexbox;
+                        display: flex;
+                    }
+                    p {
+                        width: 18vw;
+                        margin-left: 19vw;
+                        margin: 1vw 1vw 1vw 1vw;
+                        border: 0.4vw solid transparent;
+                        -webkit-transition: border 0.4s ease;
+                        transition: border 0.4s ease;
+                        padding: 1.5vw 1vw;
+                    }
+                    .home-p:hover {
+                        border: 0.4vw solid rgba(250 ,156 ,37 ,1);
+                        -webkit-transition: border 0.4s ease;
+                        transition: border 0.4s ease;
+                    }
+                    .toys-p:hover {
+                        border: 0.4vw solid rgba(143, 218, 230, 1);
+                        -webkit-transition: border 0.4s ease;
+                        transition: border 0.4s ease;
+                    }
+                    .pastevents-p:hover {
+                        border: 0.4vw solid rgba(238, 164, 172, 1);
+                        -webkit-transition: border 0.4s ease;
+                        transition: border 0.4s ease;
+                    }
+                    .contact-p:hover {
+                        border: 0.4vw solid rgba(159, 209, 184, 1);
+                        -webkit-transition: border 0.4s ease;
+                        transition: border 0.4s ease;
+                    }
+                    .partners-p:hover {
+                        border: 0.4vw solid rgba(255, 155, 126, 1);
+                        -webkit-transition: border 0.4s ease;
+                        transition: border 0.4s ease;
+                    }
+                }
+            }
+        
+    }
+    
+        .nav-elements .logo-main {
+            height: 8vw;
+            margin-top: 2vw;
+            margin-left: 3vw;
         }
+    
+    .homepage-hero-section .slider {
+        top: -12vw !important;
     }
 }
 

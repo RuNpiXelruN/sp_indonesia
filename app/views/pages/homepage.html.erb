@@ -31,7 +31,7 @@
             </div>
           </li>
           <li>
-            <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+            <%= image_tag('carousel02-big.jpg') %> 
             <div class="caption center-align">
               <h3>This is our big Tagline!</h3>
               <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
@@ -62,7 +62,8 @@
                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
           </li>
           <li>
-            <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+            <!--<img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+               <%= image_tag('carousel02-big.jpg') %>
                <h3>This is our big Tagline!</h3>
                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
           </li>
@@ -369,7 +370,7 @@
                 <h2></h2>
             </div>
             <div class="maincontact-form-section">
-                <a class="maincontacthire-button enquire-button"><span>Send us an email!</span></a>
+                <a class="maincontacthire-button enquire-button"><span>Send us an email</span></a>
                 <p class="maincontact-form-scrollpoint"><%= image_tag('close-icon-white.png') %></p>
                 <%= render partial: 'contacts/partials/form', locals: { contact_type: 'maincontact_hire' } %>
             </div>

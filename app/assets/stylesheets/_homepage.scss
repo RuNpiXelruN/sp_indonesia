@@ -438,6 +438,7 @@ ul.indicators {
     padding: 9vw 10vw;
     font-size: 2vw;
     font-family: 'gotham_bookregular';
+    display: none;
     
     p {
         margin: 0;
@@ -474,8 +475,7 @@ ul.indicators {
     padding: 7vw 10vw 7vw;
     font-size: 1.5vw;
     font-family: 'gotham_bookregular';
-    border-top: 0.5vw solid rgba(10,10,10,1);
-    
+
     p {
         margin: 0;
         font-size: 2vw;
@@ -563,7 +563,6 @@ ul.indicators {
 .new-partner-tabs-section {
     background: #353535;
     text-align: center;
-    border-top: 0.5vw solid rgba(10,10,10,1);
     padding: 6vw 10vw 7vw;
     
     .area-title {
@@ -870,7 +869,7 @@ ul.indicators {
         padding: 11vw 5vw 11vw;
         font-size: 4vw;
         font-family: 'gotham_bookregular';
-        border-bottom: 0.1vw solid #0a0a0a;
+        border-bottom: 0.1vw solid rgb(39, 31, 31);
         
         .main-quote {
             font-family: 'gotham_boldregular';
@@ -893,8 +892,8 @@ ul.indicators {
         padding: 9vw 10vw 9vw;
         font-size: 1.5vw;
         font-family: 'gotham_bookregular';
-        border-top: 0.5vw solid #0a0a0a;
         position: relative;
+        border-bottom: 0.1vw solid rgb(39, 31, 31);
         
         .area-title {
             font-size: 8vw;
@@ -1021,6 +1020,7 @@ ul.indicators {
                 left: 17vw;
                 top: 5vw;
                 cursor: pointer;
+                font-family: 'gotham_boldregular';
             }
             
             .maincontact-form-scrollpoint {
@@ -1062,7 +1062,6 @@ ul.indicators {
     .new-partner-tabs-section {
         background: #353535;
         text-align: center;
-        border-top: 0.5vw solid #0a0a0a;
         padding: 8vw 10vw 9vw;
         
         .area-title {
@@ -1337,6 +1336,14 @@ ul.indicators {
         }
     }
     
+    .get-in-touch-section {
+        border-bottom: 0.1vw solid rgb(39, 31, 31);
+    }
+    
+    .main-australia-section {
+        border-bottom: 0.1vw solid rgb(39, 31, 31);
+    }
+    
     .maincontact-form-div {
         background: #353535;
         padding: 2vw 0vw 1vw;
@@ -1367,6 +1374,7 @@ ul.indicators {
                 left: 17vw;
                 top: 5vw;
                 cursor: pointer;
+                font-family: 'gotham_boldregular';
             }
             
             .maincontact-form-scrollpoint {
@@ -1389,8 +1397,7 @@ ul.indicators {
                 -webkit-transform: scale(1.5);
                 -ms-transform: scale(1.5);
                 transform: scale(1.5);
-                border-bottom: 0.3vw solid white;
-                
+
                 .form-submit-button {
                     position: absolute;
                     top: 30vw;
@@ -1679,6 +1686,8 @@ ul.indicators {
     
     .get-in-touch-section {
         
+        border-bottom: 0.1vw solid rgb(39, 31, 31);
+        
         .main-quote {
             font-family: 'gotham_boldregular';
             font-size: 3vw;
@@ -1694,6 +1703,8 @@ ul.indicators {
     }
     
     .main-australia-section {
+        
+        border-bottom: 0.1vw solid rgb(39, 31, 31);
         
         .australian-partner-tabs {
             margin-left: -10vw;
@@ -1749,6 +1760,7 @@ ul.indicators {
                 left: 26vw;
                 top: 4vw;
                 cursor: pointer;
+                font-family: 'gotham_boldregular';
             }
             
             .maincontact-form-scrollpoint {
@@ -2156,8 +2168,11 @@ ul.indicators {
     
     .main-australia-section {
         border-top: none;
+        border-bottom: 0.1vw solid rgb(39, 31, 31);
     }
-    
+    .get-in-touch-section {
+        border-bottom: 0.1vw solid rgb(39, 31, 31);
+    }
     .new-partner-tabs-section {
         border-top: none;
     }
@@ -2191,6 +2206,7 @@ ul.indicators {
                 left: 26vw;
                 top: 4vw;
                 cursor: pointer;
+                font-family: 'gotham_boldregular';
             }
             
             .maincontact-form-scrollpoint {
@@ -2223,8 +2239,7 @@ ul.indicators {
         padding: 7vw 10vw 7vw;
         font-size: 1.5vw;
         font-family: 'gotham_bookregular';
-        border-top: 0.5vw solid rgba(10,10,10,1);
-        
+
         p {
             margin: 0;
             font-size: 2vw;
@@ -2686,6 +2701,7 @@ ul.indicators {
                 left: 26vw;
                 top: 4vw;
                 cursor: pointer;
+                font-family: 'gotham_boldregular';
             }
             
             .maincontact-form-scrollpoint {
@@ -2789,99 +2805,100 @@ ul.indicators {
             }
         }
     }
-    
+    .get-in-touch-section {
+        border-bottom: 0.1vw solid black;
+    }
     .main-australia-section {
-        text-align: center;
-        background: #353535;
-        color: white;
-        padding: 7vw 10vw 7vw;
-        font-size: 1.5vw;
-        font-family: 'gotham_bookregular';
-        border-top: 0.5vw solid rgba(10,10,10,1);
-        
-        p {
-            margin: 0;
-            font-size: 2vw;
-        }
-        
-        .area-title {
-            font-size: 5vw;
-            text-transform: uppercase;
-            color: #9fd1b8;
-            margin-bottom: 2vw;
-            font-family: 'gotham_boldregular';
-        }
-        
-        .sub-regions {
-            margin-bottom: 3vw;
-            font-size: 2vw;
-        }
-        
-        a.business-phone {
-            color: #9A9A9A !important;
-        }
-        
-        .business-location {
-            
-            span {
-                display: block;
-            }
-        
-            .business-name {
-                margin-bottom: 2vw;
-                font-size: 3vw;
+            text-align: center;
+            background: #353535;
+            color: white;
+            padding: 7vw 10vw 7vw;
+            font-size: 1.5vw;
+            font-family: 'gotham_bookregular';
+            border-bottom: 0.1vw solid black;
+            p {
+                margin: 0;
+                font-size: 2vw;
             }
             
-            .business-address, .business-phone {
-                color: #9A9A9A;
-                transition: color 0.4s ease;
-                width: 19vw;
-                margin: 0vw 30vw 2vw;
-                
-                &:hover {
-                    color: white;
-                }
-            }
-            .business-email-link {
-                transition: letter-spacing 0.4s ease;
-                width: 19vw;
-                margin: 0 30vw;
-                
-                &:hover {
-                    letter-spacing: 0.1vw;
-                }
-            }
-        }
-        .australian-partner-tabs {
-            margin-left: -10vw;
-            margin-right: -10vw;
-            margin-top: 7vw;
-            
-            .partner-area {
-                font-size: 3vw;
+            .area-title {
+                font-size: 5vw;
                 text-transform: uppercase;
+                color: #9fd1b8;
+                margin-bottom: 2vw;
                 font-family: 'gotham_boldregular';
-                height: 5vw;
             }
             
-            .partner-offices {
-                color: black;
-                font-family: 'gotham_boldregular';
-                line-height: 3vw;
-                display: none;
+            .sub-regions {
+                margin-bottom: 3vw;
+                font-size: 2vw;
+            }
+            
+            a.business-phone {
+                color: #9A9A9A !important;
+            }
+            
+            .business-location {
                 
-                h3 {
+                span {
+                    display: block;
+                }
+            
+                .business-name {
+                    margin-bottom: 2vw;
                     font-size: 3vw;
                 }
                 
-                a {
-                    font-size: 2vw;
-                    text-align: center;
+                .business-address, .business-phone {
                     color: #9A9A9A;
+                    transition: color 0.4s ease;
+                    width: 19vw;
+                    margin: 0vw 30vw 2vw;
+                    
+                    &:hover {
+                        color: white;
+                    }
+                }
+                .business-email-link {
+                    transition: letter-spacing 0.4s ease;
+                    width: 19vw;
+                    margin: 0 30vw;
+                    
+                    &:hover {
+                        letter-spacing: 0.1vw;
+                    }
+                }
+            }
+            .australian-partner-tabs {
+                margin-left: -10vw;
+                margin-right: -10vw;
+                margin-top: 7vw;
+                
+                .partner-area {
+                    font-size: 3vw;
+                    text-transform: uppercase;
+                    font-family: 'gotham_boldregular';
+                    height: 5vw;
+                }
+                
+                .partner-offices {
+                    color: black;
+                    font-family: 'gotham_boldregular';
+                    line-height: 3vw;
+                    display: none;
+                    
+                    h3 {
+                        font-size: 3vw;
+                    }
+                    
+                    a {
+                        font-size: 2vw;
+                        text-align: center;
+                        color: #9A9A9A;
+                    }
                 }
             }
         }
-    }
 }
 
 
