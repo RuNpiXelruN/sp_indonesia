@@ -293,6 +293,23 @@ img.logo-main {
             }
         }
     }
+    
+    .slider2-li.active {
+        position: relative !important;
+        
+        img {
+            position: absolute !important;
+            left: 50% !important;
+            transform: translate(-48%, 11vw) scale(1.1);
+            height: inherit !important;
+        }
+    }
+    img.sliderimg3 {
+        position: absolute;
+        left: 50%;
+        transform: translate(-43%,-11vw) scale(1.15);
+        height: inherit;
+    }
 }
 
 
@@ -397,6 +414,12 @@ img.logo-main {
                 }
             }
         }
+    }
+    
+    .sliderimg2 {
+        position: absolute;
+        left: 50%;
+        transform: translate(-49%, 5vw) scale(1.1) !important;
     }
 }
 
@@ -510,6 +533,8 @@ img.logo-main {
     .homepage-hero-section .slider {
         top: -12vw !important;
     }
+    
+
 }
 
 
@@ -602,6 +627,12 @@ img.logo-main {
                 }
             }
         }
+    }
+    
+    .sliderimg2 {
+        position: absolute;
+        left: 50%;
+        transform: translate(-49%, 3vw) scale(1.1);
     }
 }
 

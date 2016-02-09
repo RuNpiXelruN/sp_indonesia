@@ -665,7 +665,7 @@ ul.indicators {
         .hero-printer-quote {
             position: absolute;
             top: 32vw;
-            left: -12vw;
+            left: -11vw;
             color: white;
             font-size: 5vw;
             text-align: center;
@@ -674,13 +674,60 @@ ul.indicators {
                 color: transparent;
             }
         }
-        
         .hero-printer-text {
+            text-align: center;
+            position: absolute;
+            top: 37vw;
+            color: white;
+            left: 25vw;
+            font-size: 5vw;
+        }
+        .hero-gif-quote {
+            text-align: center;
+            position: absolute;
+            top: 32vw;
+            color: white;
+            left: 32vw;
+            font-size: 5vw;
+        }
+        .hero-gif-text {
             text-align: center;
             position: absolute;
             top: 40vw;
             color: white;
-            left: 25vw;
+            left: 5vw;
+            font-size: 5vw;
+        }     
+        .hero-selfie-quote {
+            text-align: center;
+            position: absolute;
+            top: 32vw;
+            color: white;
+            left: 27vw;
+            font-size: 5vw;
+        }
+        .hero-selfie-text {
+            text-align: center;
+            position: absolute;
+            top: 40vw;
+            color: white;
+            left: 17vw;
+            font-size: 5vw;
+        } 
+        .hero-livefeed-quote {
+            text-align: center;
+            position: absolute;
+            top: 32vw;
+            color: white;
+            left: 37vw;
+            font-size: 5vw;
+        }
+        .hero-livefeed-text {
+            text-align: center;
+            position: absolute;
+            top: 40vw;
+            color: white;
+            left: 24vw;
             font-size: 5vw;
         }
     }
@@ -1252,6 +1299,81 @@ ul.indicators {
 
 @media screen and (min-width: 768px) and (orientation: portrait) {
     
+    .home-hero-small {
+        display: block;
+        
+        .hero-printer-quote {
+            position: absolute;
+            top: 22vw;
+            left: -11vw;
+            color: white;
+            font-size: 5vw;
+            text-align: center;
+            
+            .text-hide {
+                color: transparent;
+            }
+        }
+        .hero-printer-text {
+            text-align: center;
+            position: absolute;
+            top: 27vw;
+            color: white;
+            left: 25vw;
+            font-size: 5vw;
+        }
+        .hero-gif-quote {
+            text-align: center;
+            position: absolute;
+            top: 21vw;
+            color: white;
+            left: 32vw;
+            font-size: 5vw;
+        }
+        .hero-gif-text {
+            text-align: center;
+            position: absolute;
+            top: 27vw;
+            color: white;
+            left: 5vw;
+            font-size: 5vw;
+        }  
+        .hero-selfie-quote {
+            text-align: center;
+            position: absolute;
+            top: 21vw;
+            color: white;
+            left: 27vw;
+            font-size: 5vw;
+        }
+        .hero-selfie-text {
+            text-align: center;
+            position: absolute;
+            top: 27vw;
+            color: white;
+            left: 18vw;
+            font-size: 5vw;
+        }
+        .hero-livefeed-quote {
+            text-align: center;
+            position: absolute;
+            top: 21vw;
+            color: white;
+            left: 36vw;
+            font-size: 5vw;
+        }
+        .hero-livefeed-text {
+            text-align: center;
+            position: absolute;
+            top: 27vw;
+            color: white;
+            left: 23vw;
+            font-size: 5vw;
+        }
+
+    }
+
+    
     .product-section-small {
         display: block;
         position: relative;
@@ -1421,37 +1543,18 @@ ul.indicators {
         height: 93vh;
         width: 100vw;
     } 
-    
     .home-hero-large {
         display: none;
     }
-        
     .home-hero-small {
         display: block;
         
         .hero-printer-quote {
-            position: absolute;
-            top: 32vw;
-            left: -12vw;
-            color: white;
-            font-size: 5vw;
-            text-align: center;
-            
             .text-hide {
-                color: transparent;
+                display: none;
             }
         }
-        
-        .hero-printer-text {
-            text-align: center;
-            position: absolute;
-            top: 40vw;
-            color: white;
-            left: 25vw;
-            font-size: 5vw;
-        }
     }
-    
     .homepage-hero-section {
     
         height: 99vh;
@@ -1460,7 +1563,6 @@ ul.indicators {
             top: -1vw;
         }
     }
-    
     .for-rel {    
         
         position: relative;
@@ -1679,11 +1781,9 @@ ul.indicators {
         }
         
     }
-    
     .product-section-small {
         display: none;
     }
-    
     .get-in-touch-section {
         
         border-bottom: 0.1vw solid rgb(39, 31, 31);
@@ -1701,7 +1801,6 @@ ul.indicators {
             font-size: 2vw;
         }
     }
-    
     .main-australia-section {
         
         border-bottom: 0.1vw solid rgb(39, 31, 31);
@@ -1800,7 +1899,6 @@ ul.indicators {
             }
         }
     }
-    
     .partners-form-div {
         background: #ff9b7e;
         padding: 6vw 0vw 1vw;
@@ -1887,33 +1985,78 @@ ul.indicators {
     .homepage-hero-section .home-hero-small {
         display: none;
     }
-    
     .homepage-hero-section .home-hero-large {
         display: block;
     }
-    
     .homepage-hero-section .slider {
         top: -11vw;
     }
-    
     .home-hero-small {
-        
         .hero-printer-quote {
             position: absolute;
             top: 11vw;
-            left: -12vw;
+            left: 29vw;
             color: white;
-            font-size: 5vw;
+            font-size: 3vw;
             text-align: center;
         }
-    
         .hero-printer-text {
+            text-align: center;
+            position: absolute;
+            top: 14vw;
+            color: white;
+            left: 35vw;
+            font-size: 3vw;
+        }
+        .hero-gif-quote {
+            display: block;
+            text-align: center;
+            position: absolute;
+            top: 10vw;
+            color: white;
+            left: 39vw;
+            font-size: 3vw;
+        }
+        .hero-gif-text {
+            display: block;
+            text-align: center;
+            position: absolute;
+            top: 14vw;
+            color: white;
+            left: 24vw;
+            font-size: 3vw;
+        }
+        .hero-selfie-quote {
+            text-align: center;
+            position: absolute;
+            top: 13vw;
+            color: white;
+            left: 37vw;
+            font-size: 3vw;
+        }
+        .hero-selfie-text {
             text-align: center;
             position: absolute;
             top: 17vw;
             color: white;
-            left: 25vw;
-            font-size: 5vw;
+            left: 31vw;
+            font-size: 3vw;
+        }  
+        .hero-livefeed-quote {
+            text-align: center;
+            position: absolute;
+            top: 11vw;
+            color: white;
+            left: 42vw;
+            font-size: 3vw;
+        }
+        .hero-livefeed-text {
+            text-align: center;
+            position: absolute;
+            top: 15vw;
+            color: white;
+            left: 34vw;
+            font-size: 3vw;
         }
     }
     
@@ -2407,21 +2550,71 @@ ul.indicators {
     .home-hero-small {
         
         .hero-printer-quote {
+            text-align: center;
             position: absolute;
             top: 11vw;
-            left: 0vw;
             color: white;
-            font-size: 4vw;
-            text-align: center;
+            left: 30vw;
+            font-size: 3vw;
         }
         .hero-printer-text {
             text-align: center;
             position: absolute;
+            top: 14vw;
+            color: white;
+            left: 36vw;
+            font-size: 3vw;
+        }
+        .hero-gif-quote {
+            text-align: center;
+            position: absolute;
+            top: 10vw;
+            color: white;
+            left: 39vw;
+            font-size: 3vw;
+        }
+        .hero-gif-text {
+            text-align: center;
+            position: absolute;
+            top: 14vw;
+            color: white;
+            left: 24vw;
+            font-size: 3vw;
+        }
+        .hero-selfie-quote {
+            text-align: center;
+            position: absolute;
+            top: 11vw;
+            color: white;
+            left: 37vw;
+            font-size: 3vw;
+        }
+        .hero-selfie-text {
+            text-align: center;
+            position: absolute;
             top: 15vw;
             color: white;
-            left: 30vw;
-            font-size: 4vw;
+            left: 31vw;
+            font-size: 3vw;
         }
+        .hero-livefeed-quote {
+            text-align: center;
+            position: absolute;
+            top: 11vw;
+            color: white;
+            left: 42vw;
+            font-size: 3vw;
+        }
+        .hero-livefeed-text {
+            text-align: center;
+            position: absolute;
+            top: 15vw;
+            color: white;
+            left: 34vw;
+            font-size: 3vw;
+        }
+
+
     }
     .for-rel {
         
