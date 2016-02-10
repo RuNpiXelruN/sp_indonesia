@@ -316,7 +316,7 @@ img.logo-main {
 @media screen and (min-width: 768px) and (orientation: portrait) {
     
     .homepage-hero-section .slider {
-        top: -19vw !important;
+        top: 0vw !important;
         width: 100vw;
         z-index: -1;
         -ms-touch-action: pan-y;
@@ -336,6 +336,8 @@ img.logo-main {
     
     .navbar-dropdown {
         display: block;
+        position: absolute;
+        z-index: 999;
     }
     
     img.logo-main {
@@ -432,6 +434,7 @@ img.logo-main {
     
     .navbar-dropdown {
         display: block;
+        position: absolute;
     }
     
     .navcontainer {
@@ -531,7 +534,7 @@ img.logo-main {
         }
     
     .homepage-hero-section .slider {
-        top: -12vw !important;
+        top: 0vw !important;
     }
     
 

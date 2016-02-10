@@ -5,11 +5,14 @@ $(document).on('ready', function() {
         $(".nav-content").slideToggle(500);
     });
   
+    // makes dropdown slide up once link is clicked
     $('.ddlink').on('click', function() {
         $(".nav-content").slideUp("fast");
     });
 });
 
+
+// makes dropdown slide up if user clicks anything but a link
 $(document).on('click', function (e) {
     e.stopPropagation();
     var container = $(".nav-item");
