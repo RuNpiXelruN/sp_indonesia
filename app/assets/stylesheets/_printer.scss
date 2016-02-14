@@ -10,6 +10,7 @@
         z-index: 999;
         background-color: rgba(10, 10, 10, 0.4);
         position: absolute;
+        
     }
     
     
@@ -221,14 +222,34 @@
 
 @media screen and (min-width: 5px) and (orientation: portrait) {
     
-    .printerpage-hero-section .printer-page-hero-image {
-        height: 99vh;
-        width:auto;
-        left: 50%;
-        transform: translate(-50%, 0);
-        position: absolute;
-        max-width: 500vw;
+    .printerpage-hero-section {
+        
+        .printer-page-hero-image {
+            height: 99vh;
+            width:auto;
+            left: 50%;
+            transform: translate(-50%, 0);
+            position: absolute;
+            max-width: 500vw;
+        }
+        
+        .printer-hero-quote {
+            position: absolute;
+            color: white;
+            top: 26vw;
+            left: 8vw;
+            font-size: 6vw;
+        }
+    
+        .printer-hero-text {
+            position: absolute;
+            color: white;
+            top: 35vw;
+            left: 20vw;
+            font-size: 6vw;
+        }
     }
+
     
     .how-to-play-section {
         text-align: center;
@@ -349,19 +370,20 @@
     
     .about-printer-section-small {
         display: block;
-        position: relative;    
+        position: relative;
+        text-align: center;        
         
         .printer-facts {
             position: absolute;
-            top: 7vw;
-            left: 12vw;
-            font-size: 3.5vw;
+            top: 11vw;
+            left: 8vw;
+            font-size: 4vw;
             text-transform: uppercase;
             color: white;
-            font-family: 'gotham_bookregular';
+            font-family: 'gotham_boldregular';  
             
             p {
-                margin: 3vw;
+                margin: 1vw;
             }
         }
     }
@@ -473,12 +495,12 @@
                 text-transform: uppercase;
                 text-align: center;
                 color: white;
-                font-size: 6vw;
+                font-size: 4vw;
                 border: 0.7vw solid white;
-                padding: 1vw 3vw;
+                padding: 2vw 5vw;
                 position: absolute;
-                left: 30vw;
-                top: 28vw;
+                left: 32vw;
+                top: 28vw;        
             }
             
             .printerhire-form-scrollpoint {
@@ -486,9 +508,9 @@
                 left: 41vw;
                 top: 19vw;
                 display: none;
-                -webkit-transform: scale(1);
-                -ms-transform: scale(1);
-                transform: scale(1);
+                -webkit-transform: scale(0.8);
+                -ms-transform: scale(0.8);
+                transform: scale(0.8);           
             }
             
             .contact-form {
@@ -504,14 +526,14 @@
                 .form-submit-button {
                     position: absolute;
                     top: 30vw;
-                    left: 18.6vw;
+                    left: 19.6vw;
                     background: none;
                     border: 0.4vw solid white;
-                    padding: 2vw 3vw;
-                    font-size: 4vw;
+                    padding: 2vw 4vw;
+                    font-size: 3vw;
                     color: white;
                     -webkit-transition: background 0.3s ease, color 0.3s ease;
-                    transition: background 0.3s ease, color 0.3s ease;
+                    transition: background 0.3s ease, color 0.3s ease;            
                 }
             }
         }
@@ -533,9 +555,9 @@
             color: white;
             text-transform: uppercase;
             text-align: center;
-            font-size: 5vw;
+            font-size: 5.6vw;
             left: 11vw;
-            top: 5vw;
+            top: 5vw;      
         }
         
         .live-feed-hire-link {
@@ -545,25 +567,44 @@
             color: white;
             position: absolute;
             top: 28vw;
-            left: 37vw;
+            left: 32vw;
             border: 0.7vw solid white;
-            font-size: 3.5vw;
-            padding: 2vw 3vw;
+            font-size: 4vw;
+            padding: 2vw 5vw;
             -webkit-transition: background 0.4s ease, color 0.2s ease;
-            transition: background 0.4s ease, color 0.2s ease;
+            transition: background 0.4s ease, color 0.2s ease;      
         }
     }
 }
 
 @media screen and (min-width: 768px) and (orientation: portrait) {
     
-    .printerpage-hero-section .printer-page-hero-image {
-        height: 99vh;
-        width:auto;
-        left: 50%;
-        transform: translate(-50%, 0);
-        position: absolute;
-        max-width: 500vw;
+    .printerpage-hero-section {
+        
+        .printer-page-hero-image {
+            height: 99vh;
+            width:auto;
+            left: 50%;
+            transform: translate(-50%, 0);
+            position: absolute;
+            max-width: 500vw;
+        }
+        
+        .printer-hero-quote {
+            position: absolute;
+            color: white;
+            top: 23vw;
+            left: 15vw;
+            font-size: 5vw;
+        }
+        
+        .printer-hero-text {
+            position: absolute;
+            color: white;
+            top: 29vw;
+            left: 25vw;
+            font-size: 5vw;
+        }
     }
     
     .stp-icon-section-small {
@@ -670,6 +711,7 @@
         position: relative;
         margin-bottom: -4vw;
         
+        
         .printer-form-text {
             color: white;
             text-align: center;
@@ -678,7 +720,7 @@
             
             h2 {
                 margin-top: 0;
-                font-size: 4.5vw;
+                font-size: 5vw;
             }
         }
         
@@ -688,12 +730,12 @@
                 text-transform: uppercase;
                 text-align: center;
                 color: white;
-                font-size: 4vw;
+                font-size: 3vw;
                 border: 0.4vw solid white;
-                padding: 1vw 3vw;
+                padding: 2vw 4vw;
                 position: absolute;
-                left: 35vw;
-                top: 23vw;
+                left: 37vw;
+                top: 23vw;          
             }
             
             .printerhire-form-scrollpoint {
@@ -715,32 +757,69 @@
                 .form-submit-button {
                     position: absolute;
                     top: 30vw;
-                    left: 20.6vw;
+                    left: 21.6vw;
                     background: none;
                     border: 0.4vw solid white;
-                    padding: 2vw 3vw;
-                    font-size: 3vw;
+                    padding: 2vw 4vw;
+                    font-size: 2vw;
                     color: white;
                     -webkit-transition: background 0.3s ease, color 0.3s ease;
-                    transition: background 0.3s ease, color 0.3s ease;
+                    transition: background 0.3s ease, color 0.3s ease;               
                 }
             }
         }
     }
-
+    
+    .printer-live-feed-cta {
+        
+        h2 {
+            position: absolute;
+            color: white;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 5vw;
+            left: 13vw;
+            top: 5vw;
+        }
+        
+        .live-feed-hire-link {
+            position: absolute;
+            font-size: 1.5vw;
+            text-transform: uppercase;
+            color: white;
+            position: absolute;
+            top: 28vw;
+            left: 37vw;
+            border: 0.4vw solid white;
+            font-size: 3vw;
+            padding: 2vw 5vw;
+            -webkit-transition: background 0.4s ease, color 0.2s ease;
+            transition: background 0.4s ease, color 0.2s ease;
+        }
+    }
 }
 
 @media screen and (min-width: 5px) and (max-width: 1024px) and (orientation: landscape) {
     
     
-    .printerpage-hero-section .printer-page-hero-image {
-        height: 99vh;
-        width:auto;
-        left: 50%;
-        transform: translate(-50%, 0);
-        position: absolute;
-        max-width: 500vw;
+    .printerpage-hero-section {
+        
+        overflow: hidden;
+        
+        .printer-page-hero-image {
+            height: 99vh;
+            width:auto;
+            left: 50%;
+            transform: translate(-50%, 0) scale(1.2);
+            position: absolute;
+            max-width: 500vw;
+        }
+        
+        .printer-hero-quote, .printer-hero-text {
+            display: none;
+        }
     }
+
     
     
     .how-to-play-section {
@@ -868,15 +947,18 @@
         
         .printer-facts {
             position: absolute;
-            top: 8vw;
-            left: 9vw;
+            top: 13vw;
+            left: 17vw;
+            text-align: center;
+            font-family: 'gotham_boldregular' !important;
             font-size: 3vw;
             text-transform: uppercase;
             color: white;
-            font-family: 'gotham_bookregular';
+            font-family: 'gotham_bookregular';            
             
             p {
-                margin: 3vw;
+                margin: 1vw;
+                font-size: 3vw;
             }
         }
     }
@@ -993,7 +1075,7 @@
             
             h2 {
                 margin-top: 0;
-                font-size: 4.5vw;
+                font-size: 4vw;
             }
         }
         
@@ -1003,12 +1085,12 @@
                 text-transform: uppercase;
                 text-align: center;
                 color: white;
-                font-size: 3vw;
+                font-size: 2vw;
                 border: 0.4vw solid white;
                 padding: 1vw 3vw;
                 position: absolute;
-                left: 38vw;
-                top: 23vw;
+                left: 41vw;
+                top: 23vw;           
             }
             
             .printerhire-form-scrollpoint {
@@ -1053,16 +1135,16 @@
         
         .live-feed-hire-link {
             position: absolute;
-            font-size: 3.5vw;
+            font-size: 2vw;
             text-transform: uppercase;
             color: white;
             position: absolute;
             top: 22vw;
-            left: 39vw;
+            left: 40vw;
             border: 0.4vw solid white;
-            padding: 0.7vw 2vw;
+            padding: 1vw 3vw;
             -webkit-transition: background 0.4s ease, color 0.2s ease;
-            transition: background 0.4s ease, color 0.2s ease;
+            transition: background 0.4s ease, color 0.2s ease;     
         }
     }
 }
@@ -1070,13 +1152,32 @@
 @media screen and (min-width: 1024px) and (orientation: landscape) {
     
     
-    .printerpage-hero-section .printer-page-hero-image {
-        height: 99vh;
-        width:auto;
-        left: 50%;
-        transform: translate(-50%, 0);
-        position: absolute;
-        max-width: 500vw;
+    .printerpage-hero-section {
+        
+        .printer-page-hero-image {
+            height: 99vh;
+            width:auto;
+            left: 50%;
+            transform: translate(-50%, 0);
+            position: absolute;
+            max-width: 500vw;
+        }
+        
+        .printer-hero-quote {
+            position: absolute;
+            color: white;
+            top: 11vw;
+            left: 30vw;
+            font-size: 3vw;
+        }
+    
+        .printer-hero-text {
+            position: absolute;
+            color: white;
+            top: 15vw;
+            left: 35vw;
+            font-size: 3vw;
+        }
     }
     
     
@@ -1191,6 +1292,7 @@
     
     .about-printer-section {
     position: relative;
+    display: block;
     
     .about-printer-background {
         width: 100vw;
@@ -1293,10 +1395,11 @@
             color: white;
             text-align: center;
             text-transform: uppercase;
-            margin-bottom: 27vw;
+            margin-bottom: 25vw;
             
             h2 {
                 margin-top: 0;
+                font-size: 3vw;
             }
         }
         
@@ -1311,22 +1414,26 @@
                 padding: 1vw 3vw;
                 position: absolute;
                 left: 40.5vw;
-                top: 22vw;
-                cursor: pointer;
+                top: 18vw;
+                cursor: pointer;            
+                
             }
             
             .printerhire-form-scrollpoint {
                 position: absolute;
                 left: 47vw;
-                top: 18vw;
+                top: 15vw;
                 display: none;
-                transform: scale(1);
-                cursor: pointer;
+                -webkit-transform: scale(1.4);
+                -ms-transform: scale(1.4);
+                transform: scale(1.2);
+                cursor: pointer;            
+                
             }
             
             .contact-form {
                 width: 60vw;
-                margin: -7vw 20vw 11vw;
+                margin: -4vw 20vw 11vw;
                 position: relative;
                 height: 42vw;
                 display: none;
@@ -1334,11 +1441,58 @@
         }
     }
     
+    .printer-live-feed-cta {
+        position: relative;
+        height: 31vw;
+        
+        h2 {
+            position: absolute;
+            color: white;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 3vw;
+            left: 28vw;
+            top: 4vw;
+        }
+        
+        .live-feed-hire-link {
+            position: absolute;
+            font-size: 2vw;
+            text-transform: uppercase;
+            color: white;
+            position: absolute;
+            top: 18vw;
+            left: 41vw;
+            border: 0.4vw solid white;
+            padding: 1vw 3vw;
+            -webkit-transition: background 0.4s ease, color 0.2s ease;
+            transition: background 0.4s ease, color 0.2s ease;
+        }
+    }
+    
 }
 
 @media screen and (min-width: 1280px) and (orientation: landscape) {
     
-        .printer-form-div {
+    .printer-hero-quote {
+        position: absolute;
+        color: white;
+        top: 11vw;
+        left: 30vw;
+        font-size: 3vw;
+    }
+    
+    .printer-hero-text {
+        position: absolute;
+        color: white;
+        top: 15vw;
+        left: 36vw;
+        font-size: 3vw;
+    }
+    
+    
+    
+    .printer-form-div {
         background: #8fdae6;
         padding: 6vw 0vw 1vw;
         position: relative;
@@ -1366,7 +1520,7 @@
                 padding: 1vw 3vw;
                 position: absolute;
                 left: 40.5vw;
-                top: 22vw;
+                top: 20vw;
                 cursor: pointer;
             }
             
@@ -1386,6 +1540,40 @@
                 height: 42vw;
                 display: none;
             }
+        }
+    }
+    
+    .printer-live-feed-cta {
+        position: relative;
+        height: 30vw;
+        
+        .printer-live-feed-background-image {
+            position: absolute;
+            width: 100vw;
+            height: inherit;
+        }
+        h2 {
+            position: absolute;
+            color: white;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 3vw;
+            left: 28vw;
+            top: 5vw;
+        }
+        
+        .live-feed-hire-link {
+            position: absolute;
+            font-size: 2vw;
+            text-transform: uppercase;
+            color: white;
+            position: absolute;
+            top: 18vw;
+            left: 41vw;
+            border: 0.4vw solid white;
+            padding: 1vw 3vw;
+            -webkit-transition: background 0.4s ease, color 0.2s ease;
+            transition: background 0.4s ease, color 0.2s ease;
         }
     }
 
