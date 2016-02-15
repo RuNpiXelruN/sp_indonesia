@@ -39,6 +39,7 @@ body {
     padding: 0;
     width: 100%;
     overflow-x: hidden;
+    background: white;
 }
 
 .container {
@@ -1393,17 +1394,102 @@ body {
     
         .content1-quote-gif h2 {
 
-            padding: 16vw 0;
-            margin-top: 0;
-            margin-bottom: 0;
-            font-size: 5vw;
+           padding: 12vw 0;
+           margin-top: 0;
+           margin-bottom: 0;
+           font-size: 3vw;
         }
     }
+    .gif-icons {
+        background: white;
+        position: relative;
+        width: 100vw;
+        height: 28vw;
+        text-align: center;
+        font-size: 2vw;
+        color: #888;
+        font-family: 'gotham_bookregular';
+        
+        .snap-icon-section {
+            position: absolute;
+            width: 33.33333vw;
+            height: inherit;
+            
+            .gif-press-sprite {
+                background: url("gifgif/gif-sprite.png") no-repeat;
+                height: 10vw;
+                width: 8vw;
+                background-size: 28vw;
+                margin-left: 13vw;
+                margin-top: 5vw;
+                background-position: -1vw -1vw;
+                
+                &:hover {
+                    background-position: -1vw -12vw;
+                }
+            }
+            
+            span.stp-icon-text {
+                font-family: 'gotham_boldregular';
+            }
+        }
+        
+        .tag-icon-section {
+            position: absolute;
+            width: 33.33333vw;
+            left: 33.33333vw;
+            height: inherit;
+            
+            .gif-send-sprite {
+                background: url("gifgif/gif-sprite.png") no-repeat;
+                height: 10vw;
+                width: 8vw;
+                margin-left: 13vw;
+                margin-top: 5vw;
+                background-size: 28vw;
+                background-position: -8vw -1vw;
+                
+                &:hover {
+                    background-position: -8vw -12vw;
+                }
+            }
+            
+            span.stp-icon-text {
+                font-family: 'gotham_boldregular';
+            }
+        }
+        
+        .print-icon-section {
+            position: absolute;
+            width: 33.33333vw;
+            left: 66.66666vw;
+            height: inherit;
+            
+            .gif-share-sprite {
+                background: url("gifgif/gif-sprite.png") no-repeat;
+                height: 10vw;
+                width: 11vw;
+                margin-left: 12vw;
+                margin-top: 5vw;
+                background-size: 28vw;
+                background-position: -16vw -1vw;
+                
+                &:hover {
+                    background-position: -16vw -12vw;
+                }
+            }
+            
+            span.stp-icon-text {
+                font-family: 'gotham_boldregular';
+            }
+        }
+    }
+
     .gif-sprites {
         display: none;
     }
     .gif-no-sprite {
-        display: block;
+        display: none;
     }
     .gif-icon-section {
         padding: 4vw 0 5vw 0;
@@ -1480,7 +1566,7 @@ body {
                 text-transform: uppercase;
                 margin: 13vw 0;
                 color: #fa9c25;
-                font-size: 6vw;
+                font-size: 3vw;
             }
         }
     }
@@ -1502,20 +1588,20 @@ body {
         width: 90%;
         
         .small-blurb-p {
-            margin-top: 12vw;
+            margin-top: 11vw;
             padding: 0vw 10vw;
             
             .blurb-under-header {
-                font-size: 6vw;
+                font-size: 3.4vw;
             }
         }
         
         .gif-quote-under-image {
-            line-height: 6vw;
-            font-size: 4vw;
+            line-height: 4vw;
+            font-size: 3vw;
             padding: 1vw 10vw;
             margin-bottom: 7vw;
-            color: #666;
+            color: #888;
         }
     }
     .ipad-container {
@@ -1547,7 +1633,7 @@ body {
             
             .ul-below-gifs {
                 margin-top: 7vw;
-                color: #666;
+                color: #888;
                 text-align: center;
                 
                 .branding {
@@ -1558,10 +1644,10 @@ body {
                     border-bottom: 1px solid rgba(10,10,10,0.2);
                 }
                 .li-header-ipad {
-                    font-size: 5vw;
+                    font-size: 3.4vw;
                 }
                 .li-body-ipad {
-                    font-size: 3.5vw;
+                    font-size: 3vw;
                 }
             }
             .live-gallery {
@@ -1572,7 +1658,7 @@ body {
                 font-size: 3vw;
             }
             .gifgif-link {
-                color: #666;
+                color: #888;
                 
                 &:hover {
                     color: #9fd1b8;
@@ -1623,7 +1709,30 @@ body {
     }
     .small-gif-strip {
         display: block;
-        margin-top: 2vw !important;
+        margin-top: 1vw !important;
+        position: relative;
+        height: 45vw;
+        
+        .sml-gif1 {
+            position: absolute;
+            width: 33.33333vw;
+            left: 0;
+            height: inherit;
+        }
+        
+        .sml-gif2 {
+            position: absolute;
+            width: 33.33333vw;
+            left: 33.33333vw;
+            height: inherit;
+        }
+        
+        .sml-gif3 {
+            position: absolute;
+            width: 33.33333vw;
+            left: 66.66666vw;
+            height: inherit;
+        }
     }
     .branded-selfies-section {
         
@@ -1751,10 +1860,10 @@ body {
             font-family: 'gotham_boldregular';
             text-transform: uppercase;
             text-align: center;
-            left: 12vw;
-            font-size: 4vw;
+            left: 22vw;
+            font-size: 3vw;
             z-index: 1;
-            line-height: 4.5vw;
+            line-height: 3vw;
             top: 10vw;
         }
         
@@ -1781,10 +1890,10 @@ body {
         width: 95%;
     
         .content1-quote-gif h2 {
-            padding: 16vw 0;
+            padding: 13vw 0;
             margin-top: 0;
             margin-bottom: 0;
-            font-size: 4.5vw;
+            font-size: 3vw;
         }
     }
     .gif-no-sprite {
@@ -1793,10 +1902,98 @@ body {
     .gif-sprites {
         display: block;
     }
+    
+    .gif-icons {
+        background: white;
+        position: relative;
+        width: 100vw;
+        height: 28vw;
+        text-align: center;
+        font-size: 2vw;
+        color: #888;
+        font-family: 'gotham_bookregular';
+        
+        .snap-icon-section {
+            position: absolute;
+            width: 33.33333vw;
+            height: inherit;
+            
+            .gif-press-sprite {
+                background: url("gifgif/gif-sprite.png") no-repeat;
+                height: 10vw;
+                width: 8vw;
+                background-size: 28vw;
+                margin-left: 13vw;
+                margin-top: 5vw;
+                background-position: -1vw -1vw;
+                
+                &:hover {
+                    background-position: -1vw -12vw;
+                }
+            }
+            
+            span.stp-icon-text {
+                font-family: 'gotham_boldregular';
+            }
+        }
+        
+        .tag-icon-section {
+            position: absolute;
+            width: 33.33333vw;
+            left: 33.33333vw;
+            height: inherit;
+            
+            .gif-send-sprite {
+                background: url("gifgif/gif-sprite.png") no-repeat;
+                height: 10vw;
+                width: 8vw;
+                margin-left: 13vw;
+                margin-top: 5vw;
+                background-size: 28vw;
+                background-position: -8vw -1vw;
+                
+                &:hover {
+                    background-position: -8vw -12vw;
+                }
+            }
+            
+            span.stp-icon-text {
+                font-family: 'gotham_boldregular';
+            }
+        }
+        
+        .print-icon-section {
+            position: absolute;
+            width: 33.33333vw;
+            left: 66.66666vw;
+            height: inherit;
+            
+            .gif-share-sprite {
+                background: url("gifgif/gif-sprite.png") no-repeat;
+                height: 10vw;
+                width: 11vw;
+                margin-left: 12vw;
+                margin-top: 5vw;
+                background-size: 28vw;
+                background-position: -16vw -1vw;
+                
+                &:hover {
+                    background-position: -16vw -12vw;
+                }
+            }
+            
+            span.stp-icon-text {
+                font-family: 'gotham_boldregular';
+            }
+        }
+    }
+
+    
+    
     .gif-icon-section {
         padding: 0;
         height: 28vw;
-        
+        z
         .row {
             height: inherit;
             margin-bottom: 0;
@@ -1827,9 +2024,11 @@ body {
                     margin: -3vw;
                     height: auto;
                 }
-                h2 {
-                   margin-top: 3vw; 
-                }
+                // h2 {
+                //   margin-top: 3vw; 
+                // }
+
+                
                 img {
                     height: 8vw;
                 }
@@ -1893,9 +2092,9 @@ body {
             
             h2 {
                 text-transform: uppercase;
-                margin: 14vw 0;
+                margin: 13vw 0;
                 color: #fa9c25;
-                font-size: 4vw;
+                font-size: 3vw;
             }
         }
     }
