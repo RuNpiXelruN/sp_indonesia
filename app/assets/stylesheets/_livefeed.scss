@@ -14,6 +14,7 @@
 
 .livefeed-quote1 {
     text-align: center;
+    background: white;
     text-transform: uppercase;
     color: #888;
     padding: 9vw 0;
@@ -31,6 +32,7 @@
     margin-top: -1.5vw;
     z-index: -2;
     height: 91vw;
+    background: white;
     color: #A2A2A2;
     
     .main-bg-image {
@@ -190,6 +192,7 @@
     
     .livefeed-quote1 {
         text-align: center;
+        background: white;
         text-transform: uppercase;
         color: #888;
         padding: 17vw 0;
@@ -206,12 +209,46 @@
    }
    
    .stp-icon-section-small {
-       display: block;
+        display: block;
+       
+        .livefeed-snap {
+            background: url('livefeed/livefeed_sprites.png') no-repeat;
+            height: 20vw;
+            position: absolute;
+            left: 40vw;
+            width: 19vw;
+            top: 8vw;
+            background-position: -2vw -20vw;
+            background-size: 69vw;
+        }
+        
+        .livefeed-tag {
+            background: url('livefeed/livefeed_sprites.png') no-repeat;
+            height: 20vw;
+            position: absolute;
+            left: 40vw;
+            width: 19vw;
+            top: 8vw;
+            background-position: -21vw -20vw;
+            background-size: 69vw;
+        }
+        
+        .livefeed-stream {
+            background: url('livefeed/livefeed_sprites.png') no-repeat;
+            height: 20vw;
+            position: absolute;
+            left: 33vw;
+            width: 27vw;
+            top: 8vw;
+            background-position: -42vw -20vw;
+            background-size: 69vw;
+        }
    }
    
    .livefeed-facts-section {
         position: relative;
         margin-top: -1.5vw;
+        background: white;
         z-index: -2;
         height: 267vw;
         color: #A2A2A2;
@@ -457,6 +494,7 @@
     
     .livefeed-quote1 {
         text-align: center;
+        background: white;
         text-transform: uppercase;
         color: #888;
         padding: 15vw 0;
@@ -473,11 +511,15 @@
             color: #888;
             text-align: center;
             
-            img {
+            .livefeed-snap {
+                background: url('livefeed/livefeed_sprites.png') no-repeat;
+                height: 20vw;
                 position: absolute;
-                top: 5vw;
-                left: 42vw;
-                height: 24vw;
+                left: 41vw;
+                width: 19vw;
+                top: 8vw;
+                background-position: -2vw -20vw;
+                background-size: 69vw;
             }
             
             .stp-icon-header {
@@ -505,12 +547,17 @@
             color: #888;
             text-align: center;
             
-            img {
+            .livefeed-tag {
+                background: url('livefeed/livefeed_sprites.png') no-repeat;
+                height: 20vw;
                 position: absolute;
-                left: 38vw;
-                top: 5vw;
-                height: 24vw;
+                left: 40vw;
+                width: 19vw;
+                top: 8vw;
+                background-position: -21vw -20vw;
+                background-size: 69vw;
             }
+
             
             .stp-icon-header {
                 position: absolute;
@@ -536,12 +583,17 @@
             color: #888;
             text-align: center;
             
-            img {
+            .livefeed-stream {
+                background: url('livefeed/livefeed_sprites.png') no-repeat;
+                height: 20vw;
                 position: absolute;
-                top: 5vw;
-                left: 37vw;
-                height: 24vw;
+                left: 33vw;
+                width: 27vw;
+                top: 8vw;
+                background-position: -40vw -20vw;
+                background-size: 69vw;
             }
+
             
             .stp-icon-header {
                 position: absolute;
@@ -567,6 +619,7 @@
         margin-top: -1.5vw;
         z-index: -2;
         height: 263vw;
+        background: white;
         color: #A2A2A2;
         
         .section-main-text {
@@ -755,6 +808,7 @@
     
     .livefeed-quote1 {
         text-align: center;
+        background: white;
         text-transform: uppercase;
         color: #888;
         padding: 9vw 0;
@@ -766,11 +820,65 @@
         }
     }
     
+    .snap-icon-section {
+        
+        .livefeed-snap-sprite {
+            background: url("livefeed/livefeed_sprites.png") no-repeat;
+            height: 8vw;
+            margin-left: 14vw;
+            margin-top: 5vw;
+            width: 6vw;
+            background-position: -1.6vw 0vw;
+            background-size: 28vw;
+            
+            &:hover {
+                background-position: -1.6vw -8vw;
+
+            }
+        }
+    }
+    .tag-icon-section {
+        
+        .livefeed-tag-sprite {
+            background: url("livefeed/livefeed_sprites.png") no-repeat;
+            height: 7.7vw;
+            margin-left: 13vw;
+            margin-top: 5vw;
+            width: 8vw;
+            background-position: -8.3vw 0.2vw;
+            background-size: 28vw;
+            
+            &:hover {
+                background-position: -8vw -8vw;
+
+            }
+        }
+    }
+    .print-icon-section {
+        
+        .livefeed-stream-sprite {
+            background: url("livefeed/livefeed_sprites.png") no-repeat;
+            height: 8vw;
+            margin-left: 11vw;
+            margin-top: 5vw;
+            width: 11vw;
+            background-position: -17vw 0vw;
+            background-size: 28vw;
+            
+            &:hover {
+                background-position: -17vw -8vw;
+
+            }
+        }
+    }
+
+    
     .livefeed-facts-section {
         position: relative;
         margin-top: -1.5vw;
         z-index: -2;
         height: 208vw;
+        background: white;
         color: #A2A2A2;
         
         .section-main-text {
@@ -946,13 +1054,14 @@
 @media screen and (min-width: 1024px) and (orientation: landscape) {
     
     .livefeed-hero-section {
+        overflow: hidden;
         
         .livefeed-hero-image {
             height: 99vh;
             width: auto;
             max-width: 500vw;
             left: 50%;
-            transform: translate(-50%, 0);
+            transform: translate(-50%, 0) scale(1.2);
             position: absolute;
         }
         
@@ -974,6 +1083,59 @@
             font-size: 3vw;
         }
     }
+    
+    .snap-icon-section {
+        
+        .livefeed-snap-sprite {
+            background: url("livefeed/livefeed_sprites.png") no-repeat;
+            height: 8vw;
+            margin-left: 14vw;
+            margin-top: 5vw;
+            width: 6vw;
+            background-position: -1.6vw 0vw;
+            background-size: 28vw;
+            
+            &:hover {
+                background-position: -1.6vw -8vw;
+
+            }
+        }
+    }
+    .tag-icon-section {
+        
+        .livefeed-tag-sprite {
+            background: url("livefeed/livefeed_sprites.png") no-repeat;
+            height: 7.7vw;
+            margin-left: 13vw;
+            margin-top: 5vw;
+            width: 8vw;
+            background-position: -8.3vw 0.2vw;
+            background-size: 28vw;
+            
+            &:hover {
+                background-position: -8vw -8vw;
+
+            }
+        }
+    }
+    .print-icon-section {
+        
+        .livefeed-stream-sprite {
+            background: url("livefeed/livefeed_sprites.png") no-repeat;
+            height: 8vw;
+            margin-left: 11vw;
+            margin-top: 5vw;
+            width: 11vw;
+            background-position: -17vw 0vw;
+            background-size: 28vw;
+            
+            &:hover {
+                background-position: -17vw -8vw;
+
+            }
+        }
+    }
+
     
     .livefeed-strip-small {
         display: none;
@@ -1074,22 +1236,86 @@
 
 @media screen and (min-width: 1200px) and (orientation: landscape) {
     
-     .livefeed-hero-quote {
-        position: absolute;
-        color: white;
-        top: 11vw;
-        left: 42vw;
-        font-size: 3vw;
-    }
+    .livefeed-hero-section {
+        overflow: hidden;
+        
+        .livefeed-hero-image {
+            height: 99vh;
+            width: auto;
+            max-width: 500vw;
+            left: 50%;
+            transform: translate(-50%, 4vw) scale(1.2);
+            position: absolute;
+        }
     
-    .livefeed-hero-text {
-        position: absolute;
-        color: white;
-        top: 15vw;
-        left: 33vw;
-        font-size: 3vw;
+        .livefeed-hero-quote {
+            position: absolute;
+            color: white;
+            top: 11vw;
+            left: 42vw;
+            font-size: 3vw;
+        }
+    
+        .livefeed-hero-text {
+            position: absolute;
+            color: white;
+            top: 15vw;
+            left: 33vw;
+            font-size: 3vw;
+        }
     }
 
+    .snap-icon-section {
+        
+        .livefeed-snap-sprite {
+            background: url("livefeed/livefeed_sprites.png") no-repeat;
+            height: 8vw;
+            margin-left: 14vw;
+            margin-top: 5vw;
+            width: 6vw;
+            background-position: -1.6vw 0vw;
+            background-size: 28vw;
+            
+            &:hover {
+                background-position: -1.6vw -8vw;
+
+            }
+        }
+    }
+    .tag-icon-section {
+        
+        .livefeed-tag-sprite {
+            background: url("livefeed/livefeed_sprites.png") no-repeat;
+            height: 7.7vw;
+            margin-left: 13vw;
+            margin-top: 5vw;
+            width: 8vw;
+            background-position: -8.3vw 0.2vw;
+            background-size: 28vw;
+            
+            &:hover {
+                background-position: -8vw -8vw;
+
+            }
+        }
+    }
+    .print-icon-section {
+        
+        .livefeed-stream-sprite {
+            background: url("livefeed/livefeed_sprites.png") no-repeat;
+            height: 8vw;
+            margin-left: 11vw;
+            margin-top: 5vw;
+            width: 11vw;
+            background-position: -17vw 0vw;
+            background-size: 28vw;
+            
+            &:hover {
+                background-position: -17vw -8vw;
+
+            }
+        }
+    }
 
     .livefeed-form-div {
         background: #eea4ac;
