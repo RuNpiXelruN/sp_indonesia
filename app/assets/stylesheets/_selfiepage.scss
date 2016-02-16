@@ -1036,15 +1036,7 @@ body {
                     transform-origin: 50% 100%;
             
             .selfies-hero-text {
-                color: #FFFFFF;
-                position: absolute;
-                left: 6vw;
-                text-align: left;
-                top: 13vw;
-                text-transform: uppercase;
-                font-size: 2.5vw;
-                z-index: 1;
-                font-family: 'gotham_boldregular';
+                display: none;
             }
             
             img#facebook-icon {
@@ -1074,7 +1066,7 @@ body {
                 // -webkit-transform: scale(1);
                 // -ms-transform: scale(1);
                 // transform: scale(1.05);
-                height: 58vh;
+                height: 71vh;
                 bottom: 0%;
                 position: absolute;
                 left: 50%;
@@ -1300,6 +1292,7 @@ body {
         display: block;
         position: relative;
         overflow: hidden;
+        height: 44vw;
         
         .small-selfie-blurb-text {
             position: absolute;
@@ -1311,11 +1304,11 @@ body {
             
             h2 {
                 text-transform: uppercase;
-                font-size: 4.5vw;
+                font-size: 4vw;
                 position: absolute;
                 width: 90%;
                 left: 5%;
-                top: 12%;
+                top: 15%;
                 margin-top: 5%;
                 color: white;
                 font-family: 'gotham_boldregular';
@@ -1323,11 +1316,12 @@ body {
             
             p {
                 font-family: 'gotham_bookregular';
-                font-size: 3.5vw;
+                font-size: 2.5vw;
                 position: absolute;
                 width: 70%;
                 left: 15%;
-                top: 43%;
+                top: 45%;
+                line-height: 3vw;
             }
         }
     }
@@ -1384,6 +1378,7 @@ body {
         color: white;
         padding: 11% 0;
         text-transform: uppercase;
+        font-family: 'gotham_boldregular';
         
         h2 {
             margin-left: 5%;
@@ -1396,13 +1391,28 @@ body {
     }
     .small-selfie-strip {
         display: block;
-        width: 101vw;
+        width: 100vw;
         overflow: hidden;
-        height: 34.2vw;
+        height: 33vw;
+        position: relative;
         
         img {
-            width: 34.5vw;
-            margin: 0 -1%;
+            height: inherit;
+        }
+        .sml-selfieimg1 {
+            position: absolute;
+            width: 33.33333vw;
+            left: 0;
+        }
+        .sml-selfieimg2 {
+            position: absolute;
+            width: 33.33333vw;
+            left: 33.33333vw;
+        }
+        .sml-selfieimg3 {
+            position: absolute;
+            width: 33.33333vw;
+            left: 66.66666vw;
         }
     }
     // .maincta-teal-bg {
@@ -1482,7 +1492,7 @@ body {
     // }
     .selfie-form-div {
         background: #a0d1b8;
-        padding: 6vw 0vw 1vw;
+        padding: 8vw 0vw 1vw;
         position: relative;
         margin-bottom: -7vw;
         z-index: -1;
@@ -1495,7 +1505,8 @@ body {
             
             h2 {
                 margin-top: 0;
-                font-size: 5vw;
+                font-size: 4vw;
+                font-family: 'gotham_boldregular';
             }
         }
         
@@ -1505,23 +1516,24 @@ body {
                 text-transform: uppercase;
                 text-align: center;
                 color: white;
-                font-size: 3vw;
+                font-size: 2vw;
                 border: 0.4vw solid white;
                 padding: 1vw 3vw;
                 position: absolute;
-                left: 35vw;
+                left: 39vw;
                 top: 22vw;
                 cursor: pointer;
+                font-family: 'gotham_boldregular';
             }
             
             .selfie-form-scrollpoint {
                 position: absolute;
                 left: 45vw;
-                top: 19vw;
+                top: 18vw;
                 display: none;
-                -webkit-transform: scale(1.3);
-                -ms-transform: scale(1.3);
-                transform: scale(1);
+                -webkit-transform: scale(0.8);
+                -ms-transform: scale(0.8);
+                transform: scale(0.8);
             }
             
             .contact-form {
@@ -1540,25 +1552,27 @@ body {
     .livefeedcta-bg {
         text-transform: uppercase;
         color: #fff;
-        padding: 12% 0 14% 0;
+        padding: 8% 0 10% 0;
         background: url("/assets/Gif CTA image FINAL.png") no-repeat;
         background-size: cover;
         width: 100%;
         
         h2 {
             margin: 0;
-            padding-bottom: 7%;
-            font-size: 5vw;
+            padding-bottom: 4%;
+            font-size: 4vw;
             width: 90%;
             margin-left: 5%;
+            font-family: 'gotham_boldregular';
         }
         
         .gif-enquire-button {
             text-decoration: none;
             color: #fff;
-            border: 4px solid #fff;
-            padding: 3%;
+            border: 0.4vw solid #fff;
+            padding: 1.5vw 3vw;
             font-size: 2vw;
+            font-family: 'gotham_boldregular';
         }
     }
 }
@@ -1582,9 +1596,11 @@ body {
                 position: absolute;
                 left: 30vw;
                 text-align: center;
-                top: 10vw;
+                top: 13vw;
                 text-transform: uppercase;
+                line-height: 3vw;
                 font-size: 3vw;
+                font-family: 'gotham_boldregular';
             }
             
             img#facebook-icon {
@@ -1616,7 +1632,7 @@ body {
                 // transform: scale(1);
                 // max-height: 42vw;
                 // width: initial;
-                height: 58vh;
+                height: 65vh;
                 bottom: 0%;
                 position: absolute;
                 left: 50%;
@@ -1742,6 +1758,9 @@ body {
             }
         }
     }
+    .selfies-icons {
+        display: none;
+    }
     .section-teal-bg {
         display: none;
     }
@@ -1756,7 +1775,7 @@ body {
         h2 {
             margin: 0;
             font-family: 'gotham_boldregular';
-            font-size: 3.4vw;
+            font-size: 3vw;
         }
     }
     .small-selfie-blurb-on-image {
@@ -1766,7 +1785,7 @@ body {
         display: block;
         position: relative;
         overflow: hidden;
-        height: 58vw;
+        height: 45vw;
         
         .selfie-blurb-text {
         
@@ -1778,14 +1797,16 @@ body {
             
             h2 {
                 text-transform: uppercase;
-                font-size: 4.9vw;
-                margin-top: 3vw;
+                font-size: 3vw;
+                margin-top: 4vw;
+                font-family: 'gotham_boldregular';
             }
             
             p {
                 font-family: 'gotham_bookregular';
-                font-size: 2.5vw;
-                margin-top: 4%;
+                font-size: 2vw;
+                margin-top: 1%;
+                line-height: 3vw;
             }
         }
     }
@@ -1811,10 +1832,16 @@ body {
                 width: 38vw;
                 left: 53%;
                 top: 5%;
+                color: #888;
                 
                 p {
                     font-size: 1.5vw;
                     font-family: 'gotham_bookregular';
+                    
+                    .selfieimg-headings {
+                        color: #8fdae6;
+                        font-size: 2vw;
+                    }
                 }
             }
         }
@@ -1828,7 +1855,8 @@ body {
         h2 {
             margin-left: 5%;
             width: 90%;
-            font-size: 4vw;
+            font-size: 3vw;
+            font-family: 'gotham_boldregular';
         }
     }
     .small-selfie-strip {
@@ -1923,7 +1951,7 @@ body {
     // }
     .selfie-form-div {
         background: #a0d1b8;
-        padding: 6vw 0vw 1vw;
+        padding: 7vw 0vw 1vw;
         position: relative;
         margin-bottom: -7vw;
         z-index: -1;
@@ -1932,11 +1960,12 @@ body {
             color: white;
             text-align: center;
             text-transform: uppercase;
-            margin-bottom: 20vw;
+            margin-bottom: 18vw;
             
             h2 {
                 margin-top: 0;
-                font-size: 5vw;
+                font-size: 3vw;
+                font-family: 'gotham_boldregular';
             }
         }
         
@@ -1946,21 +1975,24 @@ body {
                 text-transform: uppercase;
                 text-align: center;
                 color: white;
-                font-size: 2vw;
+                font-size: 1.5vw;
                 border: 0.4vw solid white;
                 padding: 1vw 3vw;
                 position: absolute;
-                left: 38.5vw;
-                top: 22vw;
+                left: 40vw;
+                top: 18vw;
                 cursor: pointer;
+                font-family: 'gotham_boldregular';
             }
             
             .selfie-form-scrollpoint {
                 position: absolute;
                 left: 47vw;
-                top: 21vw;
+                top: 17vw;
                 display: none;
-                transform: scale(1.3);
+                -webkit-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                transform: scale(1.2);
             }
             
             .contact-form {
@@ -1976,7 +2008,7 @@ body {
                 .form-submit-button {
                     position: absolute;
                     top: 30vw;
-                    left: 24.6vw;
+                    left: 23.6vw;
                     background: none;
                     border: 0.4vw solid white;
                     padding: 1vw 2vw;
@@ -1992,22 +2024,25 @@ body {
     .livefeedcta-bg {
         text-transform: uppercase;
         color: #fff;
-        padding: 9% 0 10% 0;
+        padding: 7% 0 8% 0;
         background: url("/assets/Gif CTA image FINAL.png") no-repeat;
         background-size: cover;
         width: 100%;
         
         h2 {
-            font-size: 4vw;
+            font-size: 3vw;
+            font-family: 'gotham_boldregular';
             padding-bottom: 6%;
         }
         
         .gif-enquire-button {    
             text-decoration: none;
             color: #fff;
-            border: 4px solid #fff;
-            padding: 2%;
-            font-size: 2vw
+            border: 0.4vw solid #fff;
+            padding: 1.5vw 3vw;
+            font-size: 1.5vw;
+            margin-left: -1vw;
+            font-family: 'gotham_boldregular';
         }
     }
 }
@@ -2016,7 +2051,7 @@ body {
     
     .selfie-form-div {
         background: #a0d1b8;
-        padding: 6vw 0vw 1vw;
+        padding: 8vw 0vw 1vw;
         position: relative;
         margin-bottom: -7vw;
         z-index: -1;
@@ -2025,11 +2060,11 @@ body {
             color: white;
             text-align: center;
             text-transform: uppercase;
-            margin-bottom: 26vw;
+            margin-bottom: 22vw;
             
             h2 {
                 margin-top: 0;
-                font-size: 5vw;
+                font-size: 3vw;
             }
         }
         
@@ -2039,35 +2074,51 @@ body {
                 text-transform: uppercase;
                 text-align: center;
                 color: white;
-                font-size: 3vw;
+                font-size: 2vw;
                 border: 0.4vw solid white;
                 padding: 1vw 3vw;
                 position: absolute;
-                left: 35vw;
-                top: 24vw;
+                left: 39vw;
+                top: 20vw;
                 cursor: pointer;
             }
             
             .selfie-form-scrollpoint {
                 position: absolute;
                 left: 48vw;
-                top: 24vw;
+                top: 19vw;
                 display: none;
-                -webkit-transform: scale(1.5);
-                -ms-transform: scale(1.5);
-                transform: scale(1.5);
+                -webkit-transform: scale(1.4);
+                -ms-transform: scale(1.4);
+                transform: scale(1.4);
             }
             
             .contact-form {
                 width: 60vw;
-                margin: 0vw 20vw 9vw;
+                margin: -5vw 20vw 5vw;
                 position: relative;
                 height: 45vw;
                 display: none;
-                -webkit-transform: scale(1.3);
-                -ms-transform: scale(1.3);
-                transform: scale(1.3);
+                -webkit-transform: scale(1.1);
+                -ms-transform: scale(1.1);
+                transform: scale(1.1);
             }
+        }
+    }
+    .livefeedcta-bg {
+        
+        h2 {
+            font-size: 3vw;
+            font-family: 'gotham_boldregular';
+            padding-bottom: 6%;
+        }
+        .gif-enquire-button {
+            text-decoration: none;
+            color: #fff;
+            border: 0.4vw solid #fff;
+            padding: 1.5vw 3vw;
+            font-size: 2vw;
+            font-family: 'gotham_boldregular';
         }
     }
 }
