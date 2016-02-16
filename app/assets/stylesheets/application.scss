@@ -30,8 +30,17 @@
 
 
 html {
+    height: 100%;
+
+}
+
+body {
+    font-family: 'gotham_bookregular';
+    height: 100%;
+    margin: 0 0 0 0px;
+    padding: 0;
     width: 100%;
-    overflow-x: hidden;
+    background: white;
 }
 
 

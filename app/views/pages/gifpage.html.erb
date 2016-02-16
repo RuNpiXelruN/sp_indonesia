@@ -45,7 +45,7 @@
     <div class="row">
         <div class="col s12 m12 l4 icon-block-1">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons"><img src="<%= asset_path( 'Gif finger.png' ) %>"></i></h2>
+            <p class="sml-gif-press"></p>
             <h5 class="center">Press the button &</br><span style="font-family: 'gotham_boldregular'">DO YOUR THING</span></h5>
     
             <p class="light"></p>
@@ -54,7 +54,7 @@
 
         <div class="col s12 m12 l4 icon-block-2">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons"><img src="<%= asset_path( 'SMS.png' ) %>"></i></h2>
+            <p class="sml-gif-send"></p>
             <h5 class="center">Links sent by SMS so</br>it's <span style="font-family: 'gotham_boldregular'">EASY TO SHARE</span></h5>
     
             <p class="light"></p>
@@ -64,7 +64,7 @@
     
         <div class="col s12 m12 l4 icon-block-3">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons"></i><img src="<%= asset_path( 'loudspeaker31 (1).png' ) %>"></h2>
+            <p class="sml-gif-exposure"></p>
             <h5 class="center">Branded GIF's</br><span style="font-family: 'gotham_boldregular'">INCREASE EXPOSURE</span></h5>
     
             <p class="light"></p>
@@ -278,19 +278,25 @@
 
 
 <div class="gif-strip">
-    <img src="<%= asset_path('71991.gif') %>">
-    <img src="<%= asset_path('72972.gif') %>">
-    <img src="<%= asset_path('mini park lane.gif') %>">
-    <img src="<%= asset_path('73807.gif') %>">
-    <img src="<%= asset_path('73526.gif') %>">
+    <%= image_tag('71991.gif', class: 'gifstrip1') %>
+    <%= image_tag('72972.gif', class: 'gifstrip2') %>
+    <%= image_tag('mini park lane.gif', class: 'gifstrip3') %>
+    <%= image_tag('73807.gif', class: 'gifstrip4') %>
+    <%= image_tag('73526.gif', class: 'gifstrip5') %>
 </div>                    <!-- ************************************************  /5 Gif Strip Section section, for Desktop  ************************************************  -->
 
 
 <div class="small-gif-strip">
-    <img class="sml-gif1" src="<%= asset_path('71991.gif') %>">
-    <img class="sml-gif2" src="<%= asset_path('73807.gif') %>">
-    <img class="sml-gif3" src="<%= asset_path('mini park lane.gif') %>">
-</div>              <!-- ************************************************  /3 Gif Strip Section section, for touch and iOS  ************************************************  -->
+    <%= image_tag('71991.gif', class: 'sml-gif1') %>
+    <%= image_tag('73807.gif', class: 'sml-gif2') %>
+    <%= image_tag('mini park lane.gif', class: 'sml-gif3') %>
+</div>
+
+<!--<div class="small-gif-strip">-->
+<!--    <img class="sml-gif1" src="<%= asset_path('71991.gif') %>">-->
+<!--    <img class="sml-gif2" src="<%= asset_path('73807.gif') %>">-->
+<!--    <img class="sml-gif3" src="<%= asset_path('mini park lane.gif') %>">-->
+<!--</div>              <!-- ************************************************  /3 Gif Strip Section section, for touch and iOS  ************************************************  -->
 
 
 

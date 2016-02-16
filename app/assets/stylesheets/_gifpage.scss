@@ -28,19 +28,6 @@
 
 }            /*     gotham_boldregular     */
 
-html {
-    height: 100%;
-}
-
-body {
-    font-family: 'gotham_boldregular';
-    height: 100%;
-    margin: 0 0 0 0px;
-    padding: 0;
-    width: 100%;
-    overflow-x: hidden;
-    background: white;
-}
 
 .container {
     max-width: 100%;
@@ -466,31 +453,31 @@ body {
             
             
 
-.gif-strip {
-    margin-top: 64px;
-    margin-bottom: -5px;
+// .gif-strip {
+//     margin-top: 64px;
+//     margin-bottom: -5px;
 
-    img {
-        padding: 0;
-        margin: -2px;
-        width: 20%;
-    }
-}     
+//     img {
+//         padding: 0;
+//         margin: -2px;
+//         width: 20%;
+//     }
+// }     
 
-.small-gif-strip {
-    margin-top: 62px;
-    margin-bottom: -6px;
-    width: 102%;
+// .small-gif-strip {
+//     margin-top: 62px;
+//     margin-bottom: -6px;
+//     width: 102%;
     
-    img {
-        width: 33.5%;
-        margin: -1%;
-    }
+//     img {
+//         width: 33.5%;
+//         margin: -1%;
+//     }
     
-    img:first-child {
-        margin-left: 1px;
-    }
-}                                       /* -------- /Gif Strip Section section --------*/
+//     img:first-child {
+//         margin-left: 1px;
+//     }
+// }                                       /* -------- /Gif Strip Section section --------*/
 
 
 
@@ -568,25 +555,26 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding: 6vw 0vw 7vw;
+    padding: 9vw 0vw 11vw;
     
     .brandedselfies-text {
-        font-size: 5vw;
+        font-size: 5.6vw;
         text-transform: uppercase;
         text-align: center;
         color: white;
         margin-bottom: 7vw;
+        font-family: 'gotham_boldregular';
         margin-top: 0;
     }
     
     .brandedselfies-link {
-        font-size: 2vw;
+        font-size: 4vw;
         text-transform: uppercase;
         color: white;
         border: 0.4vw solid white;
-        padding: 1vw 3vw;
+        padding: 2.5vw 4vw;
         text-align: center;
-        margin-left: 36.5vw;
+        margin-left: 26.5vw;
         cursor: pointer;
     }
 }
@@ -663,11 +651,10 @@ body {
         width: 95%;
     
         .content1-quote-gif h2 {
-
             padding: 24% 0;
             margin-top: 0;
             margin-bottom: 0;
-            font-size: 7.5vw;
+            font-size: 7vw;
         }
     }
     .gif-sprites {
@@ -675,9 +662,38 @@ body {
     }
     .gif-no-sprite {
         display: block;
+        
+        .sml-gif-press {
+            background: url('gifgif/gif-sprite.png') no-repeat;
+            background-size: 94vw;
+            height: 35vw;
+            width: 27vw;
+            background-position: -3vw -38vw;
+            margin-left: 32vw;
+        }
+        .sml-gif-send {
+            background: url('gifgif/gif-sprite.png') no-repeat;
+            background-size: 94vw;
+            height: 35vw;
+            width: 28vw;
+            background-position: -26vw -38vw;
+            margin-left: 33vw;
+        }
+        
+        .sml-gif-exposure {
+            background: url('gifgif/gif-sprite.png') no-repeat;
+            background-size: 94vw;
+            height: 35vw;
+            width: 36vw;
+            background-position: -54vw -38vw;
+            margin-left: 30vw;
+        }
+    }
+    .gif-icons {
+        display: none;
     }
     .gif-icon-section {
-        padding: 4% 0 9% 0;
+        padding: 4% 0 4% 0;
         
         .icon-block-1, .icon-block-2 {
             border-bottom: 1px solid rgba(200,200,200,0.8);
@@ -732,6 +748,7 @@ body {
                 margin: 15% 0;
                 color: #fa9c25;
                 font-size: 7vw;
+                font-family: 'gotham_boldregular';
             }
         }
     }
@@ -748,16 +765,17 @@ body {
             margin-top: 16%;
             
             .blurb-under-header {
-                font-size: 6vw;
+                font-size: 7vw;
+                line-height: 7vw;
             }
         }
         
         .gif-quote-under-image {
-            line-height: 1.9;
-            font-size: 5vw;
-            padding: 2% 4%;
-            color: #666;
-            margin-bottom: 17%;
+            line-height: 5.7vw;
+            font-size: 4.5vw;
+            padding: 2% 5%;
+            color: #888;
+            margin-bottom: 12vw;
         }
     }
     .ipad-container {
@@ -788,27 +806,34 @@ body {
             
             .ul-below-gifs {
                 margin-top: 16vw;
-                color: #666;
+                color: #888;
                 text-align: center;
+                margin-bottom: 13vw;
                 
                 .branding-li, .live-gallery-li {
-                    border-bottom: 1px solid rgba(10,10,10,0.2);
+                    border-bottom: 0.2vw solid rgba(10,10,10,0.2);
                 }
                 .li-header-ipad {
-                    font-size: 6vw;
+                    font-size: 7vw;
+                    color: #9FD1B8;
                 }
                 .li-body-ipad {
-                    font-size: 5vw;
+                    font-size: 4.5vw;
+                    line-height: 5.7vw;
+                }
+                .branding {
+                    margin-bottom: 6vw;
                 }
             }
             .live-gallery {
-                margin-top: 15vw;
+                margin-top: 11vw;
+                margin-bottom: 6vw;
             }
             .gifgif-global {
-                font-size: 5vw;
+                font-size: 4.5vw;
             }
             .gifgif-link {
-                color: #666;
+                color: #888;
                 
                 &:hover {
                     color: #9fd1b8;
@@ -820,12 +845,36 @@ body {
         display: none;
     }
     .small-gif-strip {
-        display: block;
-        -webkit-transform: scaleX(1.01);
-            -ms-transform: scaleX(1.01);
-                transform: scaleX(1.01);
-        margin-top: 16vw;
+        position: relative;
+        width: 100vw;
+        height: 44vw;
+        
+        img {
+            height: inherit;
+        }
+        .sml-gif1 {
+            position: absolute;
+            width: 33.33333vw;
+            left: 0;
+        }
+        .sml-gif2 {
+            position: absolute;
+            width: 33.33333vw;
+            left: 33.33333vw;
+        }
+        .sml-gif3 {
+            position: absolute;
+            width: 33.33333vw;
+            left: 66.66666vw;
+        }
     }
+    // .small-gif-strip {
+    //     display: block;
+    //     -webkit-transform: scaleX(1.01);
+    //         -ms-transform: scaleX(1.01);
+    //             transform: scaleX(1.01);
+    //     margin-top: 16vw;
+    // }
     // .orange-quote-section {
     //     padding: 10% 0;
         
@@ -855,7 +904,8 @@ body {
             
             h2 {
                 margin-top: 0;
-                font-size: 7.5vw;
+                font-size: 5.6vw;
+                font-family: 'gotham_boldregular';
             }
         }
         
@@ -865,23 +915,23 @@ body {
                 text-transform: uppercase;
                 text-align: center;
                 color: white;
-                font-size: 6vw;
+                font-size: 4vw;
                 border: 0.7vw solid white;
-                padding: 1vw 3vw;
+                padding: 2vw 5vw;
                 position: absolute;
-                left: 30.5vw;
-                top: 32vw;
+                left: 33.5vw;
+                top: 29vw;
                 cursor: pointer;
             }
             
             .gif-form-scrollpoint {
                 position: absolute;
                 left: 41vw;
-                top: 23vw;
+                top: 19vw;
                 display: none;
-                -webkit-transform: scale(1);
-                -ms-transform: scale(1);
-                transform: scale(1);
+                -webkit-transform: scale(0.8);
+                -ms-transform: scale(0.8);
+                transform: scale(0.8);
                 cursor: pointer;
             }
             
@@ -898,11 +948,11 @@ body {
                 .form-submit-button {
                     position: absolute;
                     top: 31vw;
-                    left: 18.6vw;
+                    left: 20.6vw;
                     background: none;
                     border: 0.4vw solid white;
-                    padding: 2vw 3vw;
-                    font-size: 4vw;
+                    padding: 2vw 4vw;
+                    font-size: 3vw;
                     color: white;
                     -webkit-transition: background 0.3s ease, color 0.3s ease;
                     transition: background 0.3s ease, color 0.3s ease;
@@ -991,8 +1041,8 @@ body {
 
             margin-top: 0;
             margin-bottom: 0;
-            padding: 18vw 0;
-            font-size: 4.5vw;
+            padding: 20vw 0;
+            font-size: 4.7vw;
         }
     }
     .gif-sprites {
@@ -1000,6 +1050,33 @@ body {
     }
     .gif-no-sprite {
         display: block;
+        
+        .sml-gif-press {
+            background: url("gifgif/gif-sprite.png") no-repeat;
+            background-size: 77vw;
+            height: 31vw;
+            width: 21vw;
+            background-position: -3vw -30vw;
+            margin-left: 37vw;
+        }
+        
+        .sml-gif-send {
+            background: url("gifgif/gif-sprite.png") no-repeat;
+            background-size: 77vw;
+            height: 31vw;
+            width: 21vw;
+            background-position: -22vw -30vw;
+            margin-left: 38vw;
+        }
+        
+        .sml-gif-exposure {
+            background: url("gifgif/gif-sprite.png") no-repeat;
+            background-size: 77vw;
+            height: 31vw;
+            width: 32vw;
+            background-position: -43vw -30vw;
+            margin-left: 34vw;
+        }
     }
     .gif-icon-section {
         padding: 4% 0 9% 0;
@@ -1103,21 +1180,22 @@ body {
         }
     }
     .blurb-container {
-        width: 90%;
+       width: 100vw;
         
         .small-blurb-p {
-            margin-top: 17vw;
+            margin-top: 13vw;
             
             .blurb-under-header {
-                font-size: 6vw;
+                font-size: 4.5vw;
             }
         }
         
         .gif-quote-under-image {
-            line-height: 2;
-            font-size: 4vw;
-            padding: 2vw 13vw;
-            margin-bottom: 6vw;
+            line-height: 5vw;
+            font-size: 3.5vw;
+            padding: 2vw 8vw;
+            margin-bottom: 2vw;
+            margin-top: 0vw;
         }
     }
     .small-ipad-container {
@@ -1138,21 +1216,22 @@ body {
         
         .ipad-section-content-small {
             margin-bottom: 5%;
-            margin-top: 18vw;
+            margin-top: 16vw;
             
             .ul-below-gifs {
-                margin-top: 16vw;
-                color: #666;
+                margin-top: 0vw;
+                color: #888;
                 text-align: center;
+                margin-bottom: 8vw;
                 
                 .branding-li, .live-gallery-li {
-                    border-bottom: 1px solid rgba(10,10,10,0.2);
+                    border-bottom: 0.2vw solid rgba(10,10,10,0.2);
                 }
                 .branding-li .branding {
                     margin-bottom: 6vw;
                 }
                 .li-header-ipad {
-                    font-size: 5vw;
+                    font-size: 4.5vw;
                 }
                 .li-body-ipad {
                     font-size: 3.5vw;
@@ -1163,10 +1242,10 @@ body {
                 margin-bottom: 6vw;
             }
             .gifgif-global {
-                font-size: 3vw;
+                font-size: 3.5vw;
             }
             .gifgif-link {
-                color: #666;
+                color: #888;
                 
                 &:hover {
                     color: #9fd1b8;
@@ -1215,13 +1294,13 @@ body {
             }
         }
     }
-    .small-gif-strip {
-        display: block;
-        -webkit-transform: scaleX(1.01);
-            -ms-transform: scaleX(1.01);
-                transform: scaleX(1.01);
-        margin-top: 9vw;
-    }
+    // .small-gif-strip {
+    //     display: block;
+    //     -webkit-transform: scaleX(1.01);
+    //         -ms-transform: scaleX(1.01);
+    //             transform: scaleX(1.01);
+    //     margin-top: 9vw;
+    // }
     // .orange-quote-section {
     //     padding: 11vw 0;
         
@@ -1254,11 +1333,11 @@ body {
             color: white;
             text-align: center;
             text-transform: uppercase;
-            margin-bottom: 26vw;
+            margin-bottom: 27vw;
             
             h2 {
                 margin-top: 0;
-                font-size: 6.5vw;
+                font-size: 5vw;
             }
         }
         
@@ -1268,19 +1347,19 @@ body {
                 text-transform: uppercase;
                 text-align: center;
                 color: white;
-                font-size: 4vw;
+                font-size: 3vw;
                 border: 0.4vw solid white;
-                padding: 1vw 3vw;
+                padding: 2vw 4vw;
                 position: absolute;
-                left: 35.5vw;
-                top: 27vw;
+                left: 37.5vw;
+                top: 25vw;
                 cursor: pointer;
             }
             
             .gif-form-scrollpoint {
                 position: absolute;
                 left: 46vw;
-                top: 25vw;
+                top: 22vw;
                 display: none;
                 -webkit-transform: scale(1.1);
                 -ms-transform: scale(1.1);
@@ -1313,6 +1392,40 @@ body {
             }
         }
     }
+    .brandedselfies-cta-section {
+    z-index: 2;
+    background: url('/assets/Branded Selfie CTA Graphic.png') no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 9vw 0vw 11vw;
+    
+    .brandedselfies-text {
+        font-size: 5vw;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+        margin-bottom: 9vw;
+        font-family: 'gotham_boldregular';
+        margin-top: 0;
+    }
+    
+    .brandedselfies-link {
+        font-size: 3vw;
+        text-transform: uppercase;
+        color: white;
+        border: 0.4vw solid white;
+        padding: 2.5vw 4vw;
+        text-align: center;
+        margin-left: 30.5vw;
+        cursor: pointer;
+    }
+}
+
+    
+    
     .branded-selfies-section {
         padding: 9% 2% 10% 2%;
         
@@ -1409,6 +1522,7 @@ body {
         font-size: 2vw;
         color: #888;
         font-family: 'gotham_bookregular';
+        border-top: 0.2vw solid rgba(10,10,10,0.1);
         
         .snap-icon-section {
             position: absolute;
@@ -1567,6 +1681,7 @@ body {
                 margin: 13vw 0;
                 color: #fa9c25;
                 font-size: 3vw;
+                font-family: 'gotham_boldregular';
             }
         }
     }
@@ -1590,15 +1705,16 @@ body {
         .small-blurb-p {
             margin-top: 11vw;
             padding: 0vw 10vw;
+            margin-bottom: -1vw;
             
             .blurb-under-header {
-                font-size: 3.4vw;
+                font-size: 3vw;
             }
         }
         
         .gif-quote-under-image {
-            line-height: 4vw;
-            font-size: 3vw;
+            line-height: 3vw;
+            font-size: 2.5vw;
             padding: 1vw 10vw;
             margin-bottom: 7vw;
             color: #888;
@@ -1641,13 +1757,14 @@ body {
                 }
                 
                 .branding-li, .live-gallery-li {
-                    border-bottom: 1px solid rgba(10,10,10,0.2);
+                    border-bottom: 0.2vw solid rgba(10, 10, 10, 0.2);
                 }
                 .li-header-ipad {
-                    font-size: 3.4vw;
+                    font-size: 3vw;
+                    color: #9FD1B8;
                 }
                 .li-body-ipad {
-                    font-size: 3vw;
+                    font-size: 2.5vw;
                 }
             }
             .live-gallery {
@@ -1705,34 +1822,71 @@ body {
         }
     }
     .gif-strip {
-        display: none;
+        display: block;
+        margin-top: 1vw;
+        position: relative;
+        width: 100vw;
+        height: 26vw;
+        
+        img {
+            height: inherit;
+            margin: 0;
+        }
+        .gifstrip1 {
+            position: absolute;
+            width: 20vw;
+            left: 0;
+        }
+        .gifstrip2 {
+            position: absolute;
+            width: 20vw;
+            left: 20vw;
+        }
+        .gifstrip3 {
+            position: absolute;
+            width: 20vw;
+            left: 40vw;
+        }
+        .gifstrip4 {
+            position: absolute;
+            width: 20vw;
+            left: 60vw;
+        }
+        .gifstrip5 {
+            position: absolute;
+            width: 20vw;
+            left: 80vw;
+        }
     }
     .small-gif-strip {
-        display: block;
-        margin-top: 1vw !important;
-        position: relative;
-        height: 45vw;
         
-        .sml-gif1 {
-            position: absolute;
-            width: 33.33333vw;
-            left: 0;
-            height: inherit;
-        }
+        display: none;
         
-        .sml-gif2 {
-            position: absolute;
-            width: 33.33333vw;
-            left: 33.33333vw;
-            height: inherit;
-        }
+        // display: block;
+        // margin-top: 1vw !important;
+        // position: relative;
+        // height: 45vw;
         
-        .sml-gif3 {
-            position: absolute;
-            width: 33.33333vw;
-            left: 66.66666vw;
-            height: inherit;
-        }
+        // .sml-gif1 {
+        //     position: absolute;
+        //     width: 33.33333vw;
+        //     left: 0;
+        //     height: inherit;
+        // }
+        
+        // .sml-gif2 {
+        //     position: absolute;
+        //     width: 33.33333vw;
+        //     left: 33.33333vw;
+        //     height: inherit;
+        // }
+        
+        // .sml-gif3 {
+        //     position: absolute;
+        //     width: 33.33333vw;
+        //     left: 66.66666vw;
+        //     height: inherit;
+        // }
     }
     .branded-selfies-section {
         
@@ -1765,7 +1919,8 @@ body {
             
             h2 {
                 margin-top: 0;
-                font-size: 5vw;
+                font-size: 4vw;
+                font-family: 'gotham_boldregular';
             }
         }
         
@@ -1780,14 +1935,14 @@ body {
                 padding: 1vw 3vw;
                 position: absolute;
                 left: 38.5vw;
-                top: 23vw;
+                top: 20vw;
                 cursor: pointer;
             }
             
             .gif-form-scrollpoint {
                 position: absolute;
-                left: 46vw;
-                top: 20vw;
+                left: 45vw;
+                top: 17vw;
                 display: none;
                 -webkit-transform: scale(0.8);
                 -ms-transform: scale(0.8);
@@ -1815,12 +1970,13 @@ body {
         padding: 6vw 0vw 7vw;
         
         .brandedselfies-text {
-            font-size: 5vw;
+            font-size: 4vw;
             text-transform: uppercase;
             text-align: center;
             color: white;
             margin-bottom: 7vw;
             margin-top: 0;
+            font-family: 'gotham_boldregular';
         }
         
         .brandedselfies-link {
@@ -1828,7 +1984,7 @@ body {
             text-transform: uppercase;
             color: white;
             border: 0.4vw solid white;
-            padding: 1vw 3vw;
+            padding: 1.5vw 3vw;
             text-align: center;
             margin-left: 32.5vw;
             cursor: pointer;
@@ -1912,6 +2068,7 @@ body {
         font-size: 2vw;
         color: #888;
         font-family: 'gotham_bookregular';
+        border-top: 0.2vw solid rgba(10,10,10,0.1);
         
         .snap-icon-section {
             position: absolute;
@@ -2095,6 +2252,7 @@ body {
                 margin: 13vw 0;
                 color: #fa9c25;
                 font-size: 3vw;
+                font-family: 'gotham_boldregular';
             }
         }
     }
@@ -2225,15 +2383,14 @@ body {
                 margin-top: 26vw;
                 font-size: 2vw;
                 font-family: 'gotham_bookregular';
+                color: #888;
                 
-                .gifgifglobal-link a {
-                    color: #333;
+                .branding, .live-gallery {
+                    color: #9FD1B8;
                 }
                 
-                .branding, .live-gallery, .gifgifglobal-link {
-                    &:hover {
-                        color: #9FD1B8;
-                    }
+                .gifgifglobal-link a {
+                    color: #888;
                 }
             }
         }
@@ -2259,7 +2416,7 @@ body {
     }
     .gif-form-div {
         background: #fa9c25;
-        padding: 6vw 0vw 1vw;
+        padding: 7vw 0vw 1vw;
         position: relative;
         margin-bottom: -7vw;
         z-index: -1;
@@ -2268,11 +2425,12 @@ body {
             color: white;
             text-align: center;
             text-transform: uppercase;
-            margin-bottom: 26vw;
+            margin-bottom: 24vw;
             
             h2 {
                 margin-top: 0;
-                font-size: 5vw;
+                font-size: 3vw;
+                font-family: 'gotham_boldregular';
             }
         }
         
@@ -2287,14 +2445,14 @@ body {
                 padding: 1vw 3vw;
                 position: absolute;
                 left: 40.5vw;
-                top: 23vw;
+                top: 19vw;
                 cursor: pointer;
             }
             
             .gif-form-scrollpoint {
                 position: absolute;
-                left: 46vw;
-                top: 22vw;
+                left: 47vw;
+                top: 17vw;
                 display: none;
                 -webkit-transform: scale(1.2);
                 -ms-transform: scale(1.2);
@@ -2322,12 +2480,13 @@ body {
         padding: 6vw 0vw 7vw;
         
         .brandedselfies-text {
-            font-size: 5vw;
+            font-size: 3vw;
             text-transform: uppercase;
             text-align: center;
             color: white;
             margin-bottom: 7vw;
             margin-top: 0;
+            font-family: 'gotham_boldregular';
         }
         
         .brandedselfies-link {
@@ -2335,7 +2494,7 @@ body {
             text-transform: uppercase;
             color: white;
             border: 0.4vw solid white;
-            padding: 2vw 3vw;
+            padding: 1.5vw 3vw;
             text-align: center;
             margin-left: 36.5vw;
             cursor: pointer;
@@ -2360,7 +2519,7 @@ body {
     
     .gif-form-div {
         background: #fa9c25;
-        padding: 6vw 0vw 1vw;
+        padding: 7vw 0vw 1vw;
         position: relative;
         margin-bottom: -7vw;
         z-index: -1;
@@ -2369,11 +2528,12 @@ body {
             color: white;
             text-align: center;
             text-transform: uppercase;
-            margin-bottom: 26vw;
+            margin-bottom: 24vw;
             
             h2 {
                 margin-top: 0;
-                font-size: 5vw;
+                font-size: 3vw;
+                font-family: 'gotham_boldregular';
             }
         }
         
@@ -2388,18 +2548,18 @@ body {
                 padding: 1vw 3vw;
                 position: absolute;
                 left: 41vw;
-                top: 22vw;
+                top: 19vw;
                 cursor: pointer;
             }
             
             .gif-form-scrollpoint {
-                position: absolute;
+                 position: absolute;
                 left: 48vw;
-                top: 22vw;
+                top: 20vw;
                 display: none;
-                -webkit-transform: scale(1.4);
-                -ms-transform: scale(1.4);
-                transform: scale(1.4);
+                -webkit-transform: scale(1.5);
+                -ms-transform: scale(1.5);
+                transform: scale(1.5);
                 cursor: pointer;
             }
             
@@ -2409,9 +2569,9 @@ body {
                 position: relative;
                 height: 45vw;
                 display: none;
-                -webkit-transform: scale(1.3);
-                -ms-transform: scale(1.3);
-                transform: scale(1.3);
+                -webkit-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                transform: scale(1.2);
             }
         }
     }
