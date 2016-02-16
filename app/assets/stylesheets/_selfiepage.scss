@@ -354,6 +354,7 @@ body {
                 top: 46vw;
                 text-transform: uppercase;
                 font-size: 6vw;
+                font-family: 'gotham_boldregular';
             }
             
             img#facebook-icon {
@@ -396,7 +397,7 @@ body {
     .content1-quote-selfie {
         h2 {
             margin: 0;
-            font-size: 5.5vw;
+            font-size: 5vw;
             padding: 18% 4%;
         }
     }
@@ -1043,6 +1044,7 @@ body {
                 text-transform: uppercase;
                 font-size: 2.5vw;
                 z-index: 1;
+                font-family: 'gotham_boldregular';
             }
             
             img#facebook-icon {
@@ -1085,16 +1087,117 @@ body {
     .content1-quote-selfie {
         h2 {
             margin: 0;
-            font-size: 4.5vw;
-            padding: 13% 4%;
+            font-size: 4vw;
+            padding: 15% 4%;
         }
     }
     .selfie-no-sprites {
-        display: block;
+        display: none;
     }
     .selfie-desktop-sprites {
         display: none;
+        
+        .selfie-shoot-sprite {
+            background: url(/assets/shoot-grow-sprite.png) no-repeat;
+            height: 14vw;
+            background-size: 18vw;
+            margin-left: 7vw;
+            width: 19vw;
+            background-position: 0vw 0vw;
+            
+            &:hover {
+                background-position: 0vw -14vw;
+            }
+        }
+        .selfie-phone-sprite {
+            background: url(/assets/selfie-phone-sprite-grow.png) no-repeat;
+            height: 14vw;
+            margin-left: 7vw;
+            background-size: 18vw;
+            width: 17vw;
+            background-position: 0vw 0.5vw;
+            
+            &:hover {
+                background-position: 0.2vw -16vw;
+            }
+        }
+        .selfie-share-sprite {
+            background: url(/assets/selfie-sharethumb-sprite-grow.png) no-repeat;
+            height: 13vw;
+            background-size: 17vw;
+            margin-left: 7vw;
+            width: 16vw;
+            background-position: 0vw 0vw;
+            
+            &:hover {
+                background-position: 0vw -15vw;
+            }
+        }
     }
+    
+    
+    
+    .selfies-icons {
+        position: relative;
+        height: 37vw;
+        text-align: center;
+        color: #888;
+        font-size: 2.5vw;
+        border-top: 0.2vw solid rgba(10,10,10,0.2);
+        
+        strong {
+            font-family: 'gotham_boldregular';
+        }
+        
+        .shoot-icon-section {
+            position: absolute;
+            width: 33.33333vw;
+            left: 0;
+            
+            .selfies-shoot-sprite {
+                background: url('selfies/selfies_spritesheet.png') no-repeat;
+                height: 17vw;
+                background-size: 45vw;
+                background-position: 0vw -16vw;
+                width: 17vw;
+                margin-left: 8vw;
+            }
+        }
+        
+        .share-icon-section {
+            position: absolute;
+            width: 33.33333vw;
+            left: 33.33333vw;
+            
+            .selfies-share-sprite {
+                background: url('selfies/selfies_spritesheet.png') no-repeat;
+                height: 17vw;
+                background-size: 45vw;
+                background-position: -17vw -16vw;
+                width: 11vw;
+                margin-left: 11vw;
+            }
+        }
+        
+        .engage-icon-section {
+            position: absolute;
+            width: 33.33333vw;
+            left: 66.66666vw;
+            
+            .selfies-engage-sprite {
+                background: url('selfies/selfies_spritesheet.png') no-repeat;
+                height: 17vw;
+                background-size: 45vw;
+                background-position: -28vw -16vw;
+                width: 15vw;
+                margin-left: 9vw;
+            }
+        }
+    }
+    
+    
+    
+
     .selfie-round-shadow {
         width: 100%;
         
@@ -1184,7 +1287,7 @@ body {
         padding: 14% 0;
         
         h2 {
-            font-size: 5vw;
+            font-size: 4vw;
             padding: 0;
         }
     }
@@ -1214,7 +1317,8 @@ body {
                 left: 5%;
                 top: 12%;
                 margin-top: 5%;
-                color: #f5f5f5;
+                color: white;
+                font-family: 'gotham_boldregular';
             }
             
             p {
@@ -1238,8 +1342,8 @@ body {
         width: 100%;
         
         .small-selfie-img-box img {
-            height: 65vw;
-            margin-left: 23.5%;
+            height: 45vw;
+            margin-left: 31.5%;
             margin-top: 7%;
         }
         
@@ -1254,24 +1358,24 @@ body {
             
             .selfie-text {
                 font-family: 'gotham_bookregular';
+                color: #888;
                 
                 li .selfie-text-header {
-                    font-size: 5vw;
-                
-                    &:hover {
-                        color: #9FD1B8;
-                    }
+                    font-size: 4vw;
+                    color: #8fdae6;
                 }
                 li p {
-                    margin-bottom: 11%;
+                    margin-bottom: 10vw;
+                    margin-top: 5vw;
+                    font-size: 2.5vw;
                 }
                 li .last-selfie-text-block {
-                    margin-bottom: 2%;
+                    margin-bottom: 5vw;
                 }
             }
             
             .brand-values, .social-reach {
-                border-bottom: 1px solid rgba(200,200,200,0.4);
+                border-bottom: 0.2vw solid rgba(10,10,10,0.2);
             }
         }
     }
