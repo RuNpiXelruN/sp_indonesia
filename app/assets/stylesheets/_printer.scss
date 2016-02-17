@@ -239,6 +239,7 @@
             top: 26vw;
             left: 8vw;
             font-size: 6vw;
+            font-family: 'gotham_boldregular';
         }
     
         .printer-hero-text {
@@ -247,10 +248,9 @@
             top: 35vw;
             left: 20vw;
             font-size: 6vw;
+            font-family: 'gotham_boldregular';
         }
     }
-
-    
     .how-to-play-section {
         text-align: center;
         text-transform: uppercase;
@@ -260,11 +260,9 @@
         font-family: 'gotham_boldregular';
         border-bottom: 0.3vw solid rgba(10, 10, 10, 0.1);
     }
-    
     .stp-icon-section {
         display: none;
     }
-    
     .stp-icon-section-small {
         display: block;
         
@@ -288,6 +286,7 @@
                 top: 36vw;
                 left: 40vw;
                 font-size: 6vw;
+                font-family: 'gotham_boldregular';
             }
             
             .stp-icon-text {
@@ -320,6 +319,7 @@
                 left: 40vw;
                 top: 36vw;
                 font-size: 6vw;
+                font-family: 'gotham_boldregular';
             }
             
             .stp-icon-text {
@@ -351,6 +351,7 @@
                 left: 38vw;
                 top: 36vw;
                 font-size: 6vw;
+                font-family: 'gotham_boldregular';
             }
             
             .stp-icon-text {
@@ -363,11 +364,9 @@
             }
         }
     }
-    
     .about-printer-section {
         display: none;
     }
-    
     .about-printer-section-small {
         display: block;
         position: relative;
@@ -387,7 +386,6 @@
             }
         }
     }
-    
     .printer-img-highlight-section {
         height: 102vw;
         text-align: center;
@@ -399,6 +397,7 @@
         h2 {
             font-size: 8vw;
             margin: 9vw 0 16vw;
+            font-family: 'gotham_boldregular';
         }
         
         .printer-image-ul {
@@ -407,11 +406,9 @@
             transform: scale(1.2);
         }
     }
-    
     .printer-live-feed-strip {
         display: none;
     }
-    
     .printer-live-feed-strip-small {
         display: block;
         height: 33vw;
@@ -439,7 +436,6 @@
             }
         }
     }
-    
     // .instagram-printer-cta-section {
     //     background: #8fdae6;
     //     position: relative;
@@ -470,7 +466,6 @@
     //     }
         
     // }
-    
     .printer-form-div {
         background: #8fdae6;
         padding: 8vw 0vw 1vw;
@@ -486,6 +481,7 @@
             h2 {
                 margin-top: 0;
                 font-size: 5.6vw;
+                font-family: 'gotham_boldregular';
             }
         }
         
@@ -501,6 +497,7 @@
                 position: absolute;
                 left: 32vw;
                 top: 28vw;        
+                font-family: 'gotham_boldregular';
             }
             
             .printerhire-form-scrollpoint {
@@ -538,7 +535,6 @@
             }
         }
     }
-    
     .printer-live-feed-cta {
         position: relative;
         height: 47vw;
@@ -557,7 +553,8 @@
             text-align: center;
             font-size: 5.6vw;
             left: 11vw;
-            top: 5vw;      
+            top: 3vw;      
+            font-family: 'gotham_boldregular';
         }
         
         .live-feed-hire-link {
@@ -572,7 +569,8 @@
             font-size: 4vw;
             padding: 2vw 5vw;
             -webkit-transition: background 0.4s ease, color 0.2s ease;
-            transition: background 0.4s ease, color 0.2s ease;      
+            transition: background 0.4s ease, color 0.2s ease;     
+            font-family: 'gotham_boldregular';
         }
     }
 }
@@ -866,6 +864,7 @@
             display: block;
             margin-top: 2vw;
             font-size: 3vw;
+            font-family: 'gotham_boldregular';
         }
         .stp-icon-text {
             display: block;
@@ -974,6 +973,7 @@
         h2 {
             font-size: 6vw;
             margin: 7vw 0 -1vw;
+            font-family: 'gotham_boldregular';
         }
         
         .printer-image-ul {
@@ -1076,6 +1076,7 @@
             h2 {
                 margin-top: 0;
                 font-size: 4vw;
+                font-family: 'gotham_boldregular';
             }
         }
         
@@ -1089,8 +1090,9 @@
                 border: 0.4vw solid white;
                 padding: 1vw 3vw;
                 position: absolute;
-                left: 41vw;
-                top: 23vw;           
+                left: 40vw;
+                font-family: 'gotham_boldregular';
+                top: 23vw;      
             }
             
             .printerhire-form-scrollpoint {
@@ -1131,6 +1133,7 @@
             font-size: 4vw;
             left: 19vw;
             top: 4vw;
+            font-family: 'gotham_boldregular';
         }
         
         .live-feed-hire-link {
@@ -1141,10 +1144,11 @@
             position: absolute;
             top: 22vw;
             left: 40vw;
+            font-family: 'gotham_boldregular';
             border: 0.4vw solid white;
             padding: 1vw 3vw;
             -webkit-transition: background 0.4s ease, color 0.2s ease;
-            transition: background 0.4s ease, color 0.2s ease;     
+            transition: background 0.4s ease, color 0.2s ease;    
         }
     }
 }
@@ -1166,6 +1170,8 @@
         }
         
         .printer-hero-quote {
+            display: block;
+            font-family: 'gotham_boldregular';
             position: absolute;
             color: white;
             top: 11vw;
@@ -1174,11 +1180,13 @@
         }
     
         .printer-hero-text {
+            display: block;
             position: absolute;
             color: white;
             top: 15vw;
             left: 35vw;
             font-size: 3vw;
+            font-family: 'gotham_boldregular';
         }
     }
     
@@ -1217,6 +1225,7 @@
             display: block;
             margin-top: 2vw;
             font-size: 3vw;
+            font-family: 'gotham_boldregular';
         }
         .stp-icon-text {
             display: block;
@@ -1302,14 +1311,16 @@
     
     .printer-facts {
         position: absolute;
-        top: 4vw;
+        top: 2vw;
         left: 10vw;
         width: 40vw;
         color: white;
-        font-size: 1.3vw;
+        font-size: 1.4vw;
         
         .printer-facts-heading {
             text-transform: uppercase;
+            font-family: 'gotham_boldregular';
+            font-size: 1.4vw;
         }
         
         .printer-facts-body {
@@ -1493,7 +1504,11 @@
         font-size: 3vw;
     }
     
-    
+    .printer-img-highlight-section h2 {
+        font-size: 5vw;
+        margin: 7vw 0 -2vw;
+        font-family: 'gotham_boldregular';
+    }
     
     .printer-form-div {
         background: #8fdae6;
@@ -1509,6 +1524,7 @@
             
             h2 {
                 margin-top: 0;
+                font-family: 'gotham_boldregular';
             }
         }
         
@@ -1525,6 +1541,7 @@
                 left: 40.5vw;
                 top: 20vw;
                 cursor: pointer;
+                font-family: 'gotham_boldregular';
             }
             
             .printerhire-form-scrollpoint {
@@ -1563,6 +1580,7 @@
             font-size: 3vw;
             left: 28vw;
             top: 5vw;
+            font-family: 'gotham_boldregular';
         }
         
         .live-feed-hire-link {
@@ -1577,6 +1595,7 @@
             padding: 1vw 3vw;
             -webkit-transition: background 0.4s ease, color 0.2s ease;
             transition: background 0.4s ease, color 0.2s ease;
+            font-family: 'gotham_boldregular';
         }
     }
 
