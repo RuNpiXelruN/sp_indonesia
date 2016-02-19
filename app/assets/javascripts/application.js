@@ -11,6 +11,7 @@
 // about supported directives.
 //
 //= require jquery
+//= require sweet-alert
 //= require jquery_ujs
 //= require materialize-sprockets
 //= require_tree .
@@ -68,6 +69,11 @@ $(document).ready(function() {
     });
 });
 
+$(document).ready(function() {
+    $('input.test-1').onclick(function() {
+        swal("Good job!", "You clicked the button!", "success");
+    });
+});
 
 
 

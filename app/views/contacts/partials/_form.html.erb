@@ -5,6 +5,8 @@
         <%= email_field_tag 'contact[email]', nil, required: true, placeholder: "EMAIL", class: "email-field" %>
         <%= telephone_field_tag 'contact[phone]', nil, placeholder: "PHONE", class: "phone-field" %>
         <%= text_area_tag 'contact[comments]', nil, required: true, placeholder: "COMMENTS", class: "comments-field" %>
-        <%= submit_tag "SUBMIT", class: "form-submit-button" %>
+        <%= submit_tag "SUBMIT", id: "test-1", class: "form-submit-button" %>
     </div>
 <% end %>
+<!--data: { behaviour: 'submit' }-->
+<!--onclick: "form-alert"-->

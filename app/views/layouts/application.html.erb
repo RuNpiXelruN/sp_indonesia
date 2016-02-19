@@ -4,11 +4,12 @@
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
-  <title>Live Digital Experiences - Social Playground</title>
+  <title><%= yield(:title) %> | Social Playground</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scaleable=no">
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="Live Digital Experiences for brand activations, corporate events and weddings." name="description">
+	<%= favicon_link_tag 'favicon-16x16.png' %>
 </head>
 <body>
 <% flash.each do |key, value| %>
