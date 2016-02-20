@@ -9,10 +9,11 @@ class ContactsController < ApplicationController
         
         if @contact.save
             # flash[:notice] = "Message Sent!"
+            render json: nil
             # redirect_to root_path
         else
             # flash[:notice] = "Error. Message not sent."
-            redirect_to root_path
+            render json: { errors: @contact.errors }, status: :bad_request
         end
     end
     
