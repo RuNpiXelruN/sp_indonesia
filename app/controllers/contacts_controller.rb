@@ -8,11 +8,8 @@ class ContactsController < ApplicationController
         @contact = Contact.new(contact_params)
         
         if @contact.save
-            # flash[:notice] = "Message Sent!"
             render json: nil
-            # redirect_to root_path
         else
-            # flash[:notice] = "Error. Message not sent."
             render json: { errors: @contact.errors }, status: :bad_request
         end
     end
