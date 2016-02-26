@@ -321,7 +321,7 @@
     </div>
     <div class="gif-form-section">
         <a class="gifhire-button enquire-button"><span>Enquire Now</span></a>
-        <p class="gif-form-scrollpoint"><%= image_tag('close-icon-white.png') %></p>
+        <p class="gif-form-scrollpoint form-close"><%= image_tag('close-icon-white.png') %></p>
         <%= render partial: 'contacts/partials/form', locals: { contact_type: 'gifgif_hire' } %>
     </div>
 </div>
@@ -345,7 +345,8 @@
 
 <div class="brandedselfies-cta-section">
     <h2 class="brandedselfies-text">Like the GifGif?</br>Check out our branded selfies.</h2>
-    <a class="brandedselfies-link">Branded Selfies</a>
+    <%= link_to "Branded Selfies", branded_selfies_path, class: 'brandedselfies-link' %>
+    <!--<a class="brandedselfies-link">Branded Selfies</a>-->
 </div>
 
 

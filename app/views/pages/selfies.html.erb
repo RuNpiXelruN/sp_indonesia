@@ -302,7 +302,7 @@
     </div>
     <div class="selfie-form-section">
         <a class="selfiehire-button enquire-button"><span>Enquire Now</span></a>
-        <p class="selfie-form-scrollpoint"><%= image_tag('close-icon-white.png') %></p>
+        <p class="selfie-form-scrollpoint form-close"><%= image_tag('close-icon-white.png') %></p>
         <%= render partial: 'contacts/partials/form', locals: { contact_type: 'selfie_hire' } %>
     </div>
 </div>
@@ -319,7 +319,8 @@
 
 <div class="livefeedcta-bg center">
     <h2>Like branded selfies?</br>check out our gifgif!</h2></br>
-    <a class="gif-enquire-button" href="">gifgif booth</a>
+    <%= link_to "GIFGIF BOOTH", gifgif_path, class: 'gif-enquire-button' %>
+    <!--<a class="gif-enquire-button" href="">gifgif booth</a>-->
 </div>                <!-- ************  /Live Feed CTA   ************  --> 
 
 

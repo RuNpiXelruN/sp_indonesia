@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   
   get '/gifgif', :to => 'pages#gifpage'
   
-  get '/roaming_selfies', to: 'pages#selfies'
+  get '/branded_selfies', to: 'pages#selfies'
   
   get '/testnav', to: 'pages#testnav'
   

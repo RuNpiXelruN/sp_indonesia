@@ -98,7 +98,7 @@
     </div>
     <div class="livefeed-form-section">
         <a class="livefeedhire-button enquire-button"><span>Hire Now</span></a>
-        <p class="livefeed-form-scrollpoint"><%= image_tag('close-icon-white.png') %></p>
+        <p class="livefeed-form-scrollpoint form-close"><%= image_tag('close-icon-white.png') %></p>
         <%= render partial: 'contacts/partials/form', locals: { contact_type: 'livefeed_hire' } %>
     </div>
 </div>
@@ -107,5 +107,5 @@
 
 <div class="livefeed-page-printer-cta">
     <h2>Like the live feed?</br>check out our instagram printer</h2>
-    <%= link_to "Instagram Printer", root_path, class: "printer-hire-link" %>
+    <%= link_to "Instagram Printer", instagram_printer_path, class: "printer-hire-link" %>
 </div>
