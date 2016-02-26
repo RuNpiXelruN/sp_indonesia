@@ -1,5 +1,7 @@
 <% provide(:title, "Instagram Printer") %>
 
+<body class="printer-body">
+
 <div class="printerpage-hero-section">
     <%= render 'layouts/nav' %>
     <%= image_tag('printer/carousel01-big (1).jpg', class: 'printer-page-hero-image') %>
@@ -140,7 +142,7 @@
     </div>
     <div class="printer-form-section">
         <a class="printerhire-button enquire-button"><span>Hire Now</span></a>
-        <p class="printerhire-form-scrollpoint"><%= image_tag('close-icon-white.png') %></p>
+        <p class="printerhire-form-scrollpoint form-close"><%= image_tag('close-icon-white.png') %></p>
         <%= render partial: 'contacts/partials/form', locals: { contact_type: 'printer_hire' } %>
     </div>
 </div>
@@ -153,3 +155,6 @@
         <h2>Like the printer?</br>check out our Live Feed</h2>
         <%= link_to "Live Feed", livefeed_path, class: "live-feed-hire-link" %>
 </div>
+
+
+</body>

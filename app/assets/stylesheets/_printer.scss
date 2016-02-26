@@ -1,4 +1,3 @@
-
 .printerpage-hero-section {
 
     position: relative;
@@ -15,7 +14,6 @@
     
     
 }
-
 .how-to-play-section {
     text-align: center;
     text-transform: uppercase;
@@ -26,11 +24,6 @@
     border-bottom: 0.1vw solid rgba(10,10,10,0.1);
     
 }
-
-
-
-
-
 .about-printer-section {
     position: relative;
     
@@ -56,7 +49,6 @@
         }
     }
 }
-
 .printer-img-highlight-section {
     height: 75vw;
     text-align: center;
@@ -87,7 +79,6 @@
         }
     }
 }
-
 .printer-live-feed-strip {
     
     .live-feed-strip {
@@ -110,77 +101,6 @@
         }
     }
 }
-
-// .instagram-printer-cta-section {
-//     background: #8fdae6;
-//     position: relative;
-//     padding: 7vw 0vw 7vw;
-
-//     h2 {
-//         margin: 0;
-//         text-align: center;
-//         text-transform: uppercase;
-//         font-size: 3vw;
-//         color: white;
-//         margin-bottom: 6vw;
-//     }
- 
-//     .printerhire-button.enquire-button {
-//         text-transform: uppercase;
-//         color: white;
-//         font-size: 2vw;
-//         margin-left: 41vw;
-//         border: 0.4vw solid white;
-//         padding: 1vw 3vw;
-//     }
-    
-//     .printerhire-form-scrollpoint {
-//         text-align: center;
-//         margin-bottom: 4vw;
-//         display: none;
-//     }
-// }
-
-    // .printer-form-div {
-    //     background: #8fdae6;
-    //     padding: 6vw 0vw 1vw;
-    //     position: relative;
-        
-    //     .printer-form-text {
-    //         color: white;
-    //         text-align: center;
-    //         text-transform: uppercase;
-    //         margin-bottom: 17vw;
-            
-    //         h2 {
-    //             margin-top: 0;
-    //         }
-    //     }
-        
-    //     .printer-form-section {
-            
-    //         .printerhire-button.enquire-button {
-    //             text-transform: uppercase;
-    //             text-align: center;
-    //             color: white;
-    //             font-size: 2vw;
-    //             border: 0.4vw solid white;
-    //             padding: 1vw 3vw;
-    //             position: absolute;
-    //             left: 40vw;
-    //             top: 19vw;
-    //         }
-            
-    //         .printerhire-form-scrollpoint {
-    //             position: absolute;
-    //             left: 46vw;
-    //             top: 20vw;
-    //             display: none;
-    //         }
-    //     }
-    // }
-
-
 .printer-live-feed-cta {
     position: relative;
     height: 26.8vw;
@@ -255,7 +175,7 @@
         text-align: center;
         text-transform: uppercase;
         padding: 14vw 10vw;
-        font-size: 4vw;
+        font-size: 6vw;
         color: #888;
         font-family: 'gotham_boldregular';
         border-bottom: 0.3vw solid rgba(10, 10, 10, 0.1);
@@ -436,36 +356,6 @@
             }
         }
     }
-    // .instagram-printer-cta-section {
-    //     background: #8fdae6;
-    //     position: relative;
-    //     padding: 7vw 0vw 7vw;
-        
-    //     h2 {
-    //         margin: 0;
-    //         text-align: center;
-    //         text-transform: uppercase;
-    //         font-size: 5vw;
-    //         color: white;
-    //         margin-bottom: 6vw;
-    //     }
-        
-    //     .printerhire-button.enquire-button {
-    //         text-transform: uppercase;
-    //         color: white;
-    //         font-size: 2vw;
-    //         margin-left: 41vw;
-    //         border: 0.4vw solid white;
-    //         padding: 1vw 3vw;
-    //     }
-        
-    //     .printerhire-form-scrollpoint {
-    //         text-align: center;
-    //         margin-bottom: 4vw;
-    //         display: none;
-    //     }
-        
-    // }
     .printer-form-div {
         background: #8fdae6;
         padding: 8vw 0vw 1vw;
@@ -573,8 +463,14 @@
             font-family: 'gotham_boldregular';
         }
     }
+    .printer-body.sweet-alert {
+        width: 90vw !important;
+        margin-left: 0;
+        margin-right: 0;
+        left: 5vw !important;
+        top: 241vw !important;
+    }
 }
-
 @media screen and (min-width: 768px) and (orientation: portrait) {
     
     .printerpage-hero-section {
@@ -604,7 +500,6 @@
             font-size: 5vw;
         }
     }
-    
     .stp-icon-section-small {
         
         .snap-icon-section {
@@ -702,7 +597,6 @@
             }
         }
     }
-    
     .printer-form-div {
         background: #8fdae6;
         padding: 8vw 0vw 1vw;
@@ -767,7 +661,6 @@
             }
         }
     }
-    
     .printer-live-feed-cta {
         
         h2 {
@@ -795,11 +688,24 @@
             transition: background 0.4s ease, color 0.2s ease;
         }
     }
+    // .sweet-alert {
+    //     background-color: white;
+    //     font-family: 'gotham_bookregular','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    //     width: 478px;
+    //     padding: 17px;
+    //     border-radius: 5px;
+    //     text-align: center;
+    //     position: fixed;
+    //     left: 52.1vw;
+    //     top: 153vw;
+    //     margin-left: -256px;
+    //     margin-top: -200px;
+    //     overflow: hidden;
+    //     display: none;
+    //     z-index: 99999;
+    // }
 }
-
 @media screen and (min-width: 5px) and (max-width: 1024px) and (orientation: landscape) {
-    
-    
     .printerpage-hero-section {
         
         overflow: hidden;
@@ -817,9 +723,6 @@
             display: none;
         }
     }
-
-    
-    
     .how-to-play-section {
         text-align: center;
         text-transform: uppercase;
@@ -829,11 +732,9 @@
         font-family: 'gotham_boldregular';
         border-bottom: 0.3vw solid rgba(10, 10, 10, 0.1);
     }
-    
     .stp-icon-section-small {
         display: none;
     }
-    
     .stp-icon-section.round-shadow {
         text-align: center;
         text-transform: uppercase;
@@ -935,11 +836,9 @@
             }
         }
     }
-    
     .about-printer-section {
         display: none;
     }
-    
     .about-printer-section-small {
         display: block;
         position: relative;    
@@ -961,7 +860,6 @@
             }
         }
     }
-    
     .printer-img-highlight-section {
         height: 76vw;
         text-align: center;
@@ -982,11 +880,9 @@
             transform: scale(0.8);
         }
     }
-    
     .printer-live-feed-strip-small {
         display: none;
     }
-    
     .printer-live-feed-strip {
         display: block;
         height: 20vw;
@@ -1030,37 +926,6 @@
             }
         }
     }
-    
-    // .instagram-printer-cta-section {
-    //     background: #8fdae6;
-    //     position: relative;
-    //     padding: 7vw 0vw 7vw;
-
-    //     h2 {
-    //         margin: 0;
-    //         text-align: center;
-    //         text-transform: uppercase;
-    //         font-size: 4vw;
-    //         color: white;
-    //         margin-bottom: 6vw;
-    //     }
-        
-    //     .printerhire-button.enquire-button {
-    //         text-transform: uppercase;
-    //         color: white;
-    //         font-size: 2vw;
-    //         margin-left: 41vw;
-    //         border: 0.4vw solid white;
-    //         padding: 1vw 3vw;
-    //     }
-        
-    //     .printerhire-form-scrollpoint {
-    //         text-align: center;
-    //         margin-bottom: 4vw;
-    //         display: none;
-    //     }
-    // }
-    
     .printer-form-div {
         background: #8fdae6;
         padding: 8vw 0vw 1vw;
@@ -1090,7 +955,7 @@
                 border: 0.4vw solid white;
                 padding: 1vw 3vw;
                 position: absolute;
-                left: 40vw;
+                left: 41vw;
                 font-family: 'gotham_boldregular';
                 top: 23vw;      
             }
@@ -1113,7 +978,6 @@
             }
         }
     }
-    
     .printer-live-feed-cta {
         position: relative;
         height: 35vw;
@@ -1151,13 +1015,25 @@
             transition: background 0.4s ease, color 0.2s ease;    
         }
     }
+    // .sweet-alert {
+    //     background-color: white;
+    //     font-family: 'gotham_bookregular','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    //     width: 70vw;
+    //     height: 51vw;
+    //     padding: 17px;
+    //     border-radius: 5px;
+    //     text-align: center;
+    //     position: fixed;
+    //     left: 54vw;
+    //     top: 46vw;
+    //     margin-left: -256px;
+    //     margin-top: -200px;
+    //     overflow: hidden;
+    //     display: none;
+    //     z-index: 99999;
+    // }
 }
-
 @media screen and (min-width: 1024px) and (orientation: landscape) {
-    
-    
-    
-    
     .printerpage-hero-section {
         
         .printer-page-hero-image {
@@ -1189,12 +1065,9 @@
             font-family: 'gotham_boldregular';
         }
     }
-    
-    
     .stp-icon-section-small {
         display: none;
     }
-    
     .stp-icon-section.round-shadow {
         text-align: center;
         text-transform: uppercase;
@@ -1296,11 +1169,9 @@
             }
         }
     }
-    
     .about-printer-section-small {
         display: none;
     }
-    
     .about-printer-section {
     position: relative;
     display: block;
@@ -1329,7 +1200,6 @@
         }
     }
 }
-
     .printer-img-highlight-section {
         height: 75vw;
         text-align: center;
@@ -1349,11 +1219,9 @@
             transform: scale(0.8);
         }
     }
-    
     .printer-live-feed-strip-small {
         display: none;
     }
-    
     .printer-live-feed-strip {
         display: block;
         height: 20vw;
@@ -1397,7 +1265,6 @@
             }
         }
     }
-    
     .printer-form-div {
         background: #8fdae6;
         padding: 6vw 0vw 1vw;
@@ -1453,7 +1320,6 @@
             }
         }
     }
-    
     .printer-live-feed-cta {
         position: relative;
         height: 31vw;
@@ -1482,12 +1348,25 @@
             transition: background 0.4s ease, color 0.2s ease;
         }
     }
-    
+    // .sweet-alert {
+    //     background-color: white;
+    //     font-family: 'gotham_bookregular','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    //     width: 60vw;
+    //     height: 37vw;
+    //     padding: 2vw 3vw 0vw 3vw;
+    //     border-radius: 5px;
+    //     text-align: center;
+    //     position: fixed;
+    //     left: 20vw;
+    //     top: 29vw;
+    //     margin-left: 0;
+    //     margin-top: -4vw !important;
+    //     overflow: hidden;
+    //     display: none;
+    //     z-index: 99999;
+    // }
 }
-
 @media screen and (min-width: 1280px) and (orientation: landscape) {
-    
- 
     .printer-hero-quote {
         position: absolute;
         color: white;
@@ -1495,7 +1374,6 @@
         left: 30vw;
         font-size: 3vw;
     }
-    
     .printer-hero-text {
         position: absolute;
         color: white;
@@ -1503,13 +1381,11 @@
         left: 36vw;
         font-size: 3vw;
     }
-    
     .printer-img-highlight-section h2 {
         font-size: 5vw;
         margin: 7vw 0 -2vw;
         font-family: 'gotham_boldregular';
     }
-    
     .printer-form-div {
         background: #8fdae6;
         padding: 6vw 0vw 1vw;
@@ -1562,7 +1438,6 @@
             }
         }
     }
-    
     .printer-live-feed-cta {
         position: relative;
         height: 30vw;
@@ -1598,10 +1473,24 @@
             font-family: 'gotham_boldregular';
         }
     }
-
-    
+    // .sweet-alert {
+    //     background-color: white;
+    //     font-family: 'gotham_bookregular','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    //     width: 43vw;
+    //     height: 27vw;
+    //     padding: 2vw 3vw 0vw 3vw;
+    //     border-radius: 5px;
+    //     text-align: center;
+    //     position: fixed;
+    //     left: 28.5vw;
+    //     margin-top: -4vw !important;
+    //     top: 17vw;
+    //     margin-left: 0;
+    //     overflow: hidden;
+    //     display: none;
+    //     z-index: 99999;
+    // }
 }
-
 @media screen and (min-width: 1850px) and (min-height: 1000px) {
     
     .printerpage-hero-section {

@@ -3,21 +3,14 @@ input[type=text], input[type=password], input[type=email], input[type=url], inpu
     border-bottom: 0 !important;
     border-radius: 0;
 }
-
 textarea#contact_comments {
     border: 0!important;
     border-radius: 0 !important;
 }
-
 input.form-submit-button {
     border-radius: 0 !important;
 }
-
 .contact-form {
-    // width: 60vw;
-    // margin: 0;
-    // position: relative;
-    // height: 0vw;
         width: 60vw;
         margin: 0vw 20vw 2vw;
         position: relative;
@@ -91,3 +84,4 @@ input.form-submit-button {
         }
     }
 }
+

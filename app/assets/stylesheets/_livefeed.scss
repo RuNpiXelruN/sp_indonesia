@@ -11,7 +11,6 @@
     
 
 }
-
 .livefeed-quote1 {
     text-align: center;
     background: white;
@@ -24,9 +23,6 @@
         margin: 0;
     }
 }
-
-
-
 .livefeed-facts-section {
     position: relative;
     margin-top: -1.5vw;
@@ -84,7 +80,6 @@
         }
     }
 }
-
 .livefeed-strip-large {
     width: 103vw;
     overflow: hidden;
@@ -95,37 +90,6 @@
         margin: -0.5vw;
     }
 }
-
-// .livefeed-page-cta {
-//     text-align: center;
-//     text-transform: uppercase;
-//     background: #eea4ac;
-//     color: white;
-//     padding: 5vw 0 6vw;
-    
-//     h2 {
-//         margin: 0;
-//         margin-bottom: 5vw;
-//     }
-    
-//     .live-feed-hire-link {
-//         text-transform: uppercase;
-//         color: white;
-//         font-size: 1.2vw;
-//         font-family: 'gotham_bookregular';
-//         border: 0.3vw solid white;
-//         padding: 1vw 2vw;
-//         transition: background 0.2s ease, color 0.2s ease;
-        
-//         &:hover {
-//             background: white;
-//             color: #eea4ac;
-//         }
-//     }
-// }
-
-
-
 .livefeed-page-printer-cta {
     position: relative;
     background: url("printer/carousel01-big (1).jpg") no-repeat;
@@ -327,33 +291,6 @@
             left: 66.66666vw;
         }
     }
-    // .livefeed-page-cta {
-    //     text-align: center;
-    //     text-transform: uppercase;
-    //     background: #eea4ac;
-    //     color: white;
-    //     padding: 11vw 0 23vw;
-    //     position: relative;
-        
-    //     h2 {
-    //         margin: 0;
-    //         margin-bottom: 5vw;
-    //         font-size: 7vw;
-    //     }
-        
-    //     .live-feed-hire-link {
-    //         text-transform: uppercase;
-    //         color: white;
-    //         font-size: 4.5vw;
-    //         position: absolute;
-    //         left: 35vw;
-    //         font-family: 'gotham_bookregular';
-    //         border: 0.4vw solid white;
-    //         padding: 2vw 3vw;
-    //         -webkit-transition: background 0.2s ease, color 0.2s ease;
-    //         transition: background 0.2s ease, color 0.2s ease;
-    //     }
-    // }
     .livefeed-form-div {
         background: #eea4ac;
         padding: 9vw 0vw 1vw;
@@ -460,8 +397,18 @@
             transition: background 0.2s ease, color 0.2s ease;
         }
     }
+    // .sweet-alert {
+    //     width: 90vw;
+    //     margin-left: 0;
+    //     margin-right: 0;
+    //     left: 5vw;
+    //     top: 216vw;
+    //     bottom: 70vw;
+    //     border-radius: 2vw;
+    //     margin-top: -44vw !important;
+    //     margin-bottom: -7vw;
+    // }
 }
-
 @media screen and (min-width: 768px) and (orientation: portrait) {
     
     .livefeed-hero-section {
@@ -617,7 +564,6 @@
         }
     
     }
-    
     .livefeed-facts-section {
         position: relative;
         margin-top: -1.5vw;
@@ -678,36 +624,6 @@
             }
         }
     }
-    
-    // .livefeed-page-cta {
-    //     text-align: center;
-    //     text-transform: uppercase;
-    //     background: #eea4ac;
-    //     color: white;
-    //     padding: 10vw 0 24vw;
-    //     position: relative;
-        
-    //     h2 {
-    //         margin: 0;
-    //         margin-bottom: 5vw;
-    //         font-size: 6vw;
-    //     }
-        
-    //     .live-feed-hire-link {
-    //         text-transform: uppercase;
-    //         color: white;
-    //         font-size: 4.5vw;
-    //         position: absolute;
-    //         left: 34vw;
-    //         top: 31vw;
-    //         font-family: 'gotham_boldregular';
-    //         border: 0.7vw solid white;
-    //         padding: 2vw 3vw;
-    //         -webkit-transition: background 0.2s ease, color 0.2s ease;
-    //         transition: background 0.2s ease, color 0.2s ease;
-    //     }
-    // }
-    
     .livefeed-form-div {
         background: #eea4ac;
         padding: 8vw 0vw 1vw;
@@ -775,7 +691,6 @@
             }
         }
     }
-    
     .livefeed-page-printer-cta {
         position: relative;
         background: url("printer/carousel01-big (1).jpg") no-repeat;
@@ -812,8 +727,23 @@
             transition: background 0.2s ease, color 0.2s ease;
         }
     }
+    // .sweet-alert {
+    //     background-color: white;
+    //     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    //     width: 478px;
+    //     padding: 17px;
+    //     border-radius: 5px;
+    //     text-align: center;
+    //     position: fixed;
+    //     left: 31%;
+    //     top: 66%;
+    //     margin-left: -256px;
+    //     margin-top: -200px;
+    //     overflow: hidden;
+    //     display: none;
+    //     z-index: 99999;
+    // }
 }
-
 @media screen and (min-width: 5px) and (max-width: 1024px) and (orientation: landscape) {
     
     
@@ -966,30 +896,6 @@
     .livefeed-strip-small {
         display: none;
     }
-    // .livefeed-page-cta {
-    //     text-align: center;
-    //     text-transform: uppercase;
-    //     background: #eea4ac;
-    //     color: white;
-    //     padding: 6vw 0 9vw;
-        
-    //     h2 {
-    //         margin: 0;
-    //         margin-bottom: 5vw;
-    //         font-size: 5vw;
-    //     }
-        
-    //     .live-feed-hire-link {
-    //         text-transform: uppercase;
-    //         color: white;
-    //         font-size: 3.5vw;
-    //         font-family: 'gotham_boldregular';
-    //         border: 0.7vw solid white;
-    //         padding: 2vw 3vw;
-    //         -webkit-transition: background 0.2s ease, color 0.2s ease;
-    //         transition: background 0.2s ease, color 0.2s ease;
-    //     }
-    // }
     .livefeed-form-div {
         background: #eea4ac;
         padding: 8vw 0vw 1vw;
@@ -1081,7 +987,6 @@
         }
     }
 }
-
 @media screen and (min-width: 1024px) and (orientation: landscape) {
     
     .livefeed-hero-section {
@@ -1261,7 +1166,6 @@
         }
     }
 }
-
 @media screen and (min-width: 1200px) and (orientation: landscape) {
     
     .livefeed-hero-section {
@@ -1501,7 +1405,6 @@
         }
     }
 }
-
 @media screen and (min-width: 1850px) and (min-height: 1000px) {
     
     .livefeed-hero-section {

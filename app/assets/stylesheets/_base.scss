@@ -3,15 +3,6 @@
 img {
     max-width: 100%;
 }            
-            
-            
-            
-            
-            
-            // ----------------------------------------
-            //           Horiz Line Section
-            // ----------------------------------------
-
 hr {
     display: block;
     height: 1px;
@@ -19,8 +10,6 @@ hr {
     border-top: 1px solid #e6e6e6;
     margin: 0;   
 }
-
-
 .box {
     width:70%;
     padding:20px;
@@ -81,3 +70,138 @@ hr {
     -moz-border-radius:100%;
     border-radius:100%;
 }
+
+// .sweet-alert {
+//     font-family: 'gotham_bookregular','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    
+//     h2 {
+//         color: #575757;
+//         font-size: 30px;
+//         text-align: center;
+//         font-weight: 600;
+//         text-transform: none;
+//         position: relative;
+//         margin: 25px 0;
+//         padding: 0;
+//         line-height: 40px;
+//         display: block;
+//         font-family: 'gotham_boldregular';
+//     }
+    
+//     button {
+//         background-color: #ff9b7e !important;
+//         border-radius: 0;
+//         font-family: 'gotham_boldregular';
+//     }
+// }
+@media screen and (min-width: 768px) and (orientation: portrait) {
+    // .sweet-alert {
+    //     background-color: white;
+    //     font-family: 'gotham_bookregular','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    //     width: 478px;
+    //     padding: 17px;
+    //     border-radius: 5px;
+    //     text-align: center;
+    //     position: fixed;
+    //     left: 52.1vw;
+    //     top: 58vw;
+    //     margin-left: -256px;
+    //     margin-top: -200px;
+    //     overflow: hidden;
+    //     display: none;
+    //     z-index: 99999;
+        
+    //     h2 {
+    //         color: #575757;
+    //         font-size: 30px;
+    //         text-align: center;
+    //         font-weight: 600;
+    //         text-transform: none;
+    //         position: relative;
+    //         margin: 25px 0;
+    //         padding: 0;
+    //         line-height: 40px;
+    //         display: block;
+    //         font-family: 'gotham_boldregular';
+    //     }
+    //     button {
+    //         background-color: #ff9b7e !important;
+    //         color: white;
+    //         border: none;
+    //         box-shadow: none;
+    //         font-size: 17px;
+    //         font-weight: 500;
+    //         border-radius: 0;
+    //         padding: 10px 32px;
+    //         margin: 26px 5px 0 5px;
+    //         cursor: pointer;
+    //         font-family: 'gotham_boldregular';
+    //     }
+    // }
+}
+@media screen and (min-width: 5px) and (orientation: landscape) {
+    // .sweet-alert {
+    //     background-color: white;
+    //     font-family: 'gotham_bookregular','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    //     width: 478px;
+    //     padding: 17px;
+    //     border-radius: 5px;
+    //     text-align: center;
+    //     position: fixed;
+    //     left: 52.1vw;
+    //     top: 29vw;
+    //     margin-left: -256px;
+    //     margin-top: -200px;
+    //     overflow: hidden;
+    //     display: none;
+    //     z-index: 99999;
+        
+    //     h2 {
+    //         color: #575757;
+    //         font-size: 30px;
+    //         text-align: center;
+    //         font-weight: 600;
+    //         text-transform: none;
+    //         position: relative;
+    //         margin: 25px 0;
+    //         padding: 0;
+    //         line-height: 40px;
+    //         display: block;
+    //         font-family: 'gotham_boldregular';
+    //     }
+        
+    //     button {
+    //         background-color: #ff9b7e !important;
+    //         color: white;
+    //         border: none;
+    //         box-shadow: none;
+    //         font-size: 17px;
+    //         font-weight: 500;
+    //         border-radius: 0;
+    //         padding: 10px 32px;
+    //         margin: 26px 5px 0 5px;
+    //         cursor: pointer;
+    //         font-family: 'gotham_boldregular';
+    //     }
+    // }
+}
+@media screen and (min-width: 1850px) and (min-height: 1000px) {
+    // .sweet-alert {
+    //     background-color: white;
+    //     font-family: 'gotham_bookregular','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    //     width: 478px;
+    //     padding: 17px;
+    //     border-radius: 5px;
+    //     text-align: center;
+    //     position: fixed;
+    //     left: 52.1vw;
+    //     top: 25vw;
+    //     margin-left: -256px;
+    //     margin-top: -200px;
+    //     overflow: hidden;
+    //     display: none;
+    //     z-index: 99999;
+    // }
+}
+
+

@@ -2,7 +2,7 @@
 <html>
 <head>
   <%= stylesheet_link_tag    'application', media: 'all' %>
-  <%= javascript_include_tag 'application' %>
+  <%= javascript_include_tag 'application', cache: true %>
   <%= csrf_meta_tags %>
   <title><%= yield(:title) %> | Social Playground</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scaleable=no">

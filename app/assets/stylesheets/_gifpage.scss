@@ -33,19 +33,6 @@
     max-width: 100%;
 }
 
-
-
-
-
-                                   /*    UNIVERSAL DEVICE-SIZE STYLES     */
-
-
-
-         /* ----------------------------------------
-         //            Gif Hero Section
-         // -------------------------------------- */
-
-
 .hero-image-container {
     position: relative;
     overflow: hidden;
@@ -58,24 +45,8 @@
 
 
     #gif-foreground-hero {
-        // position: absolute;
-        // top: -9999px;
-        // bottom: -9999px;
-        // left: -9999px;
-        // right: -9999px;
-        // margin: auto;
-        // padding-right: 3vw;
     }
 }                             /* -------- /Gif Hero Section --------*/
-
-   
-
-
-         /* ----------------------------------------
-         //     Gif Quote 1 Section with Shadow
-         // -------------------------------------- */
-
-
 .content1-quote-gif {
     text-transform: uppercase;
     color: #888888;;
@@ -101,13 +72,6 @@
         }
     }
 }                               /* -------- /Gif Quote 1 Section with Shadow --------*/
-
-
-         /* ----------------------------------------
-         //            Gif Icon Section
-         // -------------------------------------- */
-
-
 .gif-finger-sprite {
     background: url(/assets/finger-grow-sprite.png) no-repeat;
     height: 11vw;
@@ -120,7 +84,6 @@
         background-position: 0vw -10.5vw;
     }
 }
-
 .gif-megaphone-sprite {
     background: url(/assets/megaphone-grow-sprite.png) no-repeat;
     height: 10vw;
@@ -133,7 +96,6 @@
         background-position: 0vw -10vw;
     }
 }
-
 .gif-phone-sprite {
     background: url(/assets/phone-grow-sprite.png) no-repeat;
     height: 10.6vw;
@@ -146,41 +108,15 @@
         background-position: 0vw -9.8vw;
     }
 }
-
-
 .gif-icon-section {
     position: relative;
     z-index: -2;
     padding: 80px 0;
     background: #fff;
 }
-.icon-block h5 {
-    color: #888888;
-    font-family: 'gotham_bookregular';
-}                                    /* -------- /Gif Icon Section --------*/
-
-
-
-
-
-            /* ----------------------------------------
-            //           Video Section
-            // ------------------------------------- */
-
-
 .gifvideo {
     width: 100%;
 }                                        /* -------- /Video Section --------*/
-
-            
-            
-            
-            
-             /*-------------------------------------------->
-             //--         Blurb on Image Section         -->
-               ------------------------------------------ */    
-               
-
 .blurb-on-image-small {
     position: relative;
     
@@ -195,7 +131,6 @@
         bottom: 7%;
     }
 }
-
 .blurb-on-image {
     position: relative;
     
@@ -218,7 +153,6 @@
         bottom: 7%;
     }
 }
-
 .blurb-below-image {
 
     p {
@@ -234,25 +168,13 @@
         text-transform: uppercase;
     }
 }
-
 .blurb-below-image-row {
     margin-bottom: 0;
     padding-bottom: 20px;
 }                            /* -------- /Blurb on Image Section --------*/
-
-            
-            
-            
-            /* ----------------------------------------
-            //          ipad with gif section
-            // ------------------------------------- */
-
-
-
 .ipad-container {
     position: relative;
 }
-
 .staggered-test {
     position: absolute;
     left: 60%;
@@ -264,13 +186,10 @@
         
     }
 }
-
 #wrapper {
   width: 450px;
   margin: 115px auto;
 }
-
-/* iPad */
 .ipad-front {
   position: relative;
   width: 450px;
@@ -281,7 +200,6 @@
   padding: 40px;
   box-shadow: 1px 2px 0px #111;
 }
-
 .ipad-front-camera {
   width: 8px;
   height: 8px;
@@ -291,7 +209,6 @@
   top: 21px;
   left: 219px;
 }
-
 .ipad-front-camera span {
   display: block;
   width: 4px;
@@ -302,13 +219,11 @@
   top: 2px;
   left: 2px;
 }
-
 .ipad-front-display {
   width: 100%;
   height: 100%;
   margin-top: 11px;
 }
-
 .ipad-front-home-button {
   width: 22px;
   height: 22px;
@@ -320,7 +235,6 @@
   left: 211px;
   box-shadow: 1px 1px 2px #666;
 }
-
 .ipad-front-home-button span {
   width: 10px;
   height: 10px;
@@ -331,9 +245,7 @@
   border:1px solid #444;
   border-radius: 2px;
 } 
-
 /* /iPad */
-
 .small-ipad-container {
     position: relative;
     
@@ -407,7 +319,6 @@
         border-radius: 2px;
     }
 }
-
 .container.small-ipad-gif-text-container {
     width: 100%;
     
@@ -442,111 +353,6 @@
         }
     }
 }                   /* -------- /ipad with gif section --------*/
-
-
-
-
-          
-            /* ----------------------------------------
-            //        Gif Strip Section section
-            // ------------------------------------- */
-            
-            
-
-// .gif-strip {
-//     margin-top: 64px;
-//     margin-bottom: -5px;
-
-//     img {
-//         padding: 0;
-//         margin: -2px;
-//         width: 20%;
-//     }
-// }     
-
-// .small-gif-strip {
-//     margin-top: 62px;
-//     margin-bottom: -6px;
-//     width: 102%;
-    
-//     img {
-//         width: 33.5%;
-//         margin: -1%;
-//     }
-    
-//     img:first-child {
-//         margin-left: 1px;
-//     }
-// }                                       /* -------- /Gif Strip Section section --------*/
-
-
-
-
-
-
-            /* ----------------------------------------
-            //                GifGif CTA
-            // ------------------------------------- */
-
-
-
-// .orange-quote-section {
-//     text-transform: uppercase;
-//     background: #f7a73f;
-//     color: white;
-//     padding: 58px 0;
-    
-//     h2 {
-//         font-size: 1.8em;
-//         line-height: 1.1;
-//     }
-    
-//     p {
-//         color: #fff;
-//         border: 3px solid #fff;
-//         display: inline-block;
-//         padding: 8px 15px;
-//         margin-top: 29px;
-//         margin-bottom: 0;
-//     }
-
-// }                                /* ---------------- /GifGif CTA ----------------*/
-
-
-
-
-
-
-            
-           
-            /* ----------------------------------------
-            //           Branded Selfies CTA
-            // ------------------------------------- */
-            
-            
-
-// .branded-selfies-section {
-    
-//     text-transform: uppercase;
-//     color: #fff;
-//     background: url('/assets/Branded Selfie CTA Graphic.png') no-repeat;
-//     background-position: center;
-//     -webkit-background-size: cover;
-//     -moz-background-size: cover;
-//     -o-background-size: cover;
-//     background-size: cover;
-
-    
-//     p {
-//         color: #fff;
-//         border: 3px solid #fff;
-//         display: inline-block;
-//         padding: 8px 15px;
-//         margin-top: 29px;
-//     }
-// }                             /* ---------------- /Branded Selfies CTA ----------------*/
-
-
 .brandedselfies-cta-section {
     z-index: 2;
     background: url('/assets/Branded Selfie CTA Graphic.png') no-repeat;
@@ -568,24 +374,16 @@
     }
     
     .brandedselfies-link {
-        // font-size: 4vw;
         text-transform: uppercase;
         color: white;
         border: 0.4vw solid white;
         padding: 2.5vw 4vw;
         text-align: center;
-        // margin-left: 26.5vw;
         cursor: pointer;
     }
 }
 
 
-
-
-       
-       
-       
-       
         /*--------------------------------------------------------------
         //                        MEDIA QUERIES
         //----------------------------------------------------------- */
@@ -598,14 +396,6 @@
         height: 99vh;
         
         #gif-foreground-hero {
-            // position: absolute;
-            // top: -9999px;
-            // bottom: -9999px;
-            // left: -9999px;
-            // right: -9999px;
-            // margin: auto;
-            // padding-right: 3vw;
-            // padding-top: 49vw;
             position: absolute;
             height: 80vh;
             bottom: -15%;
@@ -654,7 +444,7 @@
             padding: 24% 0;
             margin-top: 0;
             margin-bottom: 0;
-            font-size: 7vw;
+            font-size: 6vw;
         }
     }
     .gif-sprites {
@@ -702,7 +492,8 @@
         .icon-block-1, .icon-block-2, .icon-block-3 {
             
             h5 {
-                font-size: 7vw;
+                font-size: 6vw;
+                font-family: 'gotham_bookregular';
                 margin-top: 8%;         
             }
             img {
@@ -868,27 +659,6 @@
             left: 66.66666vw;
         }
     }
-    // .small-gif-strip {
-    //     display: block;
-    //     -webkit-transform: scaleX(1.01);
-    //         -ms-transform: scaleX(1.01);
-    //             transform: scaleX(1.01);
-    //     margin-top: 16vw;
-    // }
-    // .orange-quote-section {
-    //     padding: 10% 0;
-        
-    //     h2 {
-    //         font-size: 6.5vw;
-    //     }
-    //     .book-now-button {
-    //         margin-top: 5%;
-    //         -webkit-transform: scale(0.9);
-    //             -ms-transform: scale(0.9);
-    //                 transform: scale(0.9);
-            
-    //     }
-    // }
     .gif-form-div {
         background: #fa9c25;
         padding: 9vw 0vw 1vw;
@@ -1003,8 +773,19 @@
             padding: 24px;
         }
     }
-}
+    .gif-body.sweet-alert {
+        width: 90vw;
+        margin-left: 0;
+        margin-right: 0;
+        left: 5vw;
+        top: 83vw !important;
+        bottom: 70vw;
+        border-radius: 2vw;
+        margin-top: -44vw !important;
+        margin-bottom: -32vw !important;
+    }
 
+}
 @media screen and (min-width: 768px) and (orientation: portrait) {
     .hero-image-container {
         width: 100%;
@@ -1314,34 +1095,6 @@
             }
         }
     }
-    // .small-gif-strip {
-    //     display: block;
-    //     -webkit-transform: scaleX(1.01);
-    //         -ms-transform: scaleX(1.01);
-    //             transform: scaleX(1.01);
-    //     margin-top: 9vw;
-    // }
-    // .orange-quote-section {
-    //     padding: 11vw 0;
-        
-    //     h2 {
-    //         font-size: 5.5vw;
-    //     }
-    //     a {
-    //         font-size: 3vw;
-    //     }
-    //     .book-now-button {
-    //         margin-top: 6%;
-    //         -webkit-transform: scale(0.9);
-    //             -ms-transform: scale(0.9);
-    //                 transform: scale(0.9);
-    //         color: #fff;
-    //         border: 0.7vw solid #fff;
-    //         display: inline-block;
-    //         padding: 1vw 2vw;
-            
-    //     }
-    // }
     .gif-form-div {
         background: #fa9c25;
         padding: 8vw 0vw 3vw;
@@ -1445,9 +1198,6 @@
         cursor: pointer;
     }
 }
-
-    
-    
     .branded-selfies-section {
         padding: 9% 2% 10% 2%;
         
@@ -1469,7 +1219,6 @@
         }
     }
 }
-
 @media screen and (min-width: 5px) and (max-width: 1023px) and (orientation: landscape) {
     .hero-image-container {
         width: 100%;
@@ -1489,12 +1238,7 @@
             display: none;
         }
         
-        // .logo-main {
-        //      height: 10vw;
-        //     left: 3vw;
-        //     top: 1vw;
-        // }
-   
+
         
         img#facebook-icon {
             position: absolute;
@@ -1875,31 +1619,6 @@
         
         display: none;
         
-        // display: block;
-        // margin-top: 1vw !important;
-        // position: relative;
-        // height: 45vw;
-        
-        // .sml-gif1 {
-        //     position: absolute;
-        //     width: 33.33333vw;
-        //     left: 0;
-        //     height: inherit;
-        // }
-        
-        // .sml-gif2 {
-        //     position: absolute;
-        //     width: 33.33333vw;
-        //     left: 33.33333vw;
-        //     height: inherit;
-        // }
-        
-        // .sml-gif3 {
-        //     position: absolute;
-        //     width: 33.33333vw;
-        //     left: 66.66666vw;
-        //     height: inherit;
-        // }
     }
     .branded-selfies-section {
         
@@ -2006,7 +1725,6 @@
         }
     }
 }
-
 @media screen and (min-width: 1024px) and (orientation: landscape) {
     .hero-image-container {
         width: 100%;
@@ -2196,9 +1914,6 @@
                     margin: -3vw;
                     height: auto;
                 }
-                // h2 {
-                //   margin-top: 3vw; 
-                // }
 
                 
                 img {
@@ -2518,7 +2233,6 @@
         }
     }
 }
-
 @media screen and (min-width: 1280px) and (orientation: landscape) {
     
     .hero-image-container {
@@ -2594,7 +2308,6 @@
     }
     
 }
-
 @media screen and (min-width: 1850px) and (min-height: 1000px) {
     
     .hero-image-container {
