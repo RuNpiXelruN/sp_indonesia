@@ -1028,64 +1028,14 @@ body.stop-scrolling {
     .sweet-alert {
         background-color: white;
         font-family: 'gotham_bookregular', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        width: 77vw !important;
-        /* height: 50vw !important; */
-        padding: 1vw 2vw 4vw !important;
-        border-radius: 5px;
-        text-align: center;
-        position: fixed;
-        left: 11.5vw !important;
-        top: 3vw !important;
-        margin-left: 0 !important;
-        margin-top: 0 !important;
-        overflow: hidden;
-        display: none;
-        z-index: 99999;
-    }
-    
-    .sweet-alert .sa-icon.sa-custom {
-        background-size: contain;
-        border-radius: 0;
-        border: none;
-        background-position: center center;
-        background-repeat: no-repeat;
-        border: none !important;
-    }
-    
-}
-@media screen and (min-width: 1024px) and (orientation: landscape) {
-    
-    .sweet-alert {
-        background-color: white;
-        font-family: 'gotham_bookregular', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        width: 77vw !important;
-        /* height: 50vw !important; */
-        padding: 1vw 2vw 4vw !important;
-        border-radius: 5px;
-        text-align: center;
-        position: fixed;
-        left: 11.5vw !important;
-        top: 7vw !important;
-        margin-left: 0 !important;
-        margin-top: 0 !important;
-        overflow: hidden;
-        display: none;
-        z-index: 99999;
-    }
-}
-@media screen and (min-width: 1200px) and (orientation: landscape) {
-    
-    .sweet-alert {
-        background-color: white;
-        font-family: 'gotham_bookregular', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         width: 60vw !important;
-        height: 38vw !important;
-        padding: 1vw 2vw 2vw !important;
+        /* height: 50vw !important; */
+        padding: 1vw 2vw 4vw !important;
         border-radius: 5px;
         text-align: center;
         position: fixed;
-        left: 19.5vw !important;
-        top: 11vw !important;
+        left: 20.5vw !important;
+        top: 7vw !important;
         margin-left: 0 !important;
         margin-top: 0 !important;
         overflow: hidden;
@@ -1099,19 +1049,24 @@ body.stop-scrolling {
         border: 1vw solid !important;
         border-radius: 40px;
         border-radius: 50%;
-        margin: 2vw 22vw 0vw !important;
+        /*margin: 2vw 23vw 0vw !important;*/
         padding: 0;
         position: relative;
         box-sizing: content-box;
     }
+    
+    .sweet-alert .sa-icon.sa-error {
+        border-color: #F27474 !important;
+        margin: 2vw 22vw 0 !important;
+    }
+    
     .sweet-alert .sa-icon.sa-error .sa-line {
         position: absolute;
         height: 1vw;
-        width: 7.5vw;
+        width: 8.5vw;
         background-color: #F27474;
         display: block;
-        top: 4.4vw;
-        left: 1vw;
+        top: 4.5vw;
         border-radius: 1vw;
     }
     
@@ -1119,13 +1074,162 @@ body.stop-scrolling {
         -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
         transform: rotate(45deg);
-        left: 1.1vw;
+        left: 0.7vw;
     }
+    
     .sweet-alert .sa-icon.sa-error .sa-line.sa-right {
         -webkit-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
         transform: rotate(-45deg);
-        right: 1.9vw;
+        right: 0.8vw;
+    }
+    .sweet-alert h2 {
+        color: #575757;
+        font-size: 6vw !important;
+        text-align: center;
+        font-weight: 600;
+        text-transform: none;
+        position: relative;
+        margin: 1vw 0 1vw 1vw !important;
+        padding: 0;
+        font-family: 'gotham_boldregular';
+        line-height: 8vw !important;
+        display: block;
+    }
+    .sweet-alert p {
+        color: #797979;
+        font-size: 2.5vw !important;
+        text-align: center;
+        font-weight: 300;
+        position: relative;
+        text-align: inherit;
+        float: none;
+        margin: 0;
+        padding: 0;
+        line-height: normal;
+        font-family: 'gotham_bookregular';
+    }
+    .sweet-alert button {
+        color: white;
+        border: none;
+        box-shadow: none;
+        font-size: 2vw;
+        font-weight: 500;
+        border-radius: 0 !important;
+        font-family: 'gotham_boldregular';
+        padding: 2vw 5vw !important;
+        margin: 0vw 0vw 0 0vw !important;
+        cursor: pointer;
+    }
+    
+    .sweet-alert .sa-icon.sa-custom {
+        background-size: contain;
+        border-radius: 0;
+        border: none;
+        background-position: center center;
+        background-repeat: no-repeat;
+        border: none !important;
+        margin: 2vw 23vw 0 !important;
+    }
+    
+}
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+    
+    .sweet-alert {
+        background-color: white;
+        font-family: 'gotham_bookregular', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        width: 64vw !important;
+        /* height: 50vw !important; */
+        padding: 1vw 2vw 4vw !important;
+        border-radius: 5px;
+        text-align: center;
+        position: fixed;
+        left: 17.5vw !important;
+        top: 14vw !important;
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+        overflow: hidden;
+        display: none;
+        z-index: 99999;
+    }
+    .sweet-alert .sa-icon {
+        width: 10vw !important;
+        height: 10vw !important;
+        border: 1vw solid !important;
+        border-radius: 40px;
+        border-radius: 50%;
+        /*margin: 2vw 24vw 0vw !important;*/
+        padding: 0;
+        position: relative;
+        box-sizing: content-box;
+    }
+    
+    .sweet-alert button {
+        color: white;
+        border: none;
+        box-shadow: none;
+        font-size: 2vw;
+        font-weight: 500;
+        border-radius: 0 !important;
+        font-family: 'gotham_boldregular';
+        padding: 2vw 5vw !important;
+        margin: 2vw 0vw 0 0vw !important;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width: 1200px) and (orientation: landscape) {
+    
+    .sweet-alert {
+        background-color: white;
+        font-family: 'gotham_bookregular', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        width: 47vw !important;
+        /* height: 38vw !important; */
+        padding: 1vw 2vw 2vw !important;
+        border-radius: 5px;
+        text-align: center;
+        position: fixed;
+        left: 26vw !important;
+        top: 11vw !important;
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+        overflow: hidden;
+        display: none;
+        z-index: 99999;
+    }
+    
+    .sweet-alert .sa-icon {
+        width: 7vw !important;
+        height: 7vw !important;
+        border: 1vw solid !important;
+        border-radius: 40px;
+        border-radius: 50%;
+        /*margin: 2vw 17vw 0vw !important;*/
+        padding: 0;
+        position: relative;
+        box-sizing: content-box;
+    }
+    .sweet-alert .sa-icon.sa-error .sa-line {
+        position: absolute;
+        height: 1vw;
+        width: 6vw;
+        background-color: #F27474;
+        display: block;
+        top: 3.2vw;
+        left: 0.5vw;
+        border-radius: 1vw;
+    }
+    
+    .sweet-alert .sa-icon.sa-error .sa-line.sa-left {
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        left: 0.5vw;
+    }
+    .sweet-alert .sa-icon.sa-error .sa-line.sa-right {
+        webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        right: 0.5vw;
     }
     .sweet-alert h2 {
         color: #575757;
@@ -1134,7 +1238,7 @@ body.stop-scrolling {
         font-weight: 600;
         text-transform: none;
         position: relative;
-        margin: 0vw 0 1vw !important;
+        margin: 0vw 0 0vw !important;
         padding: 0;
         font-family: 'gotham_boldregular';
         line-height: 8vw !important;
@@ -1162,11 +1266,14 @@ body.stop-scrolling {
         font-size: 1.5vw;
         border-radius: 0 !important;
         font-family: 'gotham_boldregular';
-        padding: 1vw 3vw !important;
-        margin: 2vw 0vw 0 0vw !important;
+        padding: 1.5vw 4vw !important;
+        margin: 2vw 0vw 2vw 0vw !important;
         cursor: pointer;
     }
-    
+    .sweet-alert .sa-icon.sa-error {
+        border-color: #F27474 !important;
+        margin: 2vw 17vw 0 !important;
+    }
     .sweet-alert .sa-icon.sa-custom {
         background-size: contain;
         border-radius: 0;
@@ -1176,6 +1283,7 @@ body.stop-scrolling {
         border: none !important;
         background-position: 0.5vw;
         width: 12vw !important;
+        margin: 2vw 17.5vw 0 !important;
     }
 }
 @media screen and (min-width: 1850px) and (min-height: 1000px) {
@@ -1183,19 +1291,107 @@ body.stop-scrolling {
     .sweet-alert {
         background-color: white;
         font-family: 'gotham_bookregular', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        width: 60vw !important;
-        height: 38vw !important;
+        width: 40vw !important;
+        /* height: 38vw !important; */
         padding: 1vw 2vw 2vw !important;
         border-radius: 5px;
         text-align: center;
         position: fixed;
-        left: 19.5vw !important;
-        top: 8vw !important;
+        left: 30vw !important;
+        top: 11vw !important;
         margin-left: 0 !important;
         margin-top: 0 !important;
         overflow: hidden;
         display: none;
         z-index: 99999;
+    }
+    .sweet-alert .sa-icon {
+        width: 5vw !important;
+        height: 5vw !important;
+        border: 1vw solid !important;
+        border-radius: 40px;
+        border-radius: 50%;
+        /* margin: 2vw 17vw 0vw !important; */
+        padding: 0;
+        position: relative;
+        box-sizing: content-box;
+    }
+    .sweet-alert .sa-icon.sa-error .sa-line {
+        position: absolute;
+        height: 1vw;
+        width: 4.5vw;
+        background-color: #F27474;
+        display: block;
+        top: 2vw;
+        left: 0.3vw;
+        border-radius: 1vw;
+    }
+    .sweet-alert .sa-icon.sa-error .sa-line.sa-left {
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        left: 0.3vw;
+    }
+    .sweet-alert .sa-icon.sa-error .sa-line.sa-right {
+        webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        right: 0.2vw;
+    }
+    .sweet-alert h2 {
+        color: #575757;
+        font-size: 4vw !important;
+        text-align: center;
+        font-weight: 600;
+        text-transform: none;
+        position: relative;
+        margin: 0vw 0 0vw !important;
+        padding: 0;
+        font-family: 'gotham_boldregular';
+        line-height: 8vw !important;
+        display: block;
+    }
+    .sweet-alert p {
+        color: #797979;
+        font-size: 1.5vw !important;
+        text-align: center;
+        font-weight: 300;
+        position: relative;
+        text-align: inherit;
+        float: none;
+        margin: 0;
+        padding: 0;
+        line-height: normal;
+        font-family: 'gotham_bookregular';
+    }
+    .sweet-alert button {
+        color: white;
+        border: none;
+        box-shadow: none;
+        font-size: 17px;
+        font-weight: 500;
+        font-size: 1.5vw;
+        border-radius: 0 !important;
+        font-family: 'gotham_boldregular';
+        padding: 1vw 3vw !important;
+        margin: 2vw 0vw 2vw 0vw !important;
+        cursor: pointer;
+    }
+    .sweet-alert .sa-icon.sa-error {
+        border-color: #F27474 !important;
+        margin: 2vw 14.5vw 0 !important;
+    }
+    .sweet-alert .sa-icon.sa-custom {
+        background-size: contain;
+        border-radius: 0;
+        border: none;
+        background-position: center center;
+        background-repeat: no-repeat;
+        border: none !important;
+        background-position: 0.5vw;
+        width: 12vw !important;
+        margin: 2vw 15vw 0 !important;
     }
 }
 
