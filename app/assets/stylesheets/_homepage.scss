@@ -2608,8 +2608,14 @@ ul.indicators {
                             top: 18vw;
                             text-transform: uppercase;
                             color: white;
-                            border: 0.3vw solid;
+                            border: 0.3vw solid white;
                             padding: 1vw 3vw;
+                            transition: background 0.3s ease, color 0.3s ease;
+                            
+                            &:hover {
+                                background: white;
+                                color: #2D2B2B;
+                            }
                         }
                     }
                 }
@@ -2662,12 +2668,18 @@ ul.indicators {
                         a {
                             font-size: 1.5vw;
                             position: absolute;
-                            left: 20vw;
+                            left: 19.7vw;
                             top: 18vw;
                             text-transform: uppercase;
                             color: white;
-                            border: 0.3vw solid;
+                            border: 0.3vw solid white;
                             padding: 1vw 3vw;
+                            transition: background 0.3s ease, color 0.3s ease;
+                            
+                            &:hover {
+                                background: white;
+                                color: #2D2B2B;
+                            }
                         }
                     }
                 }
@@ -2730,8 +2742,14 @@ ul.indicators {
                             text-transform: uppercase;
                             color: white;
                             top: 18vw;
-                            border: 0.3vw solid;
+                            border: 0.3vw solid white;
                             padding: 1vw 3vw;
+                            transition: background 0.3s ease, color 0.3s ease;
+                            
+                            &:hover {
+                                background: white;
+                                color: #2D2B2B;;
+                            }
                         }
                     }
                 }
@@ -2788,8 +2806,14 @@ ul.indicators {
                             top: 18vw;
                             text-transform: uppercase;
                             color: white;
-                            border: 0.3vw solid;
+                            border: 0.3vw solid white;
                             padding: 1vw 3vw;
+                            transition: background 0.3s ease, color 0.3s ease;
+                            
+                            &:hover {
+                                background: white;
+                                color: #2D2B2B;
+                            }
                         }
                     }
                 }
@@ -2827,6 +2851,13 @@ ul.indicators {
                 top: 4vw;
                 cursor: pointer;
                 font-family: 'gotham_boldregular';
+                transition: background 0.3s ease, color 0.3s ease;
+                
+                &:hover {
+                    background: white;
+                    color: #353535;
+                    
+                }
             }
             
             .maincontact-form-scrollpoint {
@@ -2893,6 +2924,12 @@ ul.indicators {
                 left: 38.5vw;
                 top: 24vw;
                 cursor: pointer;
+                transition: background 0.3s ease, color 0.3s ease;
+                
+                &:hover {
+                    background: white;
+                    color: #FF9B7E;
+                }
             }
             
             .partners-form-scrollpoint {
