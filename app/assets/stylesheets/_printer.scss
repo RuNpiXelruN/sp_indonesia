@@ -1583,3 +1583,86 @@
         }
     }
 }
+@media screen and (min-width: 1820px) and (min-height: 980px) {
+    
+    .printerpage-hero-section {
+        position: relative;
+        height: 99vh;
+        width: 100vw;
+        overflow: hidden;
+        
+        .printer-page-hero-image {
+            height: 99vh;
+            width: auto;
+            left: 50%;
+            -webkit-transform: translate(-50%, 3vw) scale(1.2);
+            -ms-transform: translate(-50%, 3vw) scale(1.2);
+            transform: translate(-50%, 3vw) scale(1.2);
+            position: absolute;
+            max-width: 500vw;
+        }
+        .printer-hero-quote {
+            display: block;
+            font-family: 'gotham_boldregular';
+            position: absolute;
+            color: white;
+            top: 10vw;
+            left: 30vw;
+            font-size: 3vw;
+        }
+        .printer-hero-text {
+            display: block;
+            position: absolute;
+            color: white;
+            top: 13.5vw;
+            left: 35vw;
+            font-size: 3vw;
+            font-family: 'gotham_boldregular';
+        }
+    }
+    .printer-form-div {
+        background: #8fdae6;
+        padding: 6vw 0vw 4vw;
+        position: relative;
+        margin-bottom: -7vw;
+        .printer-form-text {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 19vw;
+        }
+        .printer-form-section {
+            .printerhire-button.enquire-button {
+                text-transform: uppercase;
+                text-align: center;
+                color: white;
+                font-size: 2vw;
+                border: 0.4vw solid white;
+                padding: 1vw 3vw;
+                position: absolute;
+                left: 40.5vw;
+                top: 17vw;
+                cursor: pointer;
+                font-family: 'gotham_boldregular';
+            }
+            .printerhire-form-scrollpoint {
+                position: absolute;
+                left: 48vw;
+                top: 18vw;
+                display: none;
+                -webkit-transform: scale(1.4);
+                -ms-transform: scale(1.4);
+                transform: scale(1.4);
+                cursor: pointer;
+            }
+            .contact-form {
+                width: 60vw;
+                margin: -7vw 20vw 2vw;
+                position: relative;
+                height: 42vw;
+                display: none;
+                transform: scale(0.8);
+            }
+        }
+    }
+}

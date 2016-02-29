@@ -3595,7 +3595,7 @@ ul.indicators {
         .maincontact-form-section {
             .maincontact-form-scrollpoint {
                 position: absolute;
-                left: 38vw;
+                left: 37.5vw;
                 top: 3vw;
                 display: none;
                 -webkit-transform: scale(1.2);
@@ -3631,12 +3631,322 @@ ul.indicators {
         .partners-form-section {
             .partners-form-scrollpoint {
                 position: absolute;
-                left: 48vw;
+                left: 47.5vw;
                 top: 25vw;
                 display: none;
                 -webkit-transform: scale(1.2);
                 -ms-transform: scale(1.2);
                 transform: scale(1.2);
+                cursor: pointer;
+            }
+            .contact-form {
+                width: 60vw;
+                margin: 0vw 20vw -1vw;
+                position: relative;
+                height: 45vw;
+                display: none;
+                -webkit-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                transform: scale(0.8);
+            }
+        }
+    }
+}
+@media screen and (min-width: 1820px) and (min-height: 980px) {
+    
+    .navcontainer.navbar-desktop {
+        height: 10vw;
+    }
+    .navcontainer {
+        .nav-elements {
+            img {
+                top: 2.2vw !important;
+                left: 3vw;
+                height: 5.5vw;
+            }
+            .nav-list {
+                left: 18vw;
+                font-size: 1.3vw;
+                font-family: 'gotham_bookregular';
+                margin-top: 2.8vw !important;
+                text-transform: uppercase;
+                z-index: 999;
+            }
+        }
+    }
+    .homepage-hero-section {
+        
+        .slider {
+            top: -10vw;
+            
+            .indicators {
+                position: absolute;
+                text-align: center;
+                left: 0;
+                right: 0;
+                bottom: 1vw;
+                margin: 0;
+            }
+        
+            img.printer-slider1 {
+                background-size: 110vw;
+                background-position: -5vw 0vw;
+            }
+            
+            .sliderimg2 {
+                background-size: 90vw;
+                background-position: 5vw 2vw;
+                position: absolute;
+                left: 50%;
+                -webkit-transform: translate(-49%, 3vw) scale(1.2);
+                -ms-transform: translate(-49%, 3vw) scale(1.2);
+                transform: translate(-49%, 3vw) scale(1.2);
+            }
+            
+            .livefeed-slider4 {
+                background-position: -4vw 0vw;
+                background-size: 110vw;
+            }
+        }
+    }
+    .home-hero-small {
+        .hero-printer-quote {
+            text-align: center;
+            position: absolute;
+            top: 10vw;
+            color: white;
+            left: 30vw;
+            font-size: 3vw;
+        }
+        .hero-printer-text {
+            text-align: center;
+            position: absolute;
+            top: 13vw;
+            color: white;
+            left: 36vw;
+            font-size: 3vw;
+        }
+        .hero-gif-quote {
+            text-align: center;
+            position: absolute;
+            top: 9vw;
+            color: white;
+            left: 39vw;
+            font-size: 3vw;
+        }
+        .hero-gif-text {
+            text-align: center;
+            position: absolute;
+            top: 12.5vw;
+            color: white;
+            left: 24vw;
+            font-size: 3vw;
+        }
+        .hero-selfie-quote {
+            text-align: center;
+            position: absolute;
+            top: 10vw;
+            color: white;
+            left: 37vw;
+            font-size: 3vw;
+        }
+        .hero-selfie-text {
+            text-align: center;
+            position: absolute;
+            top: 13.5vw;
+            color: white;
+            left: 31vw;
+            font-size: 3vw;
+        }
+        .hero-livefeed-quote {
+            text-align: center;
+            position: absolute;
+            top: 10vw;
+            color: white;
+            left: 42vw;
+            font-size: 3vw;
+        }
+        .hero-livefeed-text {
+            text-align: center;
+            position: absolute;
+            top: 13.5vw;
+            color: white;
+            left: 34vw;
+            font-size: 3vw;
+        }
+    }
+    .for-rel {
+        .product-row-1 {
+            .product-row-1-col-1-section {
+                .instagram-printer-rel-section {
+                    .product1 {
+                        p {
+                            font-size: 3vw;
+                            color: white;
+                            line-height: 3vw;
+                            top: 7vw;
+                            margin-top: 0;
+                            left: 14vw;
+                            margin: 0;
+                            position: absolute;
+                            text-transform: uppercase;
+                            text-align: center;
+                        }
+                        .instagram-printer-link {
+                            font-size: 1vw;
+                            position: absolute;
+                            left: 19vw;
+                            top: 15vw;
+                            text-transform: uppercase;
+                            color: white;
+                            border: 0.3vw solid;
+                            padding: 1vw 3vw;
+                        }
+                    }
+                }
+            }
+            .product-row-1-col-2-section {
+                .live-feed-rel-section {
+                    .product2 {
+                        p {
+                            font-size: 3vw;
+                            color: white;
+                            line-height: 3vw;
+                            top: 7vw;
+                            left: 20.5vw;
+                            margin: 0;
+                            margin-top: 0;
+                            text-transform: uppercase;
+                            text-align: center;
+                        }
+                        a {
+                            font-size: 1vw;
+                            position: absolute;
+                            left: 20vw;
+                            top: 15vw;
+                            text-transform: uppercase;
+                            color: white;
+                            border: 0.3vw solid;
+                            padding: 1vw 3vw;
+                        }
+                    }
+                }
+            }
+        }
+        .product-row-2 {
+            .product-row-2-col-1-section {
+                .gifgif-rel-section {
+                    .product3 {
+                        p {
+                            font-size: 3vw;
+                            color: white;
+                            line-height: 3vw;
+                            top: 7vw;
+                            left: 21vw;
+                            margin: 0;
+                            margin-top: 0;
+                            text-transform: uppercase;
+                            text-align: center;
+                        }
+                        .gifgif-link {
+                            font-size: 1vw;
+                            position: absolute;
+                            left: 19vw;
+                            text-transform: uppercase;
+                            color: white;
+                            top: 15vw;
+                            border: 0.3vw solid;
+                            padding: 1vw 3vw;
+                        }
+                    }
+                }
+            }
+            .product-row-2-col-2-section {
+                .branded-selfie-rel-section {
+                    .product4 {
+                        p {
+                            font-size: 3vw;
+                            color: white;
+                            line-height: 3vw;
+                            margin: 0;
+                            margin-top: 0;
+                            top: 7vw;
+                            left: 17vw;
+                            text-transform: uppercase;
+                            text-align: center;
+                        }
+                        .branded-selfie-link {
+                            font-size: 1vw;
+                            position: absolute;
+                            left: 20vw;
+                            top: 15vw;
+                            text-transform: uppercase;
+                            color: white;
+                            border: 0.3vw solid;
+                            padding: 1vw 3vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .maincontact-form-div {
+        background: #353535;
+        padding: 2vw 0vw 7vw;
+        position: relative;
+        margin-bottom: -7vw;
+    
+        .maincontact-form-text {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 5vw;
+        }
+        .maincontact-form-section {
+            .maincontact-form-scrollpoint {
+                position: absolute;
+                left: 38.5vw;
+                top: 3vw;
+                display: none;
+                -webkit-transform: scale(1.4);
+                -ms-transform: scale(1.4);
+                transform: scale(1.4);
+                cursor: pointer;
+            }
+            .contact-form {
+                width: 60vw;
+                margin: 0vw 10vw -11vw;
+                position: relative;
+                height: 45vw;
+                display: none;
+                -webkit-transform: scale(0.8);
+                -ms-transform: scale(0.8);
+                transform: scale(0.8);
+            }
+        }
+    }
+    .partners-form-div {
+        background: #ff9b7e;
+        padding: 6vw 0vw 4vw;
+        position: relative;
+        margin-bottom: 0vw;
+        z-index: -1;
+        
+        .partners-form-text {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 14vw;
+        }
+        .partners-form-section {
+            .partners-form-scrollpoint {
+                position: absolute;
+                left: 48.5vw;
+                top: 25vw;
+                display: none;
+                -webkit-transform: scale(1.4);
+                -ms-transform: scale(1.4);
+                transform: scale(1.4);
                 cursor: pointer;
             }
             .contact-form {

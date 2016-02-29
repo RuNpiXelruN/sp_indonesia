@@ -2385,5 +2385,70 @@
         }
     }
 }
+@media screen and (min-width: 1820px) and (min-height: 980px) {
+    
+    .hero-image-container {
+        .gif-hero-text {
+            position: absolute;
+            color: white;
+            font-family: 'gotham_boldregular';
+            text-transform: uppercase;
+            text-align: center;
+            left: 22vw;
+            font-size: 3vw;
+            z-index: 1;
+            line-height: 3vw;
+            top: 9vw;
+        }
+    }
+    .gif-form-div {
+        background: #fa9c25;
+        padding: 7vw 0vw 11vw;
+        position: relative;
+        margin-bottom: -7vw;
+        z-index: -1;
+        
+        .gif-form-text {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 11vw;
+        }
+        .gif-form-section {
+            .gifhire-button.enquire-button {
+                text-transform: uppercase;
+                text-align: center;
+                color: white;
+                font-size: 1.5vw;
+                border: 0.4vw solid white;
+                padding: 1vw 3vw;
+                position: absolute;
+                left: 41vw;
+                top: 18vw;
+                cursor: pointer;
+            }
+            .gif-form-scrollpoint {
+                position: absolute;
+                left: 48vw;
+                top: 17vw;
+                display: none;
+                -webkit-transform: scale(1.4);
+                -ms-transform: scale(1.4);
+                transform: scale(1.4);
+                cursor: pointer;
+            }
+            .contact-form {
+                width: 60vw;
+                margin: -3vw 20vw -8vw;
+                position: relative;
+                height: 45vw;
+                display: none;
+                -webkit-transform: scale(0.8);
+                -ms-transform: scale(0.8);
+                transform: scale(0.8);
+            }
+        }
+    }
+}
 
                                                                                         /* ------------------- /MEDIA QUERIES ------------------*/
