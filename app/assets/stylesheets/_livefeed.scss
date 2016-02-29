@@ -1105,7 +1105,13 @@
                 position: absolute;
                 left: 40.5vw;
                 top: 18vw;
-                cursor: pointer;           
+                cursor: pointer;
+                transition: background 0.3s ease, color 0.3s ease;
+                
+                &:hover {
+                    background: white;
+                    color: #eea4ac;
+                }
             }
             
             .livefeed-form-scrollpoint {

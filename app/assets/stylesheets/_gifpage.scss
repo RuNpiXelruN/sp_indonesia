@@ -2178,6 +2178,12 @@
                 top: 19vw;
                 font-family: 'gotham_boldregular';
                 cursor: pointer;
+                transition: background 0.3s ease, color 0.3s ease;
+                
+                &:hover {
+                    background: white;
+                    color: #fa9c25;
+                }
             }
             
             .gif-form-scrollpoint {
@@ -2230,6 +2236,12 @@
             margin-left: 39vw;
             cursor: pointer;
             font-family: 'gotham_boldregular';
+            transition: background 0.3s ease, color 0.3s ease;
+            
+            &:hover {
+                background: white;
+                color: #353535;
+            }
         }
     }
 }
