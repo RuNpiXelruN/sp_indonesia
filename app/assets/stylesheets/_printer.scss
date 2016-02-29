@@ -1500,7 +1500,7 @@
     //     z-index: 99999;
     // }
 }
-@media screen and (min-width: 1850px) and (min-height: 1000px) {
+@media screen and (min-width: 1250px) and (min-height: 580px) {
     
     .printerpage-hero-section {
         position: relative;
@@ -1564,12 +1564,12 @@
             }
             .printerhire-form-scrollpoint {
                 position: absolute;
-                left: 48vw;
+                left: 47vw;
                 top: 18vw;
                 display: none;
-                -webkit-transform: scale(1.4);
-                -ms-transform: scale(1.4);
-                transform: scale(1.4);
+                -webkit-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                transform: scale(1.2);
                 cursor: pointer;
             }
             .contact-form {

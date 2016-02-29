@@ -1841,7 +1841,7 @@ body {
         }
     }
 }
-@media screen and (min-width: 1850px) and (min-height: 1000px) {
+@media screen and (min-width: 1250px) and (min-height: 580px) {
     .selfies-hero-image-container {
         .nav-selfie-image {
             .selfies-hero-text {
@@ -1885,12 +1885,12 @@ body {
             }
             .selfie-form-scrollpoint {
                 position: absolute;
-                left: 48vw;
-                top: 19vw;
+                left: 47vw;
+                top: 18vw;
                 display: none;
-                -webkit-transform: scale(1.4);
-                -ms-transform: scale(1.4);
-                transform: scale(1.4);
+                -webkit-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                transform: scale(1.2);
             }
             .contact-form {
                 width: 60vw;

@@ -1411,7 +1411,7 @@
         }
     }
 }
-@media screen and (min-width: 1850px) and (min-height: 1000px) {
+@media screen and (min-width: 1250px) and (min-height: 580px) {
     
     .livefeed-hero-section {
         .livefeed-hero-quote {
@@ -1457,12 +1457,12 @@
             }
             .livefeed-form-scrollpoint {
                 position: absolute;
-                left: 48vw;
-                top: 18vw;
+                left: 47vw;
+                top: 17vw;
                 display: none;
-                -webkit-transform: scale(1.5);
-                -ms-transform: scale(1.5);
-                transform: scale(1.5);
+                -webkit-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                transform: scale(1.2);
                 cursor: pointer;
             }
             .contact-form {

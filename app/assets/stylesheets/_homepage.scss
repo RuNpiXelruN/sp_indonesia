@@ -3342,7 +3342,7 @@ ul.indicators {
     }
 }
 }
-@media screen and (min-width: 1250px) and (min-height: 550px) {
+@media screen and (min-width: 1250px) and (min-height: 580px) {
     
     .navcontainer.navbar-desktop {
         height: 10vw;
@@ -3595,12 +3595,12 @@ ul.indicators {
         .maincontact-form-section {
             .maincontact-form-scrollpoint {
                 position: absolute;
-                left: 38vw;
+                left: 37vw;
                 top: 3vw;
                 display: none;
-                -webkit-transform: scale(1.5);
-                -ms-transform: scale(1.5);
-                transform: scale(1.5);
+                -webkit-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                transform: scale(1.2);
                 cursor: pointer;
             }
             .contact-form {
@@ -3631,12 +3631,12 @@ ul.indicators {
         .partners-form-section {
             .partners-form-scrollpoint {
                 position: absolute;
-                left: 48vw;
+                left: 47vw;
                 top: 25vw;
                 display: none;
-                -webkit-transform: scale(1.5);
-                -ms-transform: scale(1.5);
-                transform: scale(1.5);
+                -webkit-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                transform: scale(1.2);
                 cursor: pointer;
             }
             .contact-form {
