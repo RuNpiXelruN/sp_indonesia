@@ -216,7 +216,7 @@ body.stop-scrolling {
   .sweet-alert .sa-icon {
     width: 14vw !important;
     height: 14vw !important;
-    border: 1vw solid !important;
+    /*border: 1vw solid !important;*/
     border-radius: 40px;
     border-radius: 50%;
     margin: 2vw 29vw !important;
@@ -224,7 +224,7 @@ body.stop-scrolling {
     position: relative;
     box-sizing: content-box; }
     .sweet-alert .sa-icon.sa-error {
-      border-color: #F27474; }
+      border: 1vw solid #F27474 }
       .sweet-alert .sa-icon.sa-error .sa-x-mark {
         position: relative;
         display: block; }
