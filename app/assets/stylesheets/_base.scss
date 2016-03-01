@@ -205,3 +205,126 @@ hr {
 }
 
 
+.facebook-social, .twitter-social, .instagram-social {
+    background: url('social-icons-spritesheet.png') no-repeat;
+    position: absolute;
+    height: 4vw;
+    width: 5vw;
+    background-size: 5vw;
+    z-index: 999;
+    cursor: pointer;
+}
+.facebook-social {
+    background-position: 0vw 0vw;
+    top: 16vw;
+    right: 0vw;
+}
+.twitter-social {
+    right: 0vw;
+    top: 22vw;
+    background-position: 0vw -4vw;
+}
+.instagram-social {
+    right: 0vw;
+    top: 27.5vw;
+    background-position: 0vw -8vw;
+}
+
+@media screen and (min-width: 5px) and (orientation: portrait) {
+    .facebook-social, .twitter-social, .instagram-social {
+        background: url("social-icons-spritesheet.png") no-repeat;
+        position: absolute;
+        height: 10vw;
+        width: 11vw;
+        background-size: 12vw;
+        z-index: 999;
+        cursor: pointer;
+    }
+    .facebook-social {
+        background-position: 0vw -1vw;
+        top: 3vw;
+        right: 50vw;
+    }
+    .twitter-social {
+        right: 39vw;
+        top: 3vw;
+        background-position: 0vw -9.5vw;
+    }
+    .instagram-social {
+        right: 25vw;
+        top: 3vw;
+        background-position: 0vw -19vw;
+    }
+}
+@media screen and (min-width: 768px) and (orientation: portrait) {
+    .facebook-social, .twitter-social, .instagram-social {
+        background: url("social-icons-spritesheet.png") no-repeat;
+        position: absolute;
+        height: 10vw;
+        width: 11vw;
+        background-size: 12vw;
+        z-index: 999;
+        cursor: pointer;
+    }
+    .facebook-social {
+        background-position: 0vw -1vw;
+        top: 2vw;
+        right: 50vw;
+    }
+    .twitter-social {
+        right: 39vw;
+        top: 2vw;
+        background-position: 0vw -9.5vw;
+    }
+    .instagram-social {
+        right: 25vw;
+        top: 2vw;
+        background-position: 0vw -19vw;
+    }
+}
+@media screen and (min-width: 5px) and (max-width: 1023px) and (orientation: landscape) {
+    .facebook-social, .twitter-social, .instagram-social {
+        background: url("social-icons-spritesheet.png") no-repeat;
+        position: absolute;
+        height: 6vw;
+        width: 6vw;
+        background-size: 6vw;
+        z-index: 999;
+        cursor: pointer;
+    }
+    .facebook-social {
+        background-position: -1vw 0vw;
+        top: 1vw;
+        right: 25vw;
+        height: 5vw;
+    }
+    .twitter-social {
+        right: 20vw;
+        top: 1.6vw;
+        background-position: 0vw -5vw;
+        height: 4.4vw;
+    }
+    .instagram-social {
+        right: 13vw;
+        top: 0.9vw;
+        background-position: 0vw -9vw;
+        width: 6vw;
+    }
+}
+@media screen and (min-width: 1200px) and (orientation: landscape) {
+    .facebook-social {
+        background-position: 0vw 0vw;
+        top: 16vw;
+        right: 0vw;
+    }
+    .twitter-social {
+        right: 0vw;
+        top: 20vw;
+        background-position: 0vw -4vw;
+    }
+    .instagram-social {
+        right: 0vw;
+        top: 24.5vw;
+        background-position: 0vw -8vw;
+    }
+}
