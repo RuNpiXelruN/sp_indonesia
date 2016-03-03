@@ -6,9 +6,9 @@ Rails.application.routes.draw do
   
   get '/livefeed', to: 'pages#livefeed'
   
-  get '/gifgif', :to => 'pages#gifpage'
+  # get '/gifgif', :to => 'pages#gifpage'
   
-  get '/branded_selfies', to: 'pages#selfies'
+  # get '/branded_selfies', to: 'pages#selfies'
   
   get '/testnav', to: 'pages#testnav'
   

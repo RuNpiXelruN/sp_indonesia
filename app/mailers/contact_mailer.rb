@@ -1,5 +1,5 @@
 class ContactMailer < ActionMailer::Base
-    default to: 'hello@socialplayground.com.au'
+    default to: 'info@socialplayground.com.sg'
     
     def contact_email(contact)
         @contact = contact
