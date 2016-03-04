@@ -1,10 +1,10 @@
 class ContactMailer < ActionMailer::Base
-    # default to: 'justindavidson23@gmail.com'
+    default to: 'justindavidson23@gmail.com', except: :partner_email
     
     def contact_email(contact)
         @contact = contact
 
-        mail(from: @contact.email, subject: 'Contact Form Message').deliver
+        mail(from: @contact.email, subject: 'Enquiry from Singapore Main Contact Form').deliver
     end
     
     def partner_email(contact)
