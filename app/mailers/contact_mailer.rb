@@ -1,5 +1,5 @@
 class ContactMailer < ActionMailer::Base
-    default to: 'info@socialplayground.com.sg'
+    # default to: 'justindavidson23@gmail.com'
     
     def contact_email(contact)
         @contact = contact
@@ -10,8 +10,8 @@ class ContactMailer < ActionMailer::Base
     def partner_email(contact)
         @contact = contact
         
-
-        mail(from: @contact.email, subject: 'Contact Form Message').deliver
+        mail(to: 'justin@socialplayground.com.au', bcc: 'justindavidson23@rocketmail.com')
+        mail(from: @contact.email, subject: 'Enquiry from Singapore Partner Form').deliver
     end
     
     def printer_email(contact)
