@@ -15,14 +15,6 @@ class Contact < ActiveRecord::Base
         elsif 
             self.contact_type == "printer_hire"
             ContactMailer.printer_email(self).deliver
-            
-        elsif
-            self.contact_type == "gifgif_hire"
-            ContactMailer.gif_email(self).deliver
-            
-        elsif
-            self.contact_type == "selfie_hire"
-            ContactMailer.selfie_email(self).deliver
 
         else
             ContactMailer.livefeed_email(self).deliver
