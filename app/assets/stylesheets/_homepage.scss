@@ -459,7 +459,7 @@ ul.indicators {
         }
     
         .business-name {
-            margin-bottom: 2vw;
+            margin-bottom: -2vw;
             font-size: 3vw;
         }
         
@@ -909,7 +909,7 @@ ul.indicators {
                 -webkit-transition: color 0.4s ease;
                 transition: color 0.4s ease;
                 width: 40vw;
-                margin: 5vw 20vw 5vw;
+                margin: 1vw 20vw 5vw;
                 
                 &:focus {
                     color: white;
@@ -2357,7 +2357,7 @@ ul.indicators {
             }
         
             .business-name {
-                margin-bottom: 2vw;
+                margin-bottom: -2vw;
                 font-size: 3vw;
             }
             
@@ -3030,7 +3030,7 @@ ul.indicators {
                 }
             
                 .business-name {
-                    margin-bottom: 2vw;
+                    margin-bottom: -2vw;
                     font-size: 3vw;
                 }
                 
