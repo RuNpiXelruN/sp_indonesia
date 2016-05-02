@@ -4,39 +4,41 @@ class ContactMailer < ActionMailer::Base
     def contact_email(contact)
         @contact = contact
         
-        mail(to: 'justindavidson23@gmail.com')
-        mail(from: @contact.email, subject: 'Enquiry from Singapore Main Contact Form').deliver
+        mail(to: 'hello@socialplayground.co.id', bcc: 'justin@socialplayground.com.au')
+        mail(from: @contact.email, subject: 'Enquiry from Home Page').deliver
     end
     
     def partner_email(contact)
         @contact = contact
         
-        mail(to: 'justin@socialplayground.com.au', bcc: 'justindavidson23@rocketmail.com')
-        mail(from: @contact.email, subject: 'Enquiry from Singapore Partner Form').deliver
+        mail(to: 'partners@socialplayground.com.au', bcc: 'justindavidson23@gmail.com')
+        mail(from: @contact.email, subject: "Enquiry from Indonesia's Partner Form").deliver
     end
     
     def printer_email(contact)
         @contact = contact
         
-        mail(from: @contact.email, subject: 'Contact Form Message').deliver
+        mail(to: 'hello@socialplayground.co.id', bcc: 'justin@socialplayground.com.au')
+        mail(from: @contact.email, subject: 'Enquiry from Instagram Printer Page').deliver
     end
     
-    def gif_email(contact)
-        @contact = contact
+    # def gif_email(contact)
+    #     @contact = contact
         
-        mail(from: @contact.email, subject: 'Contact Form Message').deliver
-    end
+    #     mail(from: @contact.email, subject: 'Contact Form Message').deliver
+    # end
     
-    def selfie_email(contact)
-        @contact = contact
+    # def selfie_email(contact)
+    #     @contact = contact
         
-        mail(from: @contact.email, subject: 'Contact Form Message').deliver
-    end
+    #     mail(from: @contact.email, subject: 'Contact Form Message').deliver
+    # end
     
     def livefeed_email(contact)
         @contact = contact
         
-        mail(from: @contact.email, subject: 'Contact Form Message').deliver
+        mail(to: 'hello@socialplayground.co.id', bcc: 'justin@socialplayground.com.au')
+        mail(from: @contact.email, subject: 'Enquiry from LiveFeed Page').deliver
     end
 end
 

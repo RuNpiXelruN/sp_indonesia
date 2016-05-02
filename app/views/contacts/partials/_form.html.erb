@@ -2,8 +2,8 @@
     <div class="form-content">
         <%= hidden_field_tag 'contact[contact_type]', contact_type %>
         <%= text_field_tag 'contact[name]', nil, placeholder: "NAME", class: "name-field" %>
-        <%= email_field_tag 'contact[email]', nil, placeholder: "EMAIL", class: "email-field" %>
         <%= telephone_field_tag 'contact[phone]', nil, placeholder: "PHONE", class: "phone-field" %>
+        <%= email_field_tag 'contact[email]', nil, placeholder: "EMAIL", class: "email-field" %>
         <%= text_area_tag 'contact[comments]', nil, placeholder: "COMMENTS", class: "comments-field" %>
         <%= submit_tag "SUBMIT", class: "form-submit-button" %>
     </div>

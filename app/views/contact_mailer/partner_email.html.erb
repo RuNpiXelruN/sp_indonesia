@@ -5,11 +5,13 @@
     </head>
     <body>
         
-        <p>New message from Social Playgrounds Partner Contact Form!, from <%= "#{@contact.name}, #{@contact.email}" %></p>
+        <p>Partner enquiry from <%= @contact.email %></p>
         </br>
-        <p>Name:    <%= @contact.name %></p>
-        <p>Phone:    <%= @contact.phone %></p>
-        <p>Message:    <%= @contact.comments %></p>
+        <p><strong>Name: </strong><%= @contact.name %></p>
+        </br>
+        <p><strong>Phone: </strong><%= @contact.phone %></p>
+        </br>
+        <p><strong>Message: </strong><%= @contact.comments %></p>
         
     </body>
 </html>
