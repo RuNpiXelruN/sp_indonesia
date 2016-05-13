@@ -4,7 +4,7 @@
 .printerpage-hero-section {
 
     position: relative;
-    height: 99vh;
+    height: 150vh;
     width: 100vw;
 
 
@@ -1040,8 +1040,8 @@
     .printerpage-hero-section {
         
         .printer-page-hero-image {
-            height: 99vh;
-            width:auto;
+            height: auto;
+            width: 100%;
             left: 50%;
             transform: translate(-50%, 0);
             position: absolute;
