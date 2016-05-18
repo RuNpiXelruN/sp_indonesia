@@ -185,6 +185,15 @@
             background-size: 69vw;
         }
         
+        .stp-icon-text {
+            position: absolute;
+            top: 47vw;
+            left: 34vw;
+            text-transform: initial;
+            font-size: 4.5vw;
+            font-family: 'gotham_bookregular';
+        }
+        
         .livefeed-tag {
             background: url('livefeed/livefeed_sprites.png') no-repeat;
             height: 20vw;
@@ -205,6 +214,15 @@
             top: 8vw;
             background-position: -42vw -20vw;
             background-size: 69vw;
+        }
+        
+        .stp-icon-text-stream {
+            position: absolute;
+            left: 21vw;
+            top: 47vw;
+            text-transform: initial;
+            font-size: 4.5vw;
+            font-family: 'gotham_bookregular';
         }
    }
     .livefeed-facts-section {
@@ -483,7 +501,7 @@
             .stp-icon-text {
                 position: absolute;
                 top: 45vw;
-                left: 30vw !important;
+                left: 38vw !important;
                 text-transform: initial;
                 font-size: 3.5vw !important;
                 font-family: 'gotham_bookregular';
@@ -543,6 +561,14 @@
                 top: 8vw;
                 background-position: -40vw -20vw;
                 background-size: 69vw;
+            }
+            .stp-icon-text-stream {
+                position: absolute;
+                left: 28vw;
+                top: 47vw;
+                text-transform: initial;
+                font-size: 3.5vw;
+                font-family: 'gotham_bookregular';
             }
 
             

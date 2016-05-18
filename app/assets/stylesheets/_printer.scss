@@ -4,7 +4,7 @@
 .printerpage-hero-section {
 
     position: relative;
-    height: 150vh;
+    height: 100vh;
     width: 100vw;
 
 
@@ -146,6 +146,7 @@
 @media screen and (min-width: 5px) and (orientation: portrait) {
     
     .printerpage-hero-section {
+        height: 100vh;
         
         .printer-page-hero-image {
             height: 99vh;
@@ -212,10 +213,10 @@
                 font-family: 'gotham_boldregular';
             }
             
-            .stp-icon-text {
+            .stp-icon-text-printer {
                 position: absolute;
                 top: 47vw;
-                left: 22vw;
+                left: 34vw;
                 text-transform: initial;
                 font-size: 4.5vw;
                 font-family: 'gotham_bookregular';
@@ -527,12 +528,12 @@
                 font-size: 6vw;
             }
             
-            .stp-icon-text {
+            .stp-icon-text-printer {
                 position: absolute;
                 top: 45vw;
-                left: 24vw;
+                left: 39vw;
                 text-transform: initial;
-                font-size: 4.5vw;
+                font-size: 3.5vw !important;
                 font-family: 'gotham_bookregular';
             }
         }
@@ -1038,6 +1039,7 @@
 }
 @media screen and (min-width: 1024px) and (orientation: landscape) {
     .printerpage-hero-section {
+        height: 57vw !important;
         
         .printer-page-hero-image {
             height: auto;
