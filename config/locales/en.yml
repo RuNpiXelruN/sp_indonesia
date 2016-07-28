@@ -20,4 +20,42 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+
+  # homepage
+
+  #  hire_printer: 'Hadirkan live Instagram printer di acara Anda'
+  bridging_gap: 'Bridging the gap between the online and offline worlds through live digital experiences.'
+  we_work_with_kids: 'We work with some of the coolest kids in the playground.'
+  #and_run_events: 'Kami juga terlibat di banyak acara yang luar biasa'
+  join_mailing_list: 'Join our mailing list and we’ll keep you up to date</br>on all the fun and games.'
+  enter_email: 'Masukkan email Anda'
+  at_the_end_of_the_day: 'At the end of the day</br>we like to have fun.'
+  we_know_you_do_too: 'We know you do too. That’s why</br>we created Social Playground.</br></br>Organize a play date today!'
+  partners: 'Partners'
+  interested_in_license: 'Interested in a commercial license? We’re on the lookout for global playmates. Get in touch to find out more.'
+
+  # printer
+
+  take_photo_to_instagram: 'Take a photo</br>on instagram'
+  add_hash_tag: 'Add the event</br>hashtag'
+  collect_photo: 'Collect your</br>print instantly'
+  spread_content: 'Spread Content Organically'
+  inspire_attendees: 'Inspire attendees to share user generated content from anywhere in your event and build online conversations about your brand.'
+  drive_hash_tag: 'Drive Your Hashtag Further'
+  incentivize_consumers: 'Incentivize consumers to tag their photos with your brand or event hashtag, driving viral reach.'
+  engage_via_offers: 'Engage Via Offers & Competitions'
+  integrate_hash_tag: 'Integrate hashtag competitions or brand your printed photos with exclusive offers to engage consumers further.'
+  post_content: 'Post Event Content & Insights'
+  well_provide_photo: 'We’ll provide you with a digital copy of all of your photos and a detailed insights report so you can see exactly how much engagement was generated.'
+  like_the_printer: 'Like the printer?</br>check out our Live Feed'
+
+  # live feed
+
+  stream_the_images: 'Stream the images on</br>an event screen, instantly.'
+  put_attendees: 'Put your event attendees in the spotlight and encourage them to upload content to their social media channels,</br>in the moment.'
+  beautifull_displays: 'Beautiful Displays, Everywhere'
+  showcase_content: 'Showcase your content in engaging, animated displays across one or multiple screens via our flexible display options.'
+  protect_reputation: 'Protect Your Brand Reputation'
+  need_control: 'Need to exercise a little control? We enable content moderation on the fly to ensure only the best content is featured on your display.'
+  post_engagement: 'Post Event Engagement'
+  continue_conversation: 'Continue the conversation post-event or engage fans at home by embedding the stream within your website or Facebook app.'

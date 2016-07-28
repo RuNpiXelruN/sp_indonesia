@@ -812,15 +812,15 @@
         
         .livefeed-snap-sprite {
             background: url("livefeed/livefeed_sprites.png") no-repeat;
-            height: 8vw;
+            height: 8vw !important;
             margin-left: 14vw;
             margin-top: 5vw;
-            width: 6vw;
+            width: 6vw !important;
             background-position: -1.6vw 0vw;
             background-size: 28vw;
             
             &:hover {
-                background-position: -1.6vw -8vw;
+                background-position: -1.6vw -8vw !important;
 
             }
         }
@@ -829,15 +829,15 @@
         
         .livefeed-tag-sprite {
             background: url("livefeed/livefeed_sprites.png") no-repeat;
-            height: 7.7vw;
+            height: 7.7vw !important;
             margin-left: 13vw;
             margin-top: 5vw;
-            width: 8vw;
+            width: 8vw !important;
             background-position: -8.3vw 0.2vw;
             background-size: 28vw;
             
             &:hover {
-                background-position: -8vw -8vw;
+                background-position: -8vw -8vw !important;
 
             }
         }
@@ -846,15 +846,15 @@
         
         .livefeed-stream-sprite {
             background: url("livefeed/livefeed_sprites.png") no-repeat;
-            height: 8vw;
+            height: 8vw !important;
             margin-left: 11vw;
             margin-top: 5vw;
-            width: 11vw;
+            width: 11vw !important;
             background-position: -17vw 0vw;
             background-size: 28vw;
             
             &:hover {
-                background-position: -17vw -8vw;
+                background-position: -17vw -8vw !important;
 
             }
         }
@@ -1059,7 +1059,7 @@
             background-size: 28vw;
             
             &:hover {
-                background-position: -1.6vw -8vw;
+                background-position: -1.6vw -8vw !important;
 
             }
         }
@@ -1076,7 +1076,7 @@
             background-size: 28vw;
             
             &:hover {
-                background-position: -8vw -8vw;
+                background-position: -8vw -8vw !important;
 
             }
         }
@@ -1093,7 +1093,7 @@
             background-size: 28vw;
             
             &:hover {
-                background-position: -17vw -8vw;
+                background-position: -17vw -8vw !important;
 
             }
         }
@@ -1239,15 +1239,15 @@
         
         .livefeed-snap-sprite {
             background: url("livefeed/livefeed_sprites.png") no-repeat;
-            height: 8vw;
+            height: 8vw !important;
             margin-left: 14vw;
             margin-top: 5vw;
-            width: 6vw;
+            width: 6vw !important;
             background-position: -1.6vw 0vw;
             background-size: 28vw;
             
             &:hover {
-                background-position: -1.6vw -8vw;
+                background-position: -1.6vw -8vw !important;
 
             }
         }
@@ -1256,15 +1256,15 @@
         
         .livefeed-tag-sprite {
             background: url("livefeed/livefeed_sprites.png") no-repeat;
-            height: 7.7vw;
+            height: 7.7vw !important;
             margin-left: 13vw;
             margin-top: 5vw;
-            width: 8vw;
+            width: 8vw !important;
             background-position: -8.3vw 0.2vw;
             background-size: 28vw;
             
             &:hover {
-                background-position: -8vw -8vw;
+                background-position: -8vw -8vw !important;
 
             }
         }
@@ -1331,15 +1331,15 @@
         
         .livefeed-stream-sprite {
             background: url("livefeed/livefeed_sprites.png") no-repeat;
-            height: 8vw;
+            height: 8vw !important;
             margin-left: 11vw;
             margin-top: 5vw;
-            width: 11vw;
+            width: 11vw !important;
             background-position: -17vw 0vw;
             background-size: 28vw;
             
             &:hover {
-                background-position: -17vw -8vw;
+                background-position: -17vw -8vw !important;
 
             }
         }

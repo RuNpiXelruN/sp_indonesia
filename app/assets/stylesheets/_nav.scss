@@ -8,6 +8,9 @@
             /* ---------------  Desktop Navbar Styles ---------*/
 
 
+.lang-li {
+  width:4vw;
+}
 
 .navcontainer {
     width: 100%;
@@ -20,6 +23,22 @@
         
         img, .nav-list {
             position: absolute;
+        }
+
+        .lang-switcher {
+          right: 3vw;
+          font-size: 1.3vw;
+          margin-top: 4.5vw;
+          position: absolute;
+          color:#ccc;
+          
+          A {
+            color:#ccc;
+          }
+
+          A:hover {
+            color:#fff;
+          }
         }
         
         .nav-list {
@@ -137,10 +156,10 @@ img.logo-main {
         position: absolute;
         top: -5vw;
         left: 22vw;
-        height: 139vw;
+        height: 180vw;
         z-index: 2;
         overflow: hidden;
-        max-height: 150vw;
+        max-height: 180vw;
         display: none;
         
         .nav-sub {
@@ -226,6 +245,10 @@ img.logo-main {
 
 
 @media screen and (min-width: 5px) and (orientation: portrait) {
+
+    .lang-switcher {
+      margin-top: 4.2vw;
+    }
     
     .navcontainer {
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -263,10 +286,10 @@ img.logo-main {
             position: absolute;
             top: -4vw;
             left: 0vw;
-            height: 143vw;
+            height: 180vw;
             z-index: 2;
             overflow: hidden;
-            max-height: 150vw;
+            max-height: 180vw;
             display: none;
             border-bottom: 1px solid grey;
             
@@ -314,6 +337,10 @@ img.logo-main {
 
 
 @media screen and (min-width: 768px) and (orientation: portrait) {
+
+    .lang-switcher {
+      margin-top: 4.2vw;
+    }
     
     .homepage-hero-section .slider {
         top: 0vw !important;
@@ -427,6 +454,10 @@ img.logo-main {
 
 
 @media screen and (min-width: 5px) and (max-width: 1023px) and (orientation: landscape) {
+
+    .lang-switcher {
+      margin-top: 4.2vw;
+    }
     
     .navbar-desktop {
         display: none;
@@ -470,7 +501,7 @@ img.logo-main {
                 height: 27vw;
                 z-index: 2;
                 overflow: hidden;
-                max-height: 150vw;
+                max-height: 180vw;
                 display: none;
                 border-bottom: 1px solid rgba(255,255,255,0.3);
                 
@@ -489,8 +520,8 @@ img.logo-main {
                         display: flex;
                     }
                     p {
-                        width: 18vw;
-                        margin-left: 19vw;
+                        width: 14vw;
+                        margin-left: 14vw;
                         margin: 1vw 1vw 1vw 1vw;
                         border: 0.4vw solid transparent;
                         -webkit-transition: border 0.4s ease;
@@ -542,6 +573,10 @@ img.logo-main {
 
 
 @media screen and (min-width: 1024px) and (orientation: landscape) {
+
+    .lang-switcher {
+      margin-top: 4.2vw !important;
+    }
     
     .navbar-dropdown {
         display: none;
@@ -555,12 +590,12 @@ img.logo-main {
         height: 10.7vw;
         
         .nav-elements {
-            
             img {
                 top: 2.5vw;
                 left: 3vw;
                 height: 5.5vw;
             }
+
             .nav-list {
                 left: 18vw;
                 font-size: 1.3vw;
@@ -624,7 +659,7 @@ img.logo-main {
                     a {
                         font-family: 'gotham_bookregular';
                         letter-spacing: 0.1vw;
-                        padding: 1.5vw 2.5vw;
+                        padding: 1.0vw 2.0vw;
                         margin: 0 1vw;
                     }
                 }

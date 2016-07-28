@@ -19,6 +19,12 @@
                             <a href="/#past-events"><li class="pastevents-li"><p class="pastevents-p ddlink">Past Events</p></li></a>
                             <a href="/#contact"><li class="contact-li"><p class="contact-p ddlink">Contact</p></li></a>
                             <a href="/#partners"><li class="partners-li"><p class="partners-p ddlink">Partners</p></li></a>
+                            <%= link_to change_locale_path(:id) do %>
+                              <li class="lang-li"><p class="lang-p ddlink">ID</p></li>
+                            <% end %>
+                            <%= link_to change_locale_path(:en) do %>
+                              <li class="lang-li"><p class="lang-p ddlink">EN</p></li>
+                            <% end %>
                         </ul>
                     </div>
                 </div>
@@ -33,6 +39,12 @@
 <div class="navcontainer navbar-desktop">
     <div class="nav-elements">
         <a href="#"><img src="<%= asset_path('social-playground-logo.png')%>"></a>
+        <div class="lang-switcher">
+          <%= link_to 'ID', change_locale_path(:id)%>
+          |
+          <%= link_to 'EN', change_locale_path(:en)%>
+        </div>
+
         <div class="nav-list">
             <ul class="nav-ul">
                 <li><a href="/" class="home-link">Home</a></li>

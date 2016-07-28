@@ -1,1670 +1,503 @@
+/* Large screens ----------- */
 .printer-body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
+
 .printerpage-hero-section {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 99vh;
+  background:url('/assets/printer/carousel01-big (1)-af98c94a546bd3a235bde4e4bad72f61.jpg');
+  background-size: cover;
+  background-position: 50%;
 
-    position: relative;
-    height: 100vh;
-    width: 100vw;
+  .printer-hero-quote {
+    display: block;
+    position: absolute;
 
+    top: 10vw;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+    text-align:center;
 
-    .navcontainer.navbar-desktop {
-        z-index: 999;
-        background-color: rgba(10, 10, 10, 0.4);
-        position: absolute;
-        
-    }
-    
-    
-}
-.how-to-play-section {
-    text-align: center;
-    text-transform: uppercase;
-    padding: 9vw 10vw;
-    font-size: 3vw;
-    color: #888;
+    color: white;
     font-family: 'gotham_boldregular';
-    border-bottom: 0.1vw solid rgba(10,10,10,0.1);
-    
+    font-size: 3vw;
+  }
+
+  .printer-hero-text {
+    display: block;
+    position: absolute;
+
+    top: 13.5vw;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+    text-align:center;
+
+    color: white;
+    font-family: 'gotham_boldregular';
+    font-size: 3vw;
+  }
+
+  .navcontainer.navbar-desktop {
+    z-index: 999;
+    background-color: rgba(10, 10, 10, 0.4);
+    position: absolute;
+  }
 }
+
+.how-to-play-section {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 9vw 10vw;
+  font-size: 3vw;
+  color: #888;
+  font-family: 'gotham_boldregular';
+  border-bottom: 0.1vw solid rgba(10,10,10,0.1);
+}
+
+.stp-icon-section {
+  overflow: hidden;
+  text-align: center;
+  padding:4.5vw 0;
+
+  .icon {
+    float:left;
+    width:33.33333vw;
+    color:#888;
+
+    .sprite {
+      height: 8vw;
+      margin: 0 auto;
+      width: 10vw;
+
+      &.printer-snap-sprite {
+        background: url("printer/Snap sprite.png") no-repeat;
+        background-size: 10vw;
+        background-position: 0vw 0vw;
+      }
+      
+      &.printer-tag-sprite {
+        background: url("printer/Tag sprite.png") no-repeat;
+        background-size: 10vw;
+        background-position: 0vw 0vw;
+      }
+
+      &.printer-print-sprite {
+        background: url("printer/Print sprite.png") no-repeat;
+        background-size: 10vw;
+        background-position: 0vw 0vw;
+      }
+      
+      &:hover {
+        background-position: 0vw -8.5vw;
+      }
+    }
+
+    .stp-icon-header {
+      display: block;
+      margin-top: 2vw;
+
+      font-family: 'gotham_boldregular';
+      font-size: 3vw;
+      text-transform: uppercase;
+    }
+
+    .stp-icon-text {
+      display: block;
+      margin-top: 1vw;
+
+      font-family: 'gotham_bookregular';
+      font-size: 2vw;
+    }
+  }
+}
+
+.stp-icon-section-small {
+  display:none;
+}
+
+.video-container {
+  position: relative;
+  overflow: hidden;
+}
+
 .about-printer-section {
-    position: relative;
+  overflow:hidden;
+  background:url('/assets/printer/instagram-printer-goals-bg.jpg');
+  background-size:cover;
+  padding:2vw 10vw;
+  
+  .printer-facts {
+    width: 40vw;
+
+    color: white;
+    font-size: 1.4vw;
     
-    .about-printer-background {
-        width: 100vw;
+    .printer-facts-heading {
+      text-transform: uppercase;
     }
     
-    .printer-facts {
-        position: absolute;
-        top: 4vw;
-        left: 10vw;
-        width: 40vw;
-        color: white;
-        font-size: 1.3vw;
-        
-        .printer-facts-heading {
-            text-transform: uppercase;
-        }
-        
-        .printer-facts-body {
-            font-family: 'gotham_bookregular';
-            margin-bottom: 2vw;
-        }
+    .printer-facts-body {
+      font-family: 'gotham_bookregular';
     }
+  }
 }
+
 .printer-img-highlight-section {
-    height: 75vw;
-    text-align: center;
+  overflow: hidden;
+  background: white;
+  padding:10vw 0;
+
+  color: gray;
+  font-size: 3vw;
+  text-align: center;
+  text-transform: uppercase;
+
+  h2 {
+    margin: 0;
+
+    font-size: 5vw;
+    font-family: 'gotham_boldregular';
+  }
+
+  .printer-image-ul {
+    width: 100vw;
+    margin-top: 7vw;
+    padding: 0;
+    
+    li {
+      display: inline-block;
+      width: 17vw;
+      margin: 0vw 0.2vw;
+    }
+  }
+}
+
+.printer-live-feed-strip {
+  .live-feed-strip {
+    overflow: hidden;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    
+    li {
+      float:left;
+      padding: 0;
+      width: 20vw;
+      height: 20vw;
+        
+      img {
+        margin: 0;
+        width: 20vw;
+      }
+    }
+  }
+}
+
+.printer-form-div {
+  overflow:hidden;
+  background: #8fdae6;
+  padding: 5vw 0;
+  text-align:center;
+
+  .printer-form-text {
+    color: white;
+    text-transform: uppercase;
+
+    h2 {
+      margin: 0;
+      font-size:3vw;
+    }
+  }
+
+  .printerhire-button.enquire-button {
+    display:inline-block;
+    margin-top: 3vw;
+    padding: 1vw 3vw;
+
+    color: white;
+    font-family: 'gotham_boldregular';
+    font-size: 2vw;
+    text-transform: uppercase;
+
+    border: 0.4vw solid white;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+
+    &:hover {
+      background:white;
+      color:#8fdae6;
+    }
+  }
+
+  .printerhire-form-scrollpoint.form-close {
+    display:none;
+  }
+}
+
+.printer-live-feed-strip-small {
+  display: none;
+}
+
+.printer-live-feed-cta {
+  background:url('/assets/printer/live-feed-cta-4baa7acbe41239194a9d79892e68a57c.jpg');
+  background-size:cover;
+  text-align: center;
+  padding:5vw 0;
+  
+  h2 {
+    margin: 0;
+    color: white;
     font-size: 3vw;
     text-transform: uppercase;
-    color: gray;
-    background: white;
+  }
+  
+  .live-feed-hire-link {
+    display:inline-block;
+    margin-top: 3vw;
+    padding: 1vw 3vw;
+
+    color: white;
+    font-size: 2vw;
+    text-transform: uppercase;
+    border: 0.4vw solid white;
+
+    transition: background 0.4s ease, color 0.2s ease;
     
-    h2 {
-        font-size: 3.5vw;
-        margin: 5vw 0 5vw;
+    &:hover {
+      background: white;
+      color: rgba(10,10,10,0.8);
     }
-    
+  }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (max-width : 1024px) {}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width : 768px) {
+  .printerpage-hero-section {
+    .printer-hero-quote {
+      top: 21vw;
+      font-size: 6vw;
+    }
+
+    .printer-hero-text {
+      top: 28vw;
+      font-size: 6vw;
+    }
+  }
+
+  .how-to-play-section {
+    padding: 10vw;
+    font-size: 5vw;
+  }
+
+  .stp-icon-section {
+    display:block !important;
+  }
+
+  .about-printer-section {
+    padding:11vw 0;
+
+    .printer-facts {
+      width:100vw;
+      text-align:center;
+
+      .printer-facts-heading {
+        font-size:3vw;
+        margin:1vw 0;
+        text-transform:uppercase;
+      }
+      
+      .printer-facts-body {
+        display:none;
+      }
+    }
+  }
+
+  .printer-img-highlight-section {
+    h2 {
+      font-size:6vw;
+    }
+
     .printer-image-ul {
-        width: 100vw;
-        padding: 0;
-        
-        li {
-            display: inline-flex;
-            width: 21.7vw;
-            height: 100%;
-            margin: 0vw 0.2vw;
-            
-            img {
-                width: 22vw;
-                height: 100%;
-            }
-        }
+      margin-top:10vw;
+
+      li {
+        width: 27vw;
+        margin: 0vw 0.2vw;
+      }
     }
-}
-.printer-live-feed-strip {
-    
-    .live-feed-strip {
-        width: 102vw;
-        margin: 0;
-        margin-bottom: -0.5vw;
-        padding: 0;
-        overflow: hidden;
-        
-        li {
-            display: inline-block;
-            padding: 0;
-            width: 20vw;
-            
-            img {
-                margin: 0;
-                width: 20.4vw;
-                max-width: 150%;
-            }
-        }
+  }
+
+  .printer-form-div {
+    padding:8vw 0;
+
+    .printer-form-text {
+      h2 {
+        font-size:4vw;
+      }
     }
-}
-.printer-live-feed-cta {
-    position: relative;
-    height: 26.8vw;
-    
-    .printer-live-feed-background-image {
-        position: absolute;
-        width: 100vw;
+
+    .printerhire-button.enquire-button {
+      margin-top: 8vw;
+      border: 0.4vw solid white;
+      padding: 1vw 3vw;
     }
-    
+  }
+
+  .printer-live-feed-cta {
+    padding:8vw 0;
+
     h2 {
-        position: absolute;
-        color: white;
-        text-transform: uppercase;
-        text-align: center;
-        font-size: 3vw;
-        left: 26vw;
-        top: 5vw;
+      font-size:4vw;
     }
     
     .live-feed-hire-link {
-        position: absolute;
-        font-size: 1.5vw;
-        text-transform: uppercase;
-        color: white;
-        position: absolute;
-        top: 18vw;
-        left: 43vw;
-        border: 0.4vw solid white;
-        padding: 0.7vw 2vw;
-        transition: background 0.4s ease, color 0.2s ease;
-        
-        &:hover {
-            background: white;
-            color: rgba(10,10,10,0.8);
-        }
+      padding: 1vw 3vw;
+      margin-top: 8vw;
+      border: 0.4vw solid white;
     }
+  }
+
 }
 
-
-@media screen and (min-width: 5px) and (orientation: portrait) {
-    
-    .printerpage-hero-section {
-        height: 100vh;
-        
-        .printer-page-hero-image {
-            height: 99vh;
-            width:auto;
-            left: 50%;
-            transform: translate(-50%, 0);
-            position: absolute;
-            max-width: 500vw;
-        }
-        
-        .printer-hero-quote {
-            position: absolute;
-            color: white;
-            top: 26vw;
-            left: 8vw;
-            font-size: 6vw;
-            font-family: 'gotham_boldregular';
-        }
-    
-        .printer-hero-text {
-            position: absolute;
-            color: white;
-            top: 35vw;
-            left: 20vw;
-            font-size: 6vw;
-            font-family: 'gotham_boldregular';
-        }
-    }
-    .how-to-play-section {
-        text-align: center;
-        text-transform: uppercase;
-        padding: 14vw 10vw;
-        font-size: 6vw;
-        color: #888;
-        font-family: 'gotham_boldregular';
-        border-bottom: 0.3vw solid rgba(10, 10, 10, 0.1);
-    }
-    .stp-icon-section {
-        display: none;
-    }
-    .stp-icon-section-small {
-        display: block;
-        
-        .snap-icon-section {
-            position: relative;
-            height: 68vw;
-            border-bottom: 0.3vw solid rgba(10,10,10,0.2);
-            text-transform: uppercase;
-            color: #888;
-            text-align: center;
-            
-            img {
-                position: absolute;
-                top: 5vw;
-                left: 39vw;
-                height: 30vw;
-            }
-            
-            .stp-icon-header {
-                position: absolute;
-                top: 36vw;
-                left: 40vw;
-                font-size: 6vw;
-                font-family: 'gotham_boldregular';
-            }
-            
-            .stp-icon-text-printer {
-                position: absolute;
-                top: 47vw;
-                left: 34vw;
-                text-transform: initial;
-                font-size: 4.5vw;
-                font-family: 'gotham_bookregular';
-            }
-        }
-        
-        .tag-icon-section {
-            position: relative;
-            height: 68vw;
-            border-bottom: 0.3vw solid rgba(10,10,10,0.2);
-            text-transform: uppercase;
-            color: #888;
-            text-align: center;
-            
-            img {
-                position: absolute;
-                left: 34vw;
-                top: 5vw;
-                height: 30vw;
-            }
-            
-            .stp-icon-header {
-                position: absolute;
-                left: 40vw;
-                top: 36vw;
-                font-size: 6vw;
-                font-family: 'gotham_boldregular';
-            }
-            
-            .stp-icon-text {
-                left: 32vw;
-                top: 47vw;
-                position: absolute;
-                text-transform: initial;
-                font-size: 4.5vw;
-                font-family: 'gotham_bookregular';
-            }
-        }
-        
-        .print-icon-section {
-            position: relative;
-            height: 68vw;
-            text-transform: uppercase;
-            color: #888;
-            text-align: center;
-            
-            img {
-                position: absolute;
-                top: 5vw;
-                left: 32vw;
-                height: 30vw;
-            }
-            
-            .stp-icon-header {
-                position: absolute;
-                left: 38vw;
-                top: 36vw;
-                font-size: 6vw;
-                font-family: 'gotham_boldregular';
-            }
-            
-            .stp-icon-text {
-                position: absolute;
-                left: 32vw;
-                top: 47vw;
-                text-transform: initial;
-                font-size: 4.5vw;
-                font-family: 'gotham_bookregular';
-            }
-        }
-    }
-    .about-printer-section {
-        display: none;
-    }
-    .about-printer-section-small {
-        display: block;
-        position: relative;
-        text-align: center;        
-        
-        .printer-facts {
-            position: absolute;
-            top: 11vw;
-            left: 8vw;
-            font-size: 4vw;
-            text-transform: uppercase;
-            color: white;
-            font-family: 'gotham_boldregular';  
-            
-            p {
-                margin: 1vw;
-            }
-        }
-    }
-    .printer-img-highlight-section {
-        height: 102vw;
-        text-align: center;
-        font-size: 3vw;
-        text-transform: uppercase;
-        color: gray;
-        background: white;
-        
-        h2 {
-            font-size: 8vw;
-            margin: 9vw 0 16vw;
-            font-family: 'gotham_boldregular';
-        }
-        
-        .printer-image-ul {
-            width: 100vw;
-            padding: 0;
-            transform: scale(1.2);
-        }
-    }
-    .printer-live-feed-strip {
-        display: none;
-    }
-    .printer-live-feed-strip-small {
-        display: block;
-        height: 33vw;
-        
-        .live-feed-strip {
-            position: relative;
-            width: 100vw;
-            height: inherit;
-            
-            .img1 {
-                position: absolute;
-                width: 33.3333vw;
-            }
-            
-            .img2 {
-                position: absolute;
-                left: 33.3333vw;
-                width: 33.3333vw;
-            }
-            
-            .img3 {
-                position: absolute;
-                left: 66.6666vw;
-                width: 33.3333vw;
-            }
-        }
-    }
-    .printer-form-div {
-        background: #8fdae6;
-        padding: 8vw 0vw 1vw;
-        position: relative;
-        margin-bottom: -4vw;
-        
-        .printer-form-text {
-            color: white;
-            text-align: center;
-            text-transform: uppercase;
-            margin-bottom: 36vw;
-            
-            h2 {
-                margin-top: 0;
-                font-size: 5.6vw;
-                font-family: 'gotham_boldregular';
-            }
-        }
-        
-        .printer-form-section {
-            
-            .printerhire-button.enquire-button {
-                text-transform: uppercase;
-                text-align: center;
-                color: white;
-                font-size: 4vw;
-                border: 0.7vw solid white;
-                padding: 2vw 5vw;
-                position: absolute;
-                left: 32vw;
-                top: 28vw;        
-                font-family: 'gotham_boldregular';
-            }
-            
-            .printerhire-form-scrollpoint {
-                position: absolute;
-                left: 41vw;
-                top: 19vw;
-                display: none;
-                -webkit-transform: scale(0.8);
-                -ms-transform: scale(0.8);
-                transform: scale(0.8);           
-            }
-            
-            .contact-form {
-                width: 60vw;
-                margin: 0vw 20vw 14vw;
-                position: relative;
-                height: 45vw;
-                display: none;
-                -webkit-transform: scale(1.5);
-                -ms-transform: scale(1.5);
-                transform: scale(1.5);
-                
-                .form-submit-button {
-                    position: absolute;
-                    top: 30vw;
-                    left: 19.6vw;
-                    background: none;
-                    border: 0.4vw solid white;
-                    padding: 2vw 4vw;
-                    font-size: 3vw;
-                    color: white;
-                    -webkit-transition: background 0.3s ease, color 0.3s ease;
-                    transition: background 0.3s ease, color 0.3s ease;            
-                }
-            }
-        }
-    }
-    .printer-live-feed-cta {
-        position: relative;
-        height: 47vw;
-        
-        .printer-live-feed-background-image {
-            position: absolute;
-            width: auto;
-            max-width: 200vw;
-            height: inherit;
-        }
-        
-        h2 {
-            position: absolute;
-            color: white;
-            text-transform: uppercase;
-            text-align: center;
-            font-size: 5.6vw;
-            left: 11vw;
-            top: 3vw;      
-            font-family: 'gotham_boldregular';
-        }
-        
-        .live-feed-hire-link {
-            position: absolute;
-            font-size: 1.5vw;
-            text-transform: uppercase;
-            color: white;
-            position: absolute;
-            top: 28vw;
-            left: 32vw;
-            border: 0.7vw solid white;
-            font-size: 4vw;
-            padding: 2vw 5vw;
-            -webkit-transition: background 0.4s ease, color 0.2s ease;
-            transition: background 0.4s ease, color 0.2s ease;     
-            font-family: 'gotham_boldregular';
-        }
-    }
-    .printer-body.sweet-alert {
-        width: 90vw !important;
-        margin-left: 0;
-        margin-right: 0;
-        left: 5vw !important;
-        top: 241vw !important;
-    }
-}
-@media screen and (min-width: 768px) and (orientation: portrait) {
-    
-    .printerpage-hero-section {
-        
-        .printer-page-hero-image {
-            height: 99vh;
-            width:auto;
-            left: 50%;
-            transform: translate(-50%, 0);
-            position: absolute;
-            max-width: 500vw;
-        }
-        
-        .printer-hero-quote {
-            position: absolute;
-            color: white;
-            top: 23vw;
-            left: 15vw;
-            font-size: 5vw;
-        }
-        
-        .printer-hero-text {
-            position: absolute;
-            color: white;
-            top: 29vw;
-            left: 25vw;
-            font-size: 5vw;
-        }
-    }
-    .stp-icon-section-small {
-        
-        .snap-icon-section {
-            position: relative;
-            height: 64vw;
-            border-bottom: 0.3vw solid rgba(10, 10, 10, 0.2);
-            text-transform: uppercase;
-            color: #888;
-            text-align: center;
-        
-            img {
-                position: absolute;
-                top: 5vw;
-                left: 41vw;
-                height: 27vw;
-            }
-            
-            .stp-icon-header {
-                position: absolute;
-                top: 35vw;
-                left: 41vw;
-                font-size: 6vw;
-            }
-            
-            .stp-icon-text-printer {
-                position: absolute;
-                top: 45vw;
-                left: 39vw;
-                text-transform: initial;
-                font-size: 3.5vw !important;
-                font-family: 'gotham_bookregular';
-            }
-        }
-        
-        .tag-icon-section {
-            position: relative;
-            height: 64vw;
-            border-bottom: 0.3vw solid rgba(10, 10, 10, 0.2);
-            text-transform: uppercase;
-            color: #888;
-            text-align: center;
-            
-            img {
-                position: absolute;
-                left: 36vw;
-                top: 5vw;
-                height: 27vw;
-            }
-            
-            .stp-icon-header {
-                position: absolute;
-                left: 41vw;
-                top: 33vw;
-                font-size: 6vw;
-            }
-            
-            .stp-icon-text {
-                left: 34vw;
-                top: 43vw;
-                position: absolute;
-                text-transform: initial;
-                font-size: 4.5vw;
-                font-family: 'gotham_bookregular';
-            }
-        }
-        
-        .print-icon-section {
-            position: relative;
-            height: 64vw;
-            text-transform: uppercase;
-            color: #888;
-            text-align: center;
-            
-            img {
-                position: absolute;
-                top: 5vw;
-                left: 34vw;
-                height: 27vw;
-            }
-            
-            .stp-icon-header {
-                position: absolute;
-                left: 39vw;
-                top: 34vw;
-                font-size: 6vw;
-            }
-            
-            .stp-icon-text {
-                position: absolute;
-                left: 34vw;
-                top: 44vw;
-                text-transform: initial;
-                font-size: 4.5vw;
-                font-family: 'gotham_bookregular';
-            }
-        }
-    }
-    .printer-form-div {
-        background: #8fdae6;
-        padding: 8vw 0vw 1vw;
-        position: relative;
-        margin-bottom: -4vw;
-        
-        
-        .printer-form-text {
-            color: white;
-            text-align: center;
-            text-transform: uppercase;
-            margin-bottom: 25vw;
-            
-            h2 {
-                margin-top: 0;
-                font-size: 5vw;
-            }
-        }
-        
-        .printer-form-section {
-            
-            .printerhire-button.enquire-button {
-                text-transform: uppercase;
-                text-align: center;
-                color: white;
-                font-size: 3vw;
-                border: 0.4vw solid white;
-                padding: 2vw 4vw;
-                position: absolute;
-                left: 37vw;
-                top: 23vw;          
-            }
-            
-            .printerhire-form-scrollpoint {
-                position: absolute;
-                left: 46vw;
-                top: 20vw;
-                display: none;
-                transform: scale(1.2);
-            }
-            
-            .contact-form {
-                width: 60vw;
-                margin: 0vw 20vw 7vw;
-                position: relative;
-                height: 45vw;
-                display: none;
-                transform: scale(1.3);
-                
-                .form-submit-button {
-                    position: absolute;
-                    top: 30vw;
-                    left: 21.6vw;
-                    background: none;
-                    border: 0.4vw solid white;
-                    padding: 2vw 4vw;
-                    font-size: 2vw;
-                    color: white;
-                    -webkit-transition: background 0.3s ease, color 0.3s ease;
-                    transition: background 0.3s ease, color 0.3s ease;               
-                }
-            }
-        }
-    }
-    .printer-live-feed-cta {
-        
-        h2 {
-            position: absolute;
-            color: white;
-            text-transform: uppercase;
-            text-align: center;
-            font-size: 5vw;
-            left: 13vw;
-            top: 5vw;
-        }
-        
-        .live-feed-hire-link {
-            position: absolute;
-            font-size: 1.5vw;
-            text-transform: uppercase;
-            color: white;
-            position: absolute;
-            top: 28vw;
-            left: 37vw;
-            border: 0.4vw solid white;
-            font-size: 3vw;
-            padding: 2vw 5vw;
-            -webkit-transition: background 0.4s ease, color 0.2s ease;
-            transition: background 0.4s ease, color 0.2s ease;
-        }
-    }
-    // .sweet-alert {
-    //     background-color: white;
-    //     font-family: 'gotham_bookregular','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    //     width: 478px;
-    //     padding: 17px;
-    //     border-radius: 5px;
-    //     text-align: center;
-    //     position: fixed;
-    //     left: 52.1vw;
-    //     top: 153vw;
-    //     margin-left: -256px;
-    //     margin-top: -200px;
-    //     overflow: hidden;
-    //     display: none;
-    //     z-index: 99999;
-    // }
-}
-@media screen and (min-width: 5px) and (max-width: 1024px) and (orientation: landscape) {
-    .printerpage-hero-section {
-        
-        overflow: hidden;
-        
-        .printer-page-hero-image {
-            height: 99vh;
-            width:auto;
-            left: 50%;
-            transform: translate(-50%, 0) scale(1.2);
-            position: absolute;
-            max-width: 500vw;
-        }
-        
-        .printer-hero-quote, .printer-hero-text {
-            display: none;
-        }
-    }
-    .how-to-play-section {
-        text-align: center;
-        text-transform: uppercase;
-        padding: 10vw 10vw;
-        font-size: 5vw;
-        color: #888;
-        font-family: 'gotham_boldregular';
-        border-bottom: 0.3vw solid rgba(10, 10, 10, 0.1);
-    }
-    .stp-icon-section-small {
-        display: none;
-    }
-    .stp-icon-section.round-shadow {
-        text-align: center;
-        text-transform: uppercase;
-        position: relative;
-        height: 31vw;
-        width: 100vw;
-        color: #888;
-        background: #fff;
-        box-shadow: 0 0vw 0vw rgba(0, 0, 0, 0.3);
-    
-        &:after {
-            content: "";
-            position: absolute;
-            z-index: -1;
-            box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
-            bottom: 0px;
-            left: 10%;
-            right: 10%;
-            width: 80%;
-            height: 50%;
-            border-radius: 100%;
-        }
-    
-        img {
-            margin-top: 8vw;
-        }
-        .stp-icon-header {
-            display: block;
-            margin-top: 2vw;
-            font-size: 3vw;
-            font-family: 'gotham_boldregular';
-        }
-        .stp-icon-text {
-            display: block;
-            margin-top: 1vw;
-            font-family: 'gotham_bookregular';
-            font-size: 2vw;
-            text-transform: initial;
-        }
-        
-        .snap-icon-section {
-            width: 33.33333vw;
-            position: absolute;
-            height: inherit;
-            
-            .printer-snap-sprite {
-                background: url("printer/Snap sprite.png") no-repeat;
-                height: 7.7vw;
-                margin-left: 14vw;
-                margin-top: 5vw;
-                width: 6vw;
-                background-position: 0 0vw;
-                background-size: 6vw;
-                
-                &:hover {
-                    background-position: 0vw -8vw;
-                }
-            }
-        }
-        .tag-icon-section {
-            width: 33.33333vw;
-            position: absolute;
-            height: inherit;
-            left: 33.33333vw;
-            
-            .printer-tag-sprite {
-                background: url("printer/Tag sprite.png") no-repeat;
-                height: 8vw;
-                margin-left: 13vw;
-                margin-top: 4.5vw;
-                margin-bottom: 0;
-                background-size: 9.5vw;
-                background-position: 0vw 0vw;
-                width: 10vw;
-                
-                &:hover {
-                    background-position: 0.5vw -8vw;
-                }
-            }
-        }
-        .print-icon-section {
-            width: 33.33333vw;
-            position: absolute;
-            height: inherit;
-            left: 66.66667vw;
-            
-            .printer-print-sprite {
-                background: url("printer/Print sprite.png") no-repeat;
-                height: 8vw;
-                margin-left: 12vw;
-                margin-top: 4.5vw;
-                width: 10vw;
-                background-size: 10vw;
-                background-position: 0vw 0vw;
-                
-                &:hover {
-                    background-position: 0vw -8.5vw;
-                }
-            }
-        }
-    }
-    .about-printer-section {
-        display: none;
-    }
-    .about-printer-section-small {
-        display: block;
-        position: relative;    
-        
-        .printer-facts {
-            position: absolute;
-            top: 13vw;
-            left: 17vw;
-            text-align: center;
-            font-family: 'gotham_boldregular' !important;
-            font-size: 3vw;
-            text-transform: uppercase;
-            color: white;
-            font-family: 'gotham_bookregular';            
-            
-            p {
-                margin: 1vw;
-                font-size: 3vw;
-            }
-        }
-    }
-    .printer-img-highlight-section {
-        height: 76vw;
-        text-align: center;
-        font-size: 3vw;
-        text-transform: uppercase;
-        color: gray;
-        background: white;
-        
-        h2 {
-            font-size: 6vw;
-            margin: 7vw 0 -1vw;
-            font-family: 'gotham_boldregular';
-        }
-        
-        .printer-image-ul {
-            width: 100vw;
-            padding: 0;
-            transform: scale(0.8);
-        }
-    }
-    .printer-live-feed-strip-small {
-        display: none;
-    }
-    .printer-live-feed-strip {
-        display: block;
-        height: 20vw;
-        
-        .live-feed-strip {
-            width: 100vw;
-            margin: 0;
-            margin-bottom: -0.5vw;
-            padding: 0;
-            overflow: hidden;
-            position: relative;
-            height: inherit;
-            
-            .img1 {
-                position: absolute;
-                width: 20vw;
-            }
-            
-            .img2 {
-                position: absolute;
-                left: 20vw;
-                width: 20vw;
-            }
-            
-            .img3 {
-                position: absolute;
-                left: 40vw;
-                width: 20vw;
-            }
-            
-            .img4 {
-                position: absolute;
-                left: 60vw;
-                width: 20vw;
-            }
-            
-            .img5 {
-                position: absolute;
-                left: 80vw;
-                width: 20vw;
-            }
-        }
-    }
-    .printer-form-div {
-        background: #8fdae6;
-        padding: 8vw 0vw 1vw;
-        position: relative;
-        margin-bottom: -4vw;
-        
-        .printer-form-text {
-            color: white;
-            text-align: center;
-            text-transform: uppercase;
-            margin-bottom: 25vw;
-            
-            h2 {
-                margin-top: 0;
-                font-size: 4vw;
-                font-family: 'gotham_boldregular';
-            }
-        }
-        
-        .printer-form-section {
-            
-            .printerhire-button.enquire-button {
-                text-transform: uppercase;
-                text-align: center;
-                color: white;
-                font-size: 2vw;
-                border: 0.4vw solid white;
-                padding: 1vw 3vw;
-                position: absolute;
-                left: 41vw;
-                font-family: 'gotham_boldregular';
-                top: 23vw;      
-            }
-            
-            .printerhire-form-scrollpoint {
-                position: absolute;
-                left: 45vw;
-                top: 19vw;
-                display: none;
-                transform: scale(0.8);
-            }
-            
-            .contact-form {
-                width: 60vw;
-                margin: 0vw 20vw 5vw;
-                position: relative;
-                height: 45vw;
-                display: none;
-                transform: scale(1.3);
-            }
-        }
-    }
-    .printer-live-feed-cta {
-        position: relative;
-        height: 35vw;
-        
-        .printer-live-feed-background-image {
-            position: absolute;
-            height: inherit;
-            width: auto;
-            max-width: 200vw;
-        }
-        
-        h2 {
-            position: absolute;
-            color: white;
-            text-transform: uppercase;
-            text-align: center;
-            font-size: 4vw;
-            left: 19vw;
-            top: 4vw;
-            font-family: 'gotham_boldregular';
-        }
-        
-        .live-feed-hire-link {
-            position: absolute;
-            font-size: 2vw;
-            text-transform: uppercase;
-            color: white;
-            position: absolute;
-            top: 22vw;
-            left: 40vw;
-            font-family: 'gotham_boldregular';
-            border: 0.4vw solid white;
-            padding: 1vw 3vw;
-            -webkit-transition: background 0.4s ease, color 0.2s ease;
-            transition: background 0.4s ease, color 0.2s ease;    
-        }
-    }
-    // .sweet-alert {
-    //     background-color: white;
-    //     font-family: 'gotham_bookregular','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    //     width: 70vw;
-    //     height: 51vw;
-    //     padding: 17px;
-    //     border-radius: 5px;
-    //     text-align: center;
-    //     position: fixed;
-    //     left: 54vw;
-    //     top: 46vw;
-    //     margin-left: -256px;
-    //     margin-top: -200px;
-    //     overflow: hidden;
-    //     display: none;
-    //     z-index: 99999;
-    // }
-}
-@media screen and (min-width: 1024px) and (orientation: landscape) {
-    .printerpage-hero-section {
-        height: 57vw !important;
-        
-        .printer-page-hero-image {
-            height: auto;
-            width: 100%;
-            left: 50%;
-            transform: translate(-50%, 0);
-            position: absolute;
-            max-width: 500vw;
-        }
-        
-        .printer-hero-quote {
-            display: block;
-            font-family: 'gotham_boldregular';
-            position: absolute;
-            color: white;
-            top: 11vw;
-            left: 30vw;
-            font-size: 3vw;
-        }
-    
-        .printer-hero-text {
-            display: block;
-            position: absolute;
-            color: white;
-            top: 15vw;
-            left: 35vw;
-            font-size: 3vw;
-            font-family: 'gotham_boldregular';
-        }
-    }
-    .stp-icon-section-small {
-        display: none;
-    }
-    .stp-icon-section.round-shadow {
-        text-align: center;
-        text-transform: uppercase;
-        position: relative;
-        height: 31vw;
-        width: 100vw;
-        color: #888;
-        background: #fff;
-        box-shadow: 0 0vw 0vw rgba(0, 0, 0, 0.3);
-    
-        &:after {
-            content: "";
-            position: absolute;
-            z-index: -1;
-            box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
-            bottom: 0px;
-            left: 10%;
-            right: 10%;
-            width: 80%;
-            height: 50%;
-            border-radius: 100%;
-        }
-    
-        img {
-            margin-top: 8vw;
-        }
-        .stp-icon-header {
-            display: block;
-            margin-top: 2vw;
-            font-size: 3vw;
-            font-family: 'gotham_boldregular';
-        }
-        .stp-icon-text {
-            display: block;
-            margin-top: 1vw;
-            font-family: 'gotham_bookregular';
-            font-size: 2vw;
-            text-transform: initial;
-        }
-        
-        .snap-icon-section {
-            width: 33.33333vw;
-            position: absolute;
-            height: inherit;
-            
-            .printer-snap-sprite {
-                background: url("printer/Snap sprite.png") no-repeat;
-                height: 7.7vw;
-                margin-left: 14vw;
-                margin-top: 5vw;
-                width: 6vw;
-                background-position: 0 0vw;
-                background-size: 6vw;
-                
-                &:hover {
-                    background-position: 0vw -8vw;
-                }
-            }
-        }
-        .tag-icon-section {
-            width: 33.33333vw;
-            position: absolute;
-            height: inherit;
-            left: 33.33333vw;
-            
-            .printer-tag-sprite {
-                background: url("printer/Tag sprite.png") no-repeat;
-                height: 8vw;
-                margin-left: 13vw;
-                margin-top: 4.5vw;
-                margin-bottom: 0;
-                background-size: 9.5vw;
-                background-position: 0vw 0vw;
-                width: 10vw;
-                
-                &:hover {
-                    background-position: 0.5vw -8vw;
-                }
-            }
-        }
-        .print-icon-section {
-            width: 33.33333vw;
-            position: absolute;
-            height: inherit;
-            left: 66.66667vw;
-            
-            .printer-print-sprite {
-                background: url("printer/Print sprite.png") no-repeat;
-                height: 8vw;
-                margin-left: 12vw;
-                margin-top: 4.5vw;
-                width: 10vw;
-                background-size: 10vw;
-                background-position: 0vw 0vw;
-                
-                &:hover {
-                    background-position: 0vw -8.5vw;
-                }
-            }
-        }
-    }
-    .about-printer-section-small {
-        display: none;
-    }
-    .about-printer-section {
-    position: relative;
-    display: block;
-    
-    .about-printer-background {
-        width: 100vw;
-    }
-    
-    .printer-facts {
-        position: absolute;
-        top: 2vw;
-        left: 10vw;
-        width: 40vw;
-        color: white;
-        font-size: 1.4vw;
-        
-        .printer-facts-heading {
-            text-transform: uppercase;
-            font-family: 'gotham_boldregular';
-            font-size: 1.4vw;
-        }
-        
-        .printer-facts-body {
-            font-family: 'gotham_bookregular';
-            margin-bottom: 2vw;
-        }
-    }
-}
-    .printer-img-highlight-section {
-        height: 75vw;
-        text-align: center;
-        font-size: 3vw;
-        text-transform: uppercase;
-        color: gray;
-        background: white;
-        
-        h2 {
-            font-size: 5vw;
-            margin: 7vw 0 -2vw;
-        }
-        
-        .printer-image-ul {
-            width: 100vw;
-            padding: 0;
-            transform: scale(0.8);
-        }
-    }
-    .printer-live-feed-strip-small {
-        display: none;
-    }
-    .printer-live-feed-strip {
-        display: block;
-        height: 20vw;
-        
-        .live-feed-strip {
-            width: 100vw;
-            margin: 0;
-            margin-bottom: -0.5vw;
-            padding: 0;
-            overflow: hidden;
-            position: relative;
-            height: inherit;
-            
-            .img1 {
-                position: absolute;
-                width: 20vw;
-            }
-            
-            .img2 {
-                position: absolute;
-                left: 20vw;
-                width: 20vw;
-            }
-            
-            .img3 {
-                position: absolute;
-                left: 40vw;
-                width: 20vw;
-            }
-            
-            .img4 {
-                position: absolute;
-                left: 60vw;
-                width: 20vw;
-            }
-            
-            .img5 {
-                position: absolute;
-                left: 80vw;
-                width: 20vw;
-            }
-        }
-    }
-    .printer-form-div {
-        background: #8fdae6;
-        padding: 6vw 0vw 1vw;
-        position: relative;
-        margin-bottom: -7vw;
-        
-        .printer-form-text {
-            color: white;
-            text-align: center;
-            text-transform: uppercase;
-            margin-bottom: 25vw;
-            
-            h2 {
-                margin-top: 0;
-                font-size: 3vw;
-            }
-        }
-        
-        .printer-form-section {
-            
-            .printerhire-button.enquire-button {
-                text-transform: uppercase;
-                text-align: center;
-                color: white;
-                font-size: 2vw;
-                border: 0.4vw solid white;
-                padding: 1vw 3vw;
-                position: absolute;
-                left: 40.5vw;
-                top: 18vw;
-                cursor: pointer;            
-                transition: background 0.3s ease, color 0.3s ease;
-                
-                &:hover {
-                    background: white;
-                    color: #8FDAE6;
-                }
-                
-            }
-            
-            .printerhire-form-scrollpoint {
-                position: absolute;
-                left: 47vw;
-                top: 15vw;
-                display: none;
-                -webkit-transform: scale(1.4);
-                -ms-transform: scale(1.4);
-                transform: scale(1.2);
-                cursor: pointer;            
-                
-            }
-            
-            .contact-form {
-                width: 60vw;
-                margin: -4vw 20vw 11vw;
-                position: relative;
-                height: 42vw;
-                display: none;
-            }
-        }
-    }
-    .printer-live-feed-cta {
-        position: relative;
-        height: 31vw;
-        
-        h2 {
-            position: absolute;
-            color: white;
-            text-transform: uppercase;
-            text-align: center;
-            font-size: 3vw;
-            left: 28vw;
-            top: 4vw;
-        }
-        
-        .live-feed-hire-link {
-            position: absolute;
-            font-size: 2vw;
-            text-transform: uppercase;
-            color: white;
-            position: absolute;
-            top: 18vw;
-            left: 41vw;
-            border: 0.4vw solid white;
-            padding: 1vw 3vw;
-            -webkit-transition: background 0.4s ease, color 0.2s ease;
-            transition: background 0.4s ease, color 0.2s ease;
-        }
-    }
-    // .sweet-alert {
-    //     background-color: white;
-    //     font-family: 'gotham_bookregular','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    //     width: 60vw;
-    //     height: 37vw;
-    //     padding: 2vw 3vw 0vw 3vw;
-    //     border-radius: 5px;
-    //     text-align: center;
-    //     position: fixed;
-    //     left: 20vw;
-    //     top: 29vw;
-    //     margin-left: 0;
-    //     margin-top: -4vw !important;
-    //     overflow: hidden;
-    //     display: none;
-    //     z-index: 99999;
-    // }
-}
-@media screen and (min-width: 1280px) and (orientation: landscape) {
+/* Big smartphones (portrait) (ie: Galaxy 3 has 360)*/
+@media only screen and (max-width : 640px) {
+  .printerpage-hero-section {
     .printer-hero-quote {
-        position: absolute;
-        color: white;
-        top: 11vw;
-        left: 30vw;
-        font-size: 3vw;
+      top: 29vw;
+      font-size: 6vw;
     }
+
     .printer-hero-text {
-        position: absolute;
-        color: white;
-        top: 15vw;
-        left: 36vw;
-        font-size: 3vw;
+      top: 35vw;
+      font-size: 6vw;
     }
-    .printer-img-highlight-section h2 {
-        font-size: 5vw;
-        margin: 7vw 0 -2vw;
-        font-family: 'gotham_boldregular';
-    }
-    .printer-form-div {
-        background: #8fdae6;
-        padding: 6vw 0vw 1vw;
-        position: relative;
-        margin-bottom: -7vw;
-        
-        .printer-form-text {
-            color: white;
-            text-align: center;
-            text-transform: uppercase;
-            margin-bottom: 27vw;
-            
-            h2 {
-                margin-top: 0;
-                font-family: 'gotham_boldregular';
-            }
-        }
-        
-        .printer-form-section {
-            
-            .printerhire-button.enquire-button {
-                text-transform: uppercase;
-                text-align: center;
-                color: white;
-                font-size: 2vw;
-                border: 0.4vw solid white;
-                padding: 1vw 3vw;
-                position: absolute;
-                left: 40.5vw;
-                top: 20vw;
-                cursor: pointer;
-                font-family: 'gotham_boldregular';
-            }
-            
-            .printerhire-form-scrollpoint {
-                position: absolute;
-                left: 47vw;
-                top: 21vw;
-                display: none;
-                transform: scale(1.4);
-                cursor: pointer;
-            }
-            
-            .contact-form {
-                width: 60vw;
-                margin: -7vw 20vw 7vw;
-                position: relative;
-                height: 42vw;
-                display: none;
-            }
-        }
-    }
-    .printer-live-feed-cta {
-        position: relative;
+  }
+
+  .how-to-play-section {
+    padding: 14vw 10vw;
+    font-size: 6vw;
+  }
+
+  .stp-icon-section {
+    display:block !important;
+    padding:0;
+
+    .icon {
+      width:100vw;
+      padding:4vw 0;
+      border-bottom: 0.3vw solid rgba(10,10,10,0.2);
+
+      .sprite {
         height: 30vw;
-        
-        .printer-live-feed-background-image {
-            position: absolute;
-            width: 100vw;
-            height: inherit;
+        width: 37.5vw;
+
+        &.printer-snap-sprite, &.printer-tag-sprite, &.printer-print-sprite {
+          background-size: 37.5vw;
+
+          &:hover {
+            background-position: 0vw -32vw;
+          }
         }
-        h2 {
-            position: absolute;
-            color: white;
-            text-transform: uppercase;
-            text-align: center;
-            font-size: 3vw;
-            left: 28vw;
-            top: 5vw;
-            font-family: 'gotham_boldregular';
-        }
-        
-        .live-feed-hire-link {
-            position: absolute;
-            font-size: 2vw;
-            text-transform: uppercase;
-            color: white;
-            position: absolute;
-            top: 18vw;
-            left: 41vw;
-            border: 0.4vw solid white;
-            padding: 1vw 3vw;
-            -webkit-transition: background 0.4s ease, color 0.2s ease;
-            transition: background 0.4s ease, color 0.2s ease;
-            font-family: 'gotham_boldregular';
-        }
+      }
+
+      .stp-icon-header {
+        font-size: 6vw;
+      }
+
+      .stp-icon-text {
+        font-size: 4.5vw;
+      }
     }
-    // .sweet-alert {
-    //     background-color: white;
-    //     font-family: 'gotham_bookregular','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    //     width: 43vw;
-    //     height: 27vw;
-    //     padding: 2vw 3vw 0vw 3vw;
-    //     border-radius: 5px;
-    //     text-align: center;
-    //     position: fixed;
-    //     left: 28.5vw;
-    //     margin-top: -4vw !important;
-    //     top: 17vw;
-    //     margin-left: 0;
-    //     overflow: hidden;
-    //     display: none;
-    //     z-index: 99999;
-    // }
-}
-@media screen and (min-width: 1250px) and (min-height: 580px) {
+  }
+
+  .about-printer-section {
+    padding:11vw 0;
+
+    .printer-facts {
+      width:100vw;
+      text-align:center;
+
+      .printer-facts-heading {
+        font-size:4vw;
+        margin:1vw 0;
+        text-transform:uppercase;
+      }
+      
+      .printer-facts-body {
+        display:none;
+      }
+    }
+  }
+
+  .printer-img-highlight-section {
+    h2 {
+      font-size:8vw;
+    }
+
+    .printer-image-ul {
+      margin-top:10vw;
+
+      li {
+        width:26vw;
+      }
+    }
+  }
+
+  .printer-live-feed-strip {
+    .live-feed-strip {
+      li {
+        display:none;
+        width:33vw;
+        height:33vw;
+
+        img {
+          width: 33vw;
+        }
+
+        &:nth-child(1), &:nth-child(2), &:nth-child(3) { 
+          display:block;
+        }
+      }
+    }
+  }
+
+  .printer-form-div {
+    padding:8vw 0;
+
+    .printer-form-text {
+      h2 {
+        font-size:5.6vw;
+      }
+    }
+
+    .printerhire-button.enquire-button {
+      padding: 2vw 5vw;
+      margin-top: 8vw;
+      font-size: 4vw;
+      border: 0.7vw solid white;
+    }
+  }
+
+  .printer-live-feed-cta {
+    padding:8vw 0;
+
+    h2 {
+      font-size:5.6vw;
+    }
     
-    .printerpage-hero-section {
-        position: relative;
-        height: 99vh;
-        width: 100vw;
-        overflow: hidden;
-        
-        .printer-page-hero-image {
-            height: 99vh;
-            width: auto;
-            left: 50%;
-            -webkit-transform: translate(-50%, 3vw) scale(1.2);
-            -ms-transform: translate(-50%, 3vw) scale(1.2);
-            transform: translate(-50%, 3vw) scale(1.2);
-            position: absolute;
-            max-width: 500vw;
-        }
-        .printer-hero-quote {
-            display: block;
-            font-family: 'gotham_boldregular';
-            position: absolute;
-            color: white;
-            top: 10vw;
-            left: 30vw;
-            font-size: 3vw;
-        }
-        .printer-hero-text {
-            display: block;
-            position: absolute;
-            color: white;
-            top: 13.5vw;
-            left: 35vw;
-            font-size: 3vw;
-            font-family: 'gotham_boldregular';
-        }
+    .live-feed-hire-link {
+      padding: 2vw 5vw;
+      margin-top: 8vw;
+      font-size: 4vw;
+      border: 0.7vw solid white;
     }
-    .printer-form-div {
-        background: #8fdae6;
-        padding: 6vw 0vw 4vw;
-        position: relative;
-        margin-bottom: -7vw;
-        .printer-form-text {
-            color: white;
-            text-align: center;
-            text-transform: uppercase;
-            margin-bottom: 19vw;
-        }
-        .printer-form-section {
-            .printerhire-button.enquire-button {
-                text-transform: uppercase;
-                text-align: center;
-                color: white;
-                font-size: 2vw;
-                border: 0.4vw solid white;
-                padding: 1vw 3vw;
-                position: absolute;
-                left: 40.5vw;
-                top: 17vw;
-                cursor: pointer;
-                font-family: 'gotham_boldregular';
-            }
-            .printerhire-form-scrollpoint {
-                position: absolute;
-                left: 47vw;
-                top: 16vw;
-                display: none;
-                -webkit-transform: scale(1.4);
-                -ms-transform: scale(1.4);
-                transform: scale(1.4);
-                cursor: pointer;
-            }
-            .contact-form {
-                width: 60vw;
-                margin: -8vw 20vw 2vw;
-                position: relative;
-                height: 42vw;
-                display: none;
-                transform: scale(0.8);
-            }
-        }
-    }
-}
-@media screen and (min-width: 1820px) and (min-height: 980px) {
-    
-    .printerpage-hero-section {
-        position: relative;
-        height: 99vh;
-        width: 100vw;
-        overflow: hidden;
-        
-        .printer-page-hero-image {
-            height: 99vh;
-            width: auto;
-            left: 50%;
-            -webkit-transform: translate(-50%, 3vw) scale(1.2);
-            -ms-transform: translate(-50%, 3vw) scale(1.2);
-            transform: translate(-50%, 3vw) scale(1.2);
-            position: absolute;
-            max-width: 500vw;
-        }
-        .printer-hero-quote {
-            display: block;
-            font-family: 'gotham_boldregular';
-            position: absolute;
-            color: white;
-            top: 10vw;
-            left: 30vw;
-            font-size: 3vw;
-        }
-        .printer-hero-text {
-            display: block;
-            position: absolute;
-            color: white;
-            top: 13.5vw;
-            left: 35vw;
-            font-size: 3vw;
-            font-family: 'gotham_boldregular';
-        }
-    }
-    .printer-form-div {
-        background: #8fdae6;
-        padding: 6vw 0vw 4vw;
-        position: relative;
-        margin-bottom: -7vw;
-        .printer-form-text {
-            color: white;
-            text-align: center;
-            text-transform: uppercase;
-            margin-bottom: 19vw;
-        }
-        .printer-form-section {
-            .printerhire-button.enquire-button {
-                text-transform: uppercase;
-                text-align: center;
-                color: white;
-                font-size: 2vw;
-                border: 0.4vw solid white;
-                padding: 1vw 3vw;
-                position: absolute;
-                left: 40.5vw;
-                top: 17vw;
-                cursor: pointer;
-                font-family: 'gotham_boldregular';
-            }
-            .printerhire-form-scrollpoint {
-                position: absolute;
-                left: 48vw;
-                top: 18vw;
-                display: none;
-                -webkit-transform: scale(1.4);
-                -ms-transform: scale(1.4);
-                transform: scale(1.4);
-                cursor: pointer;
-            }
-            .contact-form {
-                width: 60vw;
-                margin: -7vw 20vw 2vw;
-                position: relative;
-                height: 42vw;
-                display: none;
-                transform: scale(0.8);
-            }
-        }
-    }
+  }
 }

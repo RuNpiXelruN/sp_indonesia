@@ -7,7 +7,6 @@
     <a href="https://www.facebook.com/socialplaygroundindonesia/?fref=ts&ref=br_tf" target="_blank"><p class="facebook-social"></p></a>
     <!--<a href="https://twitter.com/socialplaygrnd" target="_blank"><p class="twitter-social"></p></a>-->
     <a href="https://www.instagram.com/socialplayground_id/" target="_blank"><p class="instagram-social"></p></a>
-    <%= image_tag('printer/carousel01-big (1).jpg', class: 'printer-page-hero-image') %>
     <h3 class="printer-hero-quote">LIVE INSTAGRAM PRINTER</h3>
     <h5 class="printer-hero-text">SNAP. TAG. PRINT.</h5>
 </div>
@@ -17,84 +16,63 @@
 </div>
 
 <div class="stp-icon-section round-shadow">
-    <div class="snap-icon-section">
-        <p class="printer-snap-sprite"></p>
+    <div class="icon">
+        <p class="sprite printer-snap-sprite"></p>
         <span class="stp-icon-header">Snap</span>
-        <span class="stp-icon-text">Take a photo</br>on instagram</span>
+        <span class="stp-icon-text"><%= raw t('take_photo_to_instagram') %></span>
     </div>
-    <div class="tag-icon-section">
-        <p class="printer-tag-sprite"></p>
+    <div class="icon">
+        <p class="sprite printer-tag-sprite"></p>
         <span class="stp-icon-header">Tag</span>
-        <span class="stp-icon-text">Add the event</br>hashtag</span>
+        <span class="stp-icon-text"><%= raw t('add_hash_tag') %></span>
     </div>
-    <div class="print-icon-section">
-        <p class="printer-print-sprite"></p>
+    <div class="icon">
+        <p class="sprite printer-print-sprite"></p>
         <span class="stp-icon-header">Print</span>
-        <span class="stp-icon-text">Collect your</br>print instantly</span>
+        <span class="stp-icon-text"><%= raw t('collect_photo') %></span>
     </div>
 </div>
-
 
 <div class="stp-icon-section-small round-shadow">
     <div class="snap-icon-section">
         <%= image_tag('printer/snap-icon.png') %>
         <span class="stp-icon-header">Snap</span>
-        <span class="stp-icon-text-printer">Take a photo</br>on instagram</span>
+        <span class="stp-icon-text-printer"><%= t('take_photo_to_instagram') %></span>
     </div>
     
     <div class="tag-icon-section">
         <%= image_tag('printer/tag-icon.png') %>
         <span class="stp-icon-header">Tag</span>
-        <span class="stp-icon-text">Add the event</br>hashtag</span>
+        <span class="stp-icon-text"><%= t('add_hash_tag') %></span>
     </div>
     
     <div class="print-icon-section">
         <%= image_tag('printer/print-icon.png') %>
         <span class="stp-icon-header">Print</span>
-        <span class="stp-icon-text">Collect your</br>print instantly</span>
+        <span class="stp-icon-text"><%= t('collect_photo') %></span>
     </div>
 </div>
 
 
 <div class="video-container">
-        <iframe width="853" height="480" src="https://player.vimeo.com/video/157413601" frameborder="0" allowfullscreen></iframe>
-</div>            <!-- ************************************************  /Video Section  ************************************************  -->
-
-<!--poster="/assets/gif-video-thumbnail.png"-->
+  <iframe width="853" height="480" src="https://player.vimeo.com/video/157413601" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <div class="about-printer-section">
-    <%= image_tag('printer/instagram-printer-goals-bg.jpg', class: "about-printer-background") %>
     <div class="printer-facts">
-        <p class="printer-facts-heading">Spread Content Organically</p>
-        <p class="printer-facts-body">Inspire attendees to share user generated content from anywhere in your event and build online conversations about your brand.</p>
+        <p class="printer-facts-heading"><%= t('spread_content') %></p>
+        <p class="printer-facts-body"><%= t('inspire_attendees') %></p>
         
-        <p class="printer-facts-heading">Drive Your Hashtag Further</p>
-        <p class="printer-facts-body">Incentivize consumers to tag their photos with your brand or event hashtag, driving viral reach.</p>
+        <p class="printer-facts-heading"><%= t('drive_hash_tag') %></p>
+        <p class="printer-facts-body"><%= t('incentivize_consumers') %></p>
         
-        <p class="printer-facts-heading">Engage Via Offers & Competitions</p>
-        <p class="printer-facts-body">Integrate hashtag competitions or brand your printed photos with exclusive offers to engage consumers further.</p>
+        <p class="printer-facts-heading"><%= t('engage_via_offers') %></p>
+        <p class="printer-facts-body"><%= t('integrate_hash_tag') %></p>
         
-        <p class="printer-facts-heading">Post Event Content & Insights</p>
-        <p class="printer-facts-body">We’ll provide you with a digital copy of all of your photos and a detailed insights report so you can see exactly how much engagement was generated.</p>
+        <p class="printer-facts-heading"><%= t('post_content') %></p>
+        <p class="printer-facts-body"><%= t('well_provide_photo') %></p>
     </div>
 </div>
-
-
-
-
-<div class="about-printer-section-small">
-    <%= image_tag('printer/instagram-printer-goals-bg.jpg', class: "about-printer-background") %>
-    <div class="printer-facts">
-        <p class="printer-facts-heading">Spread Content Organically</p>
-
-        <p class="printer-facts-heading">Drive Your Hashtag Further</p>
-
-        <p class="printer-facts-heading">Engage Via Offers & Competitions</p>
-
-        <p class="printer-facts-heading">Post Event Content & Insights</p>
-    </div>
-</div>
-
 
 
 
@@ -156,8 +134,8 @@
 
 
 <div class="printer-live-feed-cta">
-    <%= image_tag('printer/live-feed-cta.jpg', class: "printer-live-feed-background-image") %>
-        <h2>Like the printer?</br>check out our Live Feed</h2>
+    <%#= image_tag('printer/live-feed-cta.jpg', class: "printer-live-feed-background-image") %>
+        <h2><%= raw t('like_the_printer') %></h2>
         <%= link_to "Live Feed", livefeed_path, class: "live-feed-hire-link" %>
 </div>
 
